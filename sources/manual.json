@@ -1,0 +1,226 @@
+[
+  {
+    "title_hint": "Apple Machine Learning Research",
+    "feed_url": "https://machinelearning.apple.com/rss.xml",
+    "site_url_hint": "https://machinelearning.apple.com/",
+    "category_hint": "AI Research",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "BAIR Blog",
+    "feed_url": "https://bair.berkeley.edu/blog/feed.xml",
+    "site_url_hint": "https://bair.berkeley.edu/blog/",
+    "category_hint": "University Research Lab",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "Stanford AI Lab Blog",
+    "feed_url": "https://ai.stanford.edu/blog/feed.xml",
+    "site_url_hint": "https://ai.stanford.edu/blog/",
+    "category_hint": "University Research Lab",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "Google Research",
+    "feed_url": "https://research.google/blog/rss/",
+    "site_url_hint": "https://research.google/blog/",
+    "category_hint": "AI Research",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "Microsoft Research",
+    "feed_url": "https://www.microsoft.com/en-us/research/feed/",
+    "site_url_hint": "https://www.microsoft.com/en-us/research/blog/",
+    "category_hint": "AI Research",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "MIT News - Artificial Intelligence",
+    "feed_url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+    "site_url_hint": "https://news.mit.edu/topic/artificial-intelligence2",
+    "category_hint": "AI Research",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "arXiv Artificial Intelligence",
+    "feed_url": "https://export.arxiv.org/rss/cs.AI",
+    "site_url_hint": "https://arxiv.org/list/cs.AI/recent",
+    "category_hint": "Academic Papers AI",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "arXiv Computation and Language",
+    "feed_url": "https://export.arxiv.org/rss/cs.CL",
+    "site_url_hint": "https://arxiv.org/list/cs.CL/recent",
+    "category_hint": "Academic Papers AI",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "arXiv Machine Learning",
+    "feed_url": "https://export.arxiv.org/rss/cs.LG",
+    "site_url_hint": "https://arxiv.org/list/cs.LG/recent",
+    "category_hint": "Academic Papers AI",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "arXiv Computer Vision",
+    "feed_url": "https://export.arxiv.org/rss/cs.CV",
+    "site_url_hint": "https://arxiv.org/list/cs.CV/recent",
+    "category_hint": "Academic Papers AI",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "Nature",
+    "feed_url": "https://www.nature.com/nature.rss",
+    "site_url_hint": "https://www.nature.com/nature/",
+    "category_hint": "Scientific Journal",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "Science",
+    "feed_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+    "site_url_hint": "https://www.science.org/journal/science",
+    "category_hint": "Scientific Journal",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "PLOS ONE",
+    "feed_url": "https://journals.plos.org/plosone/feed/atom",
+    "site_url_hint": "https://journals.plos.org/plosone/",
+    "category_hint": "Scientific Journal",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "eLife",
+    "feed_url": "https://elifesciences.org/rss/recent.xml",
+    "site_url_hint": "https://elifesciences.org/",
+    "category_hint": "Scientific Journal",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "NASA",
+    "feed_url": "https://www.nasa.gov/news-release/feed/",
+    "site_url_hint": "https://www.nasa.gov/news/",
+    "category_hint": "Space Research",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "CERN News",
+    "feed_url": "https://home.cern/api/news/news/feed.rss",
+    "site_url_hint": "https://home.cern/news",
+    "category_hint": "Research Institution",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "Quanta Magazine",
+    "feed_url": "https://www.quantamagazine.org/feed/",
+    "site_url_hint": "https://www.quantamagazine.org/",
+    "category_hint": "Science News",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "ScienceDaily",
+    "feed_url": "https://www.sciencedaily.com/rss/top/science.xml",
+    "site_url_hint": "https://www.sciencedaily.com/",
+    "category_hint": "Science News",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "BBC News - World",
+    "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "site_url_hint": "https://www.bbc.com/news/world",
+    "category_hint": "World News",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "BBC News - Technology",
+    "feed_url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+    "site_url_hint": "https://www.bbc.com/news/technology",
+    "category_hint": "Technology News",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "NPR World",
+    "feed_url": "https://feeds.npr.org/1004/rss.xml",
+    "site_url_hint": "https://www.npr.org/sections/world/",
+    "category_hint": "World News",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "The New York Times - World",
+    "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+    "site_url_hint": "https://www.nytimes.com/section/world",
+    "category_hint": "World News",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "The New York Times - Technology",
+    "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+    "site_url_hint": "https://www.nytimes.com/section/technology",
+    "category_hint": "Technology News",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "The Guardian - World",
+    "feed_url": "https://www.theguardian.com/world/rss",
+    "site_url_hint": "https://www.theguardian.com/world",
+    "category_hint": "World News",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "Al Jazeera",
+    "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+    "site_url_hint": "https://www.aljazeera.com/",
+    "category_hint": "World News",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "ProPublica",
+    "feed_url": "https://www.propublica.org/feeds/propublica/main",
+    "site_url_hint": "https://www.propublica.org/",
+    "category_hint": "Investigative News",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "Hacker News",
+    "feed_url": "https://hnrss.org/frontpage",
+    "site_url_hint": "https://news.ycombinator.com/",
+    "category_hint": "Technology News",
+    "kind": "article",
+    "language": "en"
+  },
+  {
+    "title_hint": "V2EX",
+    "feed_url": "https://www.v2ex.com/index.xml",
+    "site_url_hint": "https://www.v2ex.com/",
+    "category_hint": "Chinese Technology News",
+    "kind": "article",
+    "language": "zh"
+  }
+]

@@ -1,0 +1,58 @@
+name: Suggest a feed
+description: Propose a public RSS, Atom, or JSON Feed for the catalog.
+title: "[Feed]: "
+labels: [feed-request]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Feed name
+    validations:
+      required: true
+  - type: input
+    id: feed_url
+    attributes:
+      label: Feed URL
+      placeholder: https://example.com/feed.xml
+    validations:
+      required: true
+  - type: input
+    id: site_url
+    attributes:
+      label: Website URL
+    validations:
+      required: true
+  - type: dropdown
+    id: bundle
+    attributes:
+      label: Best matching bundle
+      options:
+        - AI
+        - Blogs
+        - Videos
+        - Podcasts
+        - News
+        - Research & Science
+        - Engineering & Technology
+        - Chinese Sources
+        - Complete collection only
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it worth following?
+      description: Mention editorial quality, subject expertise, and publishing activity.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: The URL is a public feed, not merely a website homepage.
+          required: true
+        - label: I checked that this feed currently contains at least one item.
+          required: true
+        - label: I searched the catalog for duplicates.
+          required: true

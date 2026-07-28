@@ -1,0 +1,92 @@
+{
+  "validated_at": "2026-07-28",
+  "engine": "Tidings parseFeedUrl",
+  "candidates": 884,
+  "parser_passed": 688,
+  "parser_failed": 196,
+  "http_urls_upgraded_to_https": 67,
+  "excluded_stale": 32,
+  "excluded_after_e2e_import": 4,
+  "canonical_duplicates_removed": 25,
+  "duplicate_titles_disambiguated": 18,
+  "published": 627,
+  "unknown_latest_item_date": 4,
+  "remaining_http_feeds": 12,
+  "by_source": {
+    "awesome-rss-feeds": 168,
+    "awesome-rsshub-routes": 86,
+    "bestblogs": 288,
+    "manual": 23,
+    "tidings-ai-radar": 187
+  },
+  "by_category": {
+    "Artificial Intelligence": 39,
+    "Engineering & Technology": 144,
+    "Research & Science": 25,
+    "News": 66,
+    "Product & Design": 25,
+    "Business & Startups": 20,
+    "Personal Blogs": 113,
+    "Communities": 10,
+    "Culture & Ideas": 6,
+    "Videos": 93,
+    "Podcasts": 86
+  },
+  "by_pack": {
+    "ai": 74,
+    "all": 627,
+    "blogs": 374,
+    "chinese": 239,
+    "engineering": 186,
+    "news": 44,
+    "podcasts": 86,
+    "research": 28,
+    "videos": 93
+  },
+  "top_failure_reasons": [
+    {
+      "reason": "HTTP N",
+      "count": 99
+    },
+    {
+      "reason": "aborted",
+      "count": 41
+    },
+    {
+      "reason": "The operation was aborted",
+      "count": 36
+    },
+    {
+      "reason": "empty feed",
+      "count": 7
+    },
+    {
+      "reason": "响应内容超过大小限制",
+      "count": 5
+    },
+    {
+      "reason": "响应不是可解析的 RSS/Atom/JSON Feed: text/html; charset=utf-8",
+      "count": 3
+    },
+    {
+      "reason": "响应不是可解析的 RSS/Atom/JSON Feed: text/html; charset=UTF-8",
+      "count": 1
+    },
+    {
+      "reason": "read ECONNRESET",
+      "count": 1
+    },
+    {
+      "reason": "响应不是可解析的 RSS/Atom/JSON Feed: text/html;charset=utf-8",
+      "count": 1
+    },
+    {
+      "reason": "Cannot convert object to primitive value",
+      "count": 1
+    },
+    {
+      "reason": "响应不是可解析的 RSS/Atom/JSON Feed: application/atom+xml;charset=UTF-8",
+      "count": 1
+    }
+  ]
+}

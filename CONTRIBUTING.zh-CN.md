@@ -1,0 +1,37 @@
+# 参与贡献
+
+[English](CONTRIBUTING.md)
+
+感谢你帮助更多人发现值得长期订阅的内容。好的贡献应当范围清楚、可以验证，并尊重内容发布者。
+
+## 推荐订阅源
+
+你可以提交 **Feed suggestion** Issue，或直接修改 `data/feeds.json` 并发起 Pull Request。请提供：
+
+- 公开可访问的 RSS、Atom 或 JSON Feed 地址；
+- 发布者的网站地址；
+- 最合适的分类和下载包；
+- 一段具体的推荐理由；
+- 当前能够解析且至少含一篇内容的验证证据。
+
+我们优先收录原创报道、一手科研内容、从业者博客、官方项目博客，以及具有明确编辑定位的视频和播客。抓取镜像、需要凭据的私有源、垃圾内容、SEO 内容农场、搬运站和以推广返利为主的来源不会被收录。
+
+## 更新生成文件
+
+只需要 Python 3.10 或更高版本，无需安装第三方依赖：
+
+```bash
+python scripts/catalog.py generate
+python scripts/catalog.py check
+python -m unittest discover -s tests -v
+```
+
+请勿手工编辑 `opml/` 或 `reports/catalog-summary.md`，它们都由 `data/feeds.json` 确定性生成。
+
+## 删除或纠正订阅源
+
+如果订阅源已经永久失效、被劫持、Feed 端点本身被付费墙阻断、内容为空，或已不再代表所列发布者，欢迎提交删除 PR。单次超时不足以证明永久失效，请附上可复核证据和检查日期。
+
+## 权利与隐私
+
+本项目只整理公开订阅端点，不转载文章正文。提交原创目录元数据即表示同意以 CC0-1.0 贡献；Feed 内容和发布者名称仍归各自权利人所有。
