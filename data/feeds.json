@@ -4032,10 +4032,10 @@
       "latest_item_at": "2026-07-27T17:24:55.000Z"
     },
     {
-      "id": "51f827497597",
-      "title": "The Berkeley Artificial Intelligence Research Blog",
-      "feed_url": "https://bair.berkeley.edu/blog/feed.xml",
-      "site_url": "http://bair.berkeley.edu/blog/",
+      "id": "d42b29d19244",
+      "title": "Amazon Science",
+      "feed_url": "https://www.amazon.science/index.rss",
+      "site_url": "https://www.amazon.science/",
       "category": "Research & Science",
       "kind": "article",
       "language": "en",
@@ -4048,7 +4048,7 @@
         "manual"
       ],
       "validated_at": "2026-07-28",
-      "latest_item_at": "2026-07-26T09:00:00.000Z"
+      "latest_item_at": "2026-07-26T08:00:00.000Z"
     },
     {
       "id": "f758efe5e14b",

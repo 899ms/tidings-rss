@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-28T03:19:03.281Z",
+  "captured_at": "2026-07-28T05:36:01.677Z",
   "app": "Tidings",
   "isolated_profile": true,
   "screenshot": "assets/tidings-import-news-research.png",
@@ -9,8 +9,8 @@
       "imported": 44,
       "invalid": 0,
       "limit_skipped": 0,
-      "initial_refresh_passed": 42,
-      "retry_passed": 2,
+      "initial_refresh_passed": 43,
+      "retry_passed": 1,
       "final_refresh_passed": 44,
       "final_refresh_failed": 0,
       "failed_feed_ids": []
@@ -20,8 +20,8 @@
       "imported": 28,
       "invalid": 0,
       "limit_skipped": 0,
-      "initial_refresh_passed": 28,
-      "retry_passed": 0,
+      "initial_refresh_passed": 27,
+      "retry_passed": 1,
       "final_refresh_passed": 28,
       "final_refresh_failed": 0,
       "failed_feed_ids": []
@@ -29,6 +29,32 @@
   ],
   "unique_feeds": 72,
   "categories": 6,
-  "visible_articles": 2327,
-  "failed_feeds": []
+  "visible_articles": 2359,
+  "failed_feeds": [],
+  "selected_article": {
+    "id": "8d0e935bc9f559b3",
+    "title": "How lasers could help provide fuel for nuclear reactors",
+    "source": "MIT Technology Review",
+    "full_text_status": "full",
+    "body_blocks": 32,
+    "image_blocks": 1,
+    "text_characters": 7612,
+    "substantial_paragraphs": 24
+  },
+  "ui_verification": {
+    "active_entry_id": "8d0e935bc9f559b3",
+    "title": "How lasers could help provide fuel for nuclear reactors",
+    "full_text_ready": true,
+    "fetching_full_text_visible": false,
+    "full_text_error_visible": false,
+    "reader_boilerplate_visible": false,
+    "loaded_article_images": 1,
+    "failed_article_images": 0,
+    "first_image_visible": true,
+    "title_visible": true
+  },
+  "thumbnail_verification": {
+    "loaded": 8,
+    "hidden_or_failed": 0
+  }
 }

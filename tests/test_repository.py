@@ -36,6 +36,18 @@ class RepositoryTests(unittest.TestCase):
         for name in ("README.md", "README.zh-CN.md"):
             self.assertNotIn("__COUNT_", (ROOT / name).read_text(encoding="utf-8"))
 
+    def test_readmes_use_stable_import_preview_without_feed_cap_copy(self):
+        preview = (
+            "https://cdn.jsdelivr.net/gh/fuxiaoai/tidings-rss@v1.1.0/"
+            "assets/tidings-import-news-research.png"
+        )
+        forbidden = ("150 feeds", "150-feed", "150 个订阅源")
+        for name in ("README.md", "README.zh-CN.md"):
+            text = (ROOT / name).read_text(encoding="utf-8")
+            self.assertIn(preview, text)
+            for phrase in forbidden:
+                self.assertNotIn(phrase, text)
+
     def test_every_bundle_has_a_latest_release_download(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         for filename, _title in PACKS.values():
@@ -74,7 +86,23 @@ class RepositoryTests(unittest.TestCase):
         )
         self.assertEqual(report["unique_feeds"], expected_unique)
         self.assertGreater(report["visible_articles"], 0)
-        self.assertTrue((ROOT / report["screenshot"]).is_file())
+        screenshot = ROOT / report["screenshot"]
+        self.assertTrue(screenshot.is_file())
+        self.assertGreater(screenshot.stat().st_size, 500_000)
+        selected = report["selected_article"]
+        self.assertEqual(selected["full_text_status"], "full")
+        self.assertGreater(selected["image_blocks"], 0)
+        self.assertGreaterEqual(selected["substantial_paragraphs"], 3)
+        ui = report["ui_verification"]
+        self.assertTrue(ui["full_text_ready"])
+        self.assertFalse(ui["fetching_full_text_visible"])
+        self.assertFalse(ui["full_text_error_visible"])
+        self.assertFalse(ui["reader_boilerplate_visible"])
+        self.assertGreater(ui["loaded_article_images"], 0)
+        self.assertEqual(ui["failed_article_images"], 0)
+        self.assertTrue(ui["first_image_visible"])
+        self.assertGreater(report["thumbnail_verification"]["loaded"], 0)
+        self.assertEqual(report["thumbnail_verification"]["hidden_or_failed"], 0)
 
 
 if __name__ == "__main__":

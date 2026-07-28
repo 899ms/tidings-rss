@@ -198,6 +198,7 @@
     <outline text="Research &amp; Science" title="Research &amp; Science">
       <outline text="AAAS: Science: Table of Contents" title="AAAS: Science: Table of Contents" type="rss" xmlUrl="https://www.science.org/action/showFeed?type=etoc&amp;feed=rss&amp;jc=science" htmlUrl="https://www.science.org/loi/science?af=R" />
       <outline text="All Top News -- ScienceDaily" title="All Top News -- ScienceDaily" type="rss" xmlUrl="https://www.sciencedaily.com/rss/top/science.xml" htmlUrl="https://www.sciencedaily.com/news/top/" />
+      <outline text="Amazon Science" title="Amazon Science" type="rss" xmlUrl="https://www.amazon.science/index.rss" htmlUrl="https://www.amazon.science/" />
       <outline text="BBC News — Science" title="BBC News — Science" type="rss" xmlUrl="https://feeds.bbci.co.uk/news/science_and_environment/rss.xml" htmlUrl="https://www.bbc.co.uk/news/science_and_environment" />
       <outline text="BLOG POSTS – Mark Avery" title="BLOG POSTS – Mark Avery" type="rss" xmlUrl="https://markavery.info/blog/feed/" htmlUrl="https://markavery.info" />
       <outline text="EarthPorn: Amazing images of light and landscape" title="EarthPorn: Amazing images of light and landscape" type="rss" xmlUrl="https://www.reddit.com/r/EarthPorn/.rss" htmlUrl="https://www.reddit.com/r/EarthPorn/" />
@@ -217,7 +218,6 @@
       <outline text="Space | The Guardian" title="Space | The Guardian" type="rss" xmlUrl="https://www.theguardian.com/science/space/rss" htmlUrl="https://www.theguardian.com/science/space" />
       <outline text="Space – latest in science and technology | New Scientist" title="Space – latest in science and technology | New Scientist" type="rss" xmlUrl="https://www.newscientist.com/subject/space/feed/" htmlUrl="https://www.newscientist.com/subject/space/" />
       <outline text="Stories Archives - Nature Canada" title="Stories Archives - Nature Canada" type="rss" xmlUrl="https://naturecanada.ca/category/news/blog/feed/" htmlUrl="https://naturecanada.ca/category/news/blog/" />
-      <outline text="The Berkeley Artificial Intelligence Research Blog" title="The Berkeley Artificial Intelligence Research Blog" type="rss" xmlUrl="https://bair.berkeley.edu/blog/feed.xml" htmlUrl="http://bair.berkeley.edu/blog/" />
       <outline text="瓠樽" title="瓠樽" type="rss" xmlUrl="https://blog.dylanwu.space/feed.xml" htmlUrl="https://blog.dylanwu.space/" />
       <outline text="腾讯研究院" title="腾讯研究院" type="rss" xmlUrl="https://wechat2rss.bestblogs.dev/feed/6152301e0978bffb0a8284cab339262b9764dcfb.xml" htmlUrl="https://wechat2rss.bestblogs.dev/feed/6152301e0978bffb0a8284cab339262b9764dcfb.xml" />
       <outline text="阿里研究院" title="阿里研究院" type="rss" xmlUrl="https://wechat2rss.bestblogs.dev/feed/e2f1190c120f7f3d74b630bfcfe9e58296bd535c.xml" htmlUrl="https://wechat2rss.bestblogs.dev/feed/e2f1190c120f7f3d74b630bfcfe9e58296bd535c.xml" />
