@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Tidings Curated RSS — Research &amp; Science</title>
-    <dateCreated>2026-07-28</dateCreated>
-    <dateModified>2026-07-28</dateModified>
+    <dateCreated>2026-08-12</dateCreated>
+    <dateModified>2026-08-12</dateModified>
     <ownerName>Tidings RSS Community</ownerName>
     <docs>http://opml.org/spec2.opml</docs>
   </head>
@@ -31,7 +31,6 @@
       <outline text="NYT &gt; Science" title="NYT &gt; Science" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Science.xml" htmlUrl="https://www.nytimes.com/section/science" />
       <outline text="Phys.org - latest science and technology news stories" title="Phys.org - latest science and technology news stories" type="rss" xmlUrl="https://phys.org/rss-feed/" htmlUrl="https://phys.org/" />
       <outline text="PLOS One" title="PLOS One" type="rss" xmlUrl="https://journals.plos.org/plosone/feed/atom" htmlUrl="https://journals.plos.org/plosone/" />
-      <outline text="Popular Science" title="Popular Science" type="rss" xmlUrl="https://www.popsci.com/arcio/rss/" htmlUrl="https://www.popsci.com" />
       <outline text="Quanta Magazine" title="Quanta Magazine" type="rss" xmlUrl="https://www.quantamagazine.org/feed/" htmlUrl="https://www.quantamagazine.org" />
       <outline text="Science Latest" title="Science Latest" type="rss" xmlUrl="https://www.wired.com/feed/category/science/latest/rss" htmlUrl="https://www.wired.com" />
       <outline text="Scientific American Content: Global" title="Scientific American Content: Global" type="rss" xmlUrl="http://rss.sciam.com/ScientificAmerican-Global" htmlUrl="https://www.scientificamerican.com" />

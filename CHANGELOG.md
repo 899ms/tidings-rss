@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased — 2026-08-12
+
+- Rebuilt the catalog as 680 repeatedly checked feeds, including 348 Chinese independent blogs selected from 1,331 candidates.
+- Required three successful Tidings parser rounds and recent, reliably dated publishing activity for the Chinese blog bundle; removed duplicate sites and promotional or SEO-oriented sources.
+- Rechecked the existing catalog twice and removed repeatedly failing feeds before merging.
+- Added hard limits of 400 blogs and fewer than 700 complete-collection feeds.
+- Rewrote both project homepages and added a generated, tested appendix listing every source, description, Feed URL, primary category, and bundle membership.
+- Published the candidate-level Chinese blog curation evidence and added a reproducible collection, scoring, and catalog-build pipeline.
+
 ## v1.1.0 — 2026-07-28
 
 - Rebuilt the English and Chinese project story around author curation, category-by-category source highlights, and reader value.

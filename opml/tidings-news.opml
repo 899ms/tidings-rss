@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Tidings Curated RSS — Fresh News</title>
-    <dateCreated>2026-07-28</dateCreated>
-    <dateModified>2026-07-28</dateModified>
+    <dateCreated>2026-08-12</dateCreated>
+    <dateModified>2026-08-12</dateModified>
     <ownerName>Tidings RSS Community</ownerName>
     <docs>http://opml.org/spec2.opml</docs>
   </head>
@@ -18,18 +18,13 @@
       <outline text="AIGC Weekly" title="AIGC Weekly" type="rss" xmlUrl="https://quaily.com/op7418/feed/atom" htmlUrl="https://quaily.com/op7418/feed/atom" />
       <outline text="Al Jazeera – Breaking News, World News and Video from Al Jazeera" title="Al Jazeera – Breaking News, World News and Video from Al Jazeera" type="rss" xmlUrl="https://www.aljazeera.com/xml/rss/all.xml" htmlUrl="https://www.aljazeera.com" />
       <outline text="BBC News — News" title="BBC News — News" type="rss" xmlUrl="https://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.co.uk/news/world" />
-      <outline text="CISA News" title="CISA News" type="rss" xmlUrl="https://www.cisa.gov/news.xml" htmlUrl="https://www.cisa.gov/" />
       <outline text="Cointelegraph.com News" title="Cointelegraph.com News" type="rss" xmlUrl="https://cointelegraph.com/rss/tag/blockchain" htmlUrl="https://cointelegraph.com" />
       <outline text="Engadget - Technology News &amp; Expert Reviews" title="Engadget - Technology News &amp; Expert Reviews" type="rss" xmlUrl="https://www.engadget.com/rss.xml" htmlUrl="https://www.engadget.com/" />
       <outline text="Golang Weekly" title="Golang Weekly" type="rss" xmlUrl="https://golangweekly.com/rss/" htmlUrl="https://golangweekly.com/" />
-      <outline text="Hacker News: Front Page" title="Hacker News: Front Page" type="rss" xmlUrl="https://hnrss.org/frontpage" htmlUrl="https://news.ycombinator.com/" />
       <outline text="HackerNews每日摘要 on SuperTechFans" title="HackerNews每日摘要 on SuperTechFans" type="rss" xmlUrl="https://www.supertechfans.com/cn/index.xml" htmlUrl="https://supertechfans.com/cn/" />
       <outline text="InfoQ — News" title="InfoQ — News" type="rss" xmlUrl="https://feed.infoq.com/" htmlUrl="https://www.infoq.com" />
       <outline text="InfoQ 推荐" title="InfoQ 推荐" type="rss" xmlUrl="https://plink.anyfeeder.com/infoq/recommend" htmlUrl="https://www.infoq.cn" />
-      <outline text="International: Top News And Analysis" title="International: Top News And Analysis" type="rss" xmlUrl="https://www.cnbc.com/id/100727362/device/rss/rss.html" htmlUrl="https://www.cnbc.com/world-top-news/" />
       <outline text="IT之家" title="IT之家" type="rss" xmlUrl="https://www.ithome.com/rss/" htmlUrl="https://www.ithome.com/" />
-      <outline text="JavaScript Weekly" title="JavaScript Weekly" type="rss" xmlUrl="https://javascriptweekly.com/rss/" htmlUrl="https://javascriptweekly.com/" />
-      <outline text="MIT Technology Review" title="MIT Technology Review" type="rss" xmlUrl="https://www.technologyreview.com/feed/" htmlUrl="https://www.technologyreview.com" />
       <outline text="MIT 科技评论 - 本周热榜" title="MIT 科技评论 - 本周热榜" type="rss" xmlUrl="https://rsshub.bestblogs.dev/mittrchina/hot" htmlUrl="https://www.mittrchina.com/hot" />
       <outline text="News from Google" title="News from Google" type="rss" xmlUrl="https://blog.google/rss" htmlUrl="https://blog.google/" />
       <outline text="NPR Topics: World" title="NPR Topics: World" type="rss" xmlUrl="https://feeds.npr.org/1004/rss.xml" htmlUrl="https://www.npr.org/templates/story/story.php?storyId=1004" />

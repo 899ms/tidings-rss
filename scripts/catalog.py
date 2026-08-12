@@ -16,8 +16,8 @@ from xml.etree import ElementTree as ET
 
 PACKS = {
     "all": ("tidings-all.opml", "Tidings Curated RSS — Complete Collection"),
+    "blogs": ("tidings-blogs.opml", "Tidings Curated RSS — Chinese Independent Blogs"),
     "ai": ("tidings-ai.opml", "Tidings Curated RSS — Artificial Intelligence"),
-    "blogs": ("tidings-blogs.opml", "Tidings Curated RSS — Blogs & Essays"),
     "videos": ("tidings-videos.opml", "Tidings Curated RSS — Video Channels"),
     "podcasts": ("tidings-podcasts.opml", "Tidings Curated RSS — Podcasts"),
     "news": ("tidings-news.opml", "Tidings Curated RSS — Fresh News"),
@@ -40,6 +40,8 @@ CATEGORIES = [
 ]
 KINDS = {"article", "video", "podcast"}
 LANGUAGES = {"en", "zh"}
+MAX_ALL_FEEDS = 699
+MAX_BLOG_FEEDS = 400
 
 
 def normalize_url(value: str) -> str:
@@ -65,9 +67,14 @@ def validate_catalog(catalog):
     feeds = catalog.get("feeds")
     if not isinstance(feeds, list) or not feeds:
         return [*errors, "feeds must be a non-empty list"]
+    if len(feeds) > MAX_ALL_FEEDS:
+        errors.append(f"complete collection exceeds {MAX_ALL_FEEDS} feeds")
+    blog_count = sum("blogs" in feed.get("packs", []) for feed in feeds)
+    if blog_count > MAX_BLOG_FEEDS:
+        errors.append(f"blog collection exceeds {MAX_BLOG_FEEDS} feeds")
     seen_ids = set()
     seen_urls = set()
-    required = {"id", "title", "feed_url", "site_url", "category", "kind", "language", "packs", "sources", "validated_at"}
+    required = {"id", "title", "feed_url", "site_url", "description", "category", "kind", "language", "packs", "sources", "validated_at"}
     for index, feed in enumerate(feeds):
         label = f"feeds[{index}]"
         missing = required - set(feed)
@@ -101,6 +108,10 @@ def validate_catalog(catalog):
             errors.append(f"{label}: unknown packs {sorted(unknown_packs)}")
         if "all" not in feed["packs"]:
             errors.append(f"{label}: missing all pack")
+        if "blogs" in feed["packs"] and not (
+            feed["kind"] == "article" and feed["language"] == "zh" and "chinese-independent-blogs" in feed["sources"]
+        ):
+            errors.append(f"{label}: blogs pack is reserved for vetted Chinese independent blogs")
         if feed["language"] == "zh" and "chinese" not in feed["packs"]:
             errors.append(f"{label}: Chinese feed missing chinese pack")
     return errors

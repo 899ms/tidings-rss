@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Tidings Curated RSS — Artificial Intelligence</title>
-    <dateCreated>2026-07-28</dateCreated>
-    <dateModified>2026-07-28</dateModified>
+    <dateCreated>2026-08-12</dateCreated>
+    <dateModified>2026-08-12</dateModified>
     <ownerName>Tidings RSS Community</ownerName>
     <docs>http://opml.org/spec2.opml</docs>
   </head>
@@ -23,7 +23,6 @@
       <outline text="Google DeepMind News" title="Google DeepMind News" type="rss" xmlUrl="https://deepmind.com/blog/feed/basic/" htmlUrl="https://deepmind.google/blog/" />
       <outline text="Hacker News - Newest: &quot;AI&quot;" title="Hacker News - Newest: &quot;AI&quot;" type="rss" xmlUrl="https://hnrss.org/newest?q=AI" htmlUrl="https://news.ycombinator.com/newest" />
       <outline text="Hacker News - Newest: &quot;LLM&quot;" title="Hacker News - Newest: &quot;LLM&quot;" type="rss" xmlUrl="https://hnrss.org/newest?q=LLM" htmlUrl="https://news.ycombinator.com/newest" />
-      <outline text="Hacker News - Newest: &quot;OpenClaw&quot;" title="Hacker News - Newest: &quot;OpenClaw&quot;" type="rss" xmlUrl="https://hnrss.org/newest?q=OpenClaw" htmlUrl="https://news.ycombinator.com/newest" />
       <outline text="Hugging Face - Blog" title="Hugging Face - Blog" type="rss" xmlUrl="https://huggingface.co/blog/feed.xml" htmlUrl="https://huggingface.co/blog" />
       <outline text="Last Week in AI" title="Last Week in AI" type="rss" xmlUrl="https://lastweekin.ai/feed" htmlUrl="https://lastweekin.ai" />
       <outline text="MIT News - Artificial intelligence" title="MIT News - Artificial intelligence" type="rss" xmlUrl="https://news.mit.edu/rss/topic/artificial-intelligence2" htmlUrl="https://news.mit.edu/rss/topic/artificial-intelligence2" />
@@ -48,6 +47,30 @@
       <outline text="通义实验室" title="通义实验室" type="rss" xmlUrl="https://wechat2rss.bestblogs.dev/feed/4ebee6222ae08705b8aabc9116f0defbcb6b17c6.xml" htmlUrl="https://wechat2rss.bestblogs.dev/feed/4ebee6222ae08705b8aabc9116f0defbcb6b17c6.xml" />
       <outline text="量子位" title="量子位" type="rss" xmlUrl="https://www.qbitai.com/feed" htmlUrl="https://www.qbitai.com" />
       <outline text="阶跃StepFun" title="阶跃StepFun" type="rss" xmlUrl="https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml" htmlUrl="https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml" />
+    </outline>
+    <outline text="Engineering &amp; Technology" title="Engineering &amp; Technology">
+      <outline text="Abyss的小屋" title="Abyss的小屋" type="rss" xmlUrl="https://www.rsnocsi.cn/feed" htmlUrl="https://www.rsnocsi.cn/" />
+      <outline text="admin" title="admin" type="rss" xmlUrl="https://blog.liua.us.ci/rss.xml" htmlUrl="https://blog.liua.us.ci/rss.xml" />
+      <outline text="Arthur's Review" title="Arthur's Review" type="rss" xmlUrl="https://blog.leesaitool.com/feed.xml" htmlUrl="https://blog.leesaitool.com/" />
+      <outline text="Data4Fun" title="Data4Fun" type="rss" xmlUrl="https://data4fun.cc/index.xml" htmlUrl="https://data4fun.cc/" />
+      <outline text="Fengc's Blog" title="Fengc's Blog" type="rss" xmlUrl="https://rssweball.top/feed/afaf2a3c-e11a-4783-a358-9e2d20d76a69.xml" htmlUrl="https://fengcblog.880200.xyz" />
+      <outline text="for_the_zero的个人博客" title="for_the_zero的个人博客" type="rss" xmlUrl="https://ftz.is-a.dev/rss.xml" htmlUrl="https://ftz.is-a.dev" />
+      <outline text="obaby 𝐢‍𝐧⃝ void" title="obaby 𝐢‍𝐧⃝ void" type="rss" xmlUrl="https://h4ck.org.cn/feed/" htmlUrl="https://zhongxiaojie.cn/" />
+      <outline text="Rokcso's Blog" title="Rokcso's Blog" type="rss" xmlUrl="https://rokcso.com/index.xml" htmlUrl="https://rokcso.com/" />
+      <outline text="RYANUO" title="RYANUO" type="rss" xmlUrl="https://ryanuo.cc/sitemap.xml" htmlUrl="https://ryanuo.cc" />
+      <outline text="Sekyoro的博客小屋" title="Sekyoro的博客小屋" type="rss" xmlUrl="https://www.sekyoro.top/atom.xml" htmlUrl="https://www.sekyoro.top/" />
+      <outline text="StudyingLover's Blog" title="StudyingLover's Blog" type="rss" xmlUrl="https://studyinglover.com/atom.xml" htmlUrl="https://www.studyinglover.com/" />
+      <outline text="YangXuan's Blog" title="YangXuan's Blog" type="rss" xmlUrl="https://yangxuan.ai/feed/" htmlUrl="https://yangxuan.ai" />
+      <outline text="冰冻大西瓜" title="冰冻大西瓜" type="rss" xmlUrl="https://bddxg.top/feed.rss" htmlUrl="https://bddxg.top/" />
+      <outline text="创见思考——怎样度过这一生" title="创见思考——怎样度过这一生" type="rss" xmlUrl="https://www.fengcan.net/feed/" htmlUrl="https://www.fengcan.net" />
+      <outline text="寒夜雨" title="寒夜雨" type="rss" xmlUrl="https://www.coderlock.site/index.php/feed/" htmlUrl="https://www.coderlock.site/" />
+      <outline text="披萨盒的赛博日志" title="披萨盒的赛博日志" type="rss" xmlUrl="https://blog.pushihao.com/atom.xml" htmlUrl="https://blog.pushihao.com/atom.xml" />
+      <outline text="明立非|Mingnify的博客" title="明立非|Mingnify的博客" type="rss" xmlUrl="https://mingnify.com/zh/blog/atom.xml" htmlUrl="https://mingnify.com/zh/blog/atom.xml" />
+      <outline text="王圆圆 - ICONPIK" title="王圆圆 - ICONPIK" type="rss" xmlUrl="https://www.iconpik.com/rss/" htmlUrl="https://www.iconpik.com/" />
+      <outline text="码录集" title="码录集" type="rss" xmlUrl="https://www.coderlog.net/rss.xml" htmlUrl="https://www.coderlog.net" />
+      <outline text="翔宇工作流" title="翔宇工作流" type="rss" xmlUrl="https://xiangyugongzuoliu.com/latest/rss/" htmlUrl="https://xiangyugongzuoliu.com/" />
+      <outline text="謝懿Shine" title="謝懿Shine" type="rss" xmlUrl="https://xieyi.org/rss.xml" htmlUrl="https://www.futseyi.com/" />
+      <outline text="阿尔的代码屋 | 全栈技术笔记" title="阿尔的代码屋 | 全栈技术笔记" type="rss" xmlUrl="https://blog.algieba12.cn/atom.xml" htmlUrl="https://blog.algieba12.cn/" />
     </outline>
     <outline text="Videos" title="Videos">
       <outline text="AI Engineer" title="AI Engineer" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA" htmlUrl="https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA" />

@@ -19,6 +19,7 @@ const input = JSON.parse(fs.readFileSync(args.input, 'utf8'));
 const candidates = input.candidates || input;
 const concurrency = Math.max(1, Number(args.concurrency || 8));
 const timeoutMs = Math.max(3000, Number(args.timeout || 15000));
+const entryLimit = Math.max(5, Math.min(30, Number(args.limit || 15)));
 const hostActive = new Map();
 const hostWaiters = new Map();
 let cursor = 0;
@@ -58,6 +59,23 @@ function newestRealDate(entries) {
   return timestamps.length ? new Date(Math.max(...timestamps)).toISOString() : null;
 }
 
+function realDates(entries) {
+  return entries
+    .filter((entry) => !entry.publishedAtInferred && entry.publishedAt)
+    .map((entry) => Date.parse(entry.publishedAt))
+    .filter(Number.isFinite)
+    .sort((left, right) => right - left)
+    .map((value) => new Date(value).toISOString());
+}
+
+function textLengths(entries) {
+  return entries.map((entry) => String(entry.text || entry.summary || '').trim().length);
+}
+
+function entryTitles(entries) {
+  return entries.map((entry) => String(entry.title || '').trim()).filter(Boolean);
+}
+
 async function validate(candidate) {
   const started = Date.now();
   const host = new URL(candidate.feed_url).hostname.toLowerCase();
@@ -67,7 +85,7 @@ async function validate(candidate) {
     for (let attempt = 1; attempt <= 2; attempt += 1) {
       try {
         const feed = await parseFeedUrl(candidate.feed_url, {
-          limit: 5,
+          limit: entryLimit,
           timeoutMs,
           fetchIcon: false,
           fetchSubtitles: false
@@ -80,6 +98,9 @@ async function validate(candidate) {
           site_url: feed.htmlUrl,
           item_count: feed.entries.length,
           latest_item_at: newestRealDate(feed.entries),
+          item_dates: realDates(feed.entries),
+          text_lengths: textLengths(feed.entries),
+          entry_titles: entryTitles(feed.entries),
           duration_ms: Date.now() - started
         };
       } catch (error) {

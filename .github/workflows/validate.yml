@@ -23,6 +23,8 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Validate catalog and generated OPML
         run: python scripts/catalog.py check
+      - name: Validate generated source appendices
+        run: python tools/generate_source_appendix.py --check
 
   live-feeds:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
