@@ -19,7 +19,7 @@ from scripts.catalog import CATEGORIES, normalize_url
 
 MAX_ALL = 720
 MAX_BLOGS = 400
-PACK_PRIORITY = {"news": 35, "research": 35, "ai": 30, "videos": 24, "podcasts": 24, "company-tech": 20, "wechat": 18, "engineering": 14}
+PACK_PRIORITY = {"news": 35, "research": 35, "ai": 30, "security": 28, "tech-media": 26, "weeklies": 25, "communities": 24, "videos": 24, "podcasts": 24, "company-tech": 20, "wechat": 18, "engineering": 14}
 
 
 def parse_date(value):

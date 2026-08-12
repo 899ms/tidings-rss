@@ -6,15 +6,19 @@ Generated and validated on **2026-08-12** with **Tidings parseFeedUrl**.
 
 | Bundle | Feeds |
 | --- | ---: |
-| `tidings-all.opml` | 707 |
-| `tidings-blogs.opml` | 348 |
+| `tidings-all.opml` | 718 |
+| `tidings-blogs.opml` | 349 |
+| `tidings-communities.opml` | 14 |
+| `tidings-security.opml` | 8 |
+| `tidings-tech-media.opml` | 10 |
+| `tidings-weeklies.opml` | 9 |
 | `tidings-ai.opml` | 99 |
 | `tidings-videos.opml` | 93 |
 | `tidings-podcasts.opml` | 73 |
-| `tidings-news.opml` | 39 |
+| `tidings-news.opml` | 44 |
 | `tidings-research.opml` | 27 |
-| `tidings-chinese.opml` | 465 |
-| `tidings-engineering.opml` | 404 |
+| `tidings-chinese.opml` | 469 |
+| `tidings-engineering.opml` | 419 |
 | `tidings-company-tech.opml` | 40 |
 | `tidings-wechat.opml` | 30 |
 
@@ -22,14 +26,17 @@ Generated and validated on **2026-08-12** with **Tidings parseFeedUrl**.
 
 | Category | Feeds |
 | --- | ---: |
-| Artificial Intelligence | 40 |
-| Engineering & Technology | 354 |
+| Artificial Intelligence | 38 |
+| Engineering & Technology | 348 |
+| Security | 8 |
+| Technology Media | 10 |
+| Tech Newsletters & Weeklies | 9 |
 | Research & Science | 19 |
-| News | 34 |
+| News | 22 |
 | Product & Design | 5 |
 | Business & Startups | 5 |
-| Personal Blogs | 65 |
-| Communities | 9 |
+| Personal Blogs | 64 |
+| Communities | 14 |
 | Culture & Ideas | 10 |
 | Videos | 93 |
 | Podcasts | 73 |

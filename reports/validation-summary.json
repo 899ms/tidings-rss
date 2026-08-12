@@ -1,7 +1,7 @@
 {
   "validated_at": "2026-08-12",
   "engine": "Tidings parseFeedUrl",
-  "published": 707,
+  "published": 718,
   "limits": {
     "complete_collection_maximum": 720,
     "chinese_independent_blogs_maximum": 400
@@ -41,6 +41,13 @@
     "documented_public_fallbacks": 1,
     "selection_evidence": "reports/community-curation.json"
   },
+  "theme_review": {
+    "candidates": 14,
+    "passed_three_tidings_parser_rounds": 11,
+    "published_additions": 11,
+    "rejected_after_repeated_failures": 3,
+    "selection_evidence": "reports/theme-curation.json"
+  },
   "base_catalog_live_check": {
     "checked": 680,
     "lightweight_parser_passed": 669,
@@ -57,15 +64,19 @@
   },
   "by_pack": {
     "ai": 99,
-    "all": 707,
-    "blogs": 348,
-    "chinese": 465,
+    "all": 718,
+    "blogs": 349,
+    "chinese": 469,
+    "communities": 14,
     "company-tech": 40,
-    "engineering": 404,
-    "news": 39,
+    "engineering": 419,
+    "news": 44,
     "podcasts": 73,
     "research": 27,
+    "security": 8,
+    "tech-media": 10,
     "videos": 93,
-    "wechat": 30
+    "wechat": 30,
+    "weeklies": 9
   }
 }

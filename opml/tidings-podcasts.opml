@@ -8,7 +8,7 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
-    <outline text="Podcasts" title="Podcasts">
+    <outline text="🎧 Podcasts" title="🎧 Podcasts">
       <outline text="30 for 30 Podcasts" title="30 for 30 Podcasts" type="rss" xmlUrl="https://feeds.megaphone.fm/ESP5765452710" htmlUrl="http://espnradio.espn.com/espnradio/index" />
       <outline text="42章经 — Podcast" title="42章经 — Podcast" type="rss" xmlUrl="https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/648b0b641c48983391a63f98" htmlUrl="https://www.xiaoyuzhoufm.com/podcast/648b0b641c48983391a63f98" />
       <outline text="AI炼金术 — Podcast" title="AI炼金术 — Podcast" type="rss" xmlUrl="https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63e9ef4de99bdef7d39944c8" htmlUrl="https://www.xiaoyuzhoufm.com/podcast/63e9ef4de99bdef7d39944c8" />

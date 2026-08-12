@@ -1,9 +1,10 @@
+import html
 import re
 import json
 import unittest
 from pathlib import Path
 
-from scripts.catalog import PACKS
+from scripts.catalog import CATEGORY_EMOJI, PACKS
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -13,6 +14,8 @@ MARKDOWN_FILES = [
     ROOT / "CONTRIBUTING.md",
     ROOT / "CONTRIBUTING.zh-CN.md",
     ROOT / "SOURCES.md",
+    ROOT / "RSS-GUIDE.md",
+    ROOT / "RSS-GUIDE.zh-CN.md",
 ]
 
 
@@ -80,6 +83,36 @@ class RepositoryTests(unittest.TestCase):
             appendix = text.split("<!-- SOURCE_APPENDIX_START -->", 1)[1].split("<!-- SOURCE_APPENDIX_END -->", 1)[0]
             found_urls = set(re.findall(r"\[RSS\]\((https?://[^)]+)\)", appendix))
             self.assertEqual(found_urls, expected_urls)
+
+    def test_topic_bundles_and_category_labels_are_consistent(self):
+        catalog = json.loads((ROOT / "data/feeds.json").read_text(encoding="utf-8"))
+        requirements = {
+            "communities": "Communities",
+            "security": "Security",
+            "tech-media": "Technology Media",
+            "weeklies": "Tech Newsletters & Weeklies",
+        }
+        for pack, category in requirements.items():
+            selected = [feed for feed in catalog["feeds"] if pack in feed["packs"]]
+            self.assertGreater(len(selected), 0)
+            self.assertTrue(all(feed["category"] == category for feed in selected))
+            self.assertTrue(all(not re.search(r"[\U0001F300-\U0001FAFF]", feed["category"]) for feed in selected))
+            opml = (ROOT / "opml" / PACKS[pack][0]).read_text(encoding="utf-8")
+            label = html.escape(f"{CATEGORY_EMOJI[category]} {category}", quote=True)
+            self.assertIn(f'text="{label}"', opml)
+
+    def test_current_theme_curation_report_matches_catalog(self):
+        catalog = json.loads((ROOT / "data/feeds.json").read_text(encoding="utf-8"))
+        report = json.loads((ROOT / "reports/theme-curation.json").read_text(encoding="utf-8"))
+        selected = [item for item in report["decisions"] if item["selected"]]
+        additions = {
+            feed["feed_url"]
+            for feed in catalog["feeds"]
+            if "awesome-rsshub-routes-review-2026-08-12" in feed["sources"]
+        }
+        self.assertEqual({item["feed_url"] for item in selected}, additions)
+        self.assertTrue(all(len(item["parser_rounds"]) == 3 for item in selected))
+        self.assertTrue(all(all(round_["ok"] for round_ in item["parser_rounds"]) for item in selected))
 
     def test_community_additions_match_repeated_validation_report(self):
         catalog = json.loads((ROOT / "data/feeds.json").read_text(encoding="utf-8"))
@@ -152,12 +185,13 @@ class RepositoryTests(unittest.TestCase):
         report = json.loads((ROOT / "reports/chinese-blog-curation.json").read_text(encoding="utf-8"))
         selected = [item for item in report["blogs"] if item["selected"]]
         published = [feed for feed in catalog["feeds"] if "blogs" in feed["packs"]]
+        upstream_published = [feed for feed in published if "chinese-independent-blogs" in feed["sources"]]
         self.assertEqual(report["candidate_count"], 1331)
-        self.assertEqual(len(selected), len(published))
+        self.assertEqual(len(selected), len(upstream_published))
         self.assertTrue(all(item["successful_rounds"] == 3 for item in selected))
         self.assertTrue(all(item["latest_item_age_days"] <= 180 for item in selected))
         self.assertEqual(
-            {feed["feed_url"] for feed in published},
+            {feed["feed_url"] for feed in upstream_published},
             {item["feed_url"] for item in selected},
         )
 

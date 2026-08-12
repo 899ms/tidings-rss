@@ -8,7 +8,7 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
-    <outline text="Artificial Intelligence" title="Artificial Intelligence">
+    <outline text="🤖 Artificial Intelligence" title="🤖 Artificial Intelligence">
       <outline text="Apple Machine Learning Research" title="Apple Machine Learning Research" type="rss" xmlUrl="https://machinelearning.apple.com/rss.xml" htmlUrl="https://machinelearning.apple.com" />
       <outline text="cs.AI updates on arXiv.org" title="cs.AI updates on arXiv.org" type="rss" xmlUrl="https://rss.arxiv.org/rss/cs.AI" htmlUrl="http://rss.arxiv.org/rss/cs.AI" />
       <outline text="cs.CL updates on arXiv.org" title="cs.CL updates on arXiv.org" type="rss" xmlUrl="https://export.arxiv.org/rss/cs.CL" htmlUrl="http://rss.arxiv.org/rss/cs.CL" />
@@ -18,7 +18,7 @@
       <outline text="The latest research from Google" title="The latest research from Google" type="rss" xmlUrl="https://research.google/blog/rss/" htmlUrl="https://research.google/blog/" />
       <outline text="通义实验室" title="通义实验室" type="rss" xmlUrl="https://wechat2rss.bestblogs.dev/feed/4ebee6222ae08705b8aabc9116f0defbcb6b17c6.xml" htmlUrl="https://wechat2rss.bestblogs.dev/feed/4ebee6222ae08705b8aabc9116f0defbcb6b17c6.xml" />
     </outline>
-    <outline text="Research &amp; Science" title="Research &amp; Science">
+    <outline text="🔬 Research &amp; Science" title="🔬 Research &amp; Science">
       <outline text="AAAS: Science: Table of Contents" title="AAAS: Science: Table of Contents" type="rss" xmlUrl="https://www.science.org/action/showFeed?type=etoc&amp;feed=rss&amp;jc=science" htmlUrl="https://www.science.org/loi/science?af=R" />
       <outline text="All Top News -- ScienceDaily" title="All Top News -- ScienceDaily" type="rss" xmlUrl="https://www.sciencedaily.com/rss/top/science.xml" htmlUrl="https://www.sciencedaily.com/news/top/" />
       <outline text="Amazon Science" title="Amazon Science" type="rss" xmlUrl="https://www.amazon.science/index.rss" htmlUrl="https://www.amazon.science/" />

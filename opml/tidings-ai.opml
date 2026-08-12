@@ -8,7 +8,7 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
-    <outline text="Artificial Intelligence" title="Artificial Intelligence">
+    <outline text="🤖 Artificial Intelligence" title="🤖 Artificial Intelligence">
       <outline text="AI" title="AI" type="rss" xmlUrl="https://blog.google/technology/ai/rss/" htmlUrl="https://blog.google/innovation-and-ai/technology/ai/" />
       <outline text="AI Musings by Mu" title="AI Musings by Mu" type="rss" xmlUrl="https://kelvinmu.substack.com/feed" htmlUrl="https://kelvinmu.substack.com" />
       <outline text="AI 开发者日报" title="AI 开发者日报" type="rss" xmlUrl="https://ainews.liduos.com/rss.xml" htmlUrl="https://ainews.liduos.com" />
@@ -24,7 +24,6 @@
       <outline text="Hacker News - Newest: &quot;AI&quot;" title="Hacker News - Newest: &quot;AI&quot;" type="rss" xmlUrl="https://hnrss.org/newest?q=AI" htmlUrl="https://news.ycombinator.com/newest" />
       <outline text="Hacker News - Newest: &quot;LLM&quot;" title="Hacker News - Newest: &quot;LLM&quot;" type="rss" xmlUrl="https://hnrss.org/newest?q=LLM" htmlUrl="https://news.ycombinator.com/newest" />
       <outline text="Hugging Face - Blog" title="Hugging Face - Blog" type="rss" xmlUrl="https://huggingface.co/blog/feed.xml" htmlUrl="https://huggingface.co/blog" />
-      <outline text="Last Week in AI" title="Last Week in AI" type="rss" xmlUrl="https://lastweekin.ai/feed" htmlUrl="https://lastweekin.ai" />
       <outline text="MIT News - Artificial intelligence" title="MIT News - Artificial intelligence" type="rss" xmlUrl="https://news.mit.edu/rss/topic/artificial-intelligence2" htmlUrl="https://news.mit.edu/rss/topic/artificial-intelligence2" />
       <outline text="OpenAI News" title="OpenAI News" type="rss" xmlUrl="https://openai.com/news/rss.xml" htmlUrl="https://openai.com/news" />
       <outline text="Recent Commits to openclaw:main" title="Recent Commits to openclaw:main" type="rss" xmlUrl="https://github.com/openclaw/openclaw/commits/main.atom" htmlUrl="https://github.com/openclaw/openclaw/commits/main" />
@@ -36,7 +35,6 @@
       <outline text="Release notes from openclaw" title="Release notes from openclaw" type="rss" xmlUrl="https://github.com/openclaw/openclaw/releases.atom" htmlUrl="https://github.com/openclaw/openclaw/releases" />
       <outline text="Release notes from servers" title="Release notes from servers" type="rss" xmlUrl="https://github.com/modelcontextprotocol/servers/releases.atom" htmlUrl="https://github.com/modelcontextprotocol/servers/releases" />
       <outline text="Simon Willison's Weblog" title="Simon Willison's Weblog" type="rss" xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="http://simonwillison.net/" />
-      <outline text="The Batch | DeepLearning.AI | AI News &amp; Insights" title="The Batch | DeepLearning.AI | AI News &amp; Insights" type="rss" xmlUrl="https://rsshub.bestblogs.dev/deeplearning/the-batch" htmlUrl="https://www.deeplearning.ai/the-batch/" />
       <outline text="The latest research from Google" title="The latest research from Google" type="rss" xmlUrl="https://research.google/blog/rss/" htmlUrl="https://research.google/blog/" />
       <outline text="大模型智能" title="大模型智能" type="rss" xmlUrl="https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml" htmlUrl="https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml" />
       <outline text="我爱计算机视觉" title="我爱计算机视觉" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/b81ffcfff1107b5265cd7e39de610dc7ca72caf4.xml" htmlUrl="https://wechat2rss.xlab.app/feed/b81ffcfff1107b5265cd7e39de610dc7ca72caf4.xml" />
@@ -50,7 +48,7 @@
       <outline text="量子位" title="量子位" type="rss" xmlUrl="https://www.qbitai.com/feed" htmlUrl="https://www.qbitai.com" />
       <outline text="阶跃StepFun" title="阶跃StepFun" type="rss" xmlUrl="https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml" htmlUrl="https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml" />
     </outline>
-    <outline text="Engineering &amp; Technology" title="Engineering &amp; Technology">
+    <outline text="🛠️ Engineering &amp; Technology" title="🛠️ Engineering &amp; Technology">
       <outline text="Abyss的小屋" title="Abyss的小屋" type="rss" xmlUrl="https://www.rsnocsi.cn/feed" htmlUrl="https://www.rsnocsi.cn/" />
       <outline text="admin" title="admin" type="rss" xmlUrl="https://blog.liua.us.ci/rss.xml" htmlUrl="https://blog.liua.us.ci/rss.xml" />
       <outline text="Arthur's Review" title="Arthur's Review" type="rss" xmlUrl="https://blog.leesaitool.com/feed.xml" htmlUrl="https://blog.leesaitool.com/" />
@@ -74,11 +72,15 @@
       <outline text="謝懿Shine" title="謝懿Shine" type="rss" xmlUrl="https://xieyi.org/rss.xml" htmlUrl="https://www.futseyi.com/" />
       <outline text="阿尔的代码屋 | 全栈技术笔记" title="阿尔的代码屋 | 全栈技术笔记" type="rss" xmlUrl="https://blog.algieba12.cn/atom.xml" htmlUrl="https://blog.algieba12.cn/" />
     </outline>
-    <outline text="Communities" title="Communities">
+    <outline text="📮 Tech Newsletters &amp; Weeklies" title="📮 Tech Newsletters &amp; Weeklies">
+      <outline text="Last Week in AI" title="Last Week in AI" type="rss" xmlUrl="https://lastweekin.ai/feed" htmlUrl="https://lastweekin.ai" />
+      <outline text="The Batch" title="The Batch" type="rss" xmlUrl="https://rsshub.bestblogs.dev/deeplearning/the-batch" htmlUrl="https://www.deeplearning.ai/the-batch/" />
+    </outline>
+    <outline text="👥 Communities" title="👥 Communities">
       <outline text="OpenAI Developer Community · API" title="OpenAI Developer Community · API" type="rss" xmlUrl="https://community.openai.com/c/api/7.rss?order=created" htmlUrl="https://community.openai.com/c/api/7" />
       <outline text="Reddit · Linux, Self-Hosted, DevOps &amp; AI" title="Reddit · Linux, Self-Hosted, DevOps &amp; AI" type="rss" xmlUrl="https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/.rss" htmlUrl="https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/" />
     </outline>
-    <outline text="Videos" title="Videos">
+    <outline text="🎬 Videos" title="🎬 Videos">
       <outline text="AI Engineer" title="AI Engineer" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA" htmlUrl="https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA" />
       <outline text="AI Explained" title="AI Explained" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw" htmlUrl="https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw" />
       <outline text="AI Master" title="AI Master" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC0yHbz4OxdQFwmVX2BBQqLg" htmlUrl="https://www.youtube.com/channel/UC0yHbz4OxdQFwmVX2BBQqLg" />
@@ -109,7 +111,7 @@
       <outline text="Wes Roth" title="Wes Roth" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCqcbQf6yw5KzRoDDcZ_wBSw" htmlUrl="https://www.youtube.com/channel/UCqcbQf6yw5KzRoDDcZ_wBSw" />
       <outline text="Yannic Kilcher" title="Yannic Kilcher" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew" htmlUrl="https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew" />
     </outline>
-    <outline text="Podcasts" title="Podcasts">
+    <outline text="🎧 Podcasts" title="🎧 Podcasts">
       <outline text="AI炼金术 — Podcast" title="AI炼金术 — Podcast" type="rss" xmlUrl="https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63e9ef4de99bdef7d39944c8" htmlUrl="https://www.xiaoyuzhoufm.com/podcast/63e9ef4de99bdef7d39944c8" />
       <outline text="Fragmented - AI Developer Podcast" title="Fragmented - AI Developer Podcast" type="rss" xmlUrl="https://feeds.simplecast.com/LpAGSLnY" htmlUrl="https://fragmentedpodcast.com/" />
       <outline text="人民公园说AI" title="人民公园说AI" type="rss" xmlUrl="https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65257ff6e8ce9deaf70a65e9" htmlUrl="https://www.xiaoyuzhoufm.com/podcast/65257ff6e8ce9deaf70a65e9" />

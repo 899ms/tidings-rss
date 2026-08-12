@@ -17,6 +17,10 @@ from xml.etree import ElementTree as ET
 PACKS = {
     "all": ("tidings-all.opml", "Tidings Curated RSS — Complete Collection"),
     "blogs": ("tidings-blogs.opml", "Tidings Curated RSS — Chinese Independent Blogs"),
+    "communities": ("tidings-communities.opml", "Tidings Curated RSS — Technical Communities"),
+    "security": ("tidings-security.opml", "Tidings Curated RSS — Security"),
+    "tech-media": ("tidings-tech-media.opml", "Tidings Curated RSS — Technology Media"),
+    "weeklies": ("tidings-weeklies.opml", "Tidings Curated RSS — Tech Newsletters & Weeklies"),
     "ai": ("tidings-ai.opml", "Tidings Curated RSS — Artificial Intelligence"),
     "videos": ("tidings-videos.opml", "Tidings Curated RSS — Video Channels"),
     "podcasts": ("tidings-podcasts.opml", "Tidings Curated RSS — Podcasts"),
@@ -30,6 +34,9 @@ PACKS = {
 CATEGORIES = [
     "Artificial Intelligence",
     "Engineering & Technology",
+    "Security",
+    "Technology Media",
+    "Tech Newsletters & Weeklies",
     "Research & Science",
     "News",
     "Product & Design",
@@ -40,6 +47,22 @@ CATEGORIES = [
     "Videos",
     "Podcasts",
 ]
+CATEGORY_EMOJI = {
+    "Artificial Intelligence": "🤖",
+    "Engineering & Technology": "🛠️",
+    "Security": "🛡️",
+    "Technology Media": "📰",
+    "Tech Newsletters & Weeklies": "📮",
+    "Research & Science": "🔬",
+    "News": "🗞️",
+    "Product & Design": "🎨",
+    "Business & Startups": "💼",
+    "Personal Blogs": "✍️",
+    "Communities": "👥",
+    "Culture & Ideas": "📚",
+    "Videos": "🎬",
+    "Podcasts": "🎧",
+}
 KINDS = {"article", "video", "podcast"}
 LANGUAGES = {"en", "zh"}
 MAX_ALL_FEEDS = 720
@@ -111,7 +134,12 @@ def validate_catalog(catalog):
         if "all" not in feed["packs"]:
             errors.append(f"{label}: missing all pack")
         if "blogs" in feed["packs"] and not (
-            feed["kind"] == "article" and feed["language"] == "zh" and "chinese-independent-blogs" in feed["sources"]
+            feed["kind"] == "article"
+            and feed["language"] == "zh"
+            and (
+                "chinese-independent-blogs" in feed["sources"]
+                or "editor-reviewed-chinese-blog" in feed["sources"]
+            )
         ):
             errors.append(f"{label}: blogs pack is reserved for vetted Chinese independent blogs")
         if feed["language"] == "zh" and "chinese" not in feed["packs"]:
@@ -122,6 +150,14 @@ def validate_catalog(catalog):
             errors.append(f"{label}: wechat pack is reserved for validated WeChat article feeds")
         if "company-tech" in feed["packs"] and not (feed.get("organization") and feed.get("company_direction")):
             errors.append(f"{label}: company-tech feed missing organization or direction")
+        for pack, category in (
+            ("communities", "Communities"),
+            ("security", "Security"),
+            ("tech-media", "Technology Media"),
+            ("weeklies", "Tech Newsletters & Weeklies"),
+        ):
+            if pack in feed["packs"] and feed["category"] != category:
+                errors.append(f"{label}: {pack} pack requires {category} category")
     company_keys = [
         (feed.get("organization", "").casefold(), feed.get("company_direction", "").casefold())
         for feed in feeds
@@ -155,7 +191,8 @@ def make_opml(catalog, pack):
         feeds = grouped.get(category, [])
         if not feeds:
             continue
-        group = ET.SubElement(body, "outline", {"text": category, "title": category})
+        label = f"{CATEGORY_EMOJI[category]} {category}"
+        group = ET.SubElement(body, "outline", {"text": label, "title": label})
         for feed in sorted(feeds, key=lambda item: item["title"].casefold()):
             attrs = {
                 "text": feed["title"],

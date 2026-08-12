@@ -41,10 +41,19 @@ ENGINEERING_PATTERN = re.compile(
 PRODUCT_PATTERN = re.compile(r"(?:\b(?:product|design|ui|ux|indie|creator)\b|产品|设计|独立开发)", re.I)
 BUSINESS_PATTERN = re.compile(r"(?:\b(?:business|startup|economy|finance|venture|founder)\b|商业|创业|财经|投资|创投)", re.I)
 COMMUNITY_PATTERN = re.compile(r"(?:\b(?:community|forum|v2ex|hacker news)\b|社区|论坛)", re.I)
+SECURITY_PATTERN = re.compile(
+    r"(?:\b(?:cybersecurity|cyber security|security affairs|threat intelligence|vulnerabilit(?:y|ies)|cisa|freebuf|krebs|schneier)\b|"
+    r"信息安全|网络安全|安全客|漏洞|攻防|威胁情报|玄武实验室)",
+    re.I,
+)
+TECH_MEDIA_PATTERN = re.compile(
+    r"(?:\b(?:techcrunch|the verge|wired|ars technica|engadget|technology review)\b|36氪|少数派|爱范儿|科技媒体)",
+    re.I,
+)
+WEEKLY_PATTERN = re.compile(r"(?:\b(?:weekly|week in|last week)\b|技术周刊|科技周刊|周刊|周报)", re.I)
 CJK_PATTERN = re.compile(r"[\u3400-\u9fff]")
 NEWS_PACK_EXCLUDED_TITLES = {"David Heinemeier Hansson"}
 E2E_EXCLUDED_URLS = {
-    "https://www.freebuf.com/feed",
     "https://www.microsoft.com/en-us/research/feed",
     "https://www.microsoft.com/en-us/research/blog/feed?from=https%3A%2F%2Fresearch.microsoft.com%2Frss%2Fnews.xml&type=rss",
     "https://research.microsoft.com/rss/news.xml",
@@ -53,6 +62,9 @@ E2E_EXCLUDED_URLS = {
 CATEGORY_ORDER = [
     "Artificial Intelligence",
     "Engineering & Technology",
+    "Security",
+    "Technology Media",
+    "Tech Newsletters & Weeklies",
     "Research & Science",
     "News",
     "Product & Design",
@@ -109,6 +121,12 @@ def classify(candidate, title, kind):
         return "Videos"
     if kind == "podcast":
         return "Podcasts"
+    if SECURITY_PATTERN.search(text) or "安全资讯" in hints:
+        return "Security"
+    if WEEKLY_PATTERN.search(text) or "技术周刊" in hints:
+        return "Tech Newsletters & Weeklies"
+    if TECH_MEDIA_PATTERN.search(text) or "科技媒体" in hints:
+        return "Technology Media"
     if AI_PATTERN.search(text):
         return "Artificial Intelligence"
     if RESEARCH_PATTERN.search(text):
@@ -154,6 +172,14 @@ def infer_language(candidate, title):
 def determine_packs(candidate, title, category, kind, freshness):
     text = combined_text(candidate, title)
     packs = {"all"}
+    if category == "Communities":
+        packs.add("communities")
+    if category == "Security":
+        packs.update(("security", "engineering"))
+    if category == "Technology Media":
+        packs.add("tech-media")
+    if category == "Tech Newsletters & Weeklies":
+        packs.update(("weeklies", "engineering"))
     if AI_PATTERN.search(text) or "Artificial Intelligence" in " ".join(candidate.get("category_hints", [])):
         packs.add("ai")
     if kind == "video" and (freshness is None or freshness <= 730):
@@ -166,7 +192,7 @@ def determine_packs(candidate, title, category, kind, freshness):
         or re.search(r"(?:\bNews\b|热点资讯|新闻资讯|科技媒体|安全资讯)", news_hints, re.I)
     )
     if (
-        category == "News"
+        category in {"News", "Security", "Technology Media"}
         and title not in NEWS_PACK_EXCLUDED_TITLES
         and strong_news
         and freshness is not None
@@ -185,7 +211,7 @@ def determine_packs(candidate, title, category, kind, freshness):
         and (freshness is None or freshness <= 730)
     ):
         packs.add("research")
-    if kind == "article" and category not in {"News", "Communities"} and (freshness is None or freshness <= 730):
+    if kind == "article" and "chinese-independent-blogs" in candidate.get("sources", []):
         packs.add("blogs")
     if category in {"Engineering & Technology", "Artificial Intelligence"} and kind == "article":
         packs.add("engineering")

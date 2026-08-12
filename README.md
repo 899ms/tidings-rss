@@ -1,9 +1,9 @@
 <div align="center">
   <img src="https://tidings.info/apple-touch-icon.png" width="96" height="96" alt="Tidings app icon">
   <h1>Tidings RSS</h1>
-  <p><strong>A curated RSS directory ready to import into your reader.</strong></p>
-  <p>Chinese independent blogs, technical communities, WeChat articles, company engineering, AI, news, research, video, and podcasts. Last checked: 2026-08-12.</p>
-  <p><a href="README.zh-CN.md">简体中文</a> · <a href="#downloads">Download OPML</a> · <a href="#complete-source-directory">Browse every source</a> · <a href="CONTRIBUTING.md">Suggest a feed</a> · <a href="https://tidings.info/">Get Tidings</a></p>
+  <p><strong>High-quality feeds, organized into OPML bundles you can import directly.</strong></p>
+  <p>718 sources covering Chinese independent blogs, technical communities, security, technology media, newsletters, AI, research, video, and podcasts. Last checked: 2026-08-12.</p>
+  <p><a href="README.zh-CN.md">简体中文</a> · <a href="#downloads">Download OPML</a> · <a href="RSS-GUIDE.md">RSS guide</a> · <a href="#complete-source-directory">Browse every source</a> · <a href="CONTRIBUTING.md">Suggest a feed</a> · <a href="https://tidings.info/">Get Tidings</a></p>
   <p>
     <a href="https://github.com/fuxiaoai/tidings-rss/actions/workflows/validate.yml"><img alt="Catalog validation" src="https://github.com/fuxiaoai/tidings-rss/actions/workflows/validate.yml/badge.svg"></a>
     <a href="https://github.com/fuxiaoai/tidings-rss/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/fuxiaoai/tidings-rss?style=flat-square"></a>
@@ -13,7 +13,7 @@
 
 Download an OPML bundle and import it into Tidings, NetNewsWire, Feedly, Inoreader, FreshRSS, or another compatible reader. The bundles keep their topic groups, so you can start reading without rebuilding the folders yourself.
 
-The catalog favors original writing, recent publishing, useful feed text, and endpoints that keep working. Chinese blogs were narrowed down from more than a thousand community-listed sites. The community section now includes active discussions from LINUX DO, Reddit, Lobsters, Python, Rust, NixOS, OpenAI, and Kubernetes. Company technology feeds are deduplicated by organization and technical direction, with official website RSS preferred over a matching WeChat feed.
+The catalog favors original writing, recent publishing, useful feed text, and endpoints that keep working. Chinese blogs were narrowed down from more than a thousand community-listed sites. The community bundle includes V2EX, LINUX DO, Reddit, Lobsters, Hacker News, Python, Rust, NixOS, OpenAI, and Kubernetes. Security, technology media, and technical newsletters now have focused bundles of their own.
 
 ## Downloads
 
@@ -21,25 +21,29 @@ Choose the complete collection if you want an archive to prune yourself. For eve
 
 | Collection | Feeds | Download | Best for |
 | --- | ---: | --- | --- |
-| Complete collection | `707` | [Download `tidings-all.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-all.opml) | Keeping the full directory or pruning it yourself |
-| Chinese independent blogs | `348` | [Download `tidings-blogs.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-blogs.opml) | Active Chinese personal writing |
-| WeChat official accounts | `30` | [Download `tidings-wechat.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-wechat.opml) | Reading selected WeChat articles outside the app |
-| Company technology | `40` | [Download `tidings-company-tech.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-company-tech.opml) | First-party engineering, AI, security, and research writing |
-| Artificial intelligence | `99` | [Download `tidings-ai.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-ai.opml) | Models, research, tools, and technical viewpoints |
-| Fresh news | `39` | [Download `tidings-news.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-news.opml) | International, technology, security, and Chinese news |
-| Research and science | `27` | [Download `tidings-research.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-research.opml) | Papers, journals, labs, and science reporting |
-| Engineering and technology | `404` | [Download `tidings-engineering.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-engineering.opml) | Software, architecture, developer tools, and engineering practice |
-| Video channels | `93` | [Download `tidings-videos.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-videos.opml) | AI, software, science, and business video |
-| Podcasts | `73` | [Download `tidings-podcasts.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-podcasts.opml) | Technology, business, science, and Chinese shows |
-| Chinese-language sources | `465` | [Download `tidings-chinese.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-chinese.opml) | Chinese articles, communities, video, and audio |
+| 📚 Complete collection | `718` | [Download `tidings-all.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-all.opml) | Keeping the full directory or pruning it yourself |
+| ✍️ Chinese independent blogs | `349` | [Download `tidings-blogs.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-blogs.opml) | Active Chinese personal writing |
+| 👥 Technical communities | `14` | [Download `tidings-communities.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-communities.opml) | V2EX, LINUX DO, Reddit, Hacker News, and other active discussions |
+| 🔐 Security | `8` | [Download `tidings-security.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-security.opml) | Vulnerabilities, defensive guidance, security research, and news |
+| 📰 Technology media | `10` | [Download `tidings-tech-media.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-tech-media.opml) | Technology news, products, and long-form reporting |
+| 📮 Technical newsletters | `9` | [Download `tidings-weeklies.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-weeklies.opml) | AI, JavaScript, Go, Rust, and Chinese technology weeklies |
+| 💬 WeChat official accounts | `30` | [Download `tidings-wechat.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-wechat.opml) | Reading selected WeChat articles outside the app |
+| 🏢 Company technology | `40` | [Download `tidings-company-tech.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-company-tech.opml) | First-party engineering, AI, security, and research writing |
+| 🤖 Artificial intelligence | `99` | [Download `tidings-ai.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-ai.opml) | Models, research, tools, and technical viewpoints |
+| 🗞️ Fresh news | `44` | [Download `tidings-news.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-news.opml) | International, technology, security, and Chinese news |
+| 🔬 Research and science | `27` | [Download `tidings-research.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-research.opml) | Papers, journals, labs, and science reporting |
+| 🛠️ Engineering and technology | `419` | [Download `tidings-engineering.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-engineering.opml) | Software, architecture, developer tools, and engineering practice |
+| 🎬 Video channels | `93` | [Download `tidings-videos.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-videos.opml) | AI, software, science, and business video |
+| 🎧 Podcasts | `73` | [Download `tidings-podcasts.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-podcasts.opml) | Technology, business, science, and Chinese shows |
+| 🀄 Chinese-language sources | `469` | [Download `tidings-chinese.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-chinese.opml) | Chinese articles, communities, video, and audio |
 
-[Browse OPML](opml/) · [SHA-256 checksums](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/SHA256SUMS.txt) · [Catalog summary](reports/catalog-summary.md) · [Machine-readable catalog](data/feeds.json)
+[RSS guide](RSS-GUIDE.md) · [Browse OPML](opml/) · [SHA-256 checksums](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/SHA256SUMS.txt) · [Catalog summary](reports/catalog-summary.md) · [Machine-readable catalog](data/feeds.json)
 
 ## What makes the cut
 
 A feed needs to be current, worth reading, and consistently parseable. Duplicate sites, abandoned feeds, content farms, promotional aggregators, and repeatedly failing endpoints are removed.
 
-Chinese independent blogs are judged mainly on recent writing and useful article content. Community feeds need recent discussions and repeated successful Tidings parses; the catalog favors one high-signal entry point per site. WeChat feeds must connect quickly and produce recent articles in Tidings. Company technology feeds are unique by organization and technical direction; when an official website covers the same direction, it replaces the matching WeChat feed.
+Chinese independent blogs are judged mainly on recent writing and useful article content. Community, security, technology-media, and newsletter feeds must remain active and open reliably in a reader; when several feeds cover the same ground, the higher-signal entry point wins. WeChat feeds must connect quickly and produce recent articles in Tidings. Company technology feeds are unique by organization and technical direction; when an official website covers the same direction, it replaces the matching WeChat feed.
 
 Feeds move and disappear, so the directory is checked regularly. If a source is missing, broken, or misclassified, [send a suggestion](CONTRIBUTING.md).
 
@@ -77,10 +81,10 @@ The complete directory follows, with source names, descriptions, categories, and
 <!-- SOURCE_APPENDIX_START -->
 ## Complete source directory
 
-All 707 feeds in the complete collection are listed below with their primary category and bundles. This appendix is generated from `data/feeds.json`.
+All 718 feeds in the complete collection are listed below with their primary category and bundles. This appendix is generated from `data/feeds.json`.
 
 <details>
-<summary>Artificial Intelligence · 40</summary>
+<summary>🤖 Artificial Intelligence · 38</summary>
 
 | Source | Description | Primary category | Feed | Bundles |
 | --- | --- | --- | --- | --- |
@@ -99,7 +103,6 @@ All 707 feeds in the complete collection are listed below with their primary cat
 | [Hacker News - Newest: "AI"](https://news.ycombinator.com/newest) | Artificial intelligence feed. | Artificial Intelligence | [RSS](https://hnrss.org/newest?q=AI) | ai, all, engineering |
 | [Hacker News - Newest: "LLM"](https://news.ycombinator.com/newest) | Artificial intelligence feed. | Artificial Intelligence | [RSS](https://hnrss.org/newest?q=LLM) | ai, all, engineering |
 | [Hugging Face - Blog](https://huggingface.co/blog) | Artificial intelligence feed. | Artificial Intelligence | [RSS](https://huggingface.co/blog/feed.xml) | ai, all, company-tech, engineering |
-| [Last Week in AI](https://lastweekin.ai) | Artificial intelligence feed. | Artificial Intelligence | [RSS](https://lastweekin.ai/feed) | ai, all, engineering |
 | [MIT News - Artificial intelligence](https://news.mit.edu/rss/topic/artificial-intelligence2) | Artificial intelligence feed. | Artificial Intelligence | [RSS](https://news.mit.edu/rss/topic/artificial-intelligence2) | ai, all, engineering, research |
 | [OpenAI News](https://openai.com/news) | Artificial intelligence feed. | Artificial Intelligence | [RSS](https://openai.com/news/rss.xml) | ai, all, company-tech, engineering |
 | [Recent Commits to openclaw:main](https://github.com/openclaw/openclaw/commits/main) | Artificial intelligence feed. | Artificial Intelligence | [RSS](https://github.com/openclaw/openclaw/commits/main.atom) | ai, all, engineering |
@@ -111,7 +114,6 @@ All 707 feeds in the complete collection are listed below with their primary cat
 | [Release notes from openclaw](https://github.com/openclaw/openclaw/releases) | Artificial intelligence feed. | Artificial Intelligence | [RSS](https://github.com/openclaw/openclaw/releases.atom) | ai, all, engineering |
 | [Release notes from servers](https://github.com/modelcontextprotocol/servers/releases) | Artificial intelligence feed. | Artificial Intelligence | [RSS](https://github.com/modelcontextprotocol/servers/releases.atom) | ai, all, engineering |
 | [Simon Willison's Weblog](http://simonwillison.net/) | Artificial intelligence feed. | Artificial Intelligence | [RSS](https://simonwillison.net/atom/everything/) | ai, all, engineering |
-| [The Batch \| DeepLearning.AI \| AI News & Insights](https://www.deeplearning.ai/the-batch/) | Artificial intelligence feed. | Artificial Intelligence | [RSS](https://rsshub.bestblogs.dev/deeplearning/the-batch) | ai, all, engineering |
 | [The latest research from Google](https://research.google/blog/) | Artificial intelligence feed. | Artificial Intelligence | [RSS](https://research.google/blog/rss/) | ai, all, company-tech, engineering, research |
 | [大模型智能](https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml) | Artificial intelligence feed. | Artificial Intelligence | [RSS](https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml) | ai, all, chinese, engineering |
 | [我爱计算机视觉](https://wechat2rss.xlab.app/feed/b81ffcfff1107b5265cd7e39de610dc7ca72caf4.xml) | WeChat article feed covering 计算机视觉研究与应用. | Artificial Intelligence | [RSS](https://wechat2rss.xlab.app/feed/b81ffcfff1107b5265cd7e39de610dc7ca72caf4.xml) | all, chinese, wechat, engineering, ai |
@@ -128,55 +130,7 @@ All 707 feeds in the complete collection are listed below with their primary cat
 </details>
 
 <details>
-<summary>Business & Startups · 5</summary>
-
-| Source | Description | Primary category | Feed | Bundles |
-| --- | --- | --- | --- | --- |
-| [Macin](https://macin.org/atom.xml) | Chinese independent blog. | Business & Startups | [RSS](https://www.macin.org/atom.xml) | all, blogs, chinese |
-| [扯氮集](http://weiwuhui.com) | Chinese independent blog. | Business & Startups | [RSS](http://weiwuhui.com/feed) | all, blogs, chinese |
-| [知足常乐-水星投资理财的基本意念](http://mercurychong.blogspot.com/) | Chinese independent blog. | Business & Startups | [RSS](http://mercurychong.blogspot.com/feeds/posts/default) | all, blogs, chinese |
-| [虹线](https://1q43.blog) | Chinese independent blog. | Business & Startups | [RSS](https://1q43.blog/feed) | all, blogs, chinese |
-| [雷蒙三十｜幫助忙碌現代人的聰明工作、好好生活的生產力指南](https://raymondhouch.com) | Chinese independent blog. | Business & Startups | [RSS](https://raymondhouch.com/feed) | all, blogs, chinese |
-
-</details>
-
-<details>
-<summary>Communities · 9</summary>
-
-| Source | Description | Primary category | Feed | Bundles |
-| --- | --- | --- | --- | --- |
-| [V2EX](https://www.v2ex.com/) | New discussions from the Chinese technology community. | Communities | [RSS](https://v2ex.com/index.xml) | all, chinese, news |
-| [LINUX DO · 文档共建](https://linux.do/c/wiki/42) | Tutorials, study notes, and community-maintained documents from LINUX DO. | Communities | [RSS](https://linuxdorss.longpink.com/wiki.xml) | all, chinese, engineering |
-| [Reddit · Linux, Self-Hosted, DevOps & AI](https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/) | A combined feed of new Linux, self-hosting, DevOps, LocalLLaMA, and machine-learning posts. | Communities | [RSS](https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/.rss) | ai, all, engineering |
-| [Lobsters](https://lobste.rs/) | Community-curated discussions about software, programming, and computer science. | Communities | [RSS](https://lobste.rs/rss) | all, engineering |
-| [Python Core Development](https://discuss.python.org/c/core-dev/23) | Discussions about Python core development and interpreter design. | Communities | [RSS](https://discuss.python.org/c/core-dev/23.rss?order=created) | all, engineering |
-| [Rust Internals · Language Design](https://internals.rust-lang.org/c/language-design/21) | Discussions about Rust language design and compiler internals. | Communities | [RSS](https://internals.rust-lang.org/c/language-design/21.rss?order=created) | all, engineering |
-| [NixOS Development](https://discourse.nixos.org/c/dev/14) | Discussions about NixOS development, packaging, and infrastructure. | Communities | [RSS](https://discourse.nixos.org/c/dev/14.rss?order=created) | all, engineering |
-| [OpenAI Developer Community · API](https://community.openai.com/c/api/7) | Discussions about using, debugging, and integrating the OpenAI API. | Communities | [RSS](https://community.openai.com/c/api/7.rss?order=created) | ai, all, engineering |
-| [Kubernetes · General Discussions](https://discuss.kubernetes.io/c/general-discussions/6) | Discussions about Kubernetes configuration, cluster operations, and troubleshooting. | Communities | [RSS](https://discuss.kubernetes.io/c/general-discussions/6.rss?order=created) | all, engineering |
-
-</details>
-
-<details>
-<summary>Culture & Ideas · 10</summary>
-
-| Source | Description | Primary category | Feed | Bundles |
-| --- | --- | --- | --- | --- |
-| [KAIX.IN](https://kaix.in/) | Chinese independent blog. | Culture & Ideas | [RSS](https://kaix.in/feed/) | all, blogs, chinese |
-| [Maohang Gao's Blog](http://kangaroogao.com/atom.xml) | Chinese independent blog. | Culture & Ideas | [RSS](https://kangaroogao.com/atom.xml) | all, blogs, chinese |
-| [ShineKid](https://shinekid.com) | Chinese independent blog. | Culture & Ideas | [RSS](https://shinekid.com/feed/) | all, blogs, chinese |
-| [Tripper Press - Take Photo, Think Seriously.](https://tripper.press) | Chinese independent blog. | Culture & Ideas | [RSS](https://tripper.press/atom.xml) | all, blogs, chinese |
-| [东评西就](https://dongjunke.cn/) | Chinese independent blog. | Culture & Ideas | [RSS](https://dongjunke.cn/atom.xml) | all, blogs, chinese |
-| [先生制造](https://wechat2rss.xlab.app/feed/313326d41db4f54b1cc09e7c986a5ac4e5f88ca0.xml) | WeChat article feed covering 人物与社会记录. | Culture & Ideas | [RSS](https://wechat2rss.xlab.app/feed/313326d41db4f54b1cc09e7c986a5ac4e5f88ca0.xml) | all, chinese, wechat |
-| [叉息的空中咖啡馆](https://www.xchere.xyz/atom.xml) | Chinese independent blog. | Culture & Ideas | [RSS](https://www.xchere.xyz/atom.xml) | all, blogs, chinese |
-| [浅黑科技](https://wechat2rss.xlab.app/feed/6111a6d5ecf28cfdd4fc9b664244c05ddacef15c.xml) | WeChat article feed covering 科技人物与产业故事. | Culture & Ideas | [RSS](https://wechat2rss.xlab.app/feed/6111a6d5ecf28cfdd4fc9b664244c05ddacef15c.xml) | all, chinese, wechat |
-| [赫赫文王](https://kqh.me/) | Chinese independent blog. | Culture & Ideas | [RSS](https://kqh.me/index.xml) | all, blogs, chinese |
-| [静风说](https://www.jfsay.com) | Chinese independent blog. | Culture & Ideas | [RSS](http://www.jfsay.com/feed) | all, blogs, chinese |
-
-</details>
-
-<details>
-<summary>Engineering & Technology · 354</summary>
+<summary>🛠️ Engineering & Technology · 348</summary>
 
 | Source | Description | Primary category | Feed | Bundles |
 | --- | --- | --- | --- | --- |
@@ -196,7 +150,6 @@ All 707 feeds in the complete collection are listed below with their primary cat
 | [Apple Newsroom](https://www.apple.com/newsroom/rss-feed.rss) | Engineering and technology feed. | Engineering & Technology | [RSS](https://www.apple.com/newsroom/rss-feed.rss) | all, engineering |
 | [AppleInsider News](https://appleinsider.com/rss/news) | Engineering and technology feed. | Engineering & Technology | [RSS](https://appleinsider.com/rss/news/) | all, engineering |
 | [Archive: 2026 - GitHub Changelog](https://github.blog/changelog/) | Engineering and technology feed. | Engineering & Technology | [RSS](https://github.blog/changelog/feed/) | all, engineering |
-| [Ars Technica - All content](https://arstechnica.com) | Engineering and technology feed. | Engineering & Technology | [RSS](https://feeds.arstechnica.com/arstechnica/index) | all, engineering, news |
 | [Arthur's Review](https://blog.leesaitool.com/) | Chinese independent blog. | Engineering & Technology | [RSS](https://blog.leesaitool.com/feed.xml) | ai, all, blogs, chinese, engineering |
 | [Articles on Smashing Magazine — For Web Designers And Developers](https://www.smashingmagazine.com/) | Engineering and technology feed. | Engineering & Technology | [RSS](https://rss1.smashingmagazine.com/feed/) | all, engineering |
 | [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/) | Engineering and technology feed. | Engineering & Technology | [RSS](https://www.awsarchitectureblog.com/atom.xml) | all, company-tech, engineering |
@@ -263,9 +216,7 @@ All 707 feeds in the complete collection are listed below with their primary cat
 | [Kerry的学习笔记](https://kerrynotes.com) | Chinese independent blog. | Engineering & Technology | [RSS](https://kerrynotes.com/feed/) | all, blogs, chinese, engineering |
 | [kok的笔记本](https://wocai.de/) | Chinese independent blog. | Engineering & Technology | [RSS](https://wocai.de/index.xml/) | all, blogs, chinese, engineering |
 | [Kotlin : A concise multiplatform language developed by JetBrains \| The JetBrains Blog](https://blog.jetbrains.com) | Engineering and technology feed. | Engineering & Technology | [RSS](https://blog.jetbrains.com/kotlin/feed/) | all, engineering |
-| [Krebs on Security](https://krebsonsecurity.com) | Engineering and technology feed. | Engineering & Technology | [RSS](https://krebsonsecurity.com/feed/) | all, engineering, news |
 | [laike9m's blog](https://laike9m.com/blog/rss) | Chinese independent blog. | Engineering & Technology | [RSS](https://laike9m.com/blog/rss/) | all, blogs, chinese, engineering |
-| [Latest news](https://www.zdnet.com/) | Engineering and technology feed. | Engineering & Technology | [RSS](https://www.zdnet.com/topic/security/rss.xml) | all, engineering |
 | [LearnData 开源笔记](https://newzone.top/) | Chinese independent blog. | Engineering & Technology | [RSS](https://newzone.top/rss.xml) | all, blogs, chinese, engineering |
 | [Lex Blog](https://dreams.plus/) | Chinese independent blog. | Engineering & Technology | [RSS](https://dreams.plus/rss.xml) | all, blogs, chinese, engineering |
 | [LiaoKe的博客](https://blog.liao-ke.com/) | Chinese independent blog. | Engineering & Technology | [RSS](https://blog.liao-ke.com/rss.xml) | all, blogs, chinese, engineering |
@@ -334,8 +285,6 @@ All 707 feeds in the complete collection are listed below with their primary cat
 | [RYANUO](https://ryanuo.cc) | Chinese independent blog. | Engineering & Technology | [RSS](https://ryanuo.cc/sitemap.xml) | ai, all, blogs, chinese, engineering |
 | [Ryan‘s World](https://blog.12ms.xyz/) | Chinese independent blog. | Engineering & Technology | [RSS](https://blog.12ms.xyz/feed/) | all, blogs, chinese, engineering |
 | [S T C H E N G](https://cheng.st/atom.xml) | Chinese independent blog. | Engineering & Technology | [RSS](https://cheng.st/atom.xml) | all, blogs, chinese, engineering |
-| [Schneier on Security](https://www.schneier.com/) | Engineering and technology feed. | Engineering & Technology | [RSS](https://www.schneier.com/blog/index.rdf) | all, engineering, news |
-| [Security Affairs](https://securityaffairs.com/) | Engineering and technology feed. | Engineering & Technology | [RSS](https://securityaffairs.co/wordpress/feed) | all, engineering |
 | [Sehnsucht](https://blog.sehnsucht.top/) | Chinese independent blog. | Engineering & Technology | [RSS](https://blog.sehnsucht.top/rss.xml) | all, blogs, chinese, engineering |
 | [Sekyoro的博客小屋](https://www.sekyoro.top/) | Chinese independent blog. | Engineering & Technology | [RSS](https://www.sekyoro.top/atom.xml) | ai, all, blogs, chinese, engineering |
 | [Seven's blog](https://blog.diqigan.cn/) | Chinese independent blog. | Engineering & Technology | [RSS](https://blog.diqigan.cn/atom.xml) | all, blogs, chinese, engineering |
@@ -503,7 +452,6 @@ All 707 feeds in the complete collection are listed below with their primary cat
 | [肘子的 Swift 记事本 ｜ Fatbobman's Blog](https://fatbobman.com/) | Chinese independent blog. | Engineering & Technology | [RSS](https://fatbobman.com/zh/rss.xml) | all, blogs, chinese, engineering |
 | [胡涂说](https://hutusi.com) | Chinese independent blog. | Engineering & Technology | [RSS](https://hutusi.com/feed.xml) | all, blogs, chinese, engineering |
 | [腾讯技术工程](https://wechat2rss.xlab.app/feed/9685937b45fe9c7a526dbc32e4f24ba879a65b9a.xml) | WeChat article feed covering 工程实践. | Engineering & Technology | [RSS](https://wechat2rss.xlab.app/feed/9685937b45fe9c7a526dbc32e4f24ba879a65b9a.xml) | all, chinese, company-tech, engineering, wechat |
-| [腾讯玄武实验室](https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml) | WeChat article feed covering 安全研究. | Engineering & Technology | [RSS](https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml) | all, chinese, company-tech, engineering, wechat |
 | [草梅友仁的博客](https://blog.cmyr.ltd/atom.xml) | Chinese independent blog. | Engineering & Technology | [RSS](https://blog.cmyr.ltd/atom.xml) | all, blogs, chinese, engineering |
 | [莫尔索随笔](https://liduos.com/atom.xml) | Chinese independent blog. | Engineering & Technology | [RSS](https://liduos.com/atom.xml) | all, blogs, chinese, engineering |
 | [蒙需](https://jiangcl.com) | Chinese independent blog. | Engineering & Technology | [RSS](https://jiangcl.com/feed) | all, blogs, chinese, engineering |
@@ -538,40 +486,106 @@ All 707 feeds in the complete collection are listed below with their primary cat
 </details>
 
 <details>
-<summary>News · 34</summary>
+<summary>🛡️ Security · 8</summary>
 
 | Source | Description | Primary category | Feed | Bundles |
 | --- | --- | --- | --- | --- |
-| [36氪](http://36kr.com) | News feed. | News | [RSS](https://www.36kr.com/feed) | all, chinese, news |
-| [AIGC Weekly](https://quaily.com/op7418/feed/atom) | News feed. | News | [RSS](https://quaily.com/op7418/feed/atom) | all, news |
+| [Krebs on Security](https://krebsonsecurity.com) | Brian Krebs reports on cybercrime, data breaches, and digital fraud. | Security | [RSS](https://krebsonsecurity.com/feed/) | all, engineering, news, security |
+| [ZDNET Security](https://www.zdnet.com/) | Enterprise security, vulnerabilities, threat intelligence, and security products. | Security | [RSS](https://www.zdnet.com/topic/security/rss.xml) | all, engineering, news, security |
+| [Schneier on Security](https://www.schneier.com/) | Bruce Schneier on security engineering, privacy, and public policy. | Security | [RSS](https://www.schneier.com/blog/index.rdf) | all, engineering, news, security |
+| [Security Affairs](https://securityaffairs.com/) | Global coverage of cyberattacks, malware, vulnerabilities, and security incidents. | Security | [RSS](https://securityaffairs.co/wordpress/feed) | all, engineering, news, security |
+| [腾讯玄武实验室](https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml) | Vulnerability research, offensive and defensive techniques, and security practice from Tencent Xuanwu Lab. | Security | [RSS](https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml) | all, chinese, company-tech, engineering, security, wechat |
+| [安全客](https://www.anquanke.com) | Chinese vulnerability analysis, security research, and industry coverage. | Security | [RSS](https://api.anquanke.com/data/v1/rss) | all, chinese, engineering, news, security |
+| [CISA](https://www.cisa.gov/news-events) | Cybersecurity advisories, vulnerabilities, and defensive guidance from CISA. | Security | [RSS](https://www.cisa.gov/news.xml) | all, engineering, news, security |
+| [FreeBuf 网络安全行业门户](https://www.freebuf.com/) | Chinese cybersecurity coverage spanning security research, vulnerability analysis, and the industry. | Security | [RSS](https://www.freebuf.com/feed) | all, chinese, engineering, news, security |
+
+</details>
+
+<details>
+<summary>📰 Technology Media · 10</summary>
+
+| Source | Description | Primary category | Feed | Bundles |
+| --- | --- | --- | --- | --- |
+| [Ars Technica](https://arstechnica.com) | Technology reporting on software, hardware, science, and internet policy. | Technology Media | [RSS](https://feeds.arstechnica.com/arstechnica/index) | all, engineering, news, tech-media |
+| [36氪](http://36kr.com) | Chinese business and technology coverage focused on startups, internet products, and industry shifts. | Technology Media | [RSS](https://www.36kr.com/feed) | all, chinese, news, tech-media |
+| [Engadget](https://www.engadget.com/) | Consumer electronics, software services, and technology product reviews. | Technology Media | [RSS](https://www.engadget.com/rss.xml) | all, news, tech-media |
+| [IT之家](https://www.ithome.com/) | Chinese technology news covering hardware, software, mobile devices, and internet companies. | Technology Media | [RSS](https://www.ithome.com/rss/) | all, chinese, news, tech-media |
+| [TechCrunch](https://techcrunch.com/) | Startups, venture capital, internet products, and the technology industry. | Technology Media | [RSS](https://techcrunch.com/feed/) | all, news, tech-media |
+| [The Verge — News](https://www.theverge.com) | Consumer technology, internet platforms, science, and digital culture. | Technology Media | [RSS](https://www.theverge.com/rss/index.xml) | all, news, tech-media |
+| [WIRED](https://www.wired.com) | In-depth reporting on technology, science, business, and digital society. | Technology Media | [RSS](https://www.wired.com/feed/rss) | all, news, tech-media |
+| [少数派](https://sspai.com) | Digital tools, productivity methods, software experiences, and personal workflows. | Technology Media | [RSS](https://sspai.com/feed) | all, chinese, news, tech-media |
+| [爱范儿](https://www.ifanr.com?utm_source=rss&utm_medium=rss&utm_campaign=) | Chinese coverage of consumer technology, smart devices, and product trends. | Technology Media | [RSS](https://www.ifanr.com/feed) | all, chinese, news, tech-media |
+| [MIT Technology Review](https://www.technologyreview.com/) | In-depth reporting on AI, computing, climate, and biotechnology. | Technology Media | [RSS](https://www.technologyreview.com/feed/) | all, news, tech-media |
+
+</details>
+
+<details>
+<summary>📮 Tech Newsletters & Weeklies · 9</summary>
+
+| Source | Description | Primary category | Feed | Bundles |
+| --- | --- | --- | --- | --- |
+| [Last Week in AI](https://lastweekin.ai) | A weekly digest of AI research, products, and policy. | Tech Newsletters & Weeklies | [RSS](https://lastweekin.ai/feed) | ai, all, engineering, weeklies |
+| [The Batch](https://www.deeplearning.ai/the-batch/) | DeepLearning.AI’s weekly digest of AI news and research. | Tech Newsletters & Weeklies | [RSS](https://rsshub.bestblogs.dev/deeplearning/the-batch) | ai, all, engineering, weeklies |
+| [AIGC Weekly](https://quaily.com/op7418/feed/atom) | A Chinese weekly on generative-AI products, tools, and industry developments. | Tech Newsletters & Weeklies | [RSS](https://quaily.com/op7418/feed/atom) | all, engineering, news, weeklies |
+| [Golang Weekly](https://golangweekly.com/) | A weekly selection of Go articles, tools, projects, and community news. | Tech Newsletters & Weeklies | [RSS](https://golangweekly.com/rss/) | all, engineering, news, weeklies |
+| [大橘和朋友们的周刊](https://rrorangeandfriends.de) | An independent weekly selection of technology, products, and thoughtful reading. | Tech Newsletters & Weeklies | [RSS](https://rrorangeandfriends.de/feed.xml) | all, chinese, engineering, news, weeklies |
+| [潮流周刊](https://weekly.tw93.fun/) | A Chinese weekly of technology notes, open-source projects, products, and life. | Tech Newsletters & Weeklies | [RSS](https://weekly.tw93.fun/rss.xml) | all, chinese, engineering, news, weeklies |
+| [JavaScript Weekly](https://javascriptweekly.com/) | A weekly selection of JavaScript news, articles, tools, and projects. | Tech Newsletters & Weeklies | [RSS](https://javascriptweekly.com/rss/) | all, engineering, weeklies |
+| [This Week in Rust](https://this-week-in-rust.org/) | A weekly digest of Rust projects, articles, releases, and community updates. | Tech Newsletters & Weeklies | [RSS](https://this-week-in-rust.org/atom.xml) | all, engineering, weeklies |
+| [阮一峰的网络日志](https://www.ruanyifeng.com/blog/) | Ruan Yifeng’s technical writing and weekly selection of developer tools, internet topics, and open-source projects. | Tech Newsletters & Weeklies | [RSS](https://www.ruanyifeng.com/blog/atom.xml) | all, blogs, chinese, engineering, weeklies |
+
+</details>
+
+<details>
+<summary>🔬 Research & Science · 19</summary>
+
+| Source | Description | Primary category | Feed | Bundles |
+| --- | --- | --- | --- | --- |
+| [AAAS: Science: Table of Contents](https://www.science.org/loi/science?af=R) | Research and science feed. | Research & Science | [RSS](https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science) | all, research |
+| [All Top News -- ScienceDaily](https://www.sciencedaily.com/news/top/) | Research and science feed. | Research & Science | [RSS](https://www.sciencedaily.com/rss/top/science.xml) | all, research |
+| [Amazon Science](https://www.amazon.science/) | Research and science feed. | Research & Science | [RSS](https://www.amazon.science/index.rss) | all, company-tech, research |
+| [BBC News — Science](https://www.bbc.co.uk/news/science_and_environment) | Research and science feed. | Research & Science | [RSS](https://feeds.bbci.co.uk/news/science_and_environment/rss.xml) | all, research |
+| [eLife: latest articles](https://elifesciences.org) | Research and science feed. | Research & Science | [RSS](https://elifesciences.org/rss/recent.xml) | all, research |
+| [FlowingData](https://flowingdata.com) | Research and science feed. | Research & Science | [RSS](https://flowingdata.com/feed) | all, research |
+| [Latest Science News -- ScienceDaily](https://www.sciencedaily.com/news/) | Research and science feed. | Research & Science | [RSS](https://www.sciencedaily.com/rss/all.xml) | all, research |
+| [NASA](https://www.nasa.gov) | Research and science feed. | Research & Science | [RSS](https://www.nasa.gov/news-release/feed/) | all, research |
+| [Nature](http://feeds.nature.com/nature/rss/current) | Research and science feed. | Research & Science | [RSS](https://www.nature.com/nature.rss) | all, research |
+| [NYT > Science](https://www.nytimes.com/section/science) | Research and science feed. | Research & Science | [RSS](https://rss.nytimes.com/services/xml/rss/nyt/Science.xml) | all, research |
+| [Phys.org - latest science and technology news stories](https://phys.org/) | Research and science feed. | Research & Science | [RSS](https://phys.org/rss-feed/) | all, research |
+| [PLOS One](https://journals.plos.org/plosone/) | Research and science feed. | Research & Science | [RSS](https://journals.plos.org/plosone/feed/atom) | all, research |
+| [Quanta Magazine](https://www.quantamagazine.org) | Research and science feed. | Research & Science | [RSS](https://www.quantamagazine.org/feed/) | all, research |
+| [Science Latest](https://www.wired.com) | Research and science feed. | Research & Science | [RSS](https://www.wired.com/feed/category/science/latest/rss) | all, research |
+| [Scientific American Content: Global](https://www.scientificamerican.com) | Research and science feed. | Research & Science | [RSS](http://rss.sciam.com/ScientificAmerican-Global) | all, research |
+| [Space \| The Guardian](https://www.theguardian.com/science/space) | Research and science feed. | Research & Science | [RSS](https://www.theguardian.com/science/space/rss) | all, research |
+| [Space – latest in science and technology \| New Scientist](https://www.newscientist.com/subject/space/) | Research and science feed. | Research & Science | [RSS](https://www.newscientist.com/subject/space/feed/) | all, research |
+| [腾讯研究院](https://wechat2rss.bestblogs.dev/feed/6152301e0978bffb0a8284cab339262b9764dcfb.xml) | Research and science feed. | Research & Science | [RSS](https://wechat2rss.bestblogs.dev/feed/6152301e0978bffb0a8284cab339262b9764dcfb.xml) | all, chinese, company-tech, research, wechat |
+| [阿里研究院](https://wechat2rss.bestblogs.dev/feed/e2f1190c120f7f3d74b630bfcfe9e58296bd535c.xml) | Research and science feed. | Research & Science | [RSS](https://wechat2rss.bestblogs.dev/feed/e2f1190c120f7f3d74b630bfcfe9e58296bd535c.xml) | all, chinese, company-tech, research, wechat |
+
+</details>
+
+<details>
+<summary>🗞️ News · 22</summary>
+
+| Source | Description | Primary category | Feed | Bundles |
+| --- | --- | --- | --- | --- |
 | [Al Jazeera – Breaking News, World News and Video from Al Jazeera](https://www.aljazeera.com) | News feed. | News | [RSS](https://www.aljazeera.com/xml/rss/all.xml) | all, news |
 | [BBC News — News](https://www.bbc.co.uk/news/world) | News feed. | News | [RSS](https://feeds.bbci.co.uk/news/world/rss.xml) | all, news |
 | [Cointelegraph.com News](https://cointelegraph.com) | News feed. | News | [RSS](https://cointelegraph.com/rss/tag/blockchain) | all, news |
-| [Engadget - Technology News & Expert Reviews](https://www.engadget.com/) | News feed. | News | [RSS](https://www.engadget.com/rss.xml) | all, news |
-| [Golang Weekly](https://golangweekly.com/) | News feed. | News | [RSS](https://golangweekly.com/rss/) | all, news |
 | [HackerNews每日摘要 on SuperTechFans](https://supertechfans.com/cn/) | News feed. | News | [RSS](https://www.supertechfans.com/cn/index.xml) | all, chinese, news |
 | [InfoQ — News](https://www.infoq.com) | News feed. | News | [RSS](https://feed.infoq.com/) | all, news |
 | [InfoQ 推荐](https://www.infoq.cn) | News feed. | News | [RSS](https://plink.anyfeeder.com/infoq/recommend) | all, chinese, news |
-| [IT之家](https://www.ithome.com/) | News feed. | News | [RSS](https://www.ithome.com/rss/) | all, chinese, news |
 | [MIT 科技评论 - 本周热榜](https://www.mittrchina.com/hot) | News feed. | News | [RSS](https://rsshub.bestblogs.dev/mittrchina/hot) | all, chinese, news |
 | [News from Google](https://blog.google/) | News feed. | News | [RSS](https://blog.google/rss) | all, engineering, news |
 | [NPR Topics: World](https://www.npr.org/templates/story/story.php?storyId=1004) | News feed. | News | [RSS](https://feeds.npr.org/1004/rss.xml) | all, news |
 | [NYT > Technology](https://www.nytimes.com/section/technology) | News feed. | News | [RSS](https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml) | all, news |
 | [NYT > World News](https://www.nytimes.com/section/world) | News feed. | News | [RSS](https://rss.nytimes.com/services/xml/rss/nyt/World.xml) | all, news |
 | [ProPublica](https://www.propublica.org/) | News feed. | News | [RSS](https://www.propublica.org/feeds/propublica/main) | all, news |
-| [TechCrunch](https://techcrunch.com/) | News feed. | News | [RSS](https://techcrunch.com/feed/) | all, news |
-| [The Verge — News](https://www.theverge.com) | News feed. | News | [RSS](https://www.theverge.com/rss/index.xml) | all, news |
 | [Top stories - Google News](https://news.google.com/?hl=en-US&gl=US&ceid=US:en) | News feed. | News | [RSS](https://news.google.com/rss) | all, news |
-| [WIRED](https://www.wired.com) | News feed. | News | [RSS](https://www.wired.com/feed/rss) | all, news |
 | [World](https://www.washingtonpost.com) | News feed. | News | [RSS](https://feeds.washingtonpost.com/rss/world) | all, news |
 | [World news \| The Guardian](https://www.theguardian.com/world) | News feed. | News | [RSS](https://www.theguardian.com/world/rss) | all, news |
 | [World News, Today World News, Latest International News, World Breaking News, Trending News of World - Times of India](https://timesofindia.indiatimes.com/world) | News feed. | News | [RSS](https://timesofindia.indiatimes.com/rssfeeds/296589292.cms) | all, news |
-| [大橘和朋友们的周刊](https://rrorangeandfriends.de) | News feed. | News | [RSS](https://rrorangeandfriends.de/feed.xml) | all, chinese, news |
 | [奇客Solidot–传递最新科技情报](https://www.solidot.org) | News feed. | News | [RSS](https://www.solidot.org/index.rss) | all, chinese, news |
-| [安全客-有思想的安全新媒体](https://www.anquanke.com) | News feed. | News | [RSS](https://api.anquanke.com/data/v1/rss) | all, chinese, news |
-| [少数派](https://sspai.com) | News feed. | News | [RSS](https://sspai.com/feed) | all, chinese, news |
 | [掘金本周最热](https://juejin.im/recommended?sort=weekly_hottest) | News feed. | News | [RSS](https://rsshub.bestblogs.dev/juejin/trending/all/weekly) | all, chinese, news |
-| [潮流周刊](https://weekly.tw93.fun/) | News feed. | News | [RSS](https://weekly.tw93.fun/rss.xml) | all, chinese, news |
 | [站长之家](http://www.chinaz.com) | News feed. | News | [RSS](https://app.chinaz.com/?app=rss) | all, chinese, news |
 | [蓝点网](https://www.landian.news) | News feed. | News | [RSS](https://www.landiannews.com/feed) | all, chinese, news |
 | [虎嗅](https://www.huxiu.com) | News feed. | News | [RSS](https://rss.huxiu.com/) | all, chinese, news |
@@ -580,7 +594,33 @@ All 707 feeds in the complete collection are listed below with their primary cat
 </details>
 
 <details>
-<summary>Personal Blogs · 65</summary>
+<summary>🎨 Product & Design · 5</summary>
+
+| Source | Description | Primary category | Feed | Bundles |
+| --- | --- | --- | --- | --- |
+| [61’s life](https://61.life/) | Chinese independent blog. | Product & Design | [RSS](https://61.life/feed.xml) | all, blogs, chinese |
+| [jax](https://cdjax.com) | Chinese independent blog. | Product & Design | [RSS](https://cdjax.com/?feed=rss2) | all, blogs, chinese |
+| [Velas电波站](https://www.velasx.com/) | Chinese independent blog. | Product & Design | [RSS](https://www.velasx.com/feed) | all, blogs, chinese |
+| [拾月的博客](https://www.skyue.com/) | Chinese independent blog. | Product & Design | [RSS](https://www.skyue.com/feed/) | all, blogs, chinese |
+| [阿里云设计中心](https://wechat2rss.xlab.app/feed/31e04606d37f684059e23a8fd3e05f1db0186495.xml) | WeChat article feed covering 产品设计与用户体验. | Product & Design | [RSS](https://wechat2rss.xlab.app/feed/31e04606d37f684059e23a8fd3e05f1db0186495.xml) | all, chinese, company-tech, wechat |
+
+</details>
+
+<details>
+<summary>💼 Business & Startups · 5</summary>
+
+| Source | Description | Primary category | Feed | Bundles |
+| --- | --- | --- | --- | --- |
+| [Macin](https://macin.org/atom.xml) | Chinese independent blog. | Business & Startups | [RSS](https://www.macin.org/atom.xml) | all, blogs, chinese |
+| [扯氮集](http://weiwuhui.com) | Chinese independent blog. | Business & Startups | [RSS](http://weiwuhui.com/feed) | all, blogs, chinese |
+| [知足常乐-水星投资理财的基本意念](http://mercurychong.blogspot.com/) | Chinese independent blog. | Business & Startups | [RSS](http://mercurychong.blogspot.com/feeds/posts/default) | all, blogs, chinese |
+| [虹线](https://1q43.blog) | Chinese independent blog. | Business & Startups | [RSS](https://1q43.blog/feed) | all, blogs, chinese |
+| [雷蒙三十｜幫助忙碌現代人的聰明工作、好好生活的生產力指南](https://raymondhouch.com) | Chinese independent blog. | Business & Startups | [RSS](https://raymondhouch.com/feed) | all, blogs, chinese |
+
+</details>
+
+<details>
+<summary>✍️ Personal Blogs · 64</summary>
 
 | Source | Description | Primary category | Feed | Bundles |
 | --- | --- | --- | --- | --- |
@@ -641,7 +681,6 @@ All 707 feeds in the complete collection are listed below with their primary cat
 | [柴郡猫](https://www.cheshirex.com) | Chinese independent blog. | Personal Blogs | [RSS](https://www.cheshirex.com/feed) | all, blogs, chinese |
 | [梅之夏](https://blog.mcenahle.page/) | Chinese independent blog. | Personal Blogs | [RSS](https://blog.mcenahle.page/feed.xml) | all, blogs, chinese |
 | [涵哲子居](https://iluc.cn/) | Chinese independent blog. | Personal Blogs | [RSS](https://iluc.cn/rss.xml) | all, blogs, chinese |
-| [爱范儿](https://www.ifanr.com?utm_source=rss&utm_medium=rss&utm_campaign=) | Independent blog. | Personal Blogs | [RSS](https://www.ifanr.com/feed) | all, chinese, news |
 | [玉明-风起于青萍之末](https://xdym11235.com/) | Chinese independent blog. | Personal Blogs | [RSS](https://xdym11235.com/feed) | all, blogs, chinese |
 | [祝融说。](https://zhurongshuo.com/) | Chinese independent blog. | Personal Blogs | [RSS](https://zhurongshuo.com/index.xml) | all, blogs, chinese |
 | [纸短情长](https://www.gtdstudy.com/) | Chinese independent blog. | Personal Blogs | [RSS](http://yibie.github.io/index.xml) | all, blogs, chinese |
@@ -653,128 +692,47 @@ All 707 feeds in the complete collection are listed below with their primary cat
 </details>
 
 <details>
-<summary>Podcasts · 73</summary>
+<summary>👥 Communities · 14</summary>
 
 | Source | Description | Primary category | Feed | Bundles |
 | --- | --- | --- | --- | --- |
-| [30 for 30 Podcasts](http://espnradio.espn.com/espnradio/index) | Podcast. | Podcasts | [RSS](https://feeds.megaphone.fm/ESP5765452710) | all, podcasts |
-| [42章经 — Podcast](https://www.xiaoyuzhoufm.com/podcast/648b0b641c48983391a63f98) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/648b0b641c48983391a63f98) | all, chinese, podcasts |
-| [AI炼金术 — Podcast](https://www.xiaoyuzhoufm.com/podcast/63e9ef4de99bdef7d39944c8) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63e9ef4de99bdef7d39944c8) | ai, all, chinese, podcasts |
-| [Darknet Diaries](https://darknetdiaries.com/) | Podcast. | Podcasts | [RSS](https://feeds.megaphone.fm/darknetdiaries) | all, podcasts |
-| [Discovery](http://www.bbc.co.uk/programmes/p002w557) | Podcast. | Podcasts | [RSS](https://podcasts.files.bbci.co.uk/p002w557.rss) | all, podcasts |
-| [Fragmented - AI Developer Podcast](https://fragmentedpodcast.com/) | Podcast. | Podcasts | [RSS](https://feeds.simplecast.com/LpAGSLnY) | ai, all, podcasts |
-| [Gastropod](https://gastropod.com/) | Podcast. | Podcasts | [RSS](https://www.omnycontent.com/d/playlist/aaea4e69-af51-495e-afc9-a9760146922b/2a195077-f014-41d2-8313-ab190186b4c2/277bcd5c-0a05-4c14-8ba6-ab190186b4d5/podcast.rss) | all, podcasts |
-| [Hacking Humans](https://thecyberwire.com/podcasts/hacking-humans) | Podcast. | Podcasts | [RSS](https://feeds.megaphone.fm/hacking-humans) | all, podcasts |
-| [Hanselminutes with Scott Hanselman](https://www.hanselminutes.com) | Podcast. | Podcasts | [RSS](https://feeds.simplecast.com/gvtxUiIf) | all, podcasts |
-| [Invest Like the Best with Patrick O'Shaughnessy](https://colossus.com/) | Podcast. | Podcasts | [RSS](https://investlikethebest.libsyn.com/rss) | all, podcasts |
-| [Invisibilia](https://www.npr.org/podcasts/510307/invisibilia) | Podcast. | Podcasts | [RSS](https://feeds.npr.org/510307/podcast.xml) | all, podcasts |
-| [Planet Money](https://www.npr.org/podcasts/510289/planet-money) | Podcast. | Podcasts | [RSS](https://feeds.npr.org/510289/podcast.xml) | all, podcasts |
-| [Reply All](http://gimletmedia.com/shows/reply-all) | Podcast. | Podcasts | [RSS](https://feeds.megaphone.fm/replyall) | all, podcasts |
-| [The Cynical Developer](https://cynical.dev/) | Podcast. | Podcasts | [RSS](https://cynicaldeveloper.com/feed/podcast) | all, podcasts |
-| [The Startup Junkies Podcast](https://www.startupjunkie.org/podcast) | Podcast. | Podcasts | [RSS](https://startupjunkie.libsyn.com/rss) | all, podcasts |
-| [The Vergecast](https://www.theverge.com/the-vergecast) | Podcast. | Podcasts | [RSS](https://feeds.megaphone.fm/vergecast) | all, podcasts |
-| [Throughline](https://www.npr.org/podcasts/510333/throughline) | Podcast. | Podcasts | [RSS](https://feeds.npr.org/510333/podcast.xml) | all, podcasts |
-| [TIANYU2FM — 对谈未知领域](https://www.xiaoyuzhoufm.com/podcast/5f22729f9504bbdb77253e46) | Podcast. | Podcasts | [RSS](https://rsshub.xiaowuaiblog.com/xiaoyuzhou/podcast/5f22729f9504bbdb77253e46) | all, chinese, podcasts |
-| [What's Next｜科技早知道](https://www.xiaoyuzhoufm.com/podcast/5e74b52c418a84a046ecaceb) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e74b52c418a84a046ecaceb) | all, chinese, podcasts |
-| [一席](https://www.xiaoyuzhoufm.com/podcast/5e285326418a84a04627343f) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e285326418a84a04627343f) | all, chinese, podcasts |
-| [三五环](https://www.xiaoyuzhoufm.com/podcast/5e280fab418a84a0461faa3c) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280fab418a84a0461faa3c) | all, chinese, podcasts |
-| [不合时宜](https://www.xiaoyuzhoufm.com/podcast/5e280fb8418a84a0461fd076) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280fb8418a84a0461fd076) | all, chinese, podcasts |
-| [东亚观察局](https://www.xiaoyuzhoufm.com/podcast/5e9a4e25418a84a046bc6156) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e9a4e25418a84a046bc6156) | all, chinese, podcasts |
-| [东腔西调](https://www.xiaoyuzhoufm.com/podcast/5f72b66083c34e85dd14fde9) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5f72b66083c34e85dd14fde9) | all, chinese, podcasts |
-| [乱翻书](https://www.xiaoyuzhoufm.com/podcast/61358d971c5d56efe5bcb5d2) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61358d971c5d56efe5bcb5d2) | all, chinese, podcasts |
-| [人民公园说AI](https://www.xiaoyuzhoufm.com/podcast/65257ff6e8ce9deaf70a65e9) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65257ff6e8ce9deaf70a65e9) | ai, all, chinese, podcasts |
-| [保持偏见](https://www.xiaoyuzhoufm.com/podcast/663e3c95af1e22bb157dcee3) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/663e3c95af1e22bb157dcee3) | all, chinese, podcasts |
-| [信号与噪声](https://www.xiaoyuzhoufm.com/podcast/6819d5a7e37664602a344e0e) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6819d5a7e37664602a344e0e) | ai, all, chinese, podcasts |
-| [凹凸电波](https://www.xiaoyuzhoufm.com/podcast/5e2839ca418a84a0462431b7) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2839ca418a84a0462431b7) | all, chinese, podcasts |
-| [十字路口Crossing — Podcast](https://www.xiaoyuzhoufm.com/podcast/60502e253c92d4f62c2a9577) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/60502e253c92d4f62c2a9577) | ai, all, chinese, podcasts |
-| [半拿铁 \| 商业沉浮录](https://www.xiaoyuzhoufm.com/podcast/62382c1103bea1ebfffa1c00) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62382c1103bea1ebfffa1c00) | all, chinese, podcasts |
-| [卫诗婕｜漫谈Light the Star](https://www.xiaoyuzhoufm.com/podcast/6627fda4b56459544087d86a) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6627fda4b56459544087d86a) | all, chinese, podcasts |
-| [商业就是这样](https://www.xiaoyuzhoufm.com/podcast/6022a180ef5fdaddc30bb101) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6022a180ef5fdaddc30bb101) | all, chinese, podcasts |
-| [声东击西](https://www.xiaoyuzhoufm.com/podcast/5e2831ed418a84a046231c00) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2831ed418a84a046231c00) | all, chinese, podcasts |
-| [声动早咖啡](https://www.xiaoyuzhoufm.com/podcast/60de7c003dd577b40d5a40f3) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/60de7c003dd577b40d5a40f3) | all, chinese, podcasts |
-| [天真不天真](https://www.xiaoyuzhoufm.com/podcast/65cef9e3cace72dff8d98de3) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65cef9e3cace72dff8d98de3) | all, chinese, podcasts |
-| [屠龙之术](https://www.xiaoyuzhoufm.com/podcast/6507bc165c88d2412626b401) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6507bc165c88d2412626b401) | all, chinese, podcasts |
-| [岩中花述](https://www.xiaoyuzhoufm.com/podcast/625635587bfca4e73e990703) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/625635587bfca4e73e990703) | all, chinese, podcasts |
-| [开始连接 LinkStart](https://www.xiaoyuzhoufm.com/podcast/63ff0da51b1faf8a0b70b337) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63ff0da51b1faf8a0b70b337) | all, chinese, podcasts |
-| [张小珺Jùn｜商业访谈录](https://www.xiaoyuzhoufm.com/podcast/626b46ea9cbbf0451cf5a962) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/626b46ea9cbbf0451cf5a962) | all, chinese, podcasts |
-| [忽左忽右](https://www.xiaoyuzhoufm.com/podcast/5e4ee557418a84a0466737b7) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4ee557418a84a0466737b7) | all, chinese, podcasts |
-| [慢速生长](https://www.xiaoyuzhoufm.com/podcast/668d00c38fcadceb90158ac1) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/668d00c38fcadceb90158ac1) | all, chinese, podcasts |
-| [捕蛇者说](https://www.xiaoyuzhoufm.com/podcast/5e2864f7418a84a04628f2da) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2864f7418a84a04628f2da) | all, chinese, podcasts |
-| [搞钱女孩](https://www.xiaoyuzhoufm.com/podcast/63d945ece725b5378a158d29) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63d945ece725b5378a158d29) | all, chinese, podcasts |
-| [文化有限](https://www.xiaoyuzhoufm.com/podcast/5e4515bd418a84a046e2b11a) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4515bd418a84a046e2b11a) | all, chinese, podcasts |
-| [晚点聊 LateTalk](https://www.xiaoyuzhoufm.com/podcast/61933ace1b4320461e91fd55) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61933ace1b4320461e91fd55) | all, chinese, podcasts |
-| [李诞](https://www.xiaoyuzhoufm.com/podcast/65bb55f6513a776b57dedb32) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65bb55f6513a776b57dedb32) | all, chinese, podcasts |
-| [枫言枫语 — Podcast](https://www.xiaoyuzhoufm.com/podcast/5e2864f5418a84a04628e249) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2864f5418a84a04628e249) | all, chinese, podcasts |
-| [此话当真](https://www.xiaoyuzhoufm.com/podcast/646f194853a5e5ea1408d97c) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/646f194853a5e5ea1408d97c) | all, chinese, podcasts |
-| [游荡集](https://www.xiaoyuzhoufm.com/podcast/6163ca67c8c1d14e83366b31) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6163ca67c8c1d14e83366b31) | all, chinese, podcasts |
-| [牛油果烤面包](https://www.xiaoyuzhoufm.com/podcast/5e7c8b2b418a84a046e3ecbc) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e7c8b2b418a84a046e3ecbc) | all, chinese, podcasts |
-| [独树不成林](https://www.xiaoyuzhoufm.com/podcast/64acd33c7a3d479103fbd32d) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/64acd33c7a3d479103fbd32d) | all, chinese, podcasts |
-| [疯投圈](https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fbd39) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280faf418a84a0461fbd39) | all, chinese, podcasts |
-| [皮蛋漫游记](https://www.xiaoyuzhoufm.com/podcast/6281264ad22bcf3950c80b56) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6281264ad22bcf3950c80b56) | all, chinese, podcasts |
-| [看理想圆桌](https://www.xiaoyuzhoufm.com/podcast/5e4ff4c7418a84a046977618) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4ff4c7418a84a046977618) | all, chinese, podcasts |
-| [知行小酒馆](https://www.xiaoyuzhoufm.com/podcast/6013f9f58e2f7ee375cf4216) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6013f9f58e2f7ee375cf4216) | all, chinese, podcasts |
-| [硅谷101 — Podcast](https://www.xiaoyuzhoufm.com/podcast/5e5c52c9418a84a04625e6cc) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e5c52c9418a84a04625e6cc) | all, chinese, podcasts |
-| [硬地骇客](https://www.xiaoyuzhoufm.com/podcast/640ee2438be5d40013fe4a87) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/640ee2438be5d40013fe4a87) | all, chinese, podcasts |
-| [科技乱炖](https://www.xiaoyuzhoufm.com/podcast/5e4243cd418a84a0469573fb) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4243cd418a84a0469573fb) | all, chinese, podcasts |
-| [第一财经](https://www.xiaoyuzhoufm.com/podcast/64c75555e8176c3ff81de98c) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/64c75555e8176c3ff81de98c) | all, chinese, podcasts |
-| [纵横四海](https://www.xiaoyuzhoufm.com/podcast/62694abdb221dd5908417d1e) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62694abdb221dd5908417d1e) | all, chinese, podcasts |
-| [罗永浩的十字路口](https://www.xiaoyuzhoufm.com/podcast/68981df29e7bcd326eb91d88) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/68981df29e7bcd326eb91d88) | all, chinese, podcasts |
-| [肥话连篇](https://www.xiaoyuzhoufm.com/podcast/61d50d72ee197a3aac3dac42) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61d50d72ee197a3aac3dac42) | all, chinese, podcasts |
-| [自习室 STUDY ROOM](https://www.xiaoyuzhoufm.com/podcast/65a5fb7540d4ef949c0140ac) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65a5fb7540d4ef949c0140ac) | all, chinese, podcasts |
-| [自我进化论](https://www.xiaoyuzhoufm.com/podcast/5e5de5cb418a84a0467beb90) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e5de5cb418a84a0467beb90) | all, chinese, podcasts |
-| [蒋方舟·一寸](https://www.xiaoyuzhoufm.com/podcast/67c7eeb07ac3e30992e75a2f) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/67c7eeb07ac3e30992e75a2f) | all, chinese, podcasts |
-| [诗梳风](https://www.xiaoyuzhoufm.com/podcast/696496f4db4738160d5fabde) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/696496f4db4738160d5fabde) | all, chinese, podcasts |
-| [谭立人](https://www.xiaoyuzhoufm.com/podcast/65a2d0f07242f9fc1c1df60a) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65a2d0f07242f9fc1c1df60a) | all, chinese, podcasts |
-| [起朱楼宴宾客](https://www.xiaoyuzhoufm.com/podcast/61dd99a47b29652ff572257b) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61dd99a47b29652ff572257b) | all, chinese, podcasts |
-| [跨国串门儿计划](https://www.xiaoyuzhoufm.com/podcast/670f3da40d2f24f28978736f) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/670f3da40d2f24f28978736f) | ai, all, chinese, podcasts |
-| [随机波动StochasticVolatility](https://www.xiaoyuzhoufm.com/podcast/5e7cc741418a84a046b0c2bd) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e7cc741418a84a046b0c2bd) | all, chinese, podcasts |
-| [面基](https://www.xiaoyuzhoufm.com/podcast/6388760f22567e8ea6ad070f) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6388760f22567e8ea6ad070f) | all, chinese, podcasts |
-| [高能量](https://www.xiaoyuzhoufm.com/podcast/62c6ae08c4eaa82b112b9c84) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62c6ae08c4eaa82b112b9c84) | all, chinese, podcasts |
+| [V2EX](https://www.v2ex.com/) | New discussions from the Chinese technology community. | Communities | [RSS](https://v2ex.com/index.xml) | all, chinese, news, communities |
+| [LINUX DO · 文档共建](https://linux.do/c/wiki/42) | Tutorials, study notes, and community-maintained documents from LINUX DO. | Communities | [RSS](https://linuxdorss.longpink.com/wiki.xml) | all, chinese, engineering, communities |
+| [Reddit · Linux, Self-Hosted, DevOps & AI](https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/) | A combined feed of new Linux, self-hosting, DevOps, LocalLLaMA, and machine-learning posts. | Communities | [RSS](https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/.rss) | ai, all, engineering, communities |
+| [Lobsters](https://lobste.rs/) | Community-curated discussions about software, programming, and computer science. | Communities | [RSS](https://lobste.rs/rss) | all, engineering, communities |
+| [Python Core Development](https://discuss.python.org/c/core-dev/23) | Discussions about Python core development and interpreter design. | Communities | [RSS](https://discuss.python.org/c/core-dev/23.rss?order=created) | all, engineering, communities |
+| [Rust Internals · Language Design](https://internals.rust-lang.org/c/language-design/21) | Discussions about Rust language design and compiler internals. | Communities | [RSS](https://internals.rust-lang.org/c/language-design/21.rss?order=created) | all, engineering, communities |
+| [NixOS Development](https://discourse.nixos.org/c/dev/14) | Discussions about NixOS development, packaging, and infrastructure. | Communities | [RSS](https://discourse.nixos.org/c/dev/14.rss?order=created) | all, engineering, communities |
+| [OpenAI Developer Community · API](https://community.openai.com/c/api/7) | Discussions about using, debugging, and integrating the OpenAI API. | Communities | [RSS](https://community.openai.com/c/api/7.rss?order=created) | ai, all, engineering, communities |
+| [Kubernetes · General Discussions](https://discuss.kubernetes.io/c/general-discussions/6) | Discussions about Kubernetes configuration, cluster operations, and troubleshooting. | Communities | [RSS](https://discuss.kubernetes.io/c/general-discussions/6.rss?order=created) | all, engineering, communities |
+| [V2EX · 技术](https://www.v2ex.com/?tab=tech) | New topics from V2EX’s technology section, focused on programming, architecture, and developer tools. | Communities | [RSS](https://www.v2ex.com/feed/tab/tech.xml) | all, chinese, communities, engineering |
+| [V2EX · 创意](https://www.v2ex.com/?tab=creative) | New topics from V2EX’s creative section, centered on indie products, design, and launches. | Communities | [RSS](https://www.v2ex.com/feed/tab/creative.xml) | all, chinese, communities, engineering |
+| [Show HN](https://news.ycombinator.com/shownew) | New products, open-source projects, and personal work shared on Hacker News. | Communities | [RSS](https://hnrss.org/show) | all, communities, engineering |
+| [Ask HN](https://news.ycombinator.com/ask) | Hacker News questions on technical choices, career experience, and the industry. | Communities | [RSS](https://hnrss.org/ask) | all, communities, engineering |
+| [Hacker News](https://news.ycombinator.com/) | Popular technology, startup, and product discussions from the Hacker News front page. | Communities | [RSS](https://news.ycombinator.com/rss) | all, communities, engineering |
 
 </details>
 
 <details>
-<summary>Product & Design · 5</summary>
+<summary>📚 Culture & Ideas · 10</summary>
 
 | Source | Description | Primary category | Feed | Bundles |
 | --- | --- | --- | --- | --- |
-| [61’s life](https://61.life/) | Chinese independent blog. | Product & Design | [RSS](https://61.life/feed.xml) | all, blogs, chinese |
-| [jax](https://cdjax.com) | Chinese independent blog. | Product & Design | [RSS](https://cdjax.com/?feed=rss2) | all, blogs, chinese |
-| [Velas电波站](https://www.velasx.com/) | Chinese independent blog. | Product & Design | [RSS](https://www.velasx.com/feed) | all, blogs, chinese |
-| [拾月的博客](https://www.skyue.com/) | Chinese independent blog. | Product & Design | [RSS](https://www.skyue.com/feed/) | all, blogs, chinese |
-| [阿里云设计中心](https://wechat2rss.xlab.app/feed/31e04606d37f684059e23a8fd3e05f1db0186495.xml) | WeChat article feed covering 产品设计与用户体验. | Product & Design | [RSS](https://wechat2rss.xlab.app/feed/31e04606d37f684059e23a8fd3e05f1db0186495.xml) | all, chinese, company-tech, wechat |
+| [KAIX.IN](https://kaix.in/) | Chinese independent blog. | Culture & Ideas | [RSS](https://kaix.in/feed/) | all, blogs, chinese |
+| [Maohang Gao's Blog](http://kangaroogao.com/atom.xml) | Chinese independent blog. | Culture & Ideas | [RSS](https://kangaroogao.com/atom.xml) | all, blogs, chinese |
+| [ShineKid](https://shinekid.com) | Chinese independent blog. | Culture & Ideas | [RSS](https://shinekid.com/feed/) | all, blogs, chinese |
+| [Tripper Press - Take Photo, Think Seriously.](https://tripper.press) | Chinese independent blog. | Culture & Ideas | [RSS](https://tripper.press/atom.xml) | all, blogs, chinese |
+| [东评西就](https://dongjunke.cn/) | Chinese independent blog. | Culture & Ideas | [RSS](https://dongjunke.cn/atom.xml) | all, blogs, chinese |
+| [先生制造](https://wechat2rss.xlab.app/feed/313326d41db4f54b1cc09e7c986a5ac4e5f88ca0.xml) | WeChat article feed covering 人物与社会记录. | Culture & Ideas | [RSS](https://wechat2rss.xlab.app/feed/313326d41db4f54b1cc09e7c986a5ac4e5f88ca0.xml) | all, chinese, wechat |
+| [叉息的空中咖啡馆](https://www.xchere.xyz/atom.xml) | Chinese independent blog. | Culture & Ideas | [RSS](https://www.xchere.xyz/atom.xml) | all, blogs, chinese |
+| [浅黑科技](https://wechat2rss.xlab.app/feed/6111a6d5ecf28cfdd4fc9b664244c05ddacef15c.xml) | WeChat article feed covering 科技人物与产业故事. | Culture & Ideas | [RSS](https://wechat2rss.xlab.app/feed/6111a6d5ecf28cfdd4fc9b664244c05ddacef15c.xml) | all, chinese, wechat |
+| [赫赫文王](https://kqh.me/) | Chinese independent blog. | Culture & Ideas | [RSS](https://kqh.me/index.xml) | all, blogs, chinese |
+| [静风说](https://www.jfsay.com) | Chinese independent blog. | Culture & Ideas | [RSS](http://www.jfsay.com/feed) | all, blogs, chinese |
 
 </details>
 
 <details>
-<summary>Research & Science · 19</summary>
-
-| Source | Description | Primary category | Feed | Bundles |
-| --- | --- | --- | --- | --- |
-| [AAAS: Science: Table of Contents](https://www.science.org/loi/science?af=R) | Research and science feed. | Research & Science | [RSS](https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science) | all, research |
-| [All Top News -- ScienceDaily](https://www.sciencedaily.com/news/top/) | Research and science feed. | Research & Science | [RSS](https://www.sciencedaily.com/rss/top/science.xml) | all, research |
-| [Amazon Science](https://www.amazon.science/) | Research and science feed. | Research & Science | [RSS](https://www.amazon.science/index.rss) | all, company-tech, research |
-| [BBC News — Science](https://www.bbc.co.uk/news/science_and_environment) | Research and science feed. | Research & Science | [RSS](https://feeds.bbci.co.uk/news/science_and_environment/rss.xml) | all, research |
-| [eLife: latest articles](https://elifesciences.org) | Research and science feed. | Research & Science | [RSS](https://elifesciences.org/rss/recent.xml) | all, research |
-| [FlowingData](https://flowingdata.com) | Research and science feed. | Research & Science | [RSS](https://flowingdata.com/feed) | all, research |
-| [Latest Science News -- ScienceDaily](https://www.sciencedaily.com/news/) | Research and science feed. | Research & Science | [RSS](https://www.sciencedaily.com/rss/all.xml) | all, research |
-| [NASA](https://www.nasa.gov) | Research and science feed. | Research & Science | [RSS](https://www.nasa.gov/news-release/feed/) | all, research |
-| [Nature](http://feeds.nature.com/nature/rss/current) | Research and science feed. | Research & Science | [RSS](https://www.nature.com/nature.rss) | all, research |
-| [NYT > Science](https://www.nytimes.com/section/science) | Research and science feed. | Research & Science | [RSS](https://rss.nytimes.com/services/xml/rss/nyt/Science.xml) | all, research |
-| [Phys.org - latest science and technology news stories](https://phys.org/) | Research and science feed. | Research & Science | [RSS](https://phys.org/rss-feed/) | all, research |
-| [PLOS One](https://journals.plos.org/plosone/) | Research and science feed. | Research & Science | [RSS](https://journals.plos.org/plosone/feed/atom) | all, research |
-| [Quanta Magazine](https://www.quantamagazine.org) | Research and science feed. | Research & Science | [RSS](https://www.quantamagazine.org/feed/) | all, research |
-| [Science Latest](https://www.wired.com) | Research and science feed. | Research & Science | [RSS](https://www.wired.com/feed/category/science/latest/rss) | all, research |
-| [Scientific American Content: Global](https://www.scientificamerican.com) | Research and science feed. | Research & Science | [RSS](http://rss.sciam.com/ScientificAmerican-Global) | all, research |
-| [Space \| The Guardian](https://www.theguardian.com/science/space) | Research and science feed. | Research & Science | [RSS](https://www.theguardian.com/science/space/rss) | all, research |
-| [Space – latest in science and technology \| New Scientist](https://www.newscientist.com/subject/space/) | Research and science feed. | Research & Science | [RSS](https://www.newscientist.com/subject/space/feed/) | all, research |
-| [腾讯研究院](https://wechat2rss.bestblogs.dev/feed/6152301e0978bffb0a8284cab339262b9764dcfb.xml) | Research and science feed. | Research & Science | [RSS](https://wechat2rss.bestblogs.dev/feed/6152301e0978bffb0a8284cab339262b9764dcfb.xml) | all, chinese, company-tech, research, wechat |
-| [阿里研究院](https://wechat2rss.bestblogs.dev/feed/e2f1190c120f7f3d74b630bfcfe9e58296bd535c.xml) | Research and science feed. | Research & Science | [RSS](https://wechat2rss.bestblogs.dev/feed/e2f1190c120f7f3d74b630bfcfe9e58296bd535c.xml) | all, chinese, company-tech, research, wechat |
-
-</details>
-
-<details>
-<summary>Videos · 93</summary>
+<summary>🎬 Videos · 93</summary>
 
 | Source | Description | Primary category | Feed | Bundles |
 | --- | --- | --- | --- | --- |
@@ -871,6 +829,87 @@ All 707 feeds in the complete collection are listed below with their primary cat
 | [一席YiXi](https://www.youtube.com/channel/UCKFB_rVEFEF3l-onQGvGx1A) | Video channel. | Videos | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCKFB_rVEFEF3l-onQGvGx1A) | all, chinese, videos |
 | [一条Yit](https://www.youtube.com/channel/UCulFhrW_YCwkq_BP16C82mA) | Video channel. | Videos | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCulFhrW_YCwkq_BP16C82mA) | all, chinese, videos |
 | [李永乐老师](https://www.youtube.com/channel/UCvNxfitQbWkmLuCd44UfrYQ) | Video channel. | Videos | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCvNxfitQbWkmLuCd44UfrYQ) | all, chinese, videos |
+
+</details>
+
+<details>
+<summary>🎧 Podcasts · 73</summary>
+
+| Source | Description | Primary category | Feed | Bundles |
+| --- | --- | --- | --- | --- |
+| [30 for 30 Podcasts](http://espnradio.espn.com/espnradio/index) | Podcast. | Podcasts | [RSS](https://feeds.megaphone.fm/ESP5765452710) | all, podcasts |
+| [42章经 — Podcast](https://www.xiaoyuzhoufm.com/podcast/648b0b641c48983391a63f98) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/648b0b641c48983391a63f98) | all, chinese, podcasts |
+| [AI炼金术 — Podcast](https://www.xiaoyuzhoufm.com/podcast/63e9ef4de99bdef7d39944c8) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63e9ef4de99bdef7d39944c8) | ai, all, chinese, podcasts |
+| [Darknet Diaries](https://darknetdiaries.com/) | Podcast. | Podcasts | [RSS](https://feeds.megaphone.fm/darknetdiaries) | all, podcasts |
+| [Discovery](http://www.bbc.co.uk/programmes/p002w557) | Podcast. | Podcasts | [RSS](https://podcasts.files.bbci.co.uk/p002w557.rss) | all, podcasts |
+| [Fragmented - AI Developer Podcast](https://fragmentedpodcast.com/) | Podcast. | Podcasts | [RSS](https://feeds.simplecast.com/LpAGSLnY) | ai, all, podcasts |
+| [Gastropod](https://gastropod.com/) | Podcast. | Podcasts | [RSS](https://www.omnycontent.com/d/playlist/aaea4e69-af51-495e-afc9-a9760146922b/2a195077-f014-41d2-8313-ab190186b4c2/277bcd5c-0a05-4c14-8ba6-ab190186b4d5/podcast.rss) | all, podcasts |
+| [Hacking Humans](https://thecyberwire.com/podcasts/hacking-humans) | Podcast. | Podcasts | [RSS](https://feeds.megaphone.fm/hacking-humans) | all, podcasts |
+| [Hanselminutes with Scott Hanselman](https://www.hanselminutes.com) | Podcast. | Podcasts | [RSS](https://feeds.simplecast.com/gvtxUiIf) | all, podcasts |
+| [Invest Like the Best with Patrick O'Shaughnessy](https://colossus.com/) | Podcast. | Podcasts | [RSS](https://investlikethebest.libsyn.com/rss) | all, podcasts |
+| [Invisibilia](https://www.npr.org/podcasts/510307/invisibilia) | Podcast. | Podcasts | [RSS](https://feeds.npr.org/510307/podcast.xml) | all, podcasts |
+| [Planet Money](https://www.npr.org/podcasts/510289/planet-money) | Podcast. | Podcasts | [RSS](https://feeds.npr.org/510289/podcast.xml) | all, podcasts |
+| [Reply All](http://gimletmedia.com/shows/reply-all) | Podcast. | Podcasts | [RSS](https://feeds.megaphone.fm/replyall) | all, podcasts |
+| [The Cynical Developer](https://cynical.dev/) | Podcast. | Podcasts | [RSS](https://cynicaldeveloper.com/feed/podcast) | all, podcasts |
+| [The Startup Junkies Podcast](https://www.startupjunkie.org/podcast) | Podcast. | Podcasts | [RSS](https://startupjunkie.libsyn.com/rss) | all, podcasts |
+| [The Vergecast](https://www.theverge.com/the-vergecast) | Podcast. | Podcasts | [RSS](https://feeds.megaphone.fm/vergecast) | all, podcasts |
+| [Throughline](https://www.npr.org/podcasts/510333/throughline) | Podcast. | Podcasts | [RSS](https://feeds.npr.org/510333/podcast.xml) | all, podcasts |
+| [TIANYU2FM — 对谈未知领域](https://www.xiaoyuzhoufm.com/podcast/5f22729f9504bbdb77253e46) | Podcast. | Podcasts | [RSS](https://rsshub.xiaowuaiblog.com/xiaoyuzhou/podcast/5f22729f9504bbdb77253e46) | all, chinese, podcasts |
+| [What's Next｜科技早知道](https://www.xiaoyuzhoufm.com/podcast/5e74b52c418a84a046ecaceb) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e74b52c418a84a046ecaceb) | all, chinese, podcasts |
+| [一席](https://www.xiaoyuzhoufm.com/podcast/5e285326418a84a04627343f) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e285326418a84a04627343f) | all, chinese, podcasts |
+| [三五环](https://www.xiaoyuzhoufm.com/podcast/5e280fab418a84a0461faa3c) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280fab418a84a0461faa3c) | all, chinese, podcasts |
+| [不合时宜](https://www.xiaoyuzhoufm.com/podcast/5e280fb8418a84a0461fd076) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280fb8418a84a0461fd076) | all, chinese, podcasts |
+| [东亚观察局](https://www.xiaoyuzhoufm.com/podcast/5e9a4e25418a84a046bc6156) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e9a4e25418a84a046bc6156) | all, chinese, podcasts |
+| [东腔西调](https://www.xiaoyuzhoufm.com/podcast/5f72b66083c34e85dd14fde9) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5f72b66083c34e85dd14fde9) | all, chinese, podcasts |
+| [乱翻书](https://www.xiaoyuzhoufm.com/podcast/61358d971c5d56efe5bcb5d2) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61358d971c5d56efe5bcb5d2) | all, chinese, podcasts |
+| [人民公园说AI](https://www.xiaoyuzhoufm.com/podcast/65257ff6e8ce9deaf70a65e9) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65257ff6e8ce9deaf70a65e9) | ai, all, chinese, podcasts |
+| [保持偏见](https://www.xiaoyuzhoufm.com/podcast/663e3c95af1e22bb157dcee3) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/663e3c95af1e22bb157dcee3) | all, chinese, podcasts |
+| [信号与噪声](https://www.xiaoyuzhoufm.com/podcast/6819d5a7e37664602a344e0e) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6819d5a7e37664602a344e0e) | ai, all, chinese, podcasts |
+| [凹凸电波](https://www.xiaoyuzhoufm.com/podcast/5e2839ca418a84a0462431b7) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2839ca418a84a0462431b7) | all, chinese, podcasts |
+| [十字路口Crossing — Podcast](https://www.xiaoyuzhoufm.com/podcast/60502e253c92d4f62c2a9577) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/60502e253c92d4f62c2a9577) | ai, all, chinese, podcasts |
+| [半拿铁 \| 商业沉浮录](https://www.xiaoyuzhoufm.com/podcast/62382c1103bea1ebfffa1c00) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62382c1103bea1ebfffa1c00) | all, chinese, podcasts |
+| [卫诗婕｜漫谈Light the Star](https://www.xiaoyuzhoufm.com/podcast/6627fda4b56459544087d86a) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6627fda4b56459544087d86a) | all, chinese, podcasts |
+| [商业就是这样](https://www.xiaoyuzhoufm.com/podcast/6022a180ef5fdaddc30bb101) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6022a180ef5fdaddc30bb101) | all, chinese, podcasts |
+| [声东击西](https://www.xiaoyuzhoufm.com/podcast/5e2831ed418a84a046231c00) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2831ed418a84a046231c00) | all, chinese, podcasts |
+| [声动早咖啡](https://www.xiaoyuzhoufm.com/podcast/60de7c003dd577b40d5a40f3) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/60de7c003dd577b40d5a40f3) | all, chinese, podcasts |
+| [天真不天真](https://www.xiaoyuzhoufm.com/podcast/65cef9e3cace72dff8d98de3) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65cef9e3cace72dff8d98de3) | all, chinese, podcasts |
+| [屠龙之术](https://www.xiaoyuzhoufm.com/podcast/6507bc165c88d2412626b401) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6507bc165c88d2412626b401) | all, chinese, podcasts |
+| [岩中花述](https://www.xiaoyuzhoufm.com/podcast/625635587bfca4e73e990703) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/625635587bfca4e73e990703) | all, chinese, podcasts |
+| [开始连接 LinkStart](https://www.xiaoyuzhoufm.com/podcast/63ff0da51b1faf8a0b70b337) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63ff0da51b1faf8a0b70b337) | all, chinese, podcasts |
+| [张小珺Jùn｜商业访谈录](https://www.xiaoyuzhoufm.com/podcast/626b46ea9cbbf0451cf5a962) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/626b46ea9cbbf0451cf5a962) | all, chinese, podcasts |
+| [忽左忽右](https://www.xiaoyuzhoufm.com/podcast/5e4ee557418a84a0466737b7) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4ee557418a84a0466737b7) | all, chinese, podcasts |
+| [慢速生长](https://www.xiaoyuzhoufm.com/podcast/668d00c38fcadceb90158ac1) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/668d00c38fcadceb90158ac1) | all, chinese, podcasts |
+| [捕蛇者说](https://www.xiaoyuzhoufm.com/podcast/5e2864f7418a84a04628f2da) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2864f7418a84a04628f2da) | all, chinese, podcasts |
+| [搞钱女孩](https://www.xiaoyuzhoufm.com/podcast/63d945ece725b5378a158d29) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63d945ece725b5378a158d29) | all, chinese, podcasts |
+| [文化有限](https://www.xiaoyuzhoufm.com/podcast/5e4515bd418a84a046e2b11a) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4515bd418a84a046e2b11a) | all, chinese, podcasts |
+| [晚点聊 LateTalk](https://www.xiaoyuzhoufm.com/podcast/61933ace1b4320461e91fd55) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61933ace1b4320461e91fd55) | all, chinese, podcasts |
+| [李诞](https://www.xiaoyuzhoufm.com/podcast/65bb55f6513a776b57dedb32) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65bb55f6513a776b57dedb32) | all, chinese, podcasts |
+| [枫言枫语 — Podcast](https://www.xiaoyuzhoufm.com/podcast/5e2864f5418a84a04628e249) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2864f5418a84a04628e249) | all, chinese, podcasts |
+| [此话当真](https://www.xiaoyuzhoufm.com/podcast/646f194853a5e5ea1408d97c) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/646f194853a5e5ea1408d97c) | all, chinese, podcasts |
+| [游荡集](https://www.xiaoyuzhoufm.com/podcast/6163ca67c8c1d14e83366b31) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6163ca67c8c1d14e83366b31) | all, chinese, podcasts |
+| [牛油果烤面包](https://www.xiaoyuzhoufm.com/podcast/5e7c8b2b418a84a046e3ecbc) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e7c8b2b418a84a046e3ecbc) | all, chinese, podcasts |
+| [独树不成林](https://www.xiaoyuzhoufm.com/podcast/64acd33c7a3d479103fbd32d) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/64acd33c7a3d479103fbd32d) | all, chinese, podcasts |
+| [疯投圈](https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fbd39) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280faf418a84a0461fbd39) | all, chinese, podcasts |
+| [皮蛋漫游记](https://www.xiaoyuzhoufm.com/podcast/6281264ad22bcf3950c80b56) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6281264ad22bcf3950c80b56) | all, chinese, podcasts |
+| [看理想圆桌](https://www.xiaoyuzhoufm.com/podcast/5e4ff4c7418a84a046977618) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4ff4c7418a84a046977618) | all, chinese, podcasts |
+| [知行小酒馆](https://www.xiaoyuzhoufm.com/podcast/6013f9f58e2f7ee375cf4216) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6013f9f58e2f7ee375cf4216) | all, chinese, podcasts |
+| [硅谷101 — Podcast](https://www.xiaoyuzhoufm.com/podcast/5e5c52c9418a84a04625e6cc) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e5c52c9418a84a04625e6cc) | all, chinese, podcasts |
+| [硬地骇客](https://www.xiaoyuzhoufm.com/podcast/640ee2438be5d40013fe4a87) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/640ee2438be5d40013fe4a87) | all, chinese, podcasts |
+| [科技乱炖](https://www.xiaoyuzhoufm.com/podcast/5e4243cd418a84a0469573fb) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4243cd418a84a0469573fb) | all, chinese, podcasts |
+| [第一财经](https://www.xiaoyuzhoufm.com/podcast/64c75555e8176c3ff81de98c) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/64c75555e8176c3ff81de98c) | all, chinese, podcasts |
+| [纵横四海](https://www.xiaoyuzhoufm.com/podcast/62694abdb221dd5908417d1e) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62694abdb221dd5908417d1e) | all, chinese, podcasts |
+| [罗永浩的十字路口](https://www.xiaoyuzhoufm.com/podcast/68981df29e7bcd326eb91d88) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/68981df29e7bcd326eb91d88) | all, chinese, podcasts |
+| [肥话连篇](https://www.xiaoyuzhoufm.com/podcast/61d50d72ee197a3aac3dac42) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61d50d72ee197a3aac3dac42) | all, chinese, podcasts |
+| [自习室 STUDY ROOM](https://www.xiaoyuzhoufm.com/podcast/65a5fb7540d4ef949c0140ac) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65a5fb7540d4ef949c0140ac) | all, chinese, podcasts |
+| [自我进化论](https://www.xiaoyuzhoufm.com/podcast/5e5de5cb418a84a0467beb90) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e5de5cb418a84a0467beb90) | all, chinese, podcasts |
+| [蒋方舟·一寸](https://www.xiaoyuzhoufm.com/podcast/67c7eeb07ac3e30992e75a2f) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/67c7eeb07ac3e30992e75a2f) | all, chinese, podcasts |
+| [诗梳风](https://www.xiaoyuzhoufm.com/podcast/696496f4db4738160d5fabde) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/696496f4db4738160d5fabde) | all, chinese, podcasts |
+| [谭立人](https://www.xiaoyuzhoufm.com/podcast/65a2d0f07242f9fc1c1df60a) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65a2d0f07242f9fc1c1df60a) | all, chinese, podcasts |
+| [起朱楼宴宾客](https://www.xiaoyuzhoufm.com/podcast/61dd99a47b29652ff572257b) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61dd99a47b29652ff572257b) | all, chinese, podcasts |
+| [跨国串门儿计划](https://www.xiaoyuzhoufm.com/podcast/670f3da40d2f24f28978736f) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/670f3da40d2f24f28978736f) | ai, all, chinese, podcasts |
+| [随机波动StochasticVolatility](https://www.xiaoyuzhoufm.com/podcast/5e7cc741418a84a046b0c2bd) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e7cc741418a84a046b0c2bd) | all, chinese, podcasts |
+| [面基](https://www.xiaoyuzhoufm.com/podcast/6388760f22567e8ea6ad070f) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6388760f22567e8ea6ad070f) | all, chinese, podcasts |
+| [高能量](https://www.xiaoyuzhoufm.com/podcast/62c6ae08c4eaa82b112b9c84) | Podcast. | Podcasts | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62c6ae08c4eaa82b112b9c84) | all, chinese, podcasts |
 
 </details>
 

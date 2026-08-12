@@ -20,6 +20,8 @@ Chinese independent blogs must have published within the last 180 days, return a
 
 Community feeds must use an official endpoint or a publicly documented fallback, contain recent discussions, and pass three current Tidings parser rounds. A parseable forum feed does not imply that Tidings can fetch its full reply thread; describe that capability separately when proposing a source.
 
+Security, technology-media, and technical-newsletter feeds must also pass three current Tidings parser rounds and return recently dated items. Near-duplicate sections are not collected unless each feed serves a clear, distinct reading use case.
+
 WeChat feeds must respond quickly, expose recent articles, and parse through Tidings. For company technology feeds, include the organization and technical direction. Only one feed is kept for each organization/direction pair, and an official website RSS feed takes priority over a matching WeChat bridge.
 
 ## Update the generated files

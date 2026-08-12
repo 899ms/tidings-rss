@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.3.0 — 2026-08-12
+
+- Added focused OPML bundles for technical communities, security, technology media, and technical newsletters.
+- Added V2EX technology and creative feeds, the Hacker News main feed, Show HN, Ask HN, CISA, FreeBuf, MIT Technology Review, JavaScript Weekly, This Week in Rust, and Ruan Yifeng's blog after three Tidings parser rounds.
+- Published the candidate-level audit showing why Naixi, NodeSeek, and the V2EX hot feed were not included.
+- Added English and Chinese RSS usage guides, category icons in OPML folders, and updated download tables for all 15 bundles.
+- Expanded the complete collection to 718 feeds while keeping the Chinese independent blog bundle at 349 selected sources.
+
 ## v1.2.0 — 2026-08-12
 
 - Added eight recently active community feeds: LINUX DO documentation, a combined Reddit technology feed, Lobsters, Python Core Development, Rust Internals, NixOS Development, the OpenAI Developer Community, and Kubernetes discussions. Every addition passed three Tidings production-parser rounds.

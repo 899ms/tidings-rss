@@ -1,0 +1,447 @@
+{
+  "validated_at": "2026-08-12",
+  "engine": "Tidings parseFeedUrl",
+  "source_project": "https://github.com/JackyST0/awesome-rsshub-routes",
+  "criteria": {
+    "parser_rounds_required": 3,
+    "timeout_ms_per_round": 20000,
+    "selection_rule": "A new source must complete all three current Tidings parser rounds, return at least one dated item, remain recently active, and add a distinct high-quality reading use case.",
+    "duplicate_rule": "Compare normalized feed URLs, site domains, and editorial scope against the published catalog before selection."
+  },
+  "notes": [
+    "V2EX technology and creative feeds supplement the retained V2EX main feed because the user explicitly requested board-level subscriptions.",
+    "The Naixi community, NodeSeek, and V2EX hot feed remain documented as rejected candidates and are not present in the published catalog."
+  ],
+  "candidate_count": 14,
+  "selected_count": 11,
+  "rejected_count": 3,
+  "decisions": [
+    {
+      "title": "V2EX · 技术",
+      "feed_url": "https://www.v2ex.com/feed/tab/tech.xml",
+      "category": "Communities",
+      "pack": "communities",
+      "selected": true,
+      "reason": "通过三轮解析；作为 V2EX 全站源之外的低噪声技术板块入口。",
+      "parser_rounds": [
+        {
+          "round": 1,
+          "ok": true,
+          "duration_ms": 744,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T13:24:03.000Z"
+        },
+        {
+          "round": 2,
+          "ok": true,
+          "duration_ms": 759,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T13:24:03.000Z"
+        },
+        {
+          "round": 3,
+          "ok": true,
+          "duration_ms": 745,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T13:24:03.000Z"
+        }
+      ]
+    },
+    {
+      "title": "V2EX · 创意",
+      "feed_url": "https://www.v2ex.com/feed/tab/creative.xml",
+      "category": "Communities",
+      "pack": "communities",
+      "selected": true,
+      "reason": "通过三轮解析；补充独立产品、设计与作品发布。",
+      "parser_rounds": [
+        {
+          "round": 1,
+          "ok": true,
+          "duration_ms": 1021,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T14:14:20.000Z"
+        },
+        {
+          "round": 2,
+          "ok": true,
+          "duration_ms": 1027,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T14:14:20.000Z"
+        },
+        {
+          "round": 3,
+          "ok": true,
+          "duration_ms": 1762,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T14:14:20.000Z"
+        }
+      ]
+    },
+    {
+      "title": "Show HN",
+      "feed_url": "https://hnrss.org/show",
+      "category": "Communities",
+      "pack": "communities",
+      "selected": true,
+      "reason": "通过三轮解析；与现有 Hacker News AI/LLM 主题源内容定位不同。",
+      "parser_rounds": [
+        {
+          "round": 1,
+          "ok": true,
+          "duration_ms": 2754,
+          "item_count": 20,
+          "latest_item_at": "2026-08-12T13:46:48.000Z"
+        },
+        {
+          "round": 2,
+          "ok": true,
+          "duration_ms": 3004,
+          "item_count": 20,
+          "latest_item_at": "2026-08-12T13:46:48.000Z"
+        },
+        {
+          "round": 3,
+          "ok": true,
+          "duration_ms": 10070,
+          "item_count": 20,
+          "latest_item_at": "2026-08-12T13:46:48.000Z"
+        }
+      ]
+    },
+    {
+      "title": "Ask HN",
+      "feed_url": "https://hnrss.org/ask",
+      "category": "Communities",
+      "pack": "communities",
+      "selected": true,
+      "reason": "通过三轮解析；聚焦 Hacker News 问答讨论。",
+      "parser_rounds": [
+        {
+          "round": 1,
+          "ok": true,
+          "duration_ms": 3158,
+          "item_count": 20,
+          "latest_item_at": "2026-08-12T13:58:40.000Z"
+        },
+        {
+          "round": 2,
+          "ok": true,
+          "duration_ms": 3311,
+          "item_count": 20,
+          "latest_item_at": "2026-08-12T13:58:40.000Z"
+        },
+        {
+          "round": 3,
+          "ok": true,
+          "duration_ms": 5314,
+          "item_count": 20,
+          "latest_item_at": "2026-08-12T13:58:40.000Z"
+        }
+      ]
+    },
+    {
+      "title": "奶昔论坛",
+      "feed_url": "https://forum.naixi.net/forum.php?mod=rss",
+      "category": "Communities",
+      "pack": "communities",
+      "selected": false,
+      "reason": "第三轮在 20 秒上限内未完成解析；未发布。",
+      "parser_rounds": [
+        {
+          "round": 1,
+          "ok": true,
+          "duration_ms": 6957,
+          "item_count": 20,
+          "latest_item_at": "2026-08-12T14:15:45.000Z"
+        },
+        {
+          "round": 2,
+          "ok": true,
+          "duration_ms": 3450,
+          "item_count": 20,
+          "latest_item_at": "2026-08-12T14:15:45.000Z"
+        },
+        {
+          "round": 3,
+          "ok": false,
+          "duration_ms": 20003,
+          "error": "aborted"
+        }
+      ]
+    },
+    {
+      "title": "CISA News",
+      "feed_url": "https://www.cisa.gov/news.xml",
+      "category": "Security",
+      "pack": "security",
+      "selected": true,
+      "reason": "三轮解析稳定，官方安全通告有明确来源和日期。",
+      "parser_rounds": [
+        {
+          "round": 1,
+          "ok": true,
+          "duration_ms": 1119,
+          "item_count": 10,
+          "latest_item_at": "2026-08-10T12:00:00.000Z"
+        },
+        {
+          "round": 2,
+          "ok": true,
+          "duration_ms": 1062,
+          "item_count": 10,
+          "latest_item_at": "2026-08-10T12:00:00.000Z"
+        },
+        {
+          "round": 3,
+          "ok": true,
+          "duration_ms": 468,
+          "item_count": 10,
+          "latest_item_at": "2026-08-10T12:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "title": "FreeBuf",
+      "feed_url": "https://www.freebuf.com/feed",
+      "category": "Security",
+      "pack": "security",
+      "selected": true,
+      "reason": "三轮解析稳定，近期持续更新，中文安全内容定位清楚。",
+      "parser_rounds": [
+        {
+          "round": 1,
+          "ok": true,
+          "duration_ms": 468,
+          "item_count": 20,
+          "latest_item_at": "2026-08-12T13:21:55.000Z"
+        },
+        {
+          "round": 2,
+          "ok": true,
+          "duration_ms": 486,
+          "item_count": 20,
+          "latest_item_at": "2026-08-12T13:21:55.000Z"
+        },
+        {
+          "round": 3,
+          "ok": true,
+          "duration_ms": 475,
+          "item_count": 20,
+          "latest_item_at": "2026-08-12T13:21:55.000Z"
+        }
+      ]
+    },
+    {
+      "title": "MIT Technology Review",
+      "feed_url": "https://www.technologyreview.com/feed/",
+      "category": "Technology Media",
+      "pack": "tech-media",
+      "selected": true,
+      "reason": "三轮解析稳定，保留深度科技报道。",
+      "parser_rounds": [
+        {
+          "round": 1,
+          "ok": true,
+          "duration_ms": 2494,
+          "item_count": 10,
+          "latest_item_at": "2026-08-12T12:10:00.000Z"
+        },
+        {
+          "round": 2,
+          "ok": true,
+          "duration_ms": 2822,
+          "item_count": 10,
+          "latest_item_at": "2026-08-12T12:10:00.000Z"
+        },
+        {
+          "round": 3,
+          "ok": true,
+          "duration_ms": 2474,
+          "item_count": 10,
+          "latest_item_at": "2026-08-12T12:10:00.000Z"
+        }
+      ]
+    },
+    {
+      "title": "JavaScript Weekly",
+      "feed_url": "https://javascriptweekly.com/rss/",
+      "category": "Tech Newsletters & Weeklies",
+      "pack": "weeklies",
+      "selected": true,
+      "reason": "三轮解析稳定，最近一期日期明确。",
+      "parser_rounds": [
+        {
+          "round": 1,
+          "ok": true,
+          "duration_ms": 4358,
+          "item_count": 4,
+          "latest_item_at": "2026-08-11T00:00:00.000Z"
+        },
+        {
+          "round": 2,
+          "ok": true,
+          "duration_ms": 3740,
+          "item_count": 4,
+          "latest_item_at": "2026-08-11T00:00:00.000Z"
+        },
+        {
+          "round": 3,
+          "ok": true,
+          "duration_ms": 2882,
+          "item_count": 4,
+          "latest_item_at": "2026-08-11T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "title": "This Week in Rust",
+      "feed_url": "https://this-week-in-rust.org/atom.xml",
+      "category": "Tech Newsletters & Weeklies",
+      "pack": "weeklies",
+      "selected": true,
+      "reason": "三轮解析稳定，最近一期日期明确。",
+      "parser_rounds": [
+        {
+          "round": 1,
+          "ok": true,
+          "duration_ms": 1761,
+          "item_count": 4,
+          "latest_item_at": "2026-08-05T04:00:00.000Z"
+        },
+        {
+          "round": 2,
+          "ok": true,
+          "duration_ms": 1607,
+          "item_count": 4,
+          "latest_item_at": "2026-08-05T04:00:00.000Z"
+        },
+        {
+          "round": 3,
+          "ok": true,
+          "duration_ms": 1590,
+          "item_count": 4,
+          "latest_item_at": "2026-08-05T04:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "title": "阮一峰的网络日志",
+      "feed_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "category": "Tech Newsletters & Weeklies",
+      "pack": "weeklies",
+      "selected": true,
+      "reason": "三轮解析稳定；兼具独立博客与技术周刊属性。",
+      "parser_rounds": [
+        {
+          "round": 1,
+          "ok": true,
+          "duration_ms": 2639,
+          "item_count": 3,
+          "latest_item_at": "2026-08-07T00:08:27.000Z"
+        },
+        {
+          "round": 2,
+          "ok": true,
+          "duration_ms": 2123,
+          "item_count": 3,
+          "latest_item_at": "2026-08-07T00:08:27.000Z"
+        },
+        {
+          "round": 3,
+          "ok": true,
+          "duration_ms": 2563,
+          "item_count": 3,
+          "latest_item_at": "2026-08-07T00:08:27.000Z"
+        }
+      ]
+    },
+    {
+      "title": "NodeSeek",
+      "feed_url": "https://rss.nodeseek.com/",
+      "category": "Communities",
+      "pack": "communities",
+      "selected": false,
+      "reason": "三轮均在 20 秒上限内未完成解析；未发布。",
+      "parser_rounds": [
+        {
+          "round": 1,
+          "ok": false,
+          "duration_ms": 20003,
+          "error": "The operation was aborted"
+        },
+        {
+          "round": 2,
+          "ok": false,
+          "duration_ms": 20002,
+          "error": "The operation was aborted"
+        },
+        {
+          "round": 3,
+          "ok": false,
+          "duration_ms": 20001,
+          "error": "The operation was aborted"
+        }
+      ]
+    },
+    {
+      "title": "V2EX · 热门",
+      "feed_url": "https://www.v2ex.com/feed/tab/hot.xml",
+      "category": "Communities",
+      "pack": "communities",
+      "selected": false,
+      "reason": "三轮均返回空响应或无法解析的 Atom；未发布。",
+      "parser_rounds": [
+        {
+          "round": 1,
+          "ok": false,
+          "duration_ms": 446,
+          "error": "响应不是可解析的 RSS/Atom/JSON Feed: application/atom+xml;charset=UTF-8"
+        },
+        {
+          "round": 2,
+          "ok": false,
+          "duration_ms": 739,
+          "error": "响应不是可解析的 RSS/Atom/JSON Feed: application/atom+xml;charset=UTF-8"
+        },
+        {
+          "round": 3,
+          "ok": false,
+          "duration_ms": 604,
+          "error": "响应不是可解析的 RSS/Atom/JSON Feed: application/atom+xml;charset=UTF-8"
+        }
+      ]
+    },
+    {
+      "title": "Hacker News",
+      "feed_url": "https://news.ycombinator.com/rss",
+      "category": "Communities",
+      "pack": "communities",
+      "selected": true,
+      "reason": "三轮解析稳定；作为 Hacker News 首页入口，与 Ask HN、Show HN 的用途不同。",
+      "parser_rounds": [
+        {
+          "round": 1,
+          "ok": true,
+          "duration_ms": 1235,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T14:43:39.000Z"
+        },
+        {
+          "round": 2,
+          "ok": true,
+          "duration_ms": 3771,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T14:43:39.000Z"
+        },
+        {
+          "round": 3,
+          "ok": true,
+          "duration_ms": 2923,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T14:43:39.000Z"
+        }
+      ]
+    }
+  ]
+}

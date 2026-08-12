@@ -3,10 +3,10 @@
   "generated_at": "2026-08-12",
   "validation": {
     "engine": "Tidings parseFeedUrl",
-    "criteria": "Chinese independent blogs passed three parser rounds, had at least two dated posts and updated within 180 days; retained catalog feeds passed two current parser rounds. WeChat additions passed two two-second time-to-first-byte probes, Tidings parsing, and a 180-day freshness check. Community additions passed three current Tidings parser rounds and exposed recently dated discussions.",
-    "candidate_count": 2265,
-    "parser_passed": 707,
-    "retained_count": 707
+    "criteria": "Chinese independent blogs passed three parser rounds, had at least two dated posts and updated within 180 days; retained catalog feeds passed two current parser rounds. WeChat additions passed two two-second time-to-first-byte probes, Tidings parsing, and a 180-day freshness check. Community additions passed three current Tidings parser rounds and exposed recently dated discussions. Security, technology-media, and weekly additions passed three current Tidings parser rounds and an editorial relevance review.",
+    "candidate_count": 2279,
+    "parser_passed": 718,
+    "retained_count": 718
   },
   "feeds": [
     {
@@ -354,13 +354,14 @@
       "title": "Last Week in AI",
       "feed_url": "https://lastweekin.ai/feed",
       "site_url": "https://lastweekin.ai",
-      "category": "Artificial Intelligence",
+      "category": "Tech Newsletters & Weeklies",
       "kind": "article",
       "language": "en",
       "packs": [
         "ai",
         "all",
-        "engineering"
+        "engineering",
+        "weeklies"
       ],
       "sources": [
         "bestblogs",
@@ -368,7 +369,8 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-03T10:04:18Z",
-      "description": "Artificial Intelligence 订阅源"
+      "description": "每周梳理人工智能研究、产品与政策动态。",
+      "description_en": "A weekly digest of AI research, products, and policy."
     },
     {
       "id": "9539d7d50e44",
@@ -599,16 +601,17 @@
     },
     {
       "id": "2c43593d3120",
-      "title": "The Batch | DeepLearning.AI | AI News & Insights",
+      "title": "The Batch",
       "feed_url": "https://rsshub.bestblogs.dev/deeplearning/the-batch",
       "site_url": "https://www.deeplearning.ai/the-batch/",
-      "category": "Artificial Intelligence",
+      "category": "Tech Newsletters & Weeklies",
       "kind": "article",
       "language": "en",
       "packs": [
         "ai",
         "all",
-        "engineering"
+        "engineering",
+        "weeklies"
       ],
       "sources": [
         "bestblogs",
@@ -616,7 +619,8 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-07-24T14:00:37Z",
-      "description": "Artificial Intelligence 订阅源"
+      "description": "DeepLearning.AI 的人工智能新闻与研究周报。",
+      "description_en": "DeepLearning.AI’s weekly digest of AI news and research."
     },
     {
       "id": "904f056d0b57",
@@ -1015,7 +1019,8 @@
       "packs": [
         "all",
         "chinese",
-        "news"
+        "news",
+        "communities"
       ],
       "sources": [
         "manual",
@@ -1038,7 +1043,8 @@
       "packs": [
         "all",
         "chinese",
-        "engineering"
+        "engineering",
+        "communities"
       ],
       "sources": [
         "community-expansion-2026-08-12",
@@ -1060,7 +1066,8 @@
       "packs": [
         "ai",
         "all",
-        "engineering"
+        "engineering",
+        "communities"
       ],
       "sources": [
         "community-expansion-2026-08-12",
@@ -1081,7 +1088,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "communities"
       ],
       "sources": [
         "community-expansion-2026-08-12",
@@ -1102,7 +1110,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "communities"
       ],
       "sources": [
         "community-expansion-2026-08-12",
@@ -1123,7 +1132,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "communities"
       ],
       "sources": [
         "community-expansion-2026-08-12",
@@ -1144,7 +1154,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "communities"
       ],
       "sources": [
         "community-expansion-2026-08-12",
@@ -1166,7 +1177,8 @@
       "packs": [
         "ai",
         "all",
-        "engineering"
+        "engineering",
+        "communities"
       ],
       "sources": [
         "community-expansion-2026-08-12",
@@ -1187,7 +1199,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "communities"
       ],
       "sources": [
         "community-expansion-2026-08-12",
@@ -1725,16 +1738,17 @@
     },
     {
       "id": "7170fc473d11",
-      "title": "Ars Technica - All content",
+      "title": "Ars Technica",
       "feed_url": "https://feeds.arstechnica.com/arstechnica/index",
       "site_url": "https://arstechnica.com",
-      "category": "Engineering & Technology",
+      "category": "Technology Media",
       "kind": "article",
       "language": "en",
       "packs": [
         "all",
         "engineering",
-        "news"
+        "news",
+        "tech-media"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -1742,7 +1756,8 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T00:08:40Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "面向技术读者的科技媒体，长期报道软件、硬件、科学与互联网政策。",
+      "description_en": "Technology reporting on software, hardware, science, and internet policy."
     },
     {
       "id": "218f8d6dbaea",
@@ -3132,13 +3147,14 @@
       "title": "Krebs on Security",
       "feed_url": "https://krebsonsecurity.com/feed/",
       "site_url": "https://krebsonsecurity.com",
-      "category": "Engineering & Technology",
+      "category": "Security",
       "kind": "article",
       "language": "en",
       "packs": [
         "all",
         "engineering",
-        "news"
+        "news",
+        "security"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -3146,7 +3162,8 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-11T21:28:35Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "独立安全记者 Brian Krebs 对网络犯罪、数据泄露与数字欺诈的调查。",
+      "description_en": "Brian Krebs reports on cybercrime, data breaches, and digital fraud."
     },
     {
       "id": "5bc1245f5db1",
@@ -3171,22 +3188,25 @@
     },
     {
       "id": "e639493f716a",
-      "title": "Latest news",
+      "title": "ZDNET Security",
       "feed_url": "https://www.zdnet.com/topic/security/rss.xml",
       "site_url": "https://www.zdnet.com/",
-      "category": "Engineering & Technology",
+      "category": "Security",
       "kind": "article",
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "news",
+        "security"
       ],
       "sources": [
         "awesome-rss-feeds"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T11:32:00Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "企业安全、漏洞、威胁情报与安全产品动态。",
+      "description_en": "Enterprise security, vulnerabilities, threat intelligence, and security products."
     },
     {
       "id": "b779af565479",
@@ -4600,13 +4620,14 @@
       "title": "Schneier on Security",
       "feed_url": "https://www.schneier.com/blog/index.rdf",
       "site_url": "https://www.schneier.com/",
-      "category": "Engineering & Technology",
+      "category": "Security",
       "kind": "article",
       "language": "en",
       "packs": [
         "all",
         "engineering",
-        "news"
+        "news",
+        "security"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -4614,26 +4635,30 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T09:56:37Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Bruce Schneier 对安全工程、隐私和公共政策的长期观察。",
+      "description_en": "Bruce Schneier on security engineering, privacy, and public policy."
     },
     {
       "id": "cfc4f5388458",
       "title": "Security Affairs",
       "feed_url": "https://securityaffairs.co/wordpress/feed",
       "site_url": "https://securityaffairs.com/",
-      "category": "Engineering & Technology",
+      "category": "Security",
       "kind": "article",
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "news",
+        "security"
       ],
       "sources": [
         "awesome-rss-feeds"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T08:27:13Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "全球网络攻击、恶意软件、漏洞与安全事件报道。",
+      "description_en": "Global coverage of cyberattacks, malware, vulnerabilities, and security incidents."
     },
     {
       "id": "a03af3c82baf",
@@ -8170,8 +8195,8 @@
       "title": "腾讯玄武实验室",
       "feed_url": "https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml",
       "site_url": "https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml",
-      "description": "公众号，主要关注安全研究。",
-      "category": "Engineering & Technology",
+      "description": "腾讯玄武实验室发布的漏洞研究、攻防技术与安全实践。",
+      "category": "Security",
       "kind": "article",
       "language": "zh",
       "packs": [
@@ -8179,6 +8204,7 @@
         "chinese",
         "company-tech",
         "engineering",
+        "security",
         "wechat"
       ],
       "sources": [
@@ -8187,7 +8213,8 @@
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-07-27T09:33:00.000Z",
       "organization": "腾讯",
-      "company_direction": "安全"
+      "company_direction": "安全",
+      "description_en": "Vulnerability research, offensive and defensive techniques, and security practice from Tencent Xuanwu Lab."
     },
     {
       "id": "18e9ca61a007",
@@ -8829,39 +8856,44 @@
       "title": "36氪",
       "feed_url": "https://www.36kr.com/feed",
       "site_url": "http://36kr.com",
-      "category": "News",
+      "category": "Technology Media",
       "kind": "article",
       "language": "zh",
       "packs": [
         "all",
         "chinese",
-        "news"
+        "news",
+        "tech-media"
       ],
       "sources": [
         "tidings-ai-radar"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T11:39:46Z",
-      "description": "News 订阅源"
+      "description": "中文商业与科技媒体，关注创业公司、互联网产品和产业变化。",
+      "description_en": "Chinese business and technology coverage focused on startups, internet products, and industry shifts."
     },
     {
       "id": "e2807e581c5e",
       "title": "AIGC Weekly",
       "feed_url": "https://quaily.com/op7418/feed/atom",
       "site_url": "https://quaily.com/op7418/feed/atom",
-      "category": "News",
+      "category": "Tech Newsletters & Weeklies",
       "kind": "article",
       "language": "en",
       "packs": [
         "all",
-        "news"
+        "engineering",
+        "news",
+        "weeklies"
       ],
       "sources": [
         "tidings-ai-radar"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-10T16:28:07Z",
-      "description": "News 订阅源"
+      "description": "中文生成式 AI 产品、工具与行业观察周刊。",
+      "description_en": "A Chinese weekly on generative-AI products, tools, and industry developments."
     },
     {
       "id": "fa080031bb9f",
@@ -8923,15 +8955,16 @@
     },
     {
       "id": "2ccba97d94b1",
-      "title": "Engadget - Technology News & Expert Reviews",
+      "title": "Engadget",
       "feed_url": "https://www.engadget.com/rss.xml",
       "site_url": "https://www.engadget.com/",
-      "category": "News",
+      "category": "Technology Media",
       "kind": "article",
       "language": "en",
       "packs": [
         "all",
-        "news"
+        "news",
+        "tech-media"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -8939,26 +8972,30 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T10:00:00Z",
-      "description": "News 订阅源"
+      "description": "消费电子、软件服务与科技产品评测。",
+      "description_en": "Consumer electronics, software services, and technology product reviews."
     },
     {
       "id": "f00aa83911d1",
       "title": "Golang Weekly",
       "feed_url": "https://golangweekly.com/rss/",
       "site_url": "https://golangweekly.com/",
-      "category": "News",
+      "category": "Tech Newsletters & Weeklies",
       "kind": "article",
       "language": "en",
       "packs": [
         "all",
-        "news"
+        "engineering",
+        "news",
+        "weeklies"
       ],
       "sources": [
         "awesome-rsshub-routes"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-07T00:00:00Z",
-      "description": "News 订阅源"
+      "description": "Go 语言文章、工具、项目与社区动态周刊。",
+      "description_en": "A weekly selection of Go articles, tools, projects, and community news."
     },
     {
       "id": "ecb39e77c08e",
@@ -9026,13 +9063,14 @@
       "title": "IT之家",
       "feed_url": "https://www.ithome.com/rss/",
       "site_url": "https://www.ithome.com/",
-      "category": "News",
+      "category": "Technology Media",
       "kind": "article",
       "language": "zh",
       "packs": [
         "all",
         "chinese",
-        "news"
+        "news",
+        "tech-media"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -9040,7 +9078,8 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T11:41:03Z",
-      "description": "News 订阅源"
+      "description": "中文科技新闻，覆盖硬件、软件、移动设备与互联网公司。",
+      "description_en": "Chinese technology news covering hardware, software, mobile devices, and internet companies."
     },
     {
       "id": "17707b04e4fd",
@@ -9167,12 +9206,13 @@
       "title": "TechCrunch",
       "feed_url": "https://techcrunch.com/feed/",
       "site_url": "https://techcrunch.com/",
-      "category": "News",
+      "category": "Technology Media",
       "kind": "article",
       "language": "en",
       "packs": [
         "all",
-        "news"
+        "news",
+        "tech-media"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -9180,19 +9220,21 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T11:00:00Z",
-      "description": "News 订阅源"
+      "description": "创业公司、风险投资、互联网产品与科技行业动态。",
+      "description_en": "Startups, venture capital, internet products, and the technology industry."
     },
     {
       "id": "8c3d9d5d77bb",
       "title": "The Verge — News",
       "feed_url": "https://www.theverge.com/rss/index.xml",
       "site_url": "https://www.theverge.com",
-      "category": "News",
+      "category": "Technology Media",
       "kind": "article",
       "language": "en",
       "packs": [
         "all",
-        "news"
+        "news",
+        "tech-media"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -9200,7 +9242,8 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T00:39:26Z",
-      "description": "News 订阅源"
+      "description": "消费科技、互联网平台、科学与数字文化报道。",
+      "description_en": "Consumer technology, internet platforms, science, and digital culture."
     },
     {
       "id": "fe39472a3338",
@@ -9226,19 +9269,21 @@
       "title": "WIRED",
       "feed_url": "https://www.wired.com/feed/rss",
       "site_url": "https://www.wired.com",
-      "category": "News",
+      "category": "Technology Media",
       "kind": "article",
       "language": "en",
       "packs": [
         "all",
-        "news"
+        "news",
+        "tech-media"
       ],
       "sources": [
         "awesome-rsshub-routes"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T11:32:00Z",
-      "description": "News 订阅源"
+      "description": "科技、科学、商业与数字社会的深度报道。",
+      "description_en": "In-depth reporting on technology, science, business, and digital society."
     },
     {
       "id": "4bf53cb60241",
@@ -9303,20 +9348,23 @@
       "title": "大橘和朋友们的周刊",
       "feed_url": "https://rrorangeandfriends.de/feed.xml",
       "site_url": "https://rrorangeandfriends.de",
-      "category": "News",
+      "category": "Tech Newsletters & Weeklies",
       "kind": "article",
       "language": "zh",
       "packs": [
         "all",
         "chinese",
-        "news"
+        "engineering",
+        "news",
+        "weeklies"
       ],
       "sources": [
         "tidings-ai-radar"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-07-12T00:00:00Z",
-      "description": "News 订阅源"
+      "description": "由独立作者整理的技术、产品与生活阅读清单。",
+      "description_en": "An independent weekly selection of technology, products, and thoughtful reading."
     },
     {
       "id": "cf502ba146e7",
@@ -9340,36 +9388,40 @@
     },
     {
       "id": "aad4fb70421a",
-      "title": "安全客-有思想的安全新媒体",
+      "title": "安全客",
       "feed_url": "https://api.anquanke.com/data/v1/rss",
       "site_url": "https://www.anquanke.com",
-      "category": "News",
+      "category": "Security",
       "kind": "article",
       "language": "zh",
       "packs": [
         "all",
         "chinese",
-        "news"
+        "engineering",
+        "news",
+        "security"
       ],
       "sources": [
         "awesome-rsshub-routes"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-11T05:04:35Z",
-      "description": "News 订阅源"
+      "description": "中文漏洞分析、攻防研究与网络安全行业动态。",
+      "description_en": "Chinese vulnerability analysis, security research, and industry coverage."
     },
     {
       "id": "127ccd1f6fe9",
       "title": "少数派",
       "feed_url": "https://sspai.com/feed",
       "site_url": "https://sspai.com",
-      "category": "News",
+      "category": "Technology Media",
       "kind": "article",
       "language": "zh",
       "packs": [
         "all",
         "chinese",
-        "news"
+        "news",
+        "tech-media"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -9377,7 +9429,8 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T09:30:00Z",
-      "description": "News 订阅源"
+      "description": "数字工具、效率方法、软件体验与个人工作流。",
+      "description_en": "Digital tools, productivity methods, software experiences, and personal workflows."
     },
     {
       "id": "d02584a35aa6",
@@ -9405,20 +9458,23 @@
       "title": "潮流周刊",
       "feed_url": "https://weekly.tw93.fun/rss.xml",
       "site_url": "https://weekly.tw93.fun/",
-      "category": "News",
+      "category": "Tech Newsletters & Weeklies",
       "kind": "article",
       "language": "zh",
       "packs": [
         "all",
         "chinese",
-        "news"
+        "engineering",
+        "news",
+        "weeklies"
       ],
       "sources": [
         "tidings-ai-radar"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-10T00:00:00Z",
-      "description": "News 订阅源"
+      "description": "记录技术见闻、开源项目、产品与生活灵感的中文周刊。",
+      "description_en": "A Chinese weekly of technology notes, open-source projects, products, and life."
     },
     {
       "id": "4a90f525746d",
@@ -10645,13 +10701,14 @@
       "title": "爱范儿",
       "feed_url": "https://www.ifanr.com/feed",
       "site_url": "https://www.ifanr.com?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "category": "Personal Blogs",
+      "category": "Technology Media",
       "kind": "article",
       "language": "zh",
       "packs": [
         "all",
         "chinese",
-        "news"
+        "news",
+        "tech-media"
       ],
       "sources": [
         "bestblogs",
@@ -10659,7 +10716,8 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T10:43:54Z",
-      "description": "Personal Blogs 订阅源"
+      "description": "中文消费科技、智能设备与产品趋势报道。",
+      "description_en": "Chinese coverage of consumer technology, smart devices, and product trends."
     },
     {
       "id": "2b52a8fdfbfc",
@@ -14560,6 +14618,256 @@
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T09:35:25Z",
       "description": "视频频道"
+    },
+    {
+      "id": "5f79be67c1ef",
+      "title": "V2EX · 技术",
+      "feed_url": "https://www.v2ex.com/feed/tab/tech.xml",
+      "site_url": "https://www.v2ex.com/?tab=tech",
+      "description": "V2EX 技术板块的新主题，适合只订阅编程、架构与开发工具讨论。",
+      "description_en": "New topics from V2EX’s technology section, focused on programming, architecture, and developer tools.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "communities",
+        "engineering"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T13:24:03.000Z"
+    },
+    {
+      "id": "ff5396e7d1f6",
+      "title": "V2EX · 创意",
+      "feed_url": "https://www.v2ex.com/feed/tab/creative.xml",
+      "site_url": "https://www.v2ex.com/?tab=creative",
+      "description": "V2EX 创意板块的新主题，集中在独立产品、设计与作品发布。",
+      "description_en": "New topics from V2EX’s creative section, centered on indie products, design, and launches.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "communities",
+        "engineering"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T14:14:20.000Z"
+    },
+    {
+      "id": "132a8fdfa839",
+      "title": "Show HN",
+      "feed_url": "https://hnrss.org/show",
+      "site_url": "https://news.ycombinator.com/shownew",
+      "description": "Hacker News 上的新产品、开源项目与个人作品展示。",
+      "description_en": "New products, open-source projects, and personal work shared on Hacker News.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "communities",
+        "engineering"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T13:46:48.000Z"
+    },
+    {
+      "id": "a8f1f01b14a8",
+      "title": "Ask HN",
+      "feed_url": "https://hnrss.org/ask",
+      "site_url": "https://news.ycombinator.com/ask",
+      "description": "Hacker News 的问答主题，聚焦技术选择、职业经验与行业讨论。",
+      "description_en": "Hacker News questions on technical choices, career experience, and the industry.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "communities",
+        "engineering"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T13:58:40.000Z"
+    },
+    {
+      "id": "e8b4a99d4203",
+      "title": "CISA",
+      "feed_url": "https://www.cisa.gov/news.xml",
+      "site_url": "https://www.cisa.gov/news-events",
+      "description": "美国网络安全和基础设施安全局发布的安全通告、漏洞与防护建议。",
+      "description_en": "Cybersecurity advisories, vulnerabilities, and defensive guidance from CISA.",
+      "category": "Security",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "news",
+        "security"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T12:00:00.000Z"
+    },
+    {
+      "id": "375ba5267f5b",
+      "title": "FreeBuf 网络安全行业门户",
+      "feed_url": "https://www.freebuf.com/feed",
+      "site_url": "https://www.freebuf.com/",
+      "description": "中文网络安全媒体，覆盖攻防研究、漏洞分析与安全产业动态。",
+      "description_en": "Chinese cybersecurity coverage spanning security research, vulnerability analysis, and the industry.",
+      "category": "Security",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "engineering",
+        "news",
+        "security"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T13:21:55.000Z"
+    },
+    {
+      "id": "abb25a1c4ec6",
+      "title": "MIT Technology Review",
+      "feed_url": "https://www.technologyreview.com/feed/",
+      "site_url": "https://www.technologyreview.com/",
+      "description": "人工智能、计算、气候与生物技术的深度报道。",
+      "description_en": "In-depth reporting on AI, computing, climate, and biotechnology.",
+      "category": "Technology Media",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "news",
+        "tech-media"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T12:10:00.000Z"
+    },
+    {
+      "id": "cc3c4c9556ef",
+      "title": "JavaScript Weekly",
+      "feed_url": "https://javascriptweekly.com/rss/",
+      "site_url": "https://javascriptweekly.com/",
+      "description": "JavaScript 新闻、文章、工具与项目周刊。",
+      "description_en": "A weekly selection of JavaScript news, articles, tools, and projects.",
+      "category": "Tech Newsletters & Weeklies",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "weeklies"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "6440dc025421",
+      "title": "This Week in Rust",
+      "feed_url": "https://this-week-in-rust.org/atom.xml",
+      "site_url": "https://this-week-in-rust.org/",
+      "description": "Rust 项目、文章、版本与社区动态周刊。",
+      "description_en": "A weekly digest of Rust projects, articles, releases, and community updates.",
+      "category": "Tech Newsletters & Weeklies",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "weeklies"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T04:00:00.000Z"
+    },
+    {
+      "id": "836ccfdca641",
+      "title": "阮一峰的网络日志",
+      "feed_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "site_url": "https://www.ruanyifeng.com/blog/",
+      "description": "阮一峰的技术文章与科技爱好者周刊，覆盖开发工具、互联网与开源项目。",
+      "description_en": "Ruan Yifeng’s technical writing and weekly selection of developer tools, internet topics, and open-source projects.",
+      "category": "Tech Newsletters & Weeklies",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "weeklies"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12",
+        "editor-reviewed-chinese-blog"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T00:08:27.000Z"
+    },
+    {
+      "id": "7198d80d0366",
+      "title": "Hacker News",
+      "feed_url": "https://news.ycombinator.com/rss",
+      "site_url": "https://news.ycombinator.com/",
+      "description": "Hacker News 首页的热门技术、创业与产品讨论。",
+      "description_en": "Popular technology, startup, and product discussions from the Hacker News front page.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "communities",
+        "engineering"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T14:43:39.000Z"
     }
   ]
 }

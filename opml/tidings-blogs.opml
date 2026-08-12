@@ -8,7 +8,7 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
-    <outline text="Engineering &amp; Technology" title="Engineering &amp; Technology">
+    <outline text="🛠️ Engineering &amp; Technology" title="🛠️ Engineering &amp; Technology">
       <outline text="1A23 Studio" title="1A23 Studio" type="rss" xmlUrl="https://1a23.com/feed/" htmlUrl="https://1a23.com/" />
       <outline text="251 的魔法实验室" title="251 的魔法实验室" type="rss" xmlUrl="https://blog.251.sh/feed/" htmlUrl="https://blog.251.sh/" />
       <outline text="49th LunaSea" title="49th LunaSea" type="rss" xmlUrl="https://maki49.github.io/feed.xml" htmlUrl="https://maki49.github.io/" />
@@ -278,20 +278,23 @@
       <outline text="黑羽的个人博客" title="黑羽的个人博客" type="rss" xmlUrl="https://blog.thetbw.xyz/atom.xml" htmlUrl="https://blog.thetbw.xyz" />
       <outline text="𝟞𝟙𝟡'𝕤 𝔹𝕃𝕆𝔾" title="𝟞𝟙𝟡'𝕤 𝔹𝕃𝕆𝔾" type="rss" xmlUrl="https://66619.eu.org/feed/" htmlUrl="https://619.pp.ua" />
     </outline>
-    <outline text="Product &amp; Design" title="Product &amp; Design">
+    <outline text="📮 Tech Newsletters &amp; Weeklies" title="📮 Tech Newsletters &amp; Weeklies">
+      <outline text="阮一峰的网络日志" title="阮一峰的网络日志" type="rss" xmlUrl="https://www.ruanyifeng.com/blog/atom.xml" htmlUrl="https://www.ruanyifeng.com/blog/" />
+    </outline>
+    <outline text="🎨 Product &amp; Design" title="🎨 Product &amp; Design">
       <outline text="61’s life" title="61’s life" type="rss" xmlUrl="https://61.life/feed.xml" htmlUrl="https://61.life/" />
       <outline text="jax" title="jax" type="rss" xmlUrl="https://cdjax.com/?feed=rss2" htmlUrl="https://cdjax.com" />
       <outline text="Velas电波站" title="Velas电波站" type="rss" xmlUrl="https://www.velasx.com/feed" htmlUrl="https://www.velasx.com/" />
       <outline text="拾月的博客" title="拾月的博客" type="rss" xmlUrl="https://www.skyue.com/feed/" htmlUrl="https://www.skyue.com/" />
     </outline>
-    <outline text="Business &amp; Startups" title="Business &amp; Startups">
+    <outline text="💼 Business &amp; Startups" title="💼 Business &amp; Startups">
       <outline text="Macin" title="Macin" type="rss" xmlUrl="https://www.macin.org/atom.xml" htmlUrl="https://macin.org/atom.xml" />
       <outline text="扯氮集" title="扯氮集" type="rss" xmlUrl="http://weiwuhui.com/feed" htmlUrl="http://weiwuhui.com" />
       <outline text="知足常乐-水星投资理财的基本意念" title="知足常乐-水星投资理财的基本意念" type="rss" xmlUrl="http://mercurychong.blogspot.com/feeds/posts/default" htmlUrl="http://mercurychong.blogspot.com/" />
       <outline text="虹线" title="虹线" type="rss" xmlUrl="https://1q43.blog/feed" htmlUrl="https://1q43.blog" />
       <outline text="雷蒙三十｜幫助忙碌現代人的聰明工作、好好生活的生產力指南" title="雷蒙三十｜幫助忙碌現代人的聰明工作、好好生活的生產力指南" type="rss" xmlUrl="https://raymondhouch.com/feed" htmlUrl="https://raymondhouch.com" />
     </outline>
-    <outline text="Personal Blogs" title="Personal Blogs">
+    <outline text="✍️ Personal Blogs" title="✍️ Personal Blogs">
       <outline text="ABB00717" title="ABB00717" type="rss" xmlUrl="https://blog.abb00717.com/index.xml" htmlUrl="https://blog.abb00717.com" />
       <outline text="Another Dayu" title="Another Dayu" type="rss" xmlUrl="https://anotherdayu.com/feed/" htmlUrl="https://anotherdayu.com/" />
       <outline text="Blog | Lyunvy" title="Blog | Lyunvy" type="rss" xmlUrl="https://blog.lyunvy.top/atom.xml" htmlUrl="https://blog.lyunvy.top/" />
@@ -356,7 +359,7 @@
       <outline text="闲人LIFE" title="闲人LIFE" type="rss" xmlUrl="https://www.xianrenlife.com/feeds/posts/default" htmlUrl="https://www.xianrenlife.com/" />
       <outline text="陈杨树下" title="陈杨树下" type="rss" xmlUrl="https://www.demochen.com/atom.xml" htmlUrl="https://demochen.com/" />
     </outline>
-    <outline text="Culture &amp; Ideas" title="Culture &amp; Ideas">
+    <outline text="📚 Culture &amp; Ideas" title="📚 Culture &amp; Ideas">
       <outline text="KAIX.IN" title="KAIX.IN" type="rss" xmlUrl="https://kaix.in/feed/" htmlUrl="https://kaix.in/" />
       <outline text="Maohang Gao's Blog" title="Maohang Gao's Blog" type="rss" xmlUrl="https://kangaroogao.com/atom.xml" htmlUrl="http://kangaroogao.com/atom.xml" />
       <outline text="ShineKid" title="ShineKid" type="rss" xmlUrl="https://shinekid.com/feed/" htmlUrl="https://shinekid.com" />

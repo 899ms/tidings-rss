@@ -5,7 +5,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from scripts.catalog import CATEGORIES, CATEGORY_EMOJI
 
 
 START = "<!-- SOURCE_APPENDIX_START -->"
@@ -22,10 +27,17 @@ PACK_ZH = {
     "chinese": "中文",
     "company-tech": "大厂技术号",
     "wechat": "微信公众号",
+    "communities": "社区",
+    "security": "安全",
+    "tech-media": "科技媒体",
+    "weeklies": "技术周刊",
 }
 CATEGORY_ZH = {
     "Artificial Intelligence": "人工智能",
     "Engineering & Technology": "工程与技术",
+    "Security": "安全与攻防",
+    "Technology Media": "科技媒体",
+    "Tech Newsletters & Weeklies": "技术周刊",
     "Research & Science": "科研与科学",
     "News": "新闻",
     "Product & Design": "产品与设计",
@@ -39,6 +51,9 @@ CATEGORY_ZH = {
 CATEGORY_INTRO_ZH = {
     "Artificial Intelligence": "人工智能内容",
     "Engineering & Technology": "工程与技术内容",
+    "Security": "安全事件、漏洞、攻防研究与防护实践",
+    "Technology Media": "科技产品、公司、产业与技术趋势报道",
+    "Tech Newsletters & Weeklies": "定期整理的技术项目、工具与精选文章",
     "Research & Science": "科研与科学内容",
     "News": "新闻资讯",
     "Product & Design": "产品与设计内容",
@@ -52,6 +67,9 @@ CATEGORY_INTRO_ZH = {
 CATEGORY_INTRO_EN = {
     "Artificial Intelligence": "Artificial intelligence feed.",
     "Engineering & Technology": "Engineering and technology feed.",
+    "Security": "Security news, research, and defensive practice.",
+    "Technology Media": "Technology products, companies, and industry reporting.",
+    "Tech Newsletters & Weeklies": "A periodic selection of technical projects, tools, and articles.",
     "Research & Science": "Research and science feed.",
     "News": "News feed.",
     "Product & Design": "Product and design feed.",
@@ -92,8 +110,12 @@ def appendix(catalog, chinese):
         else f"All {len(catalog['feeds'])} feeds in the complete collection are listed below with their primary category and bundles. This appendix is generated from `data/feeds.json`."
     )
     lines = [START, title, "", intro, ""]
-    for category, feeds in grouped.items():
-        group_name = CATEGORY_ZH.get(category, category) if chinese else category
+    for category in CATEGORIES:
+        feeds = grouped.get(category, [])
+        if not feeds:
+            continue
+        category_name = CATEGORY_ZH.get(category, category) if chinese else category
+        group_name = f"{CATEGORY_EMOJI[category]} {category_name}"
         lines.extend(
             [
                 f"<details>",
@@ -108,8 +130,8 @@ def appendix(catalog, chinese):
             description = localized_description(feed, chinese).replace("|", "\\|")
             site = feed["site_url"] if feed["site_url"].startswith(("http://", "https://")) else feed["feed_url"]
             packs = "、".join(PACK_ZH.get(pack, pack) for pack in feed["packs"]) if chinese else ", ".join(feed["packs"])
-            category_name = CATEGORY_ZH.get(feed["category"], feed["category"]) if chinese else feed["category"]
-            lines.append(f"| [{name}]({site}) | {description} | {category_name} | [RSS]({feed['feed_url']}) | {packs} |")
+            primary_category = CATEGORY_ZH.get(feed["category"], feed["category"]) if chinese else feed["category"]
+            lines.append(f"| [{name}]({site}) | {description} | {primary_category} | [RSS]({feed['feed_url']}) | {packs} |")
         lines.extend(["", "</details>", ""])
     lines.append(END)
     return "\n".join(lines)

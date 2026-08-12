@@ -8,7 +8,7 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
-    <outline text="Videos" title="Videos">
+    <outline text="🎬 Videos" title="🎬 Videos">
       <outline text="3Blue1Brown" title="3Blue1Brown" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw" htmlUrl="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" />
       <outline text="a16z" title="a16z" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9cn0TuPq4dnbTY-CBsm8XA" htmlUrl="https://www.youtube.com/channel/UC9cn0TuPq4dnbTY-CBsm8XA" />
       <outline text="Acquired" title="Acquired" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCyFqFYfTW2VoIQKylJ04Rtw" htmlUrl="https://www.youtube.com/channel/UCyFqFYfTW2VoIQKylJ04Rtw" />

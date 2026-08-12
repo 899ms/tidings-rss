@@ -8,7 +8,7 @@
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
-    <outline text="Artificial Intelligence" title="Artificial Intelligence">
+    <outline text="🤖 Artificial Intelligence" title="🤖 Artificial Intelligence">
       <outline text="AI" title="AI" type="rss" xmlUrl="https://blog.google/technology/ai/rss/" htmlUrl="https://blog.google/innovation-and-ai/technology/ai/" />
       <outline text="AI Musings by Mu" title="AI Musings by Mu" type="rss" xmlUrl="https://kelvinmu.substack.com/feed" htmlUrl="https://kelvinmu.substack.com" />
       <outline text="AI 开发者日报" title="AI 开发者日报" type="rss" xmlUrl="https://ainews.liduos.com/rss.xml" htmlUrl="https://ainews.liduos.com" />
@@ -24,7 +24,6 @@
       <outline text="Hacker News - Newest: &quot;AI&quot;" title="Hacker News - Newest: &quot;AI&quot;" type="rss" xmlUrl="https://hnrss.org/newest?q=AI" htmlUrl="https://news.ycombinator.com/newest" />
       <outline text="Hacker News - Newest: &quot;LLM&quot;" title="Hacker News - Newest: &quot;LLM&quot;" type="rss" xmlUrl="https://hnrss.org/newest?q=LLM" htmlUrl="https://news.ycombinator.com/newest" />
       <outline text="Hugging Face - Blog" title="Hugging Face - Blog" type="rss" xmlUrl="https://huggingface.co/blog/feed.xml" htmlUrl="https://huggingface.co/blog" />
-      <outline text="Last Week in AI" title="Last Week in AI" type="rss" xmlUrl="https://lastweekin.ai/feed" htmlUrl="https://lastweekin.ai" />
       <outline text="MIT News - Artificial intelligence" title="MIT News - Artificial intelligence" type="rss" xmlUrl="https://news.mit.edu/rss/topic/artificial-intelligence2" htmlUrl="https://news.mit.edu/rss/topic/artificial-intelligence2" />
       <outline text="OpenAI News" title="OpenAI News" type="rss" xmlUrl="https://openai.com/news/rss.xml" htmlUrl="https://openai.com/news" />
       <outline text="Recent Commits to openclaw:main" title="Recent Commits to openclaw:main" type="rss" xmlUrl="https://github.com/openclaw/openclaw/commits/main.atom" htmlUrl="https://github.com/openclaw/openclaw/commits/main" />
@@ -36,7 +35,6 @@
       <outline text="Release notes from openclaw" title="Release notes from openclaw" type="rss" xmlUrl="https://github.com/openclaw/openclaw/releases.atom" htmlUrl="https://github.com/openclaw/openclaw/releases" />
       <outline text="Release notes from servers" title="Release notes from servers" type="rss" xmlUrl="https://github.com/modelcontextprotocol/servers/releases.atom" htmlUrl="https://github.com/modelcontextprotocol/servers/releases" />
       <outline text="Simon Willison's Weblog" title="Simon Willison's Weblog" type="rss" xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="http://simonwillison.net/" />
-      <outline text="The Batch | DeepLearning.AI | AI News &amp; Insights" title="The Batch | DeepLearning.AI | AI News &amp; Insights" type="rss" xmlUrl="https://rsshub.bestblogs.dev/deeplearning/the-batch" htmlUrl="https://www.deeplearning.ai/the-batch/" />
       <outline text="The latest research from Google" title="The latest research from Google" type="rss" xmlUrl="https://research.google/blog/rss/" htmlUrl="https://research.google/blog/" />
       <outline text="大模型智能" title="大模型智能" type="rss" xmlUrl="https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml" htmlUrl="https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml" />
       <outline text="我爱计算机视觉" title="我爱计算机视觉" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/b81ffcfff1107b5265cd7e39de610dc7ca72caf4.xml" htmlUrl="https://wechat2rss.xlab.app/feed/b81ffcfff1107b5265cd7e39de610dc7ca72caf4.xml" />
@@ -50,7 +48,7 @@
       <outline text="量子位" title="量子位" type="rss" xmlUrl="https://www.qbitai.com/feed" htmlUrl="https://www.qbitai.com" />
       <outline text="阶跃StepFun" title="阶跃StepFun" type="rss" xmlUrl="https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml" htmlUrl="https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml" />
     </outline>
-    <outline text="Engineering &amp; Technology" title="Engineering &amp; Technology">
+    <outline text="🛠️ Engineering &amp; Technology" title="🛠️ Engineering &amp; Technology">
       <outline text="1A23 Studio" title="1A23 Studio" type="rss" xmlUrl="https://1a23.com/feed/" htmlUrl="https://1a23.com/" />
       <outline text="251 的魔法实验室" title="251 的魔法实验室" type="rss" xmlUrl="https://blog.251.sh/feed/" htmlUrl="https://blog.251.sh/" />
       <outline text="49th LunaSea" title="49th LunaSea" type="rss" xmlUrl="https://maki49.github.io/feed.xml" htmlUrl="https://maki49.github.io/" />
@@ -67,7 +65,6 @@
       <outline text="Apple Newsroom" title="Apple Newsroom" type="rss" xmlUrl="https://www.apple.com/newsroom/rss-feed.rss" htmlUrl="https://www.apple.com/newsroom/rss-feed.rss" />
       <outline text="AppleInsider News" title="AppleInsider News" type="rss" xmlUrl="https://appleinsider.com/rss/news/" htmlUrl="https://appleinsider.com/rss/news" />
       <outline text="Archive: 2026 - GitHub Changelog" title="Archive: 2026 - GitHub Changelog" type="rss" xmlUrl="https://github.blog/changelog/feed/" htmlUrl="https://github.blog/changelog/" />
-      <outline text="Ars Technica - All content" title="Ars Technica - All content" type="rss" xmlUrl="https://feeds.arstechnica.com/arstechnica/index" htmlUrl="https://arstechnica.com" />
       <outline text="Arthur's Review" title="Arthur's Review" type="rss" xmlUrl="https://blog.leesaitool.com/feed.xml" htmlUrl="https://blog.leesaitool.com/" />
       <outline text="Articles on Smashing Magazine — For Web Designers And Developers" title="Articles on Smashing Magazine — For Web Designers And Developers" type="rss" xmlUrl="https://rss1.smashingmagazine.com/feed/" htmlUrl="https://www.smashingmagazine.com/" />
       <outline text="AWS Architecture Blog" title="AWS Architecture Blog" type="rss" xmlUrl="https://www.awsarchitectureblog.com/atom.xml" htmlUrl="https://aws.amazon.com/blogs/architecture/" />
@@ -134,9 +131,7 @@
       <outline text="Kerry的学习笔记" title="Kerry的学习笔记" type="rss" xmlUrl="https://kerrynotes.com/feed/" htmlUrl="https://kerrynotes.com" />
       <outline text="kok的笔记本" title="kok的笔记本" type="rss" xmlUrl="https://wocai.de/index.xml/" htmlUrl="https://wocai.de/" />
       <outline text="Kotlin : A concise multiplatform language developed by JetBrains | The JetBrains Blog" title="Kotlin : A concise multiplatform language developed by JetBrains | The JetBrains Blog" type="rss" xmlUrl="https://blog.jetbrains.com/kotlin/feed/" htmlUrl="https://blog.jetbrains.com" />
-      <outline text="Krebs on Security" title="Krebs on Security" type="rss" xmlUrl="https://krebsonsecurity.com/feed/" htmlUrl="https://krebsonsecurity.com" />
       <outline text="laike9m's blog" title="laike9m's blog" type="rss" xmlUrl="https://laike9m.com/blog/rss/" htmlUrl="https://laike9m.com/blog/rss" />
-      <outline text="Latest news" title="Latest news" type="rss" xmlUrl="https://www.zdnet.com/topic/security/rss.xml" htmlUrl="https://www.zdnet.com/" />
       <outline text="LearnData 开源笔记" title="LearnData 开源笔记" type="rss" xmlUrl="https://newzone.top/rss.xml" htmlUrl="https://newzone.top/" />
       <outline text="Lex Blog" title="Lex Blog" type="rss" xmlUrl="https://dreams.plus/rss.xml" htmlUrl="https://dreams.plus/" />
       <outline text="LiaoKe的博客" title="LiaoKe的博客" type="rss" xmlUrl="https://blog.liao-ke.com/rss.xml" htmlUrl="https://blog.liao-ke.com/" />
@@ -205,8 +200,6 @@
       <outline text="RYANUO" title="RYANUO" type="rss" xmlUrl="https://ryanuo.cc/sitemap.xml" htmlUrl="https://ryanuo.cc" />
       <outline text="Ryan‘s World" title="Ryan‘s World" type="rss" xmlUrl="https://blog.12ms.xyz/feed/" htmlUrl="https://blog.12ms.xyz/" />
       <outline text="S T C H E N G" title="S T C H E N G" type="rss" xmlUrl="https://cheng.st/atom.xml" htmlUrl="https://cheng.st/atom.xml" />
-      <outline text="Schneier on Security" title="Schneier on Security" type="rss" xmlUrl="https://www.schneier.com/blog/index.rdf" htmlUrl="https://www.schneier.com/" />
-      <outline text="Security Affairs" title="Security Affairs" type="rss" xmlUrl="https://securityaffairs.co/wordpress/feed" htmlUrl="https://securityaffairs.com/" />
       <outline text="Sehnsucht" title="Sehnsucht" type="rss" xmlUrl="https://blog.sehnsucht.top/rss.xml" htmlUrl="https://blog.sehnsucht.top/" />
       <outline text="Sekyoro的博客小屋" title="Sekyoro的博客小屋" type="rss" xmlUrl="https://www.sekyoro.top/atom.xml" htmlUrl="https://www.sekyoro.top/" />
       <outline text="Seven's blog" title="Seven's blog" type="rss" xmlUrl="https://blog.diqigan.cn/atom.xml" htmlUrl="https://blog.diqigan.cn/" />
@@ -374,7 +367,6 @@
       <outline text="肘子的 Swift 记事本 ｜ Fatbobman's Blog" title="肘子的 Swift 记事本 ｜ Fatbobman's Blog" type="rss" xmlUrl="https://fatbobman.com/zh/rss.xml" htmlUrl="https://fatbobman.com/" />
       <outline text="胡涂说" title="胡涂说" type="rss" xmlUrl="https://hutusi.com/feed.xml" htmlUrl="https://hutusi.com" />
       <outline text="腾讯技术工程" title="腾讯技术工程" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/9685937b45fe9c7a526dbc32e4f24ba879a65b9a.xml" htmlUrl="https://wechat2rss.xlab.app/feed/9685937b45fe9c7a526dbc32e4f24ba879a65b9a.xml" />
-      <outline text="腾讯玄武实验室" title="腾讯玄武实验室" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml" htmlUrl="https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml" />
       <outline text="草梅友仁的博客" title="草梅友仁的博客" type="rss" xmlUrl="https://blog.cmyr.ltd/atom.xml" htmlUrl="https://blog.cmyr.ltd/atom.xml" />
       <outline text="莫尔索随笔" title="莫尔索随笔" type="rss" xmlUrl="https://liduos.com/atom.xml" htmlUrl="https://liduos.com/atom.xml" />
       <outline text="蒙需" title="蒙需" type="rss" xmlUrl="https://jiangcl.com/feed" htmlUrl="https://jiangcl.com" />
@@ -406,13 +398,39 @@
       <outline text="黑羽的个人博客" title="黑羽的个人博客" type="rss" xmlUrl="https://blog.thetbw.xyz/atom.xml" htmlUrl="https://blog.thetbw.xyz" />
       <outline text="𝟞𝟙𝟡'𝕤 𝔹𝕃𝕆𝔾" title="𝟞𝟙𝟡'𝕤 𝔹𝕃𝕆𝔾" type="rss" xmlUrl="https://66619.eu.org/feed/" htmlUrl="https://619.pp.ua" />
     </outline>
-    <outline text="News" title="News">
+    <outline text="🛡️ Security" title="🛡️ Security">
+      <outline text="CISA" title="CISA" type="rss" xmlUrl="https://www.cisa.gov/news.xml" htmlUrl="https://www.cisa.gov/news-events" />
+      <outline text="FreeBuf 网络安全行业门户" title="FreeBuf 网络安全行业门户" type="rss" xmlUrl="https://www.freebuf.com/feed" htmlUrl="https://www.freebuf.com/" />
+      <outline text="Krebs on Security" title="Krebs on Security" type="rss" xmlUrl="https://krebsonsecurity.com/feed/" htmlUrl="https://krebsonsecurity.com" />
+      <outline text="Schneier on Security" title="Schneier on Security" type="rss" xmlUrl="https://www.schneier.com/blog/index.rdf" htmlUrl="https://www.schneier.com/" />
+      <outline text="Security Affairs" title="Security Affairs" type="rss" xmlUrl="https://securityaffairs.co/wordpress/feed" htmlUrl="https://securityaffairs.com/" />
+      <outline text="ZDNET Security" title="ZDNET Security" type="rss" xmlUrl="https://www.zdnet.com/topic/security/rss.xml" htmlUrl="https://www.zdnet.com/" />
+      <outline text="安全客" title="安全客" type="rss" xmlUrl="https://api.anquanke.com/data/v1/rss" htmlUrl="https://www.anquanke.com" />
+      <outline text="腾讯玄武实验室" title="腾讯玄武实验室" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml" htmlUrl="https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml" />
+    </outline>
+    <outline text="📰 Technology Media" title="📰 Technology Media">
+      <outline text="Ars Technica" title="Ars Technica" type="rss" xmlUrl="https://feeds.arstechnica.com/arstechnica/index" htmlUrl="https://arstechnica.com" />
+    </outline>
+    <outline text="📮 Tech Newsletters &amp; Weeklies" title="📮 Tech Newsletters &amp; Weeklies">
+      <outline text="AIGC Weekly" title="AIGC Weekly" type="rss" xmlUrl="https://quaily.com/op7418/feed/atom" htmlUrl="https://quaily.com/op7418/feed/atom" />
+      <outline text="Golang Weekly" title="Golang Weekly" type="rss" xmlUrl="https://golangweekly.com/rss/" htmlUrl="https://golangweekly.com/" />
+      <outline text="JavaScript Weekly" title="JavaScript Weekly" type="rss" xmlUrl="https://javascriptweekly.com/rss/" htmlUrl="https://javascriptweekly.com/" />
+      <outline text="Last Week in AI" title="Last Week in AI" type="rss" xmlUrl="https://lastweekin.ai/feed" htmlUrl="https://lastweekin.ai" />
+      <outline text="The Batch" title="The Batch" type="rss" xmlUrl="https://rsshub.bestblogs.dev/deeplearning/the-batch" htmlUrl="https://www.deeplearning.ai/the-batch/" />
+      <outline text="This Week in Rust" title="This Week in Rust" type="rss" xmlUrl="https://this-week-in-rust.org/atom.xml" htmlUrl="https://this-week-in-rust.org/" />
+      <outline text="大橘和朋友们的周刊" title="大橘和朋友们的周刊" type="rss" xmlUrl="https://rrorangeandfriends.de/feed.xml" htmlUrl="https://rrorangeandfriends.de" />
+      <outline text="潮流周刊" title="潮流周刊" type="rss" xmlUrl="https://weekly.tw93.fun/rss.xml" htmlUrl="https://weekly.tw93.fun/" />
+      <outline text="阮一峰的网络日志" title="阮一峰的网络日志" type="rss" xmlUrl="https://www.ruanyifeng.com/blog/atom.xml" htmlUrl="https://www.ruanyifeng.com/blog/" />
+    </outline>
+    <outline text="🗞️ News" title="🗞️ News">
       <outline text="News from Google" title="News from Google" type="rss" xmlUrl="https://blog.google/rss" htmlUrl="https://blog.google/" />
     </outline>
-    <outline text="Personal Blogs" title="Personal Blogs">
+    <outline text="✍️ Personal Blogs" title="✍️ Personal Blogs">
       <outline text="Spring" title="Spring" type="rss" xmlUrl="https://spring.io/blog.atom" htmlUrl="https://spring.io" />
     </outline>
-    <outline text="Communities" title="Communities">
+    <outline text="👥 Communities" title="👥 Communities">
+      <outline text="Ask HN" title="Ask HN" type="rss" xmlUrl="https://hnrss.org/ask" htmlUrl="https://news.ycombinator.com/ask" />
+      <outline text="Hacker News" title="Hacker News" type="rss" xmlUrl="https://news.ycombinator.com/rss" htmlUrl="https://news.ycombinator.com/" />
       <outline text="Kubernetes · General Discussions" title="Kubernetes · General Discussions" type="rss" xmlUrl="https://discuss.kubernetes.io/c/general-discussions/6.rss?order=created" htmlUrl="https://discuss.kubernetes.io/c/general-discussions/6" />
       <outline text="LINUX DO · 文档共建" title="LINUX DO · 文档共建" type="rss" xmlUrl="https://linuxdorss.longpink.com/wiki.xml" htmlUrl="https://linux.do/c/wiki/42" />
       <outline text="Lobsters" title="Lobsters" type="rss" xmlUrl="https://lobste.rs/rss" htmlUrl="https://lobste.rs/" />
@@ -421,6 +439,9 @@
       <outline text="Python Core Development" title="Python Core Development" type="rss" xmlUrl="https://discuss.python.org/c/core-dev/23.rss?order=created" htmlUrl="https://discuss.python.org/c/core-dev/23" />
       <outline text="Reddit · Linux, Self-Hosted, DevOps &amp; AI" title="Reddit · Linux, Self-Hosted, DevOps &amp; AI" type="rss" xmlUrl="https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/.rss" htmlUrl="https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/" />
       <outline text="Rust Internals · Language Design" title="Rust Internals · Language Design" type="rss" xmlUrl="https://internals.rust-lang.org/c/language-design/21.rss?order=created" htmlUrl="https://internals.rust-lang.org/c/language-design/21" />
+      <outline text="Show HN" title="Show HN" type="rss" xmlUrl="https://hnrss.org/show" htmlUrl="https://news.ycombinator.com/shownew" />
+      <outline text="V2EX · 创意" title="V2EX · 创意" type="rss" xmlUrl="https://www.v2ex.com/feed/tab/creative.xml" htmlUrl="https://www.v2ex.com/?tab=creative" />
+      <outline text="V2EX · 技术" title="V2EX · 技术" type="rss" xmlUrl="https://www.v2ex.com/feed/tab/tech.xml" htmlUrl="https://www.v2ex.com/?tab=tech" />
     </outline>
   </body>
 </opml>

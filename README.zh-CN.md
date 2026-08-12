@@ -1,11 +1,12 @@
 <div align="center">
   <img src="https://tidings.info/apple-touch-icon.png" width="96" height="96" alt="Tidings 应用图标">
   <h1>Tidings RSS</h1>
-  <p><strong>一套可以直接导入阅读器的精品 RSS 目录。</strong></p>
-  <p>中文独立博客、技术社区、公众号、大厂技术、AI、新闻、科研、视频和播客，都整理好了。最近检查：2026-08-12。</p>
+  <p><strong>把真正值得长期订阅的内容，整理成可以直接导入阅读器的 RSS 合集。</strong></p>
+  <p>现有 718 个源，覆盖中文独立博客、技术社区、安全、科技媒体、技术周刊、AI、科研、视频与播客。最近检查：2026-08-12。</p>
   <p>
     <a href="README.md">English</a> ·
     <a href="#直接下载">下载 OPML</a> ·
+    <a href="RSS-GUIDE.zh-CN.md">RSS 使用指南</a> ·
     <a href="#全量源清单">查看完整清单</a> ·
     <a href="CONTRIBUTING.zh-CN.md">推荐新源</a> ·
     <a href="https://tidings.info/">获取 Tidings</a>
@@ -17,9 +18,9 @@
   </p>
 </div>
 
-不想从几百个网站里一个个找 RSS，可以从下面的主题包开始。下载 OPML，导入 Tidings、NetNewsWire、Feedly、Inoreader、FreshRSS 等支持 OPML 的阅读器，就能按原有分类阅读。
+不想从几百个网站里逐个找订阅地址，可以直接从下面的主题包开始。下载 OPML，导入 Tidings、NetNewsWire、Feedly、Inoreader、FreshRSS 等阅读器，原有分类也会一起带过去。
 
-目录偏向原创、持续更新、正文完整的内容。中文独立博客来自开源社区中一千多个仍提供 RSS 的作者主页，我们又按近期更新、文章质量和连接稳定性做了一轮筛选。社区部分收录 LINUX DO、Reddit、Lobsters、Python、Rust、NixOS、OpenAI 和 Kubernetes 等近期仍活跃的讨论源。公众号和大厂技术号也经过在线检查；同一家公司的同一技术方向只留一个源，有独立网站 RSS 时优先选官网，避免重复刷屏。
+这里更看重原创写作、近期更新、正文质量和连接稳定性。中文独立博客从开源社区收集的一千多个候选里重新筛过；社区包收录 V2EX、LINUX DO、Reddit、Lobsters、Hacker News，以及 Python、Rust、NixOS、OpenAI 和 Kubernetes 等仍在活跃讨论的站点。安全、科技媒体和技术周刊也单独整理成包，想少看一点时不必先导入整个目录。
 
 ## 直接下载
 
@@ -27,25 +28,29 @@
 
 | 合集 | 数量 | 下载 | 适合你，如果你想看…… |
 | --- | ---: | --- | --- |
-| 综合全集 | `707` | [下载 `tidings-all.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-all.opml) | 完整收藏，或导入后自行删减 |
-| 中文独立博客 | `348` | [下载 `tidings-blogs.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-blogs.opml) | 仍在认真写作的中文个人博客 |
-| 微信公众号 | `30` | [下载 `tidings-wechat.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-wechat.opml) | 不打开微信也能集中阅读的公众号文章 |
-| 大厂技术号 | `40` | [下载 `tidings-company-tech.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-company-tech.opml) | 国内外技术团队的一手工程、AI、安全与研究文章 |
-| AI / 人工智能 | `99` | [下载 `tidings-ai.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-ai.opml) | 模型进展、研究、工具和技术观点 |
-| 最新新闻 | `39` | [下载 `tidings-news.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-news.opml) | 国际、科技、安全和中文新闻 |
-| 科研与科学 | `27` | [下载 `tidings-research.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-research.opml) | 论文、期刊、实验室和科学报道 |
-| 工程与技术 | `404` | [下载 `tidings-engineering.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-engineering.opml) | 编程、架构、开发工具和工程实践 |
-| 视频频道 | `93` | [下载 `tidings-videos.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-videos.opml) | AI、编程、科学和商业视频 |
-| 播客 | `73` | [下载 `tidings-podcasts.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-podcasts.opml) | 科技、商业、科学与中文节目 |
-| 中文订阅源 | `465` | [下载 `tidings-chinese.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-chinese.opml) | 中文文章、社区、视频和音频 |
+| 📚 综合全集 | `718` | [下载 `tidings-all.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-all.opml) | 完整收藏，或导入后自行删减 |
+| ✍️ 中文独立博客 | `349` | [下载 `tidings-blogs.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-blogs.opml) | 仍在认真写作的中文个人博客 |
+| 👥 技术社区 | `14` | [下载 `tidings-communities.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-communities.opml) | V2EX、LINUX DO、Reddit、Hacker News 等社区讨论 |
+| 🔐 安全 | `8` | [下载 `tidings-security.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-security.opml) | 漏洞、攻防研究、安全通告与行业动态 |
+| 📰 科技媒体 | `10` | [下载 `tidings-tech-media.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-tech-media.opml) | 国内外科技新闻、产品与深度报道 |
+| 📮 技术周刊 | `9` | [下载 `tidings-weeklies.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-weeklies.opml) | AI、JavaScript、Go、Rust 与中文技术周刊 |
+| 💬 微信公众号 | `30` | [下载 `tidings-wechat.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-wechat.opml) | 在阅读器里集中阅读公众号文章 |
+| 🏢 大厂技术号 | `40` | [下载 `tidings-company-tech.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-company-tech.opml) | 国内外技术团队的一手工程、AI、安全与研究文章 |
+| 🤖 AI / 人工智能 | `99` | [下载 `tidings-ai.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-ai.opml) | 模型进展、研究、工具和技术观点 |
+| 🗞️ 最新新闻 | `44` | [下载 `tidings-news.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-news.opml) | 国际、科技、安全和中文新闻 |
+| 🔬 科研与科学 | `27` | [下载 `tidings-research.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-research.opml) | 论文、期刊、实验室和科学报道 |
+| 🛠️ 工程与技术 | `419` | [下载 `tidings-engineering.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-engineering.opml) | 编程、架构、开发工具和工程实践 |
+| 🎬 视频频道 | `93` | [下载 `tidings-videos.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-videos.opml) | AI、编程、科学和商业视频 |
+| 🎧 播客 | `73` | [下载 `tidings-podcasts.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-podcasts.opml) | 科技、商业、科学与中文节目 |
+| 🀄 中文订阅源 | `469` | [下载 `tidings-chinese.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-chinese.opml) | 中文文章、社区、视频和音频 |
 
-[浏览 OPML](opml/) · [SHA-256 校验文件](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/SHA256SUMS.txt) · [目录统计](reports/catalog-summary.md) · [机器可读目录](data/feeds.json)
+[RSS 使用指南](RSS-GUIDE.zh-CN.md) · [浏览 OPML](opml/) · [SHA-256 校验文件](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/SHA256SUMS.txt) · [目录统计](reports/catalog-summary.md) · [机器可读目录](data/feeds.json)
 
 ## 我们怎么选
 
-判断一个源值不值得留下，主要看三件事：最近还在不在更新，文章有没有实际阅读价值，订阅地址能不能稳定解析。重复站点、长期停更、内容农场、推广聚合和连续访问失败的地址会被移出目录。
+判断一个源值不值得留下，主要看三件事：最近还在不在更新，内容有没有实际阅读价值，订阅地址能不能稳定解析。重复站点、长期停更、内容农场、推广聚合和连续访问失败的地址会被移出目录。
 
-中文独立博客会更看重近几个月的写作情况和 Feed 中的正文信息量。社区源既要有近期讨论，也要连续通过 Tidings 解析；同一站点优先保留一个高信噪比入口。微信公众号要能快速建立连接，并能在 Tidings 中正常读出近期文章。大厂技术号按“机构 + 技术方向”去重：官网技术博客能够覆盖的内容，不再重复收同方向的公众号。
+中文独立博客会更看重近几个月的写作情况和 Feed 中的正文信息量。社区、安全、科技媒体和技术周刊都要求近期仍有内容，并能在阅读器中稳定打开；同类入口会优先保留信息密度更高的一份。微信公众号要能快速建立连接，并能在 Tidings 中正常读出近期文章。大厂技术号按“机构 + 技术方向”去重：官网技术博客能够覆盖的内容，不再重复收同方向的公众号。
 
 RSS 地址可能随时迁移或失效，所以目录会持续复查。发现漏收、失效或分类不合适，可以直接[提交建议](CONTRIBUTING.zh-CN.md)。
 
@@ -83,10 +88,10 @@ AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、A
 <!-- SOURCE_APPENDIX_START -->
 ## 全量源清单
 
-下面列出全集中的 707 个订阅源。每项都标明主分类与所属合集；内容由 `data/feeds.json` 生成。
+下面列出全集中的 718 个订阅源。每项都标明主分类与所属合集；内容由 `data/feeds.json` 生成。
 
 <details>
-<summary>人工智能 · 40</summary>
+<summary>🤖 人工智能 · 38</summary>
 
 | 名称 | 介绍 | 主分类 | Feed | 所属合集 |
 | --- | --- | --- | --- | --- |
@@ -105,7 +110,6 @@ AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、A
 | [Hacker News - Newest: "AI"](https://news.ycombinator.com/newest) | 人工智能内容 | 人工智能 | [RSS](https://hnrss.org/newest?q=AI) | AI、全集、工程 |
 | [Hacker News - Newest: "LLM"](https://news.ycombinator.com/newest) | 人工智能内容 | 人工智能 | [RSS](https://hnrss.org/newest?q=LLM) | AI、全集、工程 |
 | [Hugging Face - Blog](https://huggingface.co/blog) | 人工智能内容 | 人工智能 | [RSS](https://huggingface.co/blog/feed.xml) | AI、全集、大厂技术号、工程 |
-| [Last Week in AI](https://lastweekin.ai) | 人工智能内容 | 人工智能 | [RSS](https://lastweekin.ai/feed) | AI、全集、工程 |
 | [MIT News - Artificial intelligence](https://news.mit.edu/rss/topic/artificial-intelligence2) | 人工智能内容 | 人工智能 | [RSS](https://news.mit.edu/rss/topic/artificial-intelligence2) | AI、全集、工程、科研 |
 | [OpenAI News](https://openai.com/news) | 人工智能内容 | 人工智能 | [RSS](https://openai.com/news/rss.xml) | AI、全集、大厂技术号、工程 |
 | [Recent Commits to openclaw:main](https://github.com/openclaw/openclaw/commits/main) | 人工智能内容 | 人工智能 | [RSS](https://github.com/openclaw/openclaw/commits/main.atom) | AI、全集、工程 |
@@ -117,7 +121,6 @@ AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、A
 | [Release notes from openclaw](https://github.com/openclaw/openclaw/releases) | 人工智能内容 | 人工智能 | [RSS](https://github.com/openclaw/openclaw/releases.atom) | AI、全集、工程 |
 | [Release notes from servers](https://github.com/modelcontextprotocol/servers/releases) | 人工智能内容 | 人工智能 | [RSS](https://github.com/modelcontextprotocol/servers/releases.atom) | AI、全集、工程 |
 | [Simon Willison's Weblog](http://simonwillison.net/) | 人工智能内容 | 人工智能 | [RSS](https://simonwillison.net/atom/everything/) | AI、全集、工程 |
-| [The Batch \| DeepLearning.AI \| AI News & Insights](https://www.deeplearning.ai/the-batch/) | 人工智能内容 | 人工智能 | [RSS](https://rsshub.bestblogs.dev/deeplearning/the-batch) | AI、全集、工程 |
 | [The latest research from Google](https://research.google/blog/) | 人工智能内容 | 人工智能 | [RSS](https://research.google/blog/rss/) | AI、全集、大厂技术号、工程、科研 |
 | [大模型智能](https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml) | 人工智能内容 | 人工智能 | [RSS](https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml) | AI、全集、中文、工程 |
 | [我爱计算机视觉](https://wechat2rss.xlab.app/feed/b81ffcfff1107b5265cd7e39de610dc7ca72caf4.xml) | 公众号，主要关注计算机视觉研究与应用。 | 人工智能 | [RSS](https://wechat2rss.xlab.app/feed/b81ffcfff1107b5265cd7e39de610dc7ca72caf4.xml) | 全集、中文、微信公众号、工程、AI |
@@ -134,55 +137,7 @@ AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、A
 </details>
 
 <details>
-<summary>商业与创业 · 5</summary>
-
-| 名称 | 介绍 | 主分类 | Feed | 所属合集 |
-| --- | --- | --- | --- | --- |
-| [Macin](https://macin.org/atom.xml) | 主要写分享、投资、学习、Crypto。 | 商业与创业 | [RSS](https://www.macin.org/atom.xml) | 全集、中文独立博客、中文 |
-| [扯氮集](http://weiwuhui.com) | 主要写创业、人生。 | 商业与创业 | [RSS](http://weiwuhui.com/feed) | 全集、中文独立博客、中文 |
-| [知足常乐-水星投资理财的基本意念](http://mercurychong.blogspot.com/) | 主要写投资。 | 商业与创业 | [RSS](http://mercurychong.blogspot.com/feeds/posts/default) | 全集、中文独立博客、中文 |
-| [虹线](https://1q43.blog) | 主要写商业、社科、科技、生活。 | 商业与创业 | [RSS](https://1q43.blog/feed) | 全集、中文独立博客、中文 |
-| [雷蒙三十｜幫助忙碌現代人的聰明工作、好好生活的生產力指南](https://raymondhouch.com) | 主要写创业、数码、数字游民、生产力工具。 | 商业与创业 | [RSS](https://raymondhouch.com/feed) | 全集、中文独立博客、中文 |
-
-</details>
-
-<details>
-<summary>社区 · 9</summary>
-
-| 名称 | 介绍 | 主分类 | Feed | 所属合集 |
-| --- | --- | --- | --- | --- |
-| [V2EX](https://www.v2ex.com/) | 中文技术社区的新主题。 | 社区 | [RSS](https://v2ex.com/index.xml) | 全集、中文、新闻 |
-| [LINUX DO · 文档共建](https://linux.do/c/wiki/42) | LINUX DO 社区的教程、学习笔记与共建文档。 | 社区 | [RSS](https://linuxdorss.longpink.com/wiki.xml) | 全集、中文、工程 |
-| [Reddit · Linux, Self-Hosted, DevOps & AI](https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/) | Reddit 上 Linux、自托管、DevOps、本地大模型与机器学习的新帖合并源。 | 社区 | [RSS](https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/.rss) | AI、全集、工程 |
-| [Lobsters](https://lobste.rs/) | 由社区筛选的软件、编程与计算机科学讨论。 | 社区 | [RSS](https://lobste.rs/rss) | 全集、工程 |
-| [Python Core Development](https://discuss.python.org/c/core-dev/23) | Python 核心开发与解释器设计讨论。 | 社区 | [RSS](https://discuss.python.org/c/core-dev/23.rss?order=created) | 全集、工程 |
-| [Rust Internals · Language Design](https://internals.rust-lang.org/c/language-design/21) | Rust 语言设计与编译器内部讨论。 | 社区 | [RSS](https://internals.rust-lang.org/c/language-design/21.rss?order=created) | 全集、工程 |
-| [NixOS Development](https://discourse.nixos.org/c/dev/14) | NixOS 开发、打包与基础设施讨论。 | 社区 | [RSS](https://discourse.nixos.org/c/dev/14.rss?order=created) | 全集、工程 |
-| [OpenAI Developer Community · API](https://community.openai.com/c/api/7) | OpenAI API 使用、调试与集成讨论。 | 社区 | [RSS](https://community.openai.com/c/api/7.rss?order=created) | AI、全集、工程 |
-| [Kubernetes · General Discussions](https://discuss.kubernetes.io/c/general-discussions/6) | Kubernetes 配置、集群运维与故障排查讨论。 | 社区 | [RSS](https://discuss.kubernetes.io/c/general-discussions/6.rss?order=created) | 全集、工程 |
-
-</details>
-
-<details>
-<summary>文化与思想 · 10</summary>
-
-| 名称 | 介绍 | 主分类 | Feed | 所属合集 |
-| --- | --- | --- | --- | --- |
-| [KAIX.IN](https://kaix.in/) | 主要写读书、咖啡、随笔。 | 文化与思想 | [RSS](https://kaix.in/feed/) | 全集、中文独立博客、中文 |
-| [Maohang Gao's Blog](http://kangaroogao.com/atom.xml) | 主要写游记、读书笔记、随笔。 | 文化与思想 | [RSS](https://kangaroogao.com/atom.xml) | 全集、中文独立博客、中文 |
-| [ShineKid](https://shinekid.com) | 主要写生活、影视、文学。 | 文化与思想 | [RSS](https://shinekid.com/feed/) | 全集、中文独立博客、中文 |
-| [Tripper Press - Take Photo, Think Seriously.](https://tripper.press) | 主要写摄影、文化产业、新媒体。 | 文化与思想 | [RSS](https://tripper.press/atom.xml) | 全集、中文独立博客、中文 |
-| [东评西就](https://dongjunke.cn/) | 主要写社交媒体、科技互联网、思考、读书。 | 文化与思想 | [RSS](https://dongjunke.cn/atom.xml) | 全集、中文独立博客、中文 |
-| [先生制造](https://wechat2rss.xlab.app/feed/313326d41db4f54b1cc09e7c986a5ac4e5f88ca0.xml) | 公众号，主要关注人物与社会记录。 | 文化与思想 | [RSS](https://wechat2rss.xlab.app/feed/313326d41db4f54b1cc09e7c986a5ac4e5f88ca0.xml) | 全集、中文、微信公众号 |
-| [叉息的空中咖啡馆](https://www.xchere.xyz/atom.xml) | 主要写生活、随笔、记录、读书笔记。 | 文化与思想 | [RSS](https://www.xchere.xyz/atom.xml) | 全集、中文独立博客、中文 |
-| [浅黑科技](https://wechat2rss.xlab.app/feed/6111a6d5ecf28cfdd4fc9b664244c05ddacef15c.xml) | 公众号，主要关注科技人物与产业故事。 | 文化与思想 | [RSS](https://wechat2rss.xlab.app/feed/6111a6d5ecf28cfdd4fc9b664244c05ddacef15c.xml) | 全集、中文、微信公众号 |
-| [赫赫文王](https://kqh.me/) | 主要写历史、人文、艺术、日常。 | 文化与思想 | [RSS](https://kqh.me/index.xml) | 全集、中文独立博客、中文 |
-| [静风说](https://www.jfsay.com) | 主要写生活、读书、电影、旅游。 | 文化与思想 | [RSS](http://www.jfsay.com/feed) | 全集、中文独立博客、中文 |
-
-</details>
-
-<details>
-<summary>工程与技术 · 354</summary>
+<summary>🛠️ 工程与技术 · 348</summary>
 
 | 名称 | 介绍 | 主分类 | Feed | 所属合集 |
 | --- | --- | --- | --- | --- |
@@ -202,7 +157,6 @@ AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、A
 | [Apple Newsroom](https://www.apple.com/newsroom/rss-feed.rss) | 工程与技术内容 | 工程与技术 | [RSS](https://www.apple.com/newsroom/rss-feed.rss) | 全集、工程 |
 | [AppleInsider News](https://appleinsider.com/rss/news) | 工程与技术内容 | 工程与技术 | [RSS](https://appleinsider.com/rss/news/) | 全集、工程 |
 | [Archive: 2026 - GitHub Changelog](https://github.blog/changelog/) | 工程与技术内容 | 工程与技术 | [RSS](https://github.blog/changelog/feed/) | 全集、工程 |
-| [Ars Technica - All content](https://arstechnica.com) | 工程与技术内容 | 工程与技术 | [RSS](https://feeds.arstechnica.com/arstechnica/index) | 全集、工程、新闻 |
 | [Arthur's Review](https://blog.leesaitool.com/) | 主要写AI、社会、哲学、随笔。 | 工程与技术 | [RSS](https://blog.leesaitool.com/feed.xml) | AI、全集、中文独立博客、中文、工程 |
 | [Articles on Smashing Magazine — For Web Designers And Developers](https://www.smashingmagazine.com/) | 工程与技术内容 | 工程与技术 | [RSS](https://rss1.smashingmagazine.com/feed/) | 全集、工程 |
 | [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/) | 工程与技术内容 | 工程与技术 | [RSS](https://www.awsarchitectureblog.com/atom.xml) | 全集、大厂技术号、工程 |
@@ -269,9 +223,7 @@ AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、A
 | [Kerry的学习笔记](https://kerrynotes.com) | 主要写软件、技术、分享。 | 工程与技术 | [RSS](https://kerrynotes.com/feed/) | 全集、中文独立博客、中文、工程 |
 | [kok的笔记本](https://wocai.de/) | 主要写编程、摄影。 | 工程与技术 | [RSS](https://wocai.de/index.xml/) | 全集、中文独立博客、中文、工程 |
 | [Kotlin : A concise multiplatform language developed by JetBrains \| The JetBrains Blog](https://blog.jetbrains.com) | 工程与技术内容 | 工程与技术 | [RSS](https://blog.jetbrains.com/kotlin/feed/) | 全集、工程 |
-| [Krebs on Security](https://krebsonsecurity.com) | 工程与技术内容 | 工程与技术 | [RSS](https://krebsonsecurity.com/feed/) | 全集、工程、新闻 |
 | [laike9m's blog](https://laike9m.com/blog/rss) | 主要写Python、生活、编程。 | 工程与技术 | [RSS](https://laike9m.com/blog/rss/) | 全集、中文独立博客、中文、工程 |
-| [Latest news](https://www.zdnet.com/) | 工程与技术内容 | 工程与技术 | [RSS](https://www.zdnet.com/topic/security/rss.xml) | 全集、工程 |
 | [LearnData 开源笔记](https://newzone.top/) | 主要写笔记、个人成长、编程。 | 工程与技术 | [RSS](https://newzone.top/rss.xml) | 全集、中文独立博客、中文、工程 |
 | [Lex Blog](https://dreams.plus/) | 主要写生活、随笔、编程、笔记。 | 工程与技术 | [RSS](https://dreams.plus/rss.xml) | 全集、中文独立博客、中文、工程 |
 | [LiaoKe的博客](https://blog.liao-ke.com/) | 主要写编程、开源、全栈、开发者。 | 工程与技术 | [RSS](https://blog.liao-ke.com/rss.xml) | 全集、中文独立博客、中文、工程 |
@@ -340,8 +292,6 @@ AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、A
 | [RYANUO](https://ryanuo.cc) | 主要写编程、嵌入式、前端、AI。 | 工程与技术 | [RSS](https://ryanuo.cc/sitemap.xml) | AI、全集、中文独立博客、中文、工程 |
 | [Ryan‘s World](https://blog.12ms.xyz/) | 主要写编程、技术、运维、加密货币。 | 工程与技术 | [RSS](https://blog.12ms.xyz/feed/) | 全集、中文独立博客、中文、工程 |
 | [S T C H E N G](https://cheng.st/atom.xml) | 主要写随笔、旅行、摄影、运动。 | 工程与技术 | [RSS](https://cheng.st/atom.xml) | 全集、中文独立博客、中文、工程 |
-| [Schneier on Security](https://www.schneier.com/) | 工程与技术内容 | 工程与技术 | [RSS](https://www.schneier.com/blog/index.rdf) | 全集、工程、新闻 |
-| [Security Affairs](https://securityaffairs.com/) | 工程与技术内容 | 工程与技术 | [RSS](https://securityaffairs.co/wordpress/feed) | 全集、工程 |
 | [Sehnsucht](https://blog.sehnsucht.top/) | 主要写技术、生活、随笔、读书。 | 工程与技术 | [RSS](https://blog.sehnsucht.top/rss.xml) | 全集、中文独立博客、中文、工程 |
 | [Sekyoro的博客小屋](https://www.sekyoro.top/) | 主要写编程、学习笔记、机器学习、工具使用。 | 工程与技术 | [RSS](https://www.sekyoro.top/atom.xml) | AI、全集、中文独立博客、中文、工程 |
 | [Seven's blog](https://blog.diqigan.cn/) | 主要写编程、随笔、Geek、Java。 | 工程与技术 | [RSS](https://blog.diqigan.cn/atom.xml) | 全集、中文独立博客、中文、工程 |
@@ -509,7 +459,6 @@ AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、A
 | [肘子的 Swift 记事本 ｜ Fatbobman's Blog](https://fatbobman.com/) | 主要写编程、Swift、SwiftUI。 | 工程与技术 | [RSS](https://fatbobman.com/zh/rss.xml) | 全集、中文独立博客、中文、工程 |
 | [胡涂说](https://hutusi.com) | 主要写编程、随笔、生活。 | 工程与技术 | [RSS](https://hutusi.com/feed.xml) | 全集、中文独立博客、中文、工程 |
 | [腾讯技术工程](https://wechat2rss.xlab.app/feed/9685937b45fe9c7a526dbc32e4f24ba879a65b9a.xml) | 公众号，主要关注工程实践。 | 工程与技术 | [RSS](https://wechat2rss.xlab.app/feed/9685937b45fe9c7a526dbc32e4f24ba879a65b9a.xml) | 全集、中文、大厂技术号、工程、微信公众号 |
-| [腾讯玄武实验室](https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml) | 公众号，主要关注安全研究。 | 工程与技术 | [RSS](https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml) | 全集、中文、大厂技术号、工程、微信公众号 |
 | [草梅友仁的博客](https://blog.cmyr.ltd/atom.xml) | 主要写编程、技术、前端、日常。 | 工程与技术 | [RSS](https://blog.cmyr.ltd/atom.xml) | 全集、中文独立博客、中文、工程 |
 | [莫尔索随笔](https://liduos.com/atom.xml) | 主要写Python、SDN、读书笔记、LLM应用开发。 | 工程与技术 | [RSS](https://liduos.com/atom.xml) | 全集、中文独立博客、中文、工程 |
 | [蒙需](https://jiangcl.com) | 主要写法律、生活、编程、工程。 | 工程与技术 | [RSS](https://jiangcl.com/feed) | 全集、中文独立博客、中文、工程 |
@@ -544,40 +493,106 @@ AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、A
 </details>
 
 <details>
-<summary>新闻 · 34</summary>
+<summary>🛡️ 安全与攻防 · 8</summary>
 
 | 名称 | 介绍 | 主分类 | Feed | 所属合集 |
 | --- | --- | --- | --- | --- |
-| [36氪](http://36kr.com) | 新闻资讯 | 新闻 | [RSS](https://www.36kr.com/feed) | 全集、中文、新闻 |
-| [AIGC Weekly](https://quaily.com/op7418/feed/atom) | 新闻资讯 | 新闻 | [RSS](https://quaily.com/op7418/feed/atom) | 全集、新闻 |
+| [Krebs on Security](https://krebsonsecurity.com) | 独立安全记者 Brian Krebs 对网络犯罪、数据泄露与数字欺诈的调查。 | 安全与攻防 | [RSS](https://krebsonsecurity.com/feed/) | 全集、工程、新闻、安全 |
+| [ZDNET Security](https://www.zdnet.com/) | 企业安全、漏洞、威胁情报与安全产品动态。 | 安全与攻防 | [RSS](https://www.zdnet.com/topic/security/rss.xml) | 全集、工程、新闻、安全 |
+| [Schneier on Security](https://www.schneier.com/) | Bruce Schneier 对安全工程、隐私和公共政策的长期观察。 | 安全与攻防 | [RSS](https://www.schneier.com/blog/index.rdf) | 全集、工程、新闻、安全 |
+| [Security Affairs](https://securityaffairs.com/) | 全球网络攻击、恶意软件、漏洞与安全事件报道。 | 安全与攻防 | [RSS](https://securityaffairs.co/wordpress/feed) | 全集、工程、新闻、安全 |
+| [腾讯玄武实验室](https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml) | 腾讯玄武实验室发布的漏洞研究、攻防技术与安全实践。 | 安全与攻防 | [RSS](https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml) | 全集、中文、大厂技术号、工程、安全、微信公众号 |
+| [安全客](https://www.anquanke.com) | 中文漏洞分析、攻防研究与网络安全行业动态。 | 安全与攻防 | [RSS](https://api.anquanke.com/data/v1/rss) | 全集、中文、工程、新闻、安全 |
+| [CISA](https://www.cisa.gov/news-events) | 美国网络安全和基础设施安全局发布的安全通告、漏洞与防护建议。 | 安全与攻防 | [RSS](https://www.cisa.gov/news.xml) | 全集、工程、新闻、安全 |
+| [FreeBuf 网络安全行业门户](https://www.freebuf.com/) | 中文网络安全媒体，覆盖攻防研究、漏洞分析与安全产业动态。 | 安全与攻防 | [RSS](https://www.freebuf.com/feed) | 全集、中文、工程、新闻、安全 |
+
+</details>
+
+<details>
+<summary>📰 科技媒体 · 10</summary>
+
+| 名称 | 介绍 | 主分类 | Feed | 所属合集 |
+| --- | --- | --- | --- | --- |
+| [Ars Technica](https://arstechnica.com) | 面向技术读者的科技媒体，长期报道软件、硬件、科学与互联网政策。 | 科技媒体 | [RSS](https://feeds.arstechnica.com/arstechnica/index) | 全集、工程、新闻、科技媒体 |
+| [36氪](http://36kr.com) | 中文商业与科技媒体，关注创业公司、互联网产品和产业变化。 | 科技媒体 | [RSS](https://www.36kr.com/feed) | 全集、中文、新闻、科技媒体 |
+| [Engadget](https://www.engadget.com/) | 消费电子、软件服务与科技产品评测。 | 科技媒体 | [RSS](https://www.engadget.com/rss.xml) | 全集、新闻、科技媒体 |
+| [IT之家](https://www.ithome.com/) | 中文科技新闻，覆盖硬件、软件、移动设备与互联网公司。 | 科技媒体 | [RSS](https://www.ithome.com/rss/) | 全集、中文、新闻、科技媒体 |
+| [TechCrunch](https://techcrunch.com/) | 创业公司、风险投资、互联网产品与科技行业动态。 | 科技媒体 | [RSS](https://techcrunch.com/feed/) | 全集、新闻、科技媒体 |
+| [The Verge — News](https://www.theverge.com) | 消费科技、互联网平台、科学与数字文化报道。 | 科技媒体 | [RSS](https://www.theverge.com/rss/index.xml) | 全集、新闻、科技媒体 |
+| [WIRED](https://www.wired.com) | 科技、科学、商业与数字社会的深度报道。 | 科技媒体 | [RSS](https://www.wired.com/feed/rss) | 全集、新闻、科技媒体 |
+| [少数派](https://sspai.com) | 数字工具、效率方法、软件体验与个人工作流。 | 科技媒体 | [RSS](https://sspai.com/feed) | 全集、中文、新闻、科技媒体 |
+| [爱范儿](https://www.ifanr.com?utm_source=rss&utm_medium=rss&utm_campaign=) | 中文消费科技、智能设备与产品趋势报道。 | 科技媒体 | [RSS](https://www.ifanr.com/feed) | 全集、中文、新闻、科技媒体 |
+| [MIT Technology Review](https://www.technologyreview.com/) | 人工智能、计算、气候与生物技术的深度报道。 | 科技媒体 | [RSS](https://www.technologyreview.com/feed/) | 全集、新闻、科技媒体 |
+
+</details>
+
+<details>
+<summary>📮 技术周刊 · 9</summary>
+
+| 名称 | 介绍 | 主分类 | Feed | 所属合集 |
+| --- | --- | --- | --- | --- |
+| [Last Week in AI](https://lastweekin.ai) | 每周梳理人工智能研究、产品与政策动态。 | 技术周刊 | [RSS](https://lastweekin.ai/feed) | AI、全集、工程、技术周刊 |
+| [The Batch](https://www.deeplearning.ai/the-batch/) | DeepLearning.AI 的人工智能新闻与研究周报。 | 技术周刊 | [RSS](https://rsshub.bestblogs.dev/deeplearning/the-batch) | AI、全集、工程、技术周刊 |
+| [AIGC Weekly](https://quaily.com/op7418/feed/atom) | 中文生成式 AI 产品、工具与行业观察周刊。 | 技术周刊 | [RSS](https://quaily.com/op7418/feed/atom) | 全集、工程、新闻、技术周刊 |
+| [Golang Weekly](https://golangweekly.com/) | Go 语言文章、工具、项目与社区动态周刊。 | 技术周刊 | [RSS](https://golangweekly.com/rss/) | 全集、工程、新闻、技术周刊 |
+| [大橘和朋友们的周刊](https://rrorangeandfriends.de) | 由独立作者整理的技术、产品与生活阅读清单。 | 技术周刊 | [RSS](https://rrorangeandfriends.de/feed.xml) | 全集、中文、工程、新闻、技术周刊 |
+| [潮流周刊](https://weekly.tw93.fun/) | 记录技术见闻、开源项目、产品与生活灵感的中文周刊。 | 技术周刊 | [RSS](https://weekly.tw93.fun/rss.xml) | 全集、中文、工程、新闻、技术周刊 |
+| [JavaScript Weekly](https://javascriptweekly.com/) | JavaScript 新闻、文章、工具与项目周刊。 | 技术周刊 | [RSS](https://javascriptweekly.com/rss/) | 全集、工程、技术周刊 |
+| [This Week in Rust](https://this-week-in-rust.org/) | Rust 项目、文章、版本与社区动态周刊。 | 技术周刊 | [RSS](https://this-week-in-rust.org/atom.xml) | 全集、工程、技术周刊 |
+| [阮一峰的网络日志](https://www.ruanyifeng.com/blog/) | 阮一峰的技术文章与科技爱好者周刊，覆盖开发工具、互联网与开源项目。 | 技术周刊 | [RSS](https://www.ruanyifeng.com/blog/atom.xml) | 全集、中文独立博客、中文、工程、技术周刊 |
+
+</details>
+
+<details>
+<summary>🔬 科研与科学 · 19</summary>
+
+| 名称 | 介绍 | 主分类 | Feed | 所属合集 |
+| --- | --- | --- | --- | --- |
+| [AAAS: Science: Table of Contents](https://www.science.org/loi/science?af=R) | 科研与科学内容 | 科研与科学 | [RSS](https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science) | 全集、科研 |
+| [All Top News -- ScienceDaily](https://www.sciencedaily.com/news/top/) | 科研与科学内容 | 科研与科学 | [RSS](https://www.sciencedaily.com/rss/top/science.xml) | 全集、科研 |
+| [Amazon Science](https://www.amazon.science/) | 科研与科学内容 | 科研与科学 | [RSS](https://www.amazon.science/index.rss) | 全集、大厂技术号、科研 |
+| [BBC News — Science](https://www.bbc.co.uk/news/science_and_environment) | 科研与科学内容 | 科研与科学 | [RSS](https://feeds.bbci.co.uk/news/science_and_environment/rss.xml) | 全集、科研 |
+| [eLife: latest articles](https://elifesciences.org) | 科研与科学内容 | 科研与科学 | [RSS](https://elifesciences.org/rss/recent.xml) | 全集、科研 |
+| [FlowingData](https://flowingdata.com) | 科研与科学内容 | 科研与科学 | [RSS](https://flowingdata.com/feed) | 全集、科研 |
+| [Latest Science News -- ScienceDaily](https://www.sciencedaily.com/news/) | 科研与科学内容 | 科研与科学 | [RSS](https://www.sciencedaily.com/rss/all.xml) | 全集、科研 |
+| [NASA](https://www.nasa.gov) | 科研与科学内容 | 科研与科学 | [RSS](https://www.nasa.gov/news-release/feed/) | 全集、科研 |
+| [Nature](http://feeds.nature.com/nature/rss/current) | 科研与科学内容 | 科研与科学 | [RSS](https://www.nature.com/nature.rss) | 全集、科研 |
+| [NYT > Science](https://www.nytimes.com/section/science) | 科研与科学内容 | 科研与科学 | [RSS](https://rss.nytimes.com/services/xml/rss/nyt/Science.xml) | 全集、科研 |
+| [Phys.org - latest science and technology news stories](https://phys.org/) | 科研与科学内容 | 科研与科学 | [RSS](https://phys.org/rss-feed/) | 全集、科研 |
+| [PLOS One](https://journals.plos.org/plosone/) | 科研与科学内容 | 科研与科学 | [RSS](https://journals.plos.org/plosone/feed/atom) | 全集、科研 |
+| [Quanta Magazine](https://www.quantamagazine.org) | 科研与科学内容 | 科研与科学 | [RSS](https://www.quantamagazine.org/feed/) | 全集、科研 |
+| [Science Latest](https://www.wired.com) | 科研与科学内容 | 科研与科学 | [RSS](https://www.wired.com/feed/category/science/latest/rss) | 全集、科研 |
+| [Scientific American Content: Global](https://www.scientificamerican.com) | 科研与科学内容 | 科研与科学 | [RSS](http://rss.sciam.com/ScientificAmerican-Global) | 全集、科研 |
+| [Space \| The Guardian](https://www.theguardian.com/science/space) | 科研与科学内容 | 科研与科学 | [RSS](https://www.theguardian.com/science/space/rss) | 全集、科研 |
+| [Space – latest in science and technology \| New Scientist](https://www.newscientist.com/subject/space/) | 科研与科学内容 | 科研与科学 | [RSS](https://www.newscientist.com/subject/space/feed/) | 全集、科研 |
+| [腾讯研究院](https://wechat2rss.bestblogs.dev/feed/6152301e0978bffb0a8284cab339262b9764dcfb.xml) | 科研与科学内容 | 科研与科学 | [RSS](https://wechat2rss.bestblogs.dev/feed/6152301e0978bffb0a8284cab339262b9764dcfb.xml) | 全集、中文、大厂技术号、科研、微信公众号 |
+| [阿里研究院](https://wechat2rss.bestblogs.dev/feed/e2f1190c120f7f3d74b630bfcfe9e58296bd535c.xml) | 科研与科学内容 | 科研与科学 | [RSS](https://wechat2rss.bestblogs.dev/feed/e2f1190c120f7f3d74b630bfcfe9e58296bd535c.xml) | 全集、中文、大厂技术号、科研、微信公众号 |
+
+</details>
+
+<details>
+<summary>🗞️ 新闻 · 22</summary>
+
+| 名称 | 介绍 | 主分类 | Feed | 所属合集 |
+| --- | --- | --- | --- | --- |
 | [Al Jazeera – Breaking News, World News and Video from Al Jazeera](https://www.aljazeera.com) | 新闻资讯 | 新闻 | [RSS](https://www.aljazeera.com/xml/rss/all.xml) | 全集、新闻 |
 | [BBC News — News](https://www.bbc.co.uk/news/world) | 新闻资讯 | 新闻 | [RSS](https://feeds.bbci.co.uk/news/world/rss.xml) | 全集、新闻 |
 | [Cointelegraph.com News](https://cointelegraph.com) | 新闻资讯 | 新闻 | [RSS](https://cointelegraph.com/rss/tag/blockchain) | 全集、新闻 |
-| [Engadget - Technology News & Expert Reviews](https://www.engadget.com/) | 新闻资讯 | 新闻 | [RSS](https://www.engadget.com/rss.xml) | 全集、新闻 |
-| [Golang Weekly](https://golangweekly.com/) | 新闻资讯 | 新闻 | [RSS](https://golangweekly.com/rss/) | 全集、新闻 |
 | [HackerNews每日摘要 on SuperTechFans](https://supertechfans.com/cn/) | 新闻资讯 | 新闻 | [RSS](https://www.supertechfans.com/cn/index.xml) | 全集、中文、新闻 |
 | [InfoQ — News](https://www.infoq.com) | 新闻资讯 | 新闻 | [RSS](https://feed.infoq.com/) | 全集、新闻 |
 | [InfoQ 推荐](https://www.infoq.cn) | 新闻资讯 | 新闻 | [RSS](https://plink.anyfeeder.com/infoq/recommend) | 全集、中文、新闻 |
-| [IT之家](https://www.ithome.com/) | 新闻资讯 | 新闻 | [RSS](https://www.ithome.com/rss/) | 全集、中文、新闻 |
 | [MIT 科技评论 - 本周热榜](https://www.mittrchina.com/hot) | 新闻资讯 | 新闻 | [RSS](https://rsshub.bestblogs.dev/mittrchina/hot) | 全集、中文、新闻 |
 | [News from Google](https://blog.google/) | 新闻资讯 | 新闻 | [RSS](https://blog.google/rss) | 全集、工程、新闻 |
 | [NPR Topics: World](https://www.npr.org/templates/story/story.php?storyId=1004) | 新闻资讯 | 新闻 | [RSS](https://feeds.npr.org/1004/rss.xml) | 全集、新闻 |
 | [NYT > Technology](https://www.nytimes.com/section/technology) | 新闻资讯 | 新闻 | [RSS](https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml) | 全集、新闻 |
 | [NYT > World News](https://www.nytimes.com/section/world) | 新闻资讯 | 新闻 | [RSS](https://rss.nytimes.com/services/xml/rss/nyt/World.xml) | 全集、新闻 |
 | [ProPublica](https://www.propublica.org/) | 新闻资讯 | 新闻 | [RSS](https://www.propublica.org/feeds/propublica/main) | 全集、新闻 |
-| [TechCrunch](https://techcrunch.com/) | 新闻资讯 | 新闻 | [RSS](https://techcrunch.com/feed/) | 全集、新闻 |
-| [The Verge — News](https://www.theverge.com) | 新闻资讯 | 新闻 | [RSS](https://www.theverge.com/rss/index.xml) | 全集、新闻 |
 | [Top stories - Google News](https://news.google.com/?hl=en-US&gl=US&ceid=US:en) | 新闻资讯 | 新闻 | [RSS](https://news.google.com/rss) | 全集、新闻 |
-| [WIRED](https://www.wired.com) | 新闻资讯 | 新闻 | [RSS](https://www.wired.com/feed/rss) | 全集、新闻 |
 | [World](https://www.washingtonpost.com) | 新闻资讯 | 新闻 | [RSS](https://feeds.washingtonpost.com/rss/world) | 全集、新闻 |
 | [World news \| The Guardian](https://www.theguardian.com/world) | 新闻资讯 | 新闻 | [RSS](https://www.theguardian.com/world/rss) | 全集、新闻 |
 | [World News, Today World News, Latest International News, World Breaking News, Trending News of World - Times of India](https://timesofindia.indiatimes.com/world) | 新闻资讯 | 新闻 | [RSS](https://timesofindia.indiatimes.com/rssfeeds/296589292.cms) | 全集、新闻 |
-| [大橘和朋友们的周刊](https://rrorangeandfriends.de) | 新闻资讯 | 新闻 | [RSS](https://rrorangeandfriends.de/feed.xml) | 全集、中文、新闻 |
 | [奇客Solidot–传递最新科技情报](https://www.solidot.org) | 新闻资讯 | 新闻 | [RSS](https://www.solidot.org/index.rss) | 全集、中文、新闻 |
-| [安全客-有思想的安全新媒体](https://www.anquanke.com) | 新闻资讯 | 新闻 | [RSS](https://api.anquanke.com/data/v1/rss) | 全集、中文、新闻 |
-| [少数派](https://sspai.com) | 新闻资讯 | 新闻 | [RSS](https://sspai.com/feed) | 全集、中文、新闻 |
 | [掘金本周最热](https://juejin.im/recommended?sort=weekly_hottest) | 新闻资讯 | 新闻 | [RSS](https://rsshub.bestblogs.dev/juejin/trending/all/weekly) | 全集、中文、新闻 |
-| [潮流周刊](https://weekly.tw93.fun/) | 新闻资讯 | 新闻 | [RSS](https://weekly.tw93.fun/rss.xml) | 全集、中文、新闻 |
 | [站长之家](http://www.chinaz.com) | 新闻资讯 | 新闻 | [RSS](https://app.chinaz.com/?app=rss) | 全集、中文、新闻 |
 | [蓝点网](https://www.landian.news) | 新闻资讯 | 新闻 | [RSS](https://www.landiannews.com/feed) | 全集、中文、新闻 |
 | [虎嗅](https://www.huxiu.com) | 新闻资讯 | 新闻 | [RSS](https://rss.huxiu.com/) | 全集、中文、新闻 |
@@ -586,7 +601,33 @@ AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、A
 </details>
 
 <details>
-<summary>个人博客 · 65</summary>
+<summary>🎨 产品与设计 · 5</summary>
+
+| 名称 | 介绍 | 主分类 | Feed | 所属合集 |
+| --- | --- | --- | --- | --- |
+| [61’s life](https://61.life/) | 主要写创业、管理、产品。 | 产品与设计 | [RSS](https://61.life/feed.xml) | 全集、中文独立博客、中文 |
+| [jax](https://cdjax.com) | 主要写产品、数码、随笔。 | 产品与设计 | [RSS](https://cdjax.com/?feed=rss2) | 全集、中文独立博客、中文 |
+| [Velas电波站](https://www.velasx.com/) | 主要写动画、游戏、小说、设计。 | 产品与设计 | [RSS](https://www.velasx.com/feed) | 全集、中文独立博客、中文 |
+| [拾月的博客](https://www.skyue.com/) | 主要写生活、股票投资、产品经理、软件数码。 | 产品与设计 | [RSS](https://www.skyue.com/feed/) | 全集、中文独立博客、中文 |
+| [阿里云设计中心](https://wechat2rss.xlab.app/feed/31e04606d37f684059e23a8fd3e05f1db0186495.xml) | 公众号，主要关注产品设计与用户体验。 | 产品与设计 | [RSS](https://wechat2rss.xlab.app/feed/31e04606d37f684059e23a8fd3e05f1db0186495.xml) | 全集、中文、大厂技术号、微信公众号 |
+
+</details>
+
+<details>
+<summary>💼 商业与创业 · 5</summary>
+
+| 名称 | 介绍 | 主分类 | Feed | 所属合集 |
+| --- | --- | --- | --- | --- |
+| [Macin](https://macin.org/atom.xml) | 主要写分享、投资、学习、Crypto。 | 商业与创业 | [RSS](https://www.macin.org/atom.xml) | 全集、中文独立博客、中文 |
+| [扯氮集](http://weiwuhui.com) | 主要写创业、人生。 | 商业与创业 | [RSS](http://weiwuhui.com/feed) | 全集、中文独立博客、中文 |
+| [知足常乐-水星投资理财的基本意念](http://mercurychong.blogspot.com/) | 主要写投资。 | 商业与创业 | [RSS](http://mercurychong.blogspot.com/feeds/posts/default) | 全集、中文独立博客、中文 |
+| [虹线](https://1q43.blog) | 主要写商业、社科、科技、生活。 | 商业与创业 | [RSS](https://1q43.blog/feed) | 全集、中文独立博客、中文 |
+| [雷蒙三十｜幫助忙碌現代人的聰明工作、好好生活的生產力指南](https://raymondhouch.com) | 主要写创业、数码、数字游民、生产力工具。 | 商业与创业 | [RSS](https://raymondhouch.com/feed) | 全集、中文独立博客、中文 |
+
+</details>
+
+<details>
+<summary>✍️ 个人博客 · 64</summary>
 
 | 名称 | 介绍 | 主分类 | Feed | 所属合集 |
 | --- | --- | --- | --- | --- |
@@ -647,7 +688,6 @@ AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、A
 | [柴郡猫](https://www.cheshirex.com) | 主要写生活、分享、记录。 | 个人博客 | [RSS](https://www.cheshirex.com/feed) | 全集、中文独立博客、中文 |
 | [梅之夏](https://blog.mcenahle.page/) | 主要写随笔、记录、成长、学习。 | 个人博客 | [RSS](https://blog.mcenahle.page/feed.xml) | 全集、中文独立博客、中文 |
 | [涵哲子居](https://iluc.cn/) | 主要写日常、随笔、乱七八糟。 | 个人博客 | [RSS](https://iluc.cn/rss.xml) | 全集、中文独立博客、中文 |
-| [爱范儿](https://www.ifanr.com?utm_source=rss&utm_medium=rss&utm_campaign=) | 个人博客 | 个人博客 | [RSS](https://www.ifanr.com/feed) | 全集、中文、新闻 |
 | [玉明-风起于青萍之末](https://xdym11235.com/) | 主要写信息安全。 | 个人博客 | [RSS](https://xdym11235.com/feed) | 全集、中文独立博客、中文 |
 | [祝融说。](https://zhurongshuo.com/) | 主要写法不净空，觉无性也。。 | 个人博客 | [RSS](https://zhurongshuo.com/index.xml) | 全集、中文独立博客、中文 |
 | [纸短情长](https://www.gtdstudy.com/) | 主要写阅读、思考。 | 个人博客 | [RSS](http://yibie.github.io/index.xml) | 全集、中文独立博客、中文 |
@@ -659,128 +699,47 @@ AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、A
 </details>
 
 <details>
-<summary>播客 · 73</summary>
+<summary>👥 社区 · 14</summary>
 
 | 名称 | 介绍 | 主分类 | Feed | 所属合集 |
 | --- | --- | --- | --- | --- |
-| [30 for 30 Podcasts](http://espnradio.espn.com/espnradio/index) | 播客节目 | 播客 | [RSS](https://feeds.megaphone.fm/ESP5765452710) | 全集、播客 |
-| [42章经 — Podcast](https://www.xiaoyuzhoufm.com/podcast/648b0b641c48983391a63f98) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/648b0b641c48983391a63f98) | 全集、中文、播客 |
-| [AI炼金术 — Podcast](https://www.xiaoyuzhoufm.com/podcast/63e9ef4de99bdef7d39944c8) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63e9ef4de99bdef7d39944c8) | AI、全集、中文、播客 |
-| [Darknet Diaries](https://darknetdiaries.com/) | 播客节目 | 播客 | [RSS](https://feeds.megaphone.fm/darknetdiaries) | 全集、播客 |
-| [Discovery](http://www.bbc.co.uk/programmes/p002w557) | 播客节目 | 播客 | [RSS](https://podcasts.files.bbci.co.uk/p002w557.rss) | 全集、播客 |
-| [Fragmented - AI Developer Podcast](https://fragmentedpodcast.com/) | 播客节目 | 播客 | [RSS](https://feeds.simplecast.com/LpAGSLnY) | AI、全集、播客 |
-| [Gastropod](https://gastropod.com/) | 播客节目 | 播客 | [RSS](https://www.omnycontent.com/d/playlist/aaea4e69-af51-495e-afc9-a9760146922b/2a195077-f014-41d2-8313-ab190186b4c2/277bcd5c-0a05-4c14-8ba6-ab190186b4d5/podcast.rss) | 全集、播客 |
-| [Hacking Humans](https://thecyberwire.com/podcasts/hacking-humans) | 播客节目 | 播客 | [RSS](https://feeds.megaphone.fm/hacking-humans) | 全集、播客 |
-| [Hanselminutes with Scott Hanselman](https://www.hanselminutes.com) | 播客节目 | 播客 | [RSS](https://feeds.simplecast.com/gvtxUiIf) | 全集、播客 |
-| [Invest Like the Best with Patrick O'Shaughnessy](https://colossus.com/) | 播客节目 | 播客 | [RSS](https://investlikethebest.libsyn.com/rss) | 全集、播客 |
-| [Invisibilia](https://www.npr.org/podcasts/510307/invisibilia) | 播客节目 | 播客 | [RSS](https://feeds.npr.org/510307/podcast.xml) | 全集、播客 |
-| [Planet Money](https://www.npr.org/podcasts/510289/planet-money) | 播客节目 | 播客 | [RSS](https://feeds.npr.org/510289/podcast.xml) | 全集、播客 |
-| [Reply All](http://gimletmedia.com/shows/reply-all) | 播客节目 | 播客 | [RSS](https://feeds.megaphone.fm/replyall) | 全集、播客 |
-| [The Cynical Developer](https://cynical.dev/) | 播客节目 | 播客 | [RSS](https://cynicaldeveloper.com/feed/podcast) | 全集、播客 |
-| [The Startup Junkies Podcast](https://www.startupjunkie.org/podcast) | 播客节目 | 播客 | [RSS](https://startupjunkie.libsyn.com/rss) | 全集、播客 |
-| [The Vergecast](https://www.theverge.com/the-vergecast) | 播客节目 | 播客 | [RSS](https://feeds.megaphone.fm/vergecast) | 全集、播客 |
-| [Throughline](https://www.npr.org/podcasts/510333/throughline) | 播客节目 | 播客 | [RSS](https://feeds.npr.org/510333/podcast.xml) | 全集、播客 |
-| [TIANYU2FM — 对谈未知领域](https://www.xiaoyuzhoufm.com/podcast/5f22729f9504bbdb77253e46) | 播客节目 | 播客 | [RSS](https://rsshub.xiaowuaiblog.com/xiaoyuzhou/podcast/5f22729f9504bbdb77253e46) | 全集、中文、播客 |
-| [What's Next｜科技早知道](https://www.xiaoyuzhoufm.com/podcast/5e74b52c418a84a046ecaceb) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e74b52c418a84a046ecaceb) | 全集、中文、播客 |
-| [一席](https://www.xiaoyuzhoufm.com/podcast/5e285326418a84a04627343f) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e285326418a84a04627343f) | 全集、中文、播客 |
-| [三五环](https://www.xiaoyuzhoufm.com/podcast/5e280fab418a84a0461faa3c) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280fab418a84a0461faa3c) | 全集、中文、播客 |
-| [不合时宜](https://www.xiaoyuzhoufm.com/podcast/5e280fb8418a84a0461fd076) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280fb8418a84a0461fd076) | 全集、中文、播客 |
-| [东亚观察局](https://www.xiaoyuzhoufm.com/podcast/5e9a4e25418a84a046bc6156) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e9a4e25418a84a046bc6156) | 全集、中文、播客 |
-| [东腔西调](https://www.xiaoyuzhoufm.com/podcast/5f72b66083c34e85dd14fde9) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5f72b66083c34e85dd14fde9) | 全集、中文、播客 |
-| [乱翻书](https://www.xiaoyuzhoufm.com/podcast/61358d971c5d56efe5bcb5d2) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61358d971c5d56efe5bcb5d2) | 全集、中文、播客 |
-| [人民公园说AI](https://www.xiaoyuzhoufm.com/podcast/65257ff6e8ce9deaf70a65e9) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65257ff6e8ce9deaf70a65e9) | AI、全集、中文、播客 |
-| [保持偏见](https://www.xiaoyuzhoufm.com/podcast/663e3c95af1e22bb157dcee3) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/663e3c95af1e22bb157dcee3) | 全集、中文、播客 |
-| [信号与噪声](https://www.xiaoyuzhoufm.com/podcast/6819d5a7e37664602a344e0e) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6819d5a7e37664602a344e0e) | AI、全集、中文、播客 |
-| [凹凸电波](https://www.xiaoyuzhoufm.com/podcast/5e2839ca418a84a0462431b7) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2839ca418a84a0462431b7) | 全集、中文、播客 |
-| [十字路口Crossing — Podcast](https://www.xiaoyuzhoufm.com/podcast/60502e253c92d4f62c2a9577) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/60502e253c92d4f62c2a9577) | AI、全集、中文、播客 |
-| [半拿铁 \| 商业沉浮录](https://www.xiaoyuzhoufm.com/podcast/62382c1103bea1ebfffa1c00) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62382c1103bea1ebfffa1c00) | 全集、中文、播客 |
-| [卫诗婕｜漫谈Light the Star](https://www.xiaoyuzhoufm.com/podcast/6627fda4b56459544087d86a) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6627fda4b56459544087d86a) | 全集、中文、播客 |
-| [商业就是这样](https://www.xiaoyuzhoufm.com/podcast/6022a180ef5fdaddc30bb101) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6022a180ef5fdaddc30bb101) | 全集、中文、播客 |
-| [声东击西](https://www.xiaoyuzhoufm.com/podcast/5e2831ed418a84a046231c00) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2831ed418a84a046231c00) | 全集、中文、播客 |
-| [声动早咖啡](https://www.xiaoyuzhoufm.com/podcast/60de7c003dd577b40d5a40f3) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/60de7c003dd577b40d5a40f3) | 全集、中文、播客 |
-| [天真不天真](https://www.xiaoyuzhoufm.com/podcast/65cef9e3cace72dff8d98de3) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65cef9e3cace72dff8d98de3) | 全集、中文、播客 |
-| [屠龙之术](https://www.xiaoyuzhoufm.com/podcast/6507bc165c88d2412626b401) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6507bc165c88d2412626b401) | 全集、中文、播客 |
-| [岩中花述](https://www.xiaoyuzhoufm.com/podcast/625635587bfca4e73e990703) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/625635587bfca4e73e990703) | 全集、中文、播客 |
-| [开始连接 LinkStart](https://www.xiaoyuzhoufm.com/podcast/63ff0da51b1faf8a0b70b337) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63ff0da51b1faf8a0b70b337) | 全集、中文、播客 |
-| [张小珺Jùn｜商业访谈录](https://www.xiaoyuzhoufm.com/podcast/626b46ea9cbbf0451cf5a962) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/626b46ea9cbbf0451cf5a962) | 全集、中文、播客 |
-| [忽左忽右](https://www.xiaoyuzhoufm.com/podcast/5e4ee557418a84a0466737b7) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4ee557418a84a0466737b7) | 全集、中文、播客 |
-| [慢速生长](https://www.xiaoyuzhoufm.com/podcast/668d00c38fcadceb90158ac1) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/668d00c38fcadceb90158ac1) | 全集、中文、播客 |
-| [捕蛇者说](https://www.xiaoyuzhoufm.com/podcast/5e2864f7418a84a04628f2da) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2864f7418a84a04628f2da) | 全集、中文、播客 |
-| [搞钱女孩](https://www.xiaoyuzhoufm.com/podcast/63d945ece725b5378a158d29) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63d945ece725b5378a158d29) | 全集、中文、播客 |
-| [文化有限](https://www.xiaoyuzhoufm.com/podcast/5e4515bd418a84a046e2b11a) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4515bd418a84a046e2b11a) | 全集、中文、播客 |
-| [晚点聊 LateTalk](https://www.xiaoyuzhoufm.com/podcast/61933ace1b4320461e91fd55) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61933ace1b4320461e91fd55) | 全集、中文、播客 |
-| [李诞](https://www.xiaoyuzhoufm.com/podcast/65bb55f6513a776b57dedb32) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65bb55f6513a776b57dedb32) | 全集、中文、播客 |
-| [枫言枫语 — Podcast](https://www.xiaoyuzhoufm.com/podcast/5e2864f5418a84a04628e249) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2864f5418a84a04628e249) | 全集、中文、播客 |
-| [此话当真](https://www.xiaoyuzhoufm.com/podcast/646f194853a5e5ea1408d97c) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/646f194853a5e5ea1408d97c) | 全集、中文、播客 |
-| [游荡集](https://www.xiaoyuzhoufm.com/podcast/6163ca67c8c1d14e83366b31) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6163ca67c8c1d14e83366b31) | 全集、中文、播客 |
-| [牛油果烤面包](https://www.xiaoyuzhoufm.com/podcast/5e7c8b2b418a84a046e3ecbc) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e7c8b2b418a84a046e3ecbc) | 全集、中文、播客 |
-| [独树不成林](https://www.xiaoyuzhoufm.com/podcast/64acd33c7a3d479103fbd32d) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/64acd33c7a3d479103fbd32d) | 全集、中文、播客 |
-| [疯投圈](https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fbd39) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280faf418a84a0461fbd39) | 全集、中文、播客 |
-| [皮蛋漫游记](https://www.xiaoyuzhoufm.com/podcast/6281264ad22bcf3950c80b56) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6281264ad22bcf3950c80b56) | 全集、中文、播客 |
-| [看理想圆桌](https://www.xiaoyuzhoufm.com/podcast/5e4ff4c7418a84a046977618) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4ff4c7418a84a046977618) | 全集、中文、播客 |
-| [知行小酒馆](https://www.xiaoyuzhoufm.com/podcast/6013f9f58e2f7ee375cf4216) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6013f9f58e2f7ee375cf4216) | 全集、中文、播客 |
-| [硅谷101 — Podcast](https://www.xiaoyuzhoufm.com/podcast/5e5c52c9418a84a04625e6cc) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e5c52c9418a84a04625e6cc) | 全集、中文、播客 |
-| [硬地骇客](https://www.xiaoyuzhoufm.com/podcast/640ee2438be5d40013fe4a87) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/640ee2438be5d40013fe4a87) | 全集、中文、播客 |
-| [科技乱炖](https://www.xiaoyuzhoufm.com/podcast/5e4243cd418a84a0469573fb) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4243cd418a84a0469573fb) | 全集、中文、播客 |
-| [第一财经](https://www.xiaoyuzhoufm.com/podcast/64c75555e8176c3ff81de98c) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/64c75555e8176c3ff81de98c) | 全集、中文、播客 |
-| [纵横四海](https://www.xiaoyuzhoufm.com/podcast/62694abdb221dd5908417d1e) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62694abdb221dd5908417d1e) | 全集、中文、播客 |
-| [罗永浩的十字路口](https://www.xiaoyuzhoufm.com/podcast/68981df29e7bcd326eb91d88) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/68981df29e7bcd326eb91d88) | 全集、中文、播客 |
-| [肥话连篇](https://www.xiaoyuzhoufm.com/podcast/61d50d72ee197a3aac3dac42) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61d50d72ee197a3aac3dac42) | 全集、中文、播客 |
-| [自习室 STUDY ROOM](https://www.xiaoyuzhoufm.com/podcast/65a5fb7540d4ef949c0140ac) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65a5fb7540d4ef949c0140ac) | 全集、中文、播客 |
-| [自我进化论](https://www.xiaoyuzhoufm.com/podcast/5e5de5cb418a84a0467beb90) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e5de5cb418a84a0467beb90) | 全集、中文、播客 |
-| [蒋方舟·一寸](https://www.xiaoyuzhoufm.com/podcast/67c7eeb07ac3e30992e75a2f) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/67c7eeb07ac3e30992e75a2f) | 全集、中文、播客 |
-| [诗梳风](https://www.xiaoyuzhoufm.com/podcast/696496f4db4738160d5fabde) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/696496f4db4738160d5fabde) | 全集、中文、播客 |
-| [谭立人](https://www.xiaoyuzhoufm.com/podcast/65a2d0f07242f9fc1c1df60a) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65a2d0f07242f9fc1c1df60a) | 全集、中文、播客 |
-| [起朱楼宴宾客](https://www.xiaoyuzhoufm.com/podcast/61dd99a47b29652ff572257b) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61dd99a47b29652ff572257b) | 全集、中文、播客 |
-| [跨国串门儿计划](https://www.xiaoyuzhoufm.com/podcast/670f3da40d2f24f28978736f) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/670f3da40d2f24f28978736f) | AI、全集、中文、播客 |
-| [随机波动StochasticVolatility](https://www.xiaoyuzhoufm.com/podcast/5e7cc741418a84a046b0c2bd) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e7cc741418a84a046b0c2bd) | 全集、中文、播客 |
-| [面基](https://www.xiaoyuzhoufm.com/podcast/6388760f22567e8ea6ad070f) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6388760f22567e8ea6ad070f) | 全集、中文、播客 |
-| [高能量](https://www.xiaoyuzhoufm.com/podcast/62c6ae08c4eaa82b112b9c84) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62c6ae08c4eaa82b112b9c84) | 全集、中文、播客 |
+| [V2EX](https://www.v2ex.com/) | 中文技术社区的新主题。 | 社区 | [RSS](https://v2ex.com/index.xml) | 全集、中文、新闻、社区 |
+| [LINUX DO · 文档共建](https://linux.do/c/wiki/42) | LINUX DO 社区的教程、学习笔记与共建文档。 | 社区 | [RSS](https://linuxdorss.longpink.com/wiki.xml) | 全集、中文、工程、社区 |
+| [Reddit · Linux, Self-Hosted, DevOps & AI](https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/) | Reddit 上 Linux、自托管、DevOps、本地大模型与机器学习的新帖合并源。 | 社区 | [RSS](https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/.rss) | AI、全集、工程、社区 |
+| [Lobsters](https://lobste.rs/) | 由社区筛选的软件、编程与计算机科学讨论。 | 社区 | [RSS](https://lobste.rs/rss) | 全集、工程、社区 |
+| [Python Core Development](https://discuss.python.org/c/core-dev/23) | Python 核心开发与解释器设计讨论。 | 社区 | [RSS](https://discuss.python.org/c/core-dev/23.rss?order=created) | 全集、工程、社区 |
+| [Rust Internals · Language Design](https://internals.rust-lang.org/c/language-design/21) | Rust 语言设计与编译器内部讨论。 | 社区 | [RSS](https://internals.rust-lang.org/c/language-design/21.rss?order=created) | 全集、工程、社区 |
+| [NixOS Development](https://discourse.nixos.org/c/dev/14) | NixOS 开发、打包与基础设施讨论。 | 社区 | [RSS](https://discourse.nixos.org/c/dev/14.rss?order=created) | 全集、工程、社区 |
+| [OpenAI Developer Community · API](https://community.openai.com/c/api/7) | OpenAI API 使用、调试与集成讨论。 | 社区 | [RSS](https://community.openai.com/c/api/7.rss?order=created) | AI、全集、工程、社区 |
+| [Kubernetes · General Discussions](https://discuss.kubernetes.io/c/general-discussions/6) | Kubernetes 配置、集群运维与故障排查讨论。 | 社区 | [RSS](https://discuss.kubernetes.io/c/general-discussions/6.rss?order=created) | 全集、工程、社区 |
+| [V2EX · 技术](https://www.v2ex.com/?tab=tech) | V2EX 技术板块的新主题，适合只订阅编程、架构与开发工具讨论。 | 社区 | [RSS](https://www.v2ex.com/feed/tab/tech.xml) | 全集、中文、社区、工程 |
+| [V2EX · 创意](https://www.v2ex.com/?tab=creative) | V2EX 创意板块的新主题，集中在独立产品、设计与作品发布。 | 社区 | [RSS](https://www.v2ex.com/feed/tab/creative.xml) | 全集、中文、社区、工程 |
+| [Show HN](https://news.ycombinator.com/shownew) | Hacker News 上的新产品、开源项目与个人作品展示。 | 社区 | [RSS](https://hnrss.org/show) | 全集、社区、工程 |
+| [Ask HN](https://news.ycombinator.com/ask) | Hacker News 的问答主题，聚焦技术选择、职业经验与行业讨论。 | 社区 | [RSS](https://hnrss.org/ask) | 全集、社区、工程 |
+| [Hacker News](https://news.ycombinator.com/) | Hacker News 首页的热门技术、创业与产品讨论。 | 社区 | [RSS](https://news.ycombinator.com/rss) | 全集、社区、工程 |
 
 </details>
 
 <details>
-<summary>产品与设计 · 5</summary>
+<summary>📚 文化与思想 · 10</summary>
 
 | 名称 | 介绍 | 主分类 | Feed | 所属合集 |
 | --- | --- | --- | --- | --- |
-| [61’s life](https://61.life/) | 主要写创业、管理、产品。 | 产品与设计 | [RSS](https://61.life/feed.xml) | 全集、中文独立博客、中文 |
-| [jax](https://cdjax.com) | 主要写产品、数码、随笔。 | 产品与设计 | [RSS](https://cdjax.com/?feed=rss2) | 全集、中文独立博客、中文 |
-| [Velas电波站](https://www.velasx.com/) | 主要写动画、游戏、小说、设计。 | 产品与设计 | [RSS](https://www.velasx.com/feed) | 全集、中文独立博客、中文 |
-| [拾月的博客](https://www.skyue.com/) | 主要写生活、股票投资、产品经理、软件数码。 | 产品与设计 | [RSS](https://www.skyue.com/feed/) | 全集、中文独立博客、中文 |
-| [阿里云设计中心](https://wechat2rss.xlab.app/feed/31e04606d37f684059e23a8fd3e05f1db0186495.xml) | 公众号，主要关注产品设计与用户体验。 | 产品与设计 | [RSS](https://wechat2rss.xlab.app/feed/31e04606d37f684059e23a8fd3e05f1db0186495.xml) | 全集、中文、大厂技术号、微信公众号 |
+| [KAIX.IN](https://kaix.in/) | 主要写读书、咖啡、随笔。 | 文化与思想 | [RSS](https://kaix.in/feed/) | 全集、中文独立博客、中文 |
+| [Maohang Gao's Blog](http://kangaroogao.com/atom.xml) | 主要写游记、读书笔记、随笔。 | 文化与思想 | [RSS](https://kangaroogao.com/atom.xml) | 全集、中文独立博客、中文 |
+| [ShineKid](https://shinekid.com) | 主要写生活、影视、文学。 | 文化与思想 | [RSS](https://shinekid.com/feed/) | 全集、中文独立博客、中文 |
+| [Tripper Press - Take Photo, Think Seriously.](https://tripper.press) | 主要写摄影、文化产业、新媒体。 | 文化与思想 | [RSS](https://tripper.press/atom.xml) | 全集、中文独立博客、中文 |
+| [东评西就](https://dongjunke.cn/) | 主要写社交媒体、科技互联网、思考、读书。 | 文化与思想 | [RSS](https://dongjunke.cn/atom.xml) | 全集、中文独立博客、中文 |
+| [先生制造](https://wechat2rss.xlab.app/feed/313326d41db4f54b1cc09e7c986a5ac4e5f88ca0.xml) | 公众号，主要关注人物与社会记录。 | 文化与思想 | [RSS](https://wechat2rss.xlab.app/feed/313326d41db4f54b1cc09e7c986a5ac4e5f88ca0.xml) | 全集、中文、微信公众号 |
+| [叉息的空中咖啡馆](https://www.xchere.xyz/atom.xml) | 主要写生活、随笔、记录、读书笔记。 | 文化与思想 | [RSS](https://www.xchere.xyz/atom.xml) | 全集、中文独立博客、中文 |
+| [浅黑科技](https://wechat2rss.xlab.app/feed/6111a6d5ecf28cfdd4fc9b664244c05ddacef15c.xml) | 公众号，主要关注科技人物与产业故事。 | 文化与思想 | [RSS](https://wechat2rss.xlab.app/feed/6111a6d5ecf28cfdd4fc9b664244c05ddacef15c.xml) | 全集、中文、微信公众号 |
+| [赫赫文王](https://kqh.me/) | 主要写历史、人文、艺术、日常。 | 文化与思想 | [RSS](https://kqh.me/index.xml) | 全集、中文独立博客、中文 |
+| [静风说](https://www.jfsay.com) | 主要写生活、读书、电影、旅游。 | 文化与思想 | [RSS](http://www.jfsay.com/feed) | 全集、中文独立博客、中文 |
 
 </details>
 
 <details>
-<summary>科研与科学 · 19</summary>
-
-| 名称 | 介绍 | 主分类 | Feed | 所属合集 |
-| --- | --- | --- | --- | --- |
-| [AAAS: Science: Table of Contents](https://www.science.org/loi/science?af=R) | 科研与科学内容 | 科研与科学 | [RSS](https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science) | 全集、科研 |
-| [All Top News -- ScienceDaily](https://www.sciencedaily.com/news/top/) | 科研与科学内容 | 科研与科学 | [RSS](https://www.sciencedaily.com/rss/top/science.xml) | 全集、科研 |
-| [Amazon Science](https://www.amazon.science/) | 科研与科学内容 | 科研与科学 | [RSS](https://www.amazon.science/index.rss) | 全集、大厂技术号、科研 |
-| [BBC News — Science](https://www.bbc.co.uk/news/science_and_environment) | 科研与科学内容 | 科研与科学 | [RSS](https://feeds.bbci.co.uk/news/science_and_environment/rss.xml) | 全集、科研 |
-| [eLife: latest articles](https://elifesciences.org) | 科研与科学内容 | 科研与科学 | [RSS](https://elifesciences.org/rss/recent.xml) | 全集、科研 |
-| [FlowingData](https://flowingdata.com) | 科研与科学内容 | 科研与科学 | [RSS](https://flowingdata.com/feed) | 全集、科研 |
-| [Latest Science News -- ScienceDaily](https://www.sciencedaily.com/news/) | 科研与科学内容 | 科研与科学 | [RSS](https://www.sciencedaily.com/rss/all.xml) | 全集、科研 |
-| [NASA](https://www.nasa.gov) | 科研与科学内容 | 科研与科学 | [RSS](https://www.nasa.gov/news-release/feed/) | 全集、科研 |
-| [Nature](http://feeds.nature.com/nature/rss/current) | 科研与科学内容 | 科研与科学 | [RSS](https://www.nature.com/nature.rss) | 全集、科研 |
-| [NYT > Science](https://www.nytimes.com/section/science) | 科研与科学内容 | 科研与科学 | [RSS](https://rss.nytimes.com/services/xml/rss/nyt/Science.xml) | 全集、科研 |
-| [Phys.org - latest science and technology news stories](https://phys.org/) | 科研与科学内容 | 科研与科学 | [RSS](https://phys.org/rss-feed/) | 全集、科研 |
-| [PLOS One](https://journals.plos.org/plosone/) | 科研与科学内容 | 科研与科学 | [RSS](https://journals.plos.org/plosone/feed/atom) | 全集、科研 |
-| [Quanta Magazine](https://www.quantamagazine.org) | 科研与科学内容 | 科研与科学 | [RSS](https://www.quantamagazine.org/feed/) | 全集、科研 |
-| [Science Latest](https://www.wired.com) | 科研与科学内容 | 科研与科学 | [RSS](https://www.wired.com/feed/category/science/latest/rss) | 全集、科研 |
-| [Scientific American Content: Global](https://www.scientificamerican.com) | 科研与科学内容 | 科研与科学 | [RSS](http://rss.sciam.com/ScientificAmerican-Global) | 全集、科研 |
-| [Space \| The Guardian](https://www.theguardian.com/science/space) | 科研与科学内容 | 科研与科学 | [RSS](https://www.theguardian.com/science/space/rss) | 全集、科研 |
-| [Space – latest in science and technology \| New Scientist](https://www.newscientist.com/subject/space/) | 科研与科学内容 | 科研与科学 | [RSS](https://www.newscientist.com/subject/space/feed/) | 全集、科研 |
-| [腾讯研究院](https://wechat2rss.bestblogs.dev/feed/6152301e0978bffb0a8284cab339262b9764dcfb.xml) | 科研与科学内容 | 科研与科学 | [RSS](https://wechat2rss.bestblogs.dev/feed/6152301e0978bffb0a8284cab339262b9764dcfb.xml) | 全集、中文、大厂技术号、科研、微信公众号 |
-| [阿里研究院](https://wechat2rss.bestblogs.dev/feed/e2f1190c120f7f3d74b630bfcfe9e58296bd535c.xml) | 科研与科学内容 | 科研与科学 | [RSS](https://wechat2rss.bestblogs.dev/feed/e2f1190c120f7f3d74b630bfcfe9e58296bd535c.xml) | 全集、中文、大厂技术号、科研、微信公众号 |
-
-</details>
-
-<details>
-<summary>视频 · 93</summary>
+<summary>🎬 视频 · 93</summary>
 
 | 名称 | 介绍 | 主分类 | Feed | 所属合集 |
 | --- | --- | --- | --- | --- |
@@ -877,6 +836,87 @@ AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、A
 | [一席YiXi](https://www.youtube.com/channel/UCKFB_rVEFEF3l-onQGvGx1A) | 视频频道 | 视频 | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCKFB_rVEFEF3l-onQGvGx1A) | 全集、中文、视频 |
 | [一条Yit](https://www.youtube.com/channel/UCulFhrW_YCwkq_BP16C82mA) | 视频频道 | 视频 | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCulFhrW_YCwkq_BP16C82mA) | 全集、中文、视频 |
 | [李永乐老师](https://www.youtube.com/channel/UCvNxfitQbWkmLuCd44UfrYQ) | 视频频道 | 视频 | [RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCvNxfitQbWkmLuCd44UfrYQ) | 全集、中文、视频 |
+
+</details>
+
+<details>
+<summary>🎧 播客 · 73</summary>
+
+| 名称 | 介绍 | 主分类 | Feed | 所属合集 |
+| --- | --- | --- | --- | --- |
+| [30 for 30 Podcasts](http://espnradio.espn.com/espnradio/index) | 播客节目 | 播客 | [RSS](https://feeds.megaphone.fm/ESP5765452710) | 全集、播客 |
+| [42章经 — Podcast](https://www.xiaoyuzhoufm.com/podcast/648b0b641c48983391a63f98) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/648b0b641c48983391a63f98) | 全集、中文、播客 |
+| [AI炼金术 — Podcast](https://www.xiaoyuzhoufm.com/podcast/63e9ef4de99bdef7d39944c8) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63e9ef4de99bdef7d39944c8) | AI、全集、中文、播客 |
+| [Darknet Diaries](https://darknetdiaries.com/) | 播客节目 | 播客 | [RSS](https://feeds.megaphone.fm/darknetdiaries) | 全集、播客 |
+| [Discovery](http://www.bbc.co.uk/programmes/p002w557) | 播客节目 | 播客 | [RSS](https://podcasts.files.bbci.co.uk/p002w557.rss) | 全集、播客 |
+| [Fragmented - AI Developer Podcast](https://fragmentedpodcast.com/) | 播客节目 | 播客 | [RSS](https://feeds.simplecast.com/LpAGSLnY) | AI、全集、播客 |
+| [Gastropod](https://gastropod.com/) | 播客节目 | 播客 | [RSS](https://www.omnycontent.com/d/playlist/aaea4e69-af51-495e-afc9-a9760146922b/2a195077-f014-41d2-8313-ab190186b4c2/277bcd5c-0a05-4c14-8ba6-ab190186b4d5/podcast.rss) | 全集、播客 |
+| [Hacking Humans](https://thecyberwire.com/podcasts/hacking-humans) | 播客节目 | 播客 | [RSS](https://feeds.megaphone.fm/hacking-humans) | 全集、播客 |
+| [Hanselminutes with Scott Hanselman](https://www.hanselminutes.com) | 播客节目 | 播客 | [RSS](https://feeds.simplecast.com/gvtxUiIf) | 全集、播客 |
+| [Invest Like the Best with Patrick O'Shaughnessy](https://colossus.com/) | 播客节目 | 播客 | [RSS](https://investlikethebest.libsyn.com/rss) | 全集、播客 |
+| [Invisibilia](https://www.npr.org/podcasts/510307/invisibilia) | 播客节目 | 播客 | [RSS](https://feeds.npr.org/510307/podcast.xml) | 全集、播客 |
+| [Planet Money](https://www.npr.org/podcasts/510289/planet-money) | 播客节目 | 播客 | [RSS](https://feeds.npr.org/510289/podcast.xml) | 全集、播客 |
+| [Reply All](http://gimletmedia.com/shows/reply-all) | 播客节目 | 播客 | [RSS](https://feeds.megaphone.fm/replyall) | 全集、播客 |
+| [The Cynical Developer](https://cynical.dev/) | 播客节目 | 播客 | [RSS](https://cynicaldeveloper.com/feed/podcast) | 全集、播客 |
+| [The Startup Junkies Podcast](https://www.startupjunkie.org/podcast) | 播客节目 | 播客 | [RSS](https://startupjunkie.libsyn.com/rss) | 全集、播客 |
+| [The Vergecast](https://www.theverge.com/the-vergecast) | 播客节目 | 播客 | [RSS](https://feeds.megaphone.fm/vergecast) | 全集、播客 |
+| [Throughline](https://www.npr.org/podcasts/510333/throughline) | 播客节目 | 播客 | [RSS](https://feeds.npr.org/510333/podcast.xml) | 全集、播客 |
+| [TIANYU2FM — 对谈未知领域](https://www.xiaoyuzhoufm.com/podcast/5f22729f9504bbdb77253e46) | 播客节目 | 播客 | [RSS](https://rsshub.xiaowuaiblog.com/xiaoyuzhou/podcast/5f22729f9504bbdb77253e46) | 全集、中文、播客 |
+| [What's Next｜科技早知道](https://www.xiaoyuzhoufm.com/podcast/5e74b52c418a84a046ecaceb) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e74b52c418a84a046ecaceb) | 全集、中文、播客 |
+| [一席](https://www.xiaoyuzhoufm.com/podcast/5e285326418a84a04627343f) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e285326418a84a04627343f) | 全集、中文、播客 |
+| [三五环](https://www.xiaoyuzhoufm.com/podcast/5e280fab418a84a0461faa3c) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280fab418a84a0461faa3c) | 全集、中文、播客 |
+| [不合时宜](https://www.xiaoyuzhoufm.com/podcast/5e280fb8418a84a0461fd076) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280fb8418a84a0461fd076) | 全集、中文、播客 |
+| [东亚观察局](https://www.xiaoyuzhoufm.com/podcast/5e9a4e25418a84a046bc6156) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e9a4e25418a84a046bc6156) | 全集、中文、播客 |
+| [东腔西调](https://www.xiaoyuzhoufm.com/podcast/5f72b66083c34e85dd14fde9) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5f72b66083c34e85dd14fde9) | 全集、中文、播客 |
+| [乱翻书](https://www.xiaoyuzhoufm.com/podcast/61358d971c5d56efe5bcb5d2) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61358d971c5d56efe5bcb5d2) | 全集、中文、播客 |
+| [人民公园说AI](https://www.xiaoyuzhoufm.com/podcast/65257ff6e8ce9deaf70a65e9) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65257ff6e8ce9deaf70a65e9) | AI、全集、中文、播客 |
+| [保持偏见](https://www.xiaoyuzhoufm.com/podcast/663e3c95af1e22bb157dcee3) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/663e3c95af1e22bb157dcee3) | 全集、中文、播客 |
+| [信号与噪声](https://www.xiaoyuzhoufm.com/podcast/6819d5a7e37664602a344e0e) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6819d5a7e37664602a344e0e) | AI、全集、中文、播客 |
+| [凹凸电波](https://www.xiaoyuzhoufm.com/podcast/5e2839ca418a84a0462431b7) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2839ca418a84a0462431b7) | 全集、中文、播客 |
+| [十字路口Crossing — Podcast](https://www.xiaoyuzhoufm.com/podcast/60502e253c92d4f62c2a9577) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/60502e253c92d4f62c2a9577) | AI、全集、中文、播客 |
+| [半拿铁 \| 商业沉浮录](https://www.xiaoyuzhoufm.com/podcast/62382c1103bea1ebfffa1c00) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62382c1103bea1ebfffa1c00) | 全集、中文、播客 |
+| [卫诗婕｜漫谈Light the Star](https://www.xiaoyuzhoufm.com/podcast/6627fda4b56459544087d86a) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6627fda4b56459544087d86a) | 全集、中文、播客 |
+| [商业就是这样](https://www.xiaoyuzhoufm.com/podcast/6022a180ef5fdaddc30bb101) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6022a180ef5fdaddc30bb101) | 全集、中文、播客 |
+| [声东击西](https://www.xiaoyuzhoufm.com/podcast/5e2831ed418a84a046231c00) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2831ed418a84a046231c00) | 全集、中文、播客 |
+| [声动早咖啡](https://www.xiaoyuzhoufm.com/podcast/60de7c003dd577b40d5a40f3) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/60de7c003dd577b40d5a40f3) | 全集、中文、播客 |
+| [天真不天真](https://www.xiaoyuzhoufm.com/podcast/65cef9e3cace72dff8d98de3) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65cef9e3cace72dff8d98de3) | 全集、中文、播客 |
+| [屠龙之术](https://www.xiaoyuzhoufm.com/podcast/6507bc165c88d2412626b401) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6507bc165c88d2412626b401) | 全集、中文、播客 |
+| [岩中花述](https://www.xiaoyuzhoufm.com/podcast/625635587bfca4e73e990703) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/625635587bfca4e73e990703) | 全集、中文、播客 |
+| [开始连接 LinkStart](https://www.xiaoyuzhoufm.com/podcast/63ff0da51b1faf8a0b70b337) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63ff0da51b1faf8a0b70b337) | 全集、中文、播客 |
+| [张小珺Jùn｜商业访谈录](https://www.xiaoyuzhoufm.com/podcast/626b46ea9cbbf0451cf5a962) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/626b46ea9cbbf0451cf5a962) | 全集、中文、播客 |
+| [忽左忽右](https://www.xiaoyuzhoufm.com/podcast/5e4ee557418a84a0466737b7) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4ee557418a84a0466737b7) | 全集、中文、播客 |
+| [慢速生长](https://www.xiaoyuzhoufm.com/podcast/668d00c38fcadceb90158ac1) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/668d00c38fcadceb90158ac1) | 全集、中文、播客 |
+| [捕蛇者说](https://www.xiaoyuzhoufm.com/podcast/5e2864f7418a84a04628f2da) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2864f7418a84a04628f2da) | 全集、中文、播客 |
+| [搞钱女孩](https://www.xiaoyuzhoufm.com/podcast/63d945ece725b5378a158d29) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63d945ece725b5378a158d29) | 全集、中文、播客 |
+| [文化有限](https://www.xiaoyuzhoufm.com/podcast/5e4515bd418a84a046e2b11a) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4515bd418a84a046e2b11a) | 全集、中文、播客 |
+| [晚点聊 LateTalk](https://www.xiaoyuzhoufm.com/podcast/61933ace1b4320461e91fd55) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61933ace1b4320461e91fd55) | 全集、中文、播客 |
+| [李诞](https://www.xiaoyuzhoufm.com/podcast/65bb55f6513a776b57dedb32) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65bb55f6513a776b57dedb32) | 全集、中文、播客 |
+| [枫言枫语 — Podcast](https://www.xiaoyuzhoufm.com/podcast/5e2864f5418a84a04628e249) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2864f5418a84a04628e249) | 全集、中文、播客 |
+| [此话当真](https://www.xiaoyuzhoufm.com/podcast/646f194853a5e5ea1408d97c) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/646f194853a5e5ea1408d97c) | 全集、中文、播客 |
+| [游荡集](https://www.xiaoyuzhoufm.com/podcast/6163ca67c8c1d14e83366b31) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6163ca67c8c1d14e83366b31) | 全集、中文、播客 |
+| [牛油果烤面包](https://www.xiaoyuzhoufm.com/podcast/5e7c8b2b418a84a046e3ecbc) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e7c8b2b418a84a046e3ecbc) | 全集、中文、播客 |
+| [独树不成林](https://www.xiaoyuzhoufm.com/podcast/64acd33c7a3d479103fbd32d) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/64acd33c7a3d479103fbd32d) | 全集、中文、播客 |
+| [疯投圈](https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fbd39) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280faf418a84a0461fbd39) | 全集、中文、播客 |
+| [皮蛋漫游记](https://www.xiaoyuzhoufm.com/podcast/6281264ad22bcf3950c80b56) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6281264ad22bcf3950c80b56) | 全集、中文、播客 |
+| [看理想圆桌](https://www.xiaoyuzhoufm.com/podcast/5e4ff4c7418a84a046977618) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4ff4c7418a84a046977618) | 全集、中文、播客 |
+| [知行小酒馆](https://www.xiaoyuzhoufm.com/podcast/6013f9f58e2f7ee375cf4216) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6013f9f58e2f7ee375cf4216) | 全集、中文、播客 |
+| [硅谷101 — Podcast](https://www.xiaoyuzhoufm.com/podcast/5e5c52c9418a84a04625e6cc) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e5c52c9418a84a04625e6cc) | 全集、中文、播客 |
+| [硬地骇客](https://www.xiaoyuzhoufm.com/podcast/640ee2438be5d40013fe4a87) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/640ee2438be5d40013fe4a87) | 全集、中文、播客 |
+| [科技乱炖](https://www.xiaoyuzhoufm.com/podcast/5e4243cd418a84a0469573fb) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4243cd418a84a0469573fb) | 全集、中文、播客 |
+| [第一财经](https://www.xiaoyuzhoufm.com/podcast/64c75555e8176c3ff81de98c) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/64c75555e8176c3ff81de98c) | 全集、中文、播客 |
+| [纵横四海](https://www.xiaoyuzhoufm.com/podcast/62694abdb221dd5908417d1e) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62694abdb221dd5908417d1e) | 全集、中文、播客 |
+| [罗永浩的十字路口](https://www.xiaoyuzhoufm.com/podcast/68981df29e7bcd326eb91d88) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/68981df29e7bcd326eb91d88) | 全集、中文、播客 |
+| [肥话连篇](https://www.xiaoyuzhoufm.com/podcast/61d50d72ee197a3aac3dac42) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61d50d72ee197a3aac3dac42) | 全集、中文、播客 |
+| [自习室 STUDY ROOM](https://www.xiaoyuzhoufm.com/podcast/65a5fb7540d4ef949c0140ac) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65a5fb7540d4ef949c0140ac) | 全集、中文、播客 |
+| [自我进化论](https://www.xiaoyuzhoufm.com/podcast/5e5de5cb418a84a0467beb90) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e5de5cb418a84a0467beb90) | 全集、中文、播客 |
+| [蒋方舟·一寸](https://www.xiaoyuzhoufm.com/podcast/67c7eeb07ac3e30992e75a2f) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/67c7eeb07ac3e30992e75a2f) | 全集、中文、播客 |
+| [诗梳风](https://www.xiaoyuzhoufm.com/podcast/696496f4db4738160d5fabde) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/696496f4db4738160d5fabde) | 全集、中文、播客 |
+| [谭立人](https://www.xiaoyuzhoufm.com/podcast/65a2d0f07242f9fc1c1df60a) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65a2d0f07242f9fc1c1df60a) | 全集、中文、播客 |
+| [起朱楼宴宾客](https://www.xiaoyuzhoufm.com/podcast/61dd99a47b29652ff572257b) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61dd99a47b29652ff572257b) | 全集、中文、播客 |
+| [跨国串门儿计划](https://www.xiaoyuzhoufm.com/podcast/670f3da40d2f24f28978736f) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/670f3da40d2f24f28978736f) | AI、全集、中文、播客 |
+| [随机波动StochasticVolatility](https://www.xiaoyuzhoufm.com/podcast/5e7cc741418a84a046b0c2bd) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e7cc741418a84a046b0c2bd) | 全集、中文、播客 |
+| [面基](https://www.xiaoyuzhoufm.com/podcast/6388760f22567e8ea6ad070f) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6388760f22567e8ea6ad070f) | 全集、中文、播客 |
+| [高能量](https://www.xiaoyuzhoufm.com/podcast/62c6ae08c4eaa82b112b9c84) | 播客节目 | 播客 | [RSS](https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62c6ae08c4eaa82b112b9c84) | 全集、中文、播客 |
 
 </details>
 
