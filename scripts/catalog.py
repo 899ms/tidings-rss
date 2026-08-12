@@ -42,7 +42,7 @@ CATEGORIES = [
 ]
 KINDS = {"article", "video", "podcast"}
 LANGUAGES = {"en", "zh"}
-MAX_ALL_FEEDS = 699
+MAX_ALL_FEEDS = 720
 MAX_BLOG_FEEDS = 400
 
 

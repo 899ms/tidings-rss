@@ -65,6 +65,8 @@ CATEGORY_INTRO_EN = {
 
 
 def localized_description(feed, chinese):
+    if not chinese and feed.get("description_en"):
+        return feed["description_en"]
     value = feed["description"]
     generic = value in {f"{name} 订阅源" for name in CATEGORY_ZH} or value in {"视频频道", "播客节目"}
     if generic:

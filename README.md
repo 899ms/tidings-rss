@@ -2,7 +2,7 @@
   <img src="https://tidings.info/apple-touch-icon.png" width="96" height="96" alt="Tidings app icon">
   <h1>Tidings RSS</h1>
   <p><strong>A curated RSS directory ready to import into your reader.</strong></p>
-  <p>Chinese independent blogs, WeChat articles, company engineering, AI, news, research, video, and podcasts. Last checked: 2026-08-12.</p>
+  <p>Chinese independent blogs, technical communities, WeChat articles, company engineering, AI, news, research, video, and podcasts. Last checked: 2026-08-12.</p>
   <p><a href="README.zh-CN.md">简体中文</a> · <a href="#downloads">Download OPML</a> · <a href="#complete-source-directory">Browse every source</a> · <a href="CONTRIBUTING.md">Suggest a feed</a> · <a href="https://tidings.info/">Get Tidings</a></p>
   <p>
     <a href="https://github.com/fuxiaoai/tidings-rss/actions/workflows/validate.yml"><img alt="Catalog validation" src="https://github.com/fuxiaoai/tidings-rss/actions/workflows/validate.yml/badge.svg"></a>
@@ -13,7 +13,7 @@
 
 Download an OPML bundle and import it into Tidings, NetNewsWire, Feedly, Inoreader, FreshRSS, or another compatible reader. The bundles keep their topic groups, so you can start reading without rebuilding the folders yourself.
 
-The catalog favors original writing, recent publishing, useful feed text, and endpoints that keep working. Chinese blogs were narrowed down from more than a thousand community-listed sites. Company technology feeds are deduplicated by organization and technical direction, with official website RSS preferred over a matching WeChat feed.
+The catalog favors original writing, recent publishing, useful feed text, and endpoints that keep working. Chinese blogs were narrowed down from more than a thousand community-listed sites. The community section now includes active discussions from LINUX DO, Reddit, Lobsters, Python, Rust, NixOS, OpenAI, and Kubernetes. Company technology feeds are deduplicated by organization and technical direction, with official website RSS preferred over a matching WeChat feed.
 
 ## Downloads
 
@@ -21,17 +21,17 @@ Choose the complete collection if you want an archive to prune yourself. For eve
 
 | Collection | Feeds | Download | Best for |
 | --- | ---: | --- | --- |
-| Complete collection | `699` | [Download `tidings-all.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-all.opml) | Keeping the full directory or pruning it yourself |
+| Complete collection | `707` | [Download `tidings-all.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-all.opml) | Keeping the full directory or pruning it yourself |
 | Chinese independent blogs | `348` | [Download `tidings-blogs.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-blogs.opml) | Active Chinese personal writing |
 | WeChat official accounts | `30` | [Download `tidings-wechat.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-wechat.opml) | Reading selected WeChat articles outside the app |
 | Company technology | `40` | [Download `tidings-company-tech.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-company-tech.opml) | First-party engineering, AI, security, and research writing |
-| Artificial intelligence | `97` | [Download `tidings-ai.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-ai.opml) | Models, research, tools, and technical viewpoints |
+| Artificial intelligence | `99` | [Download `tidings-ai.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-ai.opml) | Models, research, tools, and technical viewpoints |
 | Fresh news | `39` | [Download `tidings-news.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-news.opml) | International, technology, security, and Chinese news |
 | Research and science | `27` | [Download `tidings-research.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-research.opml) | Papers, journals, labs, and science reporting |
-| Engineering and technology | `396` | [Download `tidings-engineering.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-engineering.opml) | Software, architecture, developer tools, and engineering practice |
+| Engineering and technology | `404` | [Download `tidings-engineering.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-engineering.opml) | Software, architecture, developer tools, and engineering practice |
 | Video channels | `93` | [Download `tidings-videos.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-videos.opml) | AI, software, science, and business video |
 | Podcasts | `73` | [Download `tidings-podcasts.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-podcasts.opml) | Technology, business, science, and Chinese shows |
-| Chinese-language sources | `464` | [Download `tidings-chinese.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-chinese.opml) | Chinese articles, communities, video, and audio |
+| Chinese-language sources | `465` | [Download `tidings-chinese.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-chinese.opml) | Chinese articles, communities, video, and audio |
 
 [Browse OPML](opml/) · [SHA-256 checksums](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/SHA256SUMS.txt) · [Catalog summary](reports/catalog-summary.md) · [Machine-readable catalog](data/feeds.json)
 
@@ -39,7 +39,7 @@ Choose the complete collection if you want an archive to prune yourself. For eve
 
 A feed needs to be current, worth reading, and consistently parseable. Duplicate sites, abandoned feeds, content farms, promotional aggregators, and repeatedly failing endpoints are removed.
 
-Chinese independent blogs are judged mainly on recent writing and useful article content. WeChat feeds must connect quickly and produce recent articles in Tidings. Company technology feeds are unique by organization and technical direction; when an official website covers the same direction, it replaces the matching WeChat feed.
+Chinese independent blogs are judged mainly on recent writing and useful article content. Community feeds need recent discussions and repeated successful Tidings parses; the catalog favors one high-signal entry point per site. WeChat feeds must connect quickly and produce recent articles in Tidings. Company technology feeds are unique by organization and technical direction; when an official website covers the same direction, it replaces the matching WeChat feed.
 
 Feeds move and disappear, so the directory is checked regularly. If a source is missing, broken, or misclassified, [send a suggestion](CONTRIBUTING.md).
 
@@ -77,7 +77,7 @@ The complete directory follows, with source names, descriptions, categories, and
 <!-- SOURCE_APPENDIX_START -->
 ## Complete source directory
 
-All 699 feeds in the complete collection are listed below with their primary category and bundles. This appendix is generated from `data/feeds.json`.
+All 707 feeds in the complete collection are listed below with their primary category and bundles. This appendix is generated from `data/feeds.json`.
 
 <details>
 <summary>Artificial Intelligence · 40</summary>
@@ -141,11 +141,19 @@ All 699 feeds in the complete collection are listed below with their primary cat
 </details>
 
 <details>
-<summary>Communities · 1</summary>
+<summary>Communities · 9</summary>
 
 | Source | Description | Primary category | Feed | Bundles |
 | --- | --- | --- | --- | --- |
-| [V2EX](https://www.v2ex.com/) | Community feed. | Communities | [RSS](https://v2ex.com/index.xml) | all, chinese, news |
+| [V2EX](https://www.v2ex.com/) | New discussions from the Chinese technology community. | Communities | [RSS](https://v2ex.com/index.xml) | all, chinese, news |
+| [LINUX DO · 文档共建](https://linux.do/c/wiki/42) | Tutorials, study notes, and community-maintained documents from LINUX DO. | Communities | [RSS](https://linuxdorss.longpink.com/wiki.xml) | all, chinese, engineering |
+| [Reddit · Linux, Self-Hosted, DevOps & AI](https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/) | A combined feed of new Linux, self-hosting, DevOps, LocalLLaMA, and machine-learning posts. | Communities | [RSS](https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/.rss) | ai, all, engineering |
+| [Lobsters](https://lobste.rs/) | Community-curated discussions about software, programming, and computer science. | Communities | [RSS](https://lobste.rs/rss) | all, engineering |
+| [Python Core Development](https://discuss.python.org/c/core-dev/23) | Discussions about Python core development and interpreter design. | Communities | [RSS](https://discuss.python.org/c/core-dev/23.rss?order=created) | all, engineering |
+| [Rust Internals · Language Design](https://internals.rust-lang.org/c/language-design/21) | Discussions about Rust language design and compiler internals. | Communities | [RSS](https://internals.rust-lang.org/c/language-design/21.rss?order=created) | all, engineering |
+| [NixOS Development](https://discourse.nixos.org/c/dev/14) | Discussions about NixOS development, packaging, and infrastructure. | Communities | [RSS](https://discourse.nixos.org/c/dev/14.rss?order=created) | all, engineering |
+| [OpenAI Developer Community · API](https://community.openai.com/c/api/7) | Discussions about using, debugging, and integrating the OpenAI API. | Communities | [RSS](https://community.openai.com/c/api/7.rss?order=created) | ai, all, engineering |
+| [Kubernetes · General Discussions](https://discuss.kubernetes.io/c/general-discussions/6) | Discussions about Kubernetes configuration, cluster operations, and troubleshooting. | Communities | [RSS](https://discuss.kubernetes.io/c/general-discussions/6.rss?order=created) | all, engineering |
 
 </details>
 

@@ -414,6 +414,7 @@
       <outline text="陈杨树下" title="陈杨树下" type="rss" xmlUrl="https://www.demochen.com/atom.xml" htmlUrl="https://demochen.com/" />
     </outline>
     <outline text="Communities" title="Communities">
+      <outline text="LINUX DO · 文档共建" title="LINUX DO · 文档共建" type="rss" xmlUrl="https://linuxdorss.longpink.com/wiki.xml" htmlUrl="https://linux.do/c/wiki/42" />
       <outline text="V2EX" title="V2EX" type="rss" xmlUrl="https://v2ex.com/index.xml" htmlUrl="https://www.v2ex.com/" />
     </outline>
     <outline text="Culture &amp; Ideas" title="Culture &amp; Ideas">

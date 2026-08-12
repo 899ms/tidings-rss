@@ -16,7 +16,9 @@ Open a **Feed suggestion** issue or edit `data/feeds.json` in a pull request. In
 
 We favor original reporting, first-party research, practitioner writing, official project blogs, and channels with a clear editorial identity. Scraped mirrors, credentialed feeds, spam, SEO farms, copied content, and sources that primarily promote affiliate links are not accepted.
 
-Chinese independent blogs must have published within the last 180 days, return at least two reliably dated articles, and pass repeated Tidings parser checks. `tidings-blogs.opml` is capped at 400 feeds and the complete collection stays below 700; once a cap is reached, a new source must displace a weaker one.
+Chinese independent blogs must have published within the last 180 days, return at least two reliably dated articles, and pass repeated Tidings parser checks. `tidings-blogs.opml` is capped at 400 feeds and the complete collection at 720; once a cap is reached, a new source must displace a weaker one.
+
+Community feeds must use an official endpoint or a publicly documented fallback, contain recent discussions, and pass three current Tidings parser rounds. A parseable forum feed does not imply that Tidings can fetch its full reply thread; describe that capability separately when proposing a source.
 
 WeChat feeds must respond quickly, expose recent articles, and parse through Tidings. For company technology feeds, include the organization and technical direction. Only one feed is kept for each organization/direction pair, and an official website RSS feed takes priority over a matching WeChat bridge.
 

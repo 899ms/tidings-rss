@@ -72,7 +72,7 @@ class RepositoryTests(unittest.TestCase):
 
     def test_catalog_size_limits_and_complete_appendix(self):
         catalog = json.loads((ROOT / "data/feeds.json").read_text(encoding="utf-8"))
-        self.assertLess(len(catalog["feeds"]), 700)
+        self.assertLessEqual(len(catalog["feeds"]), 720)
         self.assertLessEqual(sum("blogs" in feed["packs"] for feed in catalog["feeds"]), 400)
         expected_urls = {feed["feed_url"] for feed in catalog["feeds"]}
         for name in ("README.md", "README.zh-CN.md"):
@@ -80,6 +80,21 @@ class RepositoryTests(unittest.TestCase):
             appendix = text.split("<!-- SOURCE_APPENDIX_START -->", 1)[1].split("<!-- SOURCE_APPENDIX_END -->", 1)[0]
             found_urls = set(re.findall(r"\[RSS\]\((https?://[^)]+)\)", appendix))
             self.assertEqual(found_urls, expected_urls)
+
+    def test_community_additions_match_repeated_validation_report(self):
+        catalog = json.loads((ROOT / "data/feeds.json").read_text(encoding="utf-8"))
+        report = json.loads((ROOT / "reports/community-curation.json").read_text(encoding="utf-8"))
+        selected = [item for item in report["decisions"] if item["selected"]]
+        selected_urls = {item["feed_url"] for item in selected}
+        catalog_urls = {
+            feed["feed_url"]
+            for feed in catalog["feeds"]
+            if "community-expansion-2026-08-12" in feed["sources"]
+        }
+        self.assertEqual(selected_urls, catalog_urls)
+        self.assertEqual(len(selected), report["selected_count"])
+        self.assertTrue(all(len(item["parser_rounds"]) == 3 for item in selected))
+        self.assertTrue(all(all(round_["ok"] for round_ in item["parser_rounds"]) for item in selected))
 
     def test_wechat_and_company_technology_bundles_are_curated(self):
         catalog = json.loads((ROOT / "data/feeds.json").read_text(encoding="utf-8"))

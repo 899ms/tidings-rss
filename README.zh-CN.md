@@ -2,7 +2,7 @@
   <img src="https://tidings.info/apple-touch-icon.png" width="96" height="96" alt="Tidings 应用图标">
   <h1>Tidings RSS</h1>
   <p><strong>一套可以直接导入阅读器的精品 RSS 目录。</strong></p>
-  <p>中文独立博客、公众号、大厂技术、AI、新闻、科研、视频和播客，都整理好了。最近检查：2026-08-12。</p>
+  <p>中文独立博客、技术社区、公众号、大厂技术、AI、新闻、科研、视频和播客，都整理好了。最近检查：2026-08-12。</p>
   <p>
     <a href="README.md">English</a> ·
     <a href="#直接下载">下载 OPML</a> ·
@@ -19,7 +19,7 @@
 
 不想从几百个网站里一个个找 RSS，可以从下面的主题包开始。下载 OPML，导入 Tidings、NetNewsWire、Feedly、Inoreader、FreshRSS 等支持 OPML 的阅读器，就能按原有分类阅读。
 
-目录偏向原创、持续更新、正文完整的内容。中文独立博客来自开源社区中一千多个仍提供 RSS 的作者主页，我们又按近期更新、文章质量和连接稳定性做了一轮筛选。公众号和大厂技术号也经过在线检查；同一家公司的同一技术方向只留一个源，有独立网站 RSS 时优先选官网，避免重复刷屏。
+目录偏向原创、持续更新、正文完整的内容。中文独立博客来自开源社区中一千多个仍提供 RSS 的作者主页，我们又按近期更新、文章质量和连接稳定性做了一轮筛选。社区部分收录 LINUX DO、Reddit、Lobsters、Python、Rust、NixOS、OpenAI 和 Kubernetes 等近期仍活跃的讨论源。公众号和大厂技术号也经过在线检查；同一家公司的同一技术方向只留一个源，有独立网站 RSS 时优先选官网，避免重复刷屏。
 
 ## 直接下载
 
@@ -27,17 +27,17 @@
 
 | 合集 | 数量 | 下载 | 适合你，如果你想看…… |
 | --- | ---: | --- | --- |
-| 综合全集 | `699` | [下载 `tidings-all.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-all.opml) | 完整收藏，或导入后自行删减 |
+| 综合全集 | `707` | [下载 `tidings-all.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-all.opml) | 完整收藏，或导入后自行删减 |
 | 中文独立博客 | `348` | [下载 `tidings-blogs.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-blogs.opml) | 仍在认真写作的中文个人博客 |
 | 微信公众号 | `30` | [下载 `tidings-wechat.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-wechat.opml) | 不打开微信也能集中阅读的公众号文章 |
 | 大厂技术号 | `40` | [下载 `tidings-company-tech.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-company-tech.opml) | 国内外技术团队的一手工程、AI、安全与研究文章 |
-| AI / 人工智能 | `97` | [下载 `tidings-ai.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-ai.opml) | 模型进展、研究、工具和技术观点 |
+| AI / 人工智能 | `99` | [下载 `tidings-ai.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-ai.opml) | 模型进展、研究、工具和技术观点 |
 | 最新新闻 | `39` | [下载 `tidings-news.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-news.opml) | 国际、科技、安全和中文新闻 |
 | 科研与科学 | `27` | [下载 `tidings-research.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-research.opml) | 论文、期刊、实验室和科学报道 |
-| 工程与技术 | `396` | [下载 `tidings-engineering.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-engineering.opml) | 编程、架构、开发工具和工程实践 |
+| 工程与技术 | `404` | [下载 `tidings-engineering.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-engineering.opml) | 编程、架构、开发工具和工程实践 |
 | 视频频道 | `93` | [下载 `tidings-videos.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-videos.opml) | AI、编程、科学和商业视频 |
 | 播客 | `73` | [下载 `tidings-podcasts.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-podcasts.opml) | 科技、商业、科学与中文节目 |
-| 中文订阅源 | `464` | [下载 `tidings-chinese.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-chinese.opml) | 中文文章、社区、视频和音频 |
+| 中文订阅源 | `465` | [下载 `tidings-chinese.opml`](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/tidings-chinese.opml) | 中文文章、社区、视频和音频 |
 
 [浏览 OPML](opml/) · [SHA-256 校验文件](https://github.com/fuxiaoai/tidings-rss/releases/latest/download/SHA256SUMS.txt) · [目录统计](reports/catalog-summary.md) · [机器可读目录](data/feeds.json)
 
@@ -45,7 +45,7 @@
 
 判断一个源值不值得留下，主要看三件事：最近还在不在更新，文章有没有实际阅读价值，订阅地址能不能稳定解析。重复站点、长期停更、内容农场、推广聚合和连续访问失败的地址会被移出目录。
 
-中文独立博客会更看重近几个月的写作情况和 Feed 中的正文信息量。微信公众号要能快速建立连接，并能在 Tidings 中正常读出近期文章。大厂技术号按“机构 + 技术方向”去重：官网技术博客能够覆盖的内容，不再重复收同方向的公众号。
+中文独立博客会更看重近几个月的写作情况和 Feed 中的正文信息量。社区源既要有近期讨论，也要连续通过 Tidings 解析；同一站点优先保留一个高信噪比入口。微信公众号要能快速建立连接，并能在 Tidings 中正常读出近期文章。大厂技术号按“机构 + 技术方向”去重：官网技术博客能够覆盖的内容，不再重复收同方向的公众号。
 
 RSS 地址可能随时迁移或失效，所以目录会持续复查。发现漏收、失效或分类不合适，可以直接[提交建议](CONTRIBUTING.zh-CN.md)。
 
@@ -83,7 +83,7 @@ AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、A
 <!-- SOURCE_APPENDIX_START -->
 ## 全量源清单
 
-下面列出全集中的 699 个订阅源。每项都标明主分类与所属合集；内容由 `data/feeds.json` 生成。
+下面列出全集中的 707 个订阅源。每项都标明主分类与所属合集；内容由 `data/feeds.json` 生成。
 
 <details>
 <summary>人工智能 · 40</summary>
@@ -147,11 +147,19 @@ AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、A
 </details>
 
 <details>
-<summary>社区 · 1</summary>
+<summary>社区 · 9</summary>
 
 | 名称 | 介绍 | 主分类 | Feed | 所属合集 |
 | --- | --- | --- | --- | --- |
-| [V2EX](https://www.v2ex.com/) | 社区讨论 | 社区 | [RSS](https://v2ex.com/index.xml) | 全集、中文、新闻 |
+| [V2EX](https://www.v2ex.com/) | 中文技术社区的新主题。 | 社区 | [RSS](https://v2ex.com/index.xml) | 全集、中文、新闻 |
+| [LINUX DO · 文档共建](https://linux.do/c/wiki/42) | LINUX DO 社区的教程、学习笔记与共建文档。 | 社区 | [RSS](https://linuxdorss.longpink.com/wiki.xml) | 全集、中文、工程 |
+| [Reddit · Linux, Self-Hosted, DevOps & AI](https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/) | Reddit 上 Linux、自托管、DevOps、本地大模型与机器学习的新帖合并源。 | 社区 | [RSS](https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/.rss) | AI、全集、工程 |
+| [Lobsters](https://lobste.rs/) | 由社区筛选的软件、编程与计算机科学讨论。 | 社区 | [RSS](https://lobste.rs/rss) | 全集、工程 |
+| [Python Core Development](https://discuss.python.org/c/core-dev/23) | Python 核心开发与解释器设计讨论。 | 社区 | [RSS](https://discuss.python.org/c/core-dev/23.rss?order=created) | 全集、工程 |
+| [Rust Internals · Language Design](https://internals.rust-lang.org/c/language-design/21) | Rust 语言设计与编译器内部讨论。 | 社区 | [RSS](https://internals.rust-lang.org/c/language-design/21.rss?order=created) | 全集、工程 |
+| [NixOS Development](https://discourse.nixos.org/c/dev/14) | NixOS 开发、打包与基础设施讨论。 | 社区 | [RSS](https://discourse.nixos.org/c/dev/14.rss?order=created) | 全集、工程 |
+| [OpenAI Developer Community · API](https://community.openai.com/c/api/7) | OpenAI API 使用、调试与集成讨论。 | 社区 | [RSS](https://community.openai.com/c/api/7.rss?order=created) | AI、全集、工程 |
+| [Kubernetes · General Discussions](https://discuss.kubernetes.io/c/general-discussions/6) | Kubernetes 配置、集群运维与故障排查讨论。 | 社区 | [RSS](https://discuss.kubernetes.io/c/general-discussions/6.rss?order=created) | 全集、工程 |
 
 </details>
 

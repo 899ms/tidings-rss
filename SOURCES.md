@@ -12,8 +12,9 @@ Discovery inputs checked on 2026-07-28 and 2026-08-12:
 | [awesome-rsshub-routes](https://github.com/JackyST0/awesome-rsshub-routes) | Discovery candidates, especially Chinese technology routes | [CC0-1.0](https://github.com/JackyST0/awesome-rsshub-routes/blob/main/LICENSE) |
 | [Wechat2RSS](https://github.com/ttttmr/Wechat2RSS) | Discovery candidates for the WeChat bundle; selected feeds were independently checked for responsiveness, recent articles, and Tidings compatibility | The repository has no root LICENSE and its package metadata says ISC. We link to the project and public endpoints without copying article content or claiming a license for its directory. |
 | [RSSHub](https://github.com/DIYgod/RSSHub) | Feed routes for publishers that do not expose a first-party endpoint | [MIT](https://github.com/DIYgod/RSSHub/blob/master/LICENSE) |
+| [LINUX DO RSS fallback](https://linuxdorss.longpink.com/) | Public fallback for LINUX DO categories affected by the site's Cloudflare policy; only the documentation category is included | Community-maintained endpoint documented publicly on LINUX DO. We link to the feed and do not copy article bodies. |
 | Tidings AI Radar OPML | Existing personal collection supplied by the project maintainer | URLs were independently revalidated and reclassified. |
-| Publisher-owned feeds | A small set of official news and research endpoints | Public endpoints only; no article content is redistributed. |
+| Publisher-owned feeds | Official publisher and community endpoints | Public endpoints only; no article content is redistributed. |
 
 ## Validation boundary
 
@@ -22,5 +23,7 @@ The 2026-08-12 Chinese-blog review required three successful Tidings parser roun
 WeChat additions had to begin an HTTP 200 XML response within two seconds in two separate probes, then complete a Tidings parse and expose a dated article from the last 180 days. The two-second limit applies to connection and first response bytes, not full download: public WeChat XML files can be several megabytes. Candidate-level results are published in `reports/wechat-curation.json`.
 
 The company-technology bundle is keyed by organization and technical direction. A first-party website feed wins over a WeChat bridge for the same pair; separate directions such as engineering, AI, security, and research may coexist.
+
+Community additions had to pass three current Tidings parser rounds and expose recently dated discussions. Reddit is represented by one combined official Atom feed to reduce duplicate posts and rate-limit pressure. LINUX DO's first-party feeds returned HTTP 403 through the production parser, so the catalog uses a publicly documented community fallback for the documentation category. Feed import and structured reply extraction are separate capabilities; this catalog check only claims the former unless a report says otherwise. Candidate-level evidence is published in `reports/community-curation.json`.
 
 This is a dated health check, not a promise of permanent uptime. Publishers can move or retire feeds, and third-party RSSHub or WeChat bridges can fail independently. The weekly workflow provides a fresh machine-readable health report without silently rewriting the curated catalog.

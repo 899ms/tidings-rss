@@ -1,0 +1,258 @@
+{
+  "validated_at": "2026-08-12",
+  "engine": "Tidings parseFeedUrl",
+  "criteria": "Selected feeds passed three current production-parser rounds, exposed at least one reliably dated recent discussion, and avoided duplicate site or topic feeds.",
+  "candidate_count": 9,
+  "selected_count": 8,
+  "capabilities": {
+    "feed_import": "All selected feeds were parsed through Tidings in three rounds.",
+    "structured_replies": "Feed import does not imply full reply extraction. The selected LINUX DO fallback parses as a feed, but its sampled topic JSON endpoints returned HTTP 403; Reddit and generic Discourse feeds are imported as standard entries."
+  },
+  "decisions": [
+    {
+      "title": "LINUX DO · Linux tag (first-party)",
+      "feed_url": "https://linux.do/tag/linux.rss?order=created",
+      "selected": false,
+      "reason": "Tidings production parser returned HTTP 403; replaced by a publicly documented category fallback.",
+      "parser_rounds": [
+        {
+          "ok": false,
+          "error": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "title": "LINUX DO · 文档共建",
+      "feed_url": "https://linuxdorss.longpink.com/wiki.xml",
+      "selected": true,
+      "reason": "Selected: focused tutorials and community-maintained documents through a publicly documented fallback.",
+      "source_type": "documented public fallback",
+      "latest_item_at": "2026-08-12T11:25:27Z",
+      "structured_replies": false,
+      "structured_reply_note": "Five sampled topic JSON endpoints returned HTTP 403 on 2026-08-12.",
+      "parser_rounds": [
+        {
+          "ok": true,
+          "item_count": 9,
+          "latest_item_at": "2026-08-12T11:25:27Z",
+          "duration_ms": 4328
+        },
+        {
+          "ok": true,
+          "item_count": 9,
+          "latest_item_at": "2026-08-12T11:25:27Z",
+          "duration_ms": 3780
+        },
+        {
+          "ok": true,
+          "item_count": 9,
+          "latest_item_at": "2026-08-12T11:25:27Z",
+          "duration_ms": 3724
+        }
+      ]
+    },
+    {
+      "title": "Reddit · Linux, Self-Hosted, DevOps & AI",
+      "feed_url": "https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/.rss",
+      "selected": true,
+      "reason": "Selected as one combined official Atom feed to reduce duplicate posts and rate-limit pressure.",
+      "source_type": "first-party",
+      "latest_item_at": "2026-08-12T13:58:59Z",
+      "structured_replies": false,
+      "parser_rounds": [
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T13:55:10Z",
+          "duration_ms": 2047
+        },
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T13:58:59Z",
+          "duration_ms": 1674
+        },
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T13:58:59Z",
+          "duration_ms": 4466
+        }
+      ]
+    },
+    {
+      "title": "Lobsters",
+      "feed_url": "https://lobste.rs/rss",
+      "selected": true,
+      "reason": "Selected for community-curated software and computer-science discussions.",
+      "source_type": "first-party",
+      "latest_item_at": "2026-08-12T13:39:39Z",
+      "structured_replies": false,
+      "parser_rounds": [
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T13:39:39Z",
+          "duration_ms": 4525
+        },
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T13:39:39Z",
+          "duration_ms": 12136
+        },
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T13:39:39Z",
+          "duration_ms": 4006
+        }
+      ]
+    },
+    {
+      "title": "Python Core Development",
+      "feed_url": "https://discuss.python.org/c/core-dev/23.rss?order=created",
+      "selected": true,
+      "reason": "Selected for first-party Python core and interpreter design discussions.",
+      "source_type": "first-party",
+      "latest_item_at": "2026-08-12T06:20:26Z",
+      "structured_replies": false,
+      "parser_rounds": [
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T06:20:26Z",
+          "duration_ms": 3876
+        },
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T06:20:26Z",
+          "duration_ms": 5182
+        },
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T06:20:26Z",
+          "duration_ms": 3470
+        }
+      ]
+    },
+    {
+      "title": "Rust Internals · Language Design",
+      "feed_url": "https://internals.rust-lang.org/c/language-design/21.rss?order=created",
+      "selected": true,
+      "reason": "Selected for first-party Rust language and compiler design discussions.",
+      "source_type": "first-party",
+      "latest_item_at": "2026-08-12T05:54:12Z",
+      "structured_replies": false,
+      "parser_rounds": [
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T05:54:12Z",
+          "duration_ms": 4936
+        },
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T05:54:12Z",
+          "duration_ms": 2740
+        },
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T05:54:12Z",
+          "duration_ms": 4616
+        }
+      ]
+    },
+    {
+      "title": "NixOS Development",
+      "feed_url": "https://discourse.nixos.org/c/dev/14.rss?order=created",
+      "selected": true,
+      "reason": "Selected for first-party NixOS development, packaging, and infrastructure discussions.",
+      "source_type": "first-party",
+      "latest_item_at": "2026-08-12T13:16:06Z",
+      "structured_replies": false,
+      "parser_rounds": [
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T13:16:06Z",
+          "duration_ms": 3937
+        },
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T13:16:06Z",
+          "duration_ms": 2921
+        },
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T13:16:06Z",
+          "duration_ms": 5944
+        }
+      ]
+    },
+    {
+      "title": "OpenAI Developer Community · API",
+      "feed_url": "https://community.openai.com/c/api/7.rss?order=created",
+      "selected": true,
+      "reason": "Selected for current OpenAI API integration and troubleshooting discussions.",
+      "source_type": "first-party",
+      "latest_item_at": "2026-08-12T07:24:33Z",
+      "structured_replies": false,
+      "parser_rounds": [
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T07:24:33Z",
+          "duration_ms": 3162
+        },
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T07:24:33Z",
+          "duration_ms": 6537
+        },
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-12T07:24:33Z",
+          "duration_ms": 3770
+        }
+      ]
+    },
+    {
+      "title": "Kubernetes · General Discussions",
+      "feed_url": "https://discuss.kubernetes.io/c/general-discussions/6.rss?order=created",
+      "selected": true,
+      "reason": "Selected for current Kubernetes operations and troubleshooting discussions.",
+      "source_type": "first-party",
+      "latest_item_at": "2026-08-11T06:44:33Z",
+      "structured_replies": false,
+      "parser_rounds": [
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-11T06:44:33Z",
+          "duration_ms": 3010
+        },
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-11T06:44:33Z",
+          "duration_ms": 3783
+        },
+        {
+          "ok": true,
+          "item_count": 25,
+          "latest_item_at": "2026-08-11T06:44:33Z",
+          "duration_ms": 2697
+        }
+      ]
+    }
+  ]
+}

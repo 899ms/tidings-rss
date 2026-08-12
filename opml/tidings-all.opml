@@ -545,6 +545,14 @@
       <outline text="陈杨树下" title="陈杨树下" type="rss" xmlUrl="https://www.demochen.com/atom.xml" htmlUrl="https://demochen.com/" />
     </outline>
     <outline text="Communities" title="Communities">
+      <outline text="Kubernetes · General Discussions" title="Kubernetes · General Discussions" type="rss" xmlUrl="https://discuss.kubernetes.io/c/general-discussions/6.rss?order=created" htmlUrl="https://discuss.kubernetes.io/c/general-discussions/6" />
+      <outline text="LINUX DO · 文档共建" title="LINUX DO · 文档共建" type="rss" xmlUrl="https://linuxdorss.longpink.com/wiki.xml" htmlUrl="https://linux.do/c/wiki/42" />
+      <outline text="Lobsters" title="Lobsters" type="rss" xmlUrl="https://lobste.rs/rss" htmlUrl="https://lobste.rs/" />
+      <outline text="NixOS Development" title="NixOS Development" type="rss" xmlUrl="https://discourse.nixos.org/c/dev/14.rss?order=created" htmlUrl="https://discourse.nixos.org/c/dev/14" />
+      <outline text="OpenAI Developer Community · API" title="OpenAI Developer Community · API" type="rss" xmlUrl="https://community.openai.com/c/api/7.rss?order=created" htmlUrl="https://community.openai.com/c/api/7" />
+      <outline text="Python Core Development" title="Python Core Development" type="rss" xmlUrl="https://discuss.python.org/c/core-dev/23.rss?order=created" htmlUrl="https://discuss.python.org/c/core-dev/23" />
+      <outline text="Reddit · Linux, Self-Hosted, DevOps &amp; AI" title="Reddit · Linux, Self-Hosted, DevOps &amp; AI" type="rss" xmlUrl="https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/.rss" htmlUrl="https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/" />
+      <outline text="Rust Internals · Language Design" title="Rust Internals · Language Design" type="rss" xmlUrl="https://internals.rust-lang.org/c/language-design/21.rss?order=created" htmlUrl="https://internals.rust-lang.org/c/language-design/21" />
       <outline text="V2EX" title="V2EX" type="rss" xmlUrl="https://v2ex.com/index.xml" htmlUrl="https://www.v2ex.com/" />
     </outline>
     <outline text="Culture &amp; Ideas" title="Culture &amp; Ideas">

@@ -3,10 +3,10 @@
   "generated_at": "2026-08-12",
   "validation": {
     "engine": "Tidings parseFeedUrl",
-    "criteria": "Chinese independent blogs passed three parser rounds, had at least two dated posts and updated within 180 days; retained catalog feeds passed two current parser rounds. WeChat additions passed two two-second time-to-first-byte probes, Tidings parsing, and a 180-day freshness check.",
-    "candidate_count": 2256,
-    "parser_passed": 699,
-    "retained_count": 699
+    "criteria": "Chinese independent blogs passed three parser rounds, had at least two dated posts and updated within 180 days; retained catalog feeds passed two current parser rounds. WeChat additions passed two two-second time-to-first-byte probes, Tidings parsing, and a 180-day freshness check. Community additions passed three current Tidings parser rounds and exposed recently dated discussions.",
+    "candidate_count": 2265,
+    "parser_passed": 707,
+    "retained_count": 707
   },
   "feeds": [
     {
@@ -1008,9 +1008,10 @@
       "title": "V2EX",
       "feed_url": "https://v2ex.com/index.xml",
       "site_url": "https://www.v2ex.com/",
+      "description": "中文技术社区的新主题。",
       "category": "Communities",
       "kind": "article",
-      "language": "en",
+      "language": "zh",
       "packs": [
         "all",
         "chinese",
@@ -1022,7 +1023,178 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T11:20:51Z",
-      "description": "Communities 订阅源"
+      "description_en": "New discussions from the Chinese technology community."
+    },
+    {
+      "id": "8e573581522f",
+      "title": "LINUX DO · 文档共建",
+      "feed_url": "https://linuxdorss.longpink.com/wiki.xml",
+      "site_url": "https://linux.do/c/wiki/42",
+      "description": "LINUX DO 社区的教程、学习笔记与共建文档。",
+      "description_en": "Tutorials, study notes, and community-maintained documents from LINUX DO.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "community-expansion-2026-08-12",
+        "linux-do-community-mirror"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:25:27Z"
+    },
+    {
+      "id": "aac04b8726f0",
+      "title": "Reddit · Linux, Self-Hosted, DevOps & AI",
+      "feed_url": "https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/.rss",
+      "site_url": "https://www.reddit.com/r/linux+selfhosted+devops+LocalLLaMA+MachineLearning/new/",
+      "description": "Reddit 上 Linux、自托管、DevOps、本地大模型与机器学习的新帖合并源。",
+      "description_en": "A combined feed of new Linux, self-hosting, DevOps, LocalLLaMA, and machine-learning posts.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "engineering"
+      ],
+      "sources": [
+        "community-expansion-2026-08-12",
+        "publisher-owned-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T13:58:59Z"
+    },
+    {
+      "id": "f46e074ae550",
+      "title": "Lobsters",
+      "feed_url": "https://lobste.rs/rss",
+      "site_url": "https://lobste.rs/",
+      "description": "由社区筛选的软件、编程与计算机科学讨论。",
+      "description_en": "Community-curated discussions about software, programming, and computer science.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering"
+      ],
+      "sources": [
+        "community-expansion-2026-08-12",
+        "publisher-owned-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T13:39:39Z"
+    },
+    {
+      "id": "c159c188b2ec",
+      "title": "Python Core Development",
+      "feed_url": "https://discuss.python.org/c/core-dev/23.rss?order=created",
+      "site_url": "https://discuss.python.org/c/core-dev/23",
+      "description": "Python 核心开发与解释器设计讨论。",
+      "description_en": "Discussions about Python core development and interpreter design.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering"
+      ],
+      "sources": [
+        "community-expansion-2026-08-12",
+        "publisher-owned-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T06:20:26Z"
+    },
+    {
+      "id": "38bdaea4431d",
+      "title": "Rust Internals · Language Design",
+      "feed_url": "https://internals.rust-lang.org/c/language-design/21.rss?order=created",
+      "site_url": "https://internals.rust-lang.org/c/language-design/21",
+      "description": "Rust 语言设计与编译器内部讨论。",
+      "description_en": "Discussions about Rust language design and compiler internals.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering"
+      ],
+      "sources": [
+        "community-expansion-2026-08-12",
+        "publisher-owned-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T05:54:12Z"
+    },
+    {
+      "id": "ecf671f148a8",
+      "title": "NixOS Development",
+      "feed_url": "https://discourse.nixos.org/c/dev/14.rss?order=created",
+      "site_url": "https://discourse.nixos.org/c/dev/14",
+      "description": "NixOS 开发、打包与基础设施讨论。",
+      "description_en": "Discussions about NixOS development, packaging, and infrastructure.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering"
+      ],
+      "sources": [
+        "community-expansion-2026-08-12",
+        "publisher-owned-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T13:16:06Z"
+    },
+    {
+      "id": "dcdfba89c4b7",
+      "title": "OpenAI Developer Community · API",
+      "feed_url": "https://community.openai.com/c/api/7.rss?order=created",
+      "site_url": "https://community.openai.com/c/api/7",
+      "description": "OpenAI API 使用、调试与集成讨论。",
+      "description_en": "Discussions about using, debugging, and integrating the OpenAI API.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "engineering"
+      ],
+      "sources": [
+        "community-expansion-2026-08-12",
+        "publisher-owned-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T07:24:33Z"
+    },
+    {
+      "id": "cccf9b3636a1",
+      "title": "Kubernetes · General Discussions",
+      "feed_url": "https://discuss.kubernetes.io/c/general-discussions/6.rss?order=created",
+      "site_url": "https://discuss.kubernetes.io/c/general-discussions/6",
+      "description": "Kubernetes 配置、集群运维与故障排查讨论。",
+      "description_en": "Discussions about Kubernetes configuration, cluster operations, and troubleshooting.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering"
+      ],
+      "sources": [
+        "community-expansion-2026-08-12",
+        "publisher-owned-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T06:44:33Z"
     },
     {
       "id": "1aef9a60319a",

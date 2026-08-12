@@ -6,15 +6,15 @@ Generated and validated on **2026-08-12** with **Tidings parseFeedUrl**.
 
 | Bundle | Feeds |
 | --- | ---: |
-| `tidings-all.opml` | 699 |
+| `tidings-all.opml` | 707 |
 | `tidings-blogs.opml` | 348 |
-| `tidings-ai.opml` | 97 |
+| `tidings-ai.opml` | 99 |
 | `tidings-videos.opml` | 93 |
 | `tidings-podcasts.opml` | 73 |
 | `tidings-news.opml` | 39 |
 | `tidings-research.opml` | 27 |
-| `tidings-chinese.opml` | 464 |
-| `tidings-engineering.opml` | 396 |
+| `tidings-chinese.opml` | 465 |
+| `tidings-engineering.opml` | 404 |
 | `tidings-company-tech.opml` | 40 |
 | `tidings-wechat.opml` | 30 |
 
@@ -29,7 +29,7 @@ Generated and validated on **2026-08-12** with **Tidings parseFeedUrl**.
 | Product & Design | 5 |
 | Business & Startups | 5 |
 | Personal Blogs | 65 |
-| Communities | 1 |
+| Communities | 9 |
 | Culture & Ideas | 10 |
 | Videos | 93 |
 | Podcasts | 73 |

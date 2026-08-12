@@ -1,13 +1,14 @@
 # Changelog
 
-## Unreleased — 2026-08-12
+## v1.2.0 — 2026-08-12
 
+- Added eight recently active community feeds: LINUX DO documentation, a combined Reddit technology feed, Lobsters, Python Core Development, Rust Internals, NixOS Development, the OpenAI Developer Community, and Kubernetes discussions. Every addition passed three Tidings production-parser rounds.
 - Added separately downloadable WeChat and company-technology bundles, with two-second response probes, current-article checks, and organization/direction deduplication that prefers first-party website feeds.
 - Rewrote both homepages around choosing, downloading, and reading the collections; moved discovery projects into a short reference section and removed internal pipeline narration from the reader path.
-- Rebuilt the catalog as 680 repeatedly checked feeds, including 348 Chinese independent blogs selected from 1,331 candidates.
+- Rebuilt the catalog as 707 checked feeds, including 348 Chinese independent blogs selected from 1,331 candidates.
 - Required three successful Tidings parser rounds and recent, reliably dated publishing activity for the Chinese blog bundle; removed duplicate sites and promotional or SEO-oriented sources.
 - Rechecked the existing catalog twice and removed repeatedly failing feeds before merging.
-- Added hard limits of 400 blogs and fewer than 700 complete-collection feeds.
+- Added hard limits of 400 blogs and 720 complete-collection feeds.
 - Rewrote both project homepages and added a generated, tested appendix listing every source, description, Feed URL, primary category, and bundle membership.
 - Published the candidate-level Chinese blog curation evidence and added a reproducible collection, scoring, and catalog-build pipeline.
 
