@@ -18,6 +18,8 @@ We favor original reporting, first-party research, practitioner writing, officia
 
 Chinese independent blogs must have published within the last 180 days, return at least two reliably dated articles, and pass repeated Tidings parser checks. `tidings-blogs.opml` is capped at 400 feeds and the complete collection stays below 700; once a cap is reached, a new source must displace a weaker one.
 
+WeChat feeds must respond quickly, expose recent articles, and parse through Tidings. For company technology feeds, include the organization and technical direction. Only one feed is kept for each organization/direction pair, and an official website RSS feed takes priority over a matching WeChat bridge.
+
 ## Update the generated files
 
 Python 3.10 or newer is sufficient; the project has no runtime dependencies.

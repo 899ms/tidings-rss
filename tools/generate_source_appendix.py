@@ -20,7 +20,63 @@ PACK_ZH = {
     "videos": "视频",
     "podcasts": "播客",
     "chinese": "中文",
+    "company-tech": "大厂技术号",
+    "wechat": "微信公众号",
 }
+CATEGORY_ZH = {
+    "Artificial Intelligence": "人工智能",
+    "Engineering & Technology": "工程与技术",
+    "Research & Science": "科研与科学",
+    "News": "新闻",
+    "Product & Design": "产品与设计",
+    "Business & Startups": "商业与创业",
+    "Personal Blogs": "个人博客",
+    "Communities": "社区",
+    "Culture & Ideas": "文化与思想",
+    "Videos": "视频",
+    "Podcasts": "播客",
+}
+CATEGORY_INTRO_ZH = {
+    "Artificial Intelligence": "人工智能内容",
+    "Engineering & Technology": "工程与技术内容",
+    "Research & Science": "科研与科学内容",
+    "News": "新闻资讯",
+    "Product & Design": "产品与设计内容",
+    "Business & Startups": "商业与创业内容",
+    "Personal Blogs": "个人博客",
+    "Communities": "社区讨论",
+    "Culture & Ideas": "文化与思想内容",
+    "Videos": "视频频道",
+    "Podcasts": "播客节目",
+}
+CATEGORY_INTRO_EN = {
+    "Artificial Intelligence": "Artificial intelligence feed.",
+    "Engineering & Technology": "Engineering and technology feed.",
+    "Research & Science": "Research and science feed.",
+    "News": "News feed.",
+    "Product & Design": "Product and design feed.",
+    "Business & Startups": "Business and startup feed.",
+    "Personal Blogs": "Independent blog.",
+    "Communities": "Community feed.",
+    "Culture & Ideas": "Culture and ideas feed.",
+    "Videos": "Video channel.",
+    "Podcasts": "Podcast.",
+}
+
+
+def localized_description(feed, chinese):
+    value = feed["description"]
+    generic = value in {f"{name} 订阅源" for name in CATEGORY_ZH} or value in {"视频频道", "播客节目"}
+    if generic:
+        return CATEGORY_INTRO_ZH[feed["category"]] if chinese else CATEGORY_INTRO_EN[feed["category"]]
+    if chinese:
+        return value
+    if value.startswith("主要写"):
+        return "Chinese independent blog."
+    if value.startswith("公众号，主要关注"):
+        topic = value.removeprefix("公众号，主要关注").removesuffix("。")
+        return f"WeChat article feed covering {topic}."
+    return value
 
 
 def appendix(catalog, chinese):
@@ -35,10 +91,11 @@ def appendix(catalog, chinese):
     )
     lines = [START, title, "", intro, ""]
     for category, feeds in grouped.items():
+        group_name = CATEGORY_ZH.get(category, category) if chinese else category
         lines.extend(
             [
                 f"<details>",
-                f"<summary>{category} · {len(feeds)}</summary>",
+                f"<summary>{group_name} · {len(feeds)}</summary>",
                 "",
                 "| 名称 | 介绍 | 主分类 | Feed | 所属合集 |" if chinese else "| Source | Description | Primary category | Feed | Bundles |",
                 "| --- | --- | --- | --- | --- |",
@@ -46,10 +103,11 @@ def appendix(catalog, chinese):
         )
         for feed in feeds:
             name = feed["title"].replace("|", "\\|")
-            description = feed["description"].replace("|", "\\|")
+            description = localized_description(feed, chinese).replace("|", "\\|")
             site = feed["site_url"] if feed["site_url"].startswith(("http://", "https://")) else feed["feed_url"]
             packs = "、".join(PACK_ZH.get(pack, pack) for pack in feed["packs"]) if chinese else ", ".join(feed["packs"])
-            lines.append(f"| [{name}]({site}) | {description} | {feed['category']} | [RSS]({feed['feed_url']}) | {packs} |")
+            category_name = CATEGORY_ZH.get(feed["category"], feed["category"]) if chinese else feed["category"]
+            lines.append(f"| [{name}]({site}) | {description} | {category_name} | [RSS]({feed['feed_url']}) | {packs} |")
         lines.extend(["", "</details>", ""])
     lines.append(END)
     return "\n".join(lines)

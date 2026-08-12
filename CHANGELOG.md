@@ -2,6 +2,8 @@
 
 ## Unreleased — 2026-08-12
 
+- Added separately downloadable WeChat and company-technology bundles, with two-second response probes, current-article checks, and organization/direction deduplication that prefers first-party website feeds.
+- Rewrote both homepages around choosing, downloading, and reading the collections; moved discovery projects into a short reference section and removed internal pipeline narration from the reader path.
 - Rebuilt the catalog as 680 repeatedly checked feeds, including 348 Chinese independent blogs selected from 1,331 candidates.
 - Required three successful Tidings parser rounds and recent, reliably dated publishing activity for the Chinese blog bundle; removed duplicate sites and promotional or SEO-oriented sources.
 - Rechecked the existing catalog twice and removed repeatedly failing feeds before merging.

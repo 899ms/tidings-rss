@@ -24,6 +24,8 @@ PACKS = {
     "research": ("tidings-research.opml", "Tidings Curated RSS — Research & Science"),
     "chinese": ("tidings-chinese.opml", "Tidings Curated RSS — Chinese Sources"),
     "engineering": ("tidings-engineering.opml", "Tidings Curated RSS — Engineering & Technology"),
+    "company-tech": ("tidings-company-tech.opml", "Tidings Curated RSS — Company Technology"),
+    "wechat": ("tidings-wechat.opml", "Tidings Curated RSS — WeChat Official Accounts"),
 }
 CATEGORIES = [
     "Artificial Intelligence",
@@ -114,6 +116,20 @@ def validate_catalog(catalog):
             errors.append(f"{label}: blogs pack is reserved for vetted Chinese independent blogs")
         if feed["language"] == "zh" and "chinese" not in feed["packs"]:
             errors.append(f"{label}: Chinese feed missing chinese pack")
+        if "wechat" in feed["packs"] and not (
+            feed["kind"] == "article" and feed["language"] == "zh" and "wechat2rss" in feed["sources"]
+        ):
+            errors.append(f"{label}: wechat pack is reserved for validated WeChat article feeds")
+        if "company-tech" in feed["packs"] and not (feed.get("organization") and feed.get("company_direction")):
+            errors.append(f"{label}: company-tech feed missing organization or direction")
+    company_keys = [
+        (feed.get("organization", "").casefold(), feed.get("company_direction", "").casefold())
+        for feed in feeds
+        if "company-tech" in feed.get("packs", [])
+    ]
+    duplicates = [key for key, count in Counter(company_keys).items() if count > 1]
+    if duplicates:
+        errors.append(f"company-tech contains duplicate organization/direction pairs: {duplicates}")
     return errors
 
 

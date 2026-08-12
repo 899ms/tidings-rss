@@ -1,7 +1,7 @@
 {
   "validated_at": "2026-08-12",
   "engine": "Tidings parseFeedUrl",
-  "published": 680,
+  "published": 699,
   "limits": {
     "complete_collection_maximum": 699,
     "chinese_independent_blogs_maximum": 400
@@ -25,7 +25,15 @@
     "parser_round_2_passed": 607,
     "required_both_rounds_for_merge": true
   },
-  "final_live_check": {
+  "wechat_review": {
+    "curated_candidates": 41,
+    "passed_both_two_second_probes": 32,
+    "passed_tidings_parser": 32,
+    "published_with_recent_dated_article": 30,
+    "company_technology_feeds": 40,
+    "selection_evidence": "reports/wechat-curation.json"
+  },
+  "base_catalog_live_check": {
     "checked": 680,
     "lightweight_parser_passed": 669,
     "lightweight_parser_failed": 11,
@@ -33,15 +41,23 @@
     "failed_items_rechecked_with_tidings": 11,
     "failed_items_passing_tidings_recheck": 11
   },
+  "published_wechat_live_check": {
+    "checked": 30,
+    "passed": 30,
+    "failed": 0,
+    "success_rate": 1.0
+  },
   "by_pack": {
-    "ai": 95,
-    "all": 680,
+    "ai": 97,
+    "all": 699,
     "blogs": 348,
-    "chinese": 444,
-    "engineering": 380,
+    "chinese": 464,
+    "company-tech": 40,
+    "engineering": 396,
     "news": 39,
     "podcasts": 73,
     "research": 27,
-    "videos": 93
+    "videos": 93,
+    "wechat": 30
   }
 }

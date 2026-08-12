@@ -51,6 +51,16 @@ class CatalogTests(unittest.TestCase):
             news = ET.parse(Path(temp) / "opml/tidings-news.opml").getroot()
             self.assertFalse([node for node in news.iter("outline") if node.get("xmlUrl")])
 
+    def test_company_tech_rejects_duplicate_organization_direction(self):
+        catalog = sample_catalog()
+        for feed in catalog["feeds"]:
+            feed["packs"].append("company-tech")
+            feed["organization"] = "Example"
+            feed["company_direction"] = "AI"
+        duplicate = dict(catalog["feeds"][0], id="second", feed_url="https://example.org/feed.xml")
+        catalog["feeds"].append(duplicate)
+        self.assertTrue(any("duplicate organization/direction" in error for error in validate_catalog(catalog)))
+
 
 if __name__ == "__main__":
     unittest.main()

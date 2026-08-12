@@ -39,6 +39,8 @@
       <outline text="The Batch | DeepLearning.AI | AI News &amp; Insights" title="The Batch | DeepLearning.AI | AI News &amp; Insights" type="rss" xmlUrl="https://rsshub.bestblogs.dev/deeplearning/the-batch" htmlUrl="https://www.deeplearning.ai/the-batch/" />
       <outline text="The latest research from Google" title="The latest research from Google" type="rss" xmlUrl="https://research.google/blog/rss/" htmlUrl="https://research.google/blog/" />
       <outline text="大模型智能" title="大模型智能" type="rss" xmlUrl="https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml" htmlUrl="https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml" />
+      <outline text="我爱计算机视觉" title="我爱计算机视觉" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/b81ffcfff1107b5265cd7e39de610dc7ca72caf4.xml" htmlUrl="https://wechat2rss.xlab.app/feed/b81ffcfff1107b5265cd7e39de610dc7ca72caf4.xml" />
+      <outline text="新智元" title="新智元" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/ede30346413ea70dbef5d485ea5cbb95cca446e7.xml" htmlUrl="https://wechat2rss.xlab.app/feed/ede30346413ea70dbef5d485ea5cbb95cca446e7.xml" />
       <outline text="智谱" title="智谱" type="rss" xmlUrl="https://wechat2rss.bestblogs.dev/feed/433d2134dca54d80804daf32e8be546155be3300.xml" htmlUrl="https://wechat2rss.bestblogs.dev/feed/433d2134dca54d80804daf32e8be546155be3300.xml" />
       <outline text="月之暗面 Kimi" title="月之暗面 Kimi" type="rss" xmlUrl="https://wechat2rss.bestblogs.dev/feed/c5c43d4bc17bae656763859ed0903bb6314ec6fe.xml" htmlUrl="https://wechat2rss.bestblogs.dev/feed/c5c43d4bc17bae656763859ed0903bb6314ec6fe.xml" />
       <outline text="机器之心" title="机器之心" type="rss" xmlUrl="https://wechat2rss.bestblogs.dev/feed/8d97af31b0de9e48da74558af128a4673d78c9a3.xml" htmlUrl="https://wechat2rss.bestblogs.dev/feed/8d97af31b0de9e48da74558af128a4673d78c9a3.xml" />
@@ -85,6 +87,7 @@
       <outline text="Data4Fun" title="Data4Fun" type="rss" xmlUrl="https://data4fun.cc/index.xml" htmlUrl="https://data4fun.cc/" />
       <outline text="Databricks" title="Databricks" type="rss" xmlUrl="https://www.databricks.com/feed" htmlUrl="https://www.databricks.com" />
       <outline text="Dax 的博客" title="Dax 的博客" type="rss" xmlUrl="https://daolanx.me/zh/rss.xml" htmlUrl="https://daolanx.me/" />
+      <outline text="dbaplus社群" title="dbaplus社群" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/3b9cc8887fccb80d3f083cd6eb8c344628d101b6.xml" htmlUrl="https://wechat2rss.xlab.app/feed/3b9cc8887fccb80d3f083cd6eb8c344628d101b6.xml" />
       <outline text="ddadaal.me" title="ddadaal.me" type="rss" xmlUrl="https://ddadaal.me/rss.xml" htmlUrl="https://ddadaal.me" />
       <outline text="Debug客栈" title="Debug客栈" type="rss" xmlUrl="https://blog.debuginn.com/index.xml" htmlUrl="https://blog.debuginn.com/" />
       <outline text="Deepzz's Blog" title="Deepzz's Blog" type="rss" xmlUrl="https://deepzz.com/feed" htmlUrl="https://deepzz.com" />
@@ -291,6 +294,7 @@
       <outline text="卡瓦邦噶！" title="卡瓦邦噶！" type="rss" xmlUrl="https://www.kawabangga.com/feed" htmlUrl="https://www.kawabangga.com" />
       <outline text="又耳笔记" title="又耳笔记" type="rss" xmlUrl="https://youerning.top/index.xml" htmlUrl="https://youerning.top/" />
       <outline text="后端技术杂谈" title="后端技术杂谈" type="rss" xmlUrl="https://rowkey.cn/atom.xml" htmlUrl="https://www.rowkey.cn/atom.xml" />
+      <outline text="哔哩哔哩技术" title="哔哩哔哩技术" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/434235d4815fdb8447ff3127fc053ceb8b3aada6.xml" htmlUrl="https://wechat2rss.xlab.app/feed/434235d4815fdb8447ff3127fc053ceb8b3aada6.xml" />
       <outline text="唐巧的博客" title="唐巧的博客" type="rss" xmlUrl="https://blog.devtang.com/atom.xml" htmlUrl="https://blog.devtang.com/atom.xml" />
       <outline text="喵二の小博客" title="喵二の小博客" type="rss" xmlUrl="https://www.miaoer.net/feed" htmlUrl="https://www.miaoer.net" />
       <outline text="喵喵小站・博客志" title="喵喵小站・博客志" type="rss" xmlUrl="https://www.mmbkz.cn/feed" htmlUrl="https://www.mmbkz.cn/" />
@@ -302,12 +306,16 @@
       <outline text="失眠海峡" title="失眠海峡" type="rss" xmlUrl="https://blog.imalan.cn/feed.xml" htmlUrl="https://blog.imalan.cn/" />
       <outline text="如有乐享" title="如有乐享" type="rss" xmlUrl="https://51.ruyo.net/feed" htmlUrl="https://51.ruyo.net" />
       <outline text="姓王者的博客" title="姓王者的博客" type="rss" xmlUrl="https://xingwangzhe.fun/rss.xml" htmlUrl="https://xingwangzhe.fun/" />
+      <outline text="字节跳动技术团队" title="字节跳动技术团队" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/4025ea55575daf8bfd8227e68b28d9638b073267.xml" htmlUrl="https://wechat2rss.xlab.app/feed/4025ea55575daf8bfd8227e68b28d9638b073267.xml" />
       <outline text="寒夜雨" title="寒夜雨" type="rss" xmlUrl="https://www.coderlock.site/index.php/feed/" htmlUrl="https://www.coderlock.site/" />
+      <outline text="小众软件" title="小众软件" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/3261d5a75cfef238650a2cabd4bbf99669c2f334.xml" htmlUrl="https://wechat2rss.xlab.app/feed/3261d5a75cfef238650a2cabd4bbf99669c2f334.xml" />
       <outline text="崎径 其镜" title="崎径 其镜" type="rss" xmlUrl="http://www.z16388.top/atom.xml" htmlUrl="http://www.z16388.top/atom.xml" />
       <outline text="嵌入式工程猫的博客" title="嵌入式工程猫的博客" type="rss" xmlUrl="https://blog.vvzero.com/atom.xml" htmlUrl="https://blog.vvzero.com" />
+      <outline text="差评" title="差评" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/8d839de8dd3290a1f1be7a94423cccb30c1b087d.xml" htmlUrl="https://wechat2rss.xlab.app/feed/8d839de8dd3290a1f1be7a94423cccb30c1b087d.xml" />
       <outline text="张戈博客" title="张戈博客" type="rss" xmlUrl="https://zhang.ge/feed" htmlUrl="https://zhang.ge" />
       <outline text="张洪Heo" title="张洪Heo" type="rss" xmlUrl="https://blog.zhheo.com/rss.xml" htmlUrl="https://blog.zhheo.com/" />
       <outline text="张鑫旭-鑫空间-鑫生活" title="张鑫旭-鑫空间-鑫生活" type="rss" xmlUrl="http://www.zhangxinxu.com/wordpress/?feed=rss2" htmlUrl="https://www.zhangxinxu.com/wordpress" />
+      <outline text="得物技术" title="得物技术" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/f3a42bd249ec6e8834ae761d8d0f85a949950944.xml" htmlUrl="https://wechat2rss.xlab.app/feed/f3a42bd249ec6e8834ae761d8d0f85a949950944.xml" />
       <outline text="愆伏" title="愆伏" type="rss" xmlUrl="https://www.tortorse.com/atom.xml" htmlUrl="https://www.tortorse.com/atom.xml" />
       <outline text="我不是咕咕鸽" title="我不是咕咕鸽" type="rss" xmlUrl="https://blog.laoda.de/rss.xml" htmlUrl="https://blog.laoda.de" />
       <outline text="所谓空想" title="所谓空想" type="rss" xmlUrl="https://www.alxh.page/feed.rss" htmlUrl="https://www.alxh.page" />
@@ -339,6 +347,7 @@
       <outline text="游魂博客" title="游魂博客" type="rss" xmlUrl="https://www.iyouhun.com/rss.php" htmlUrl="https://www.iyouhun.com/" />
       <outline text="澄沨的漫游茶记" title="澄沨的漫游茶记" type="rss" xmlUrl="https://champhoon.xyz/atom.xml" htmlUrl="https://champhoon.xyz/" />
       <outline text="烧饼博客" title="烧饼博客" type="rss" xmlUrl="https://u.sb/rss.xml" htmlUrl="https://u.sb/" />
+      <outline text="爱奇艺技术产品团队" title="爱奇艺技术产品团队" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/16a4ec12a83a52e1f6e941bce030a4d64ee26c47.xml" htmlUrl="https://wechat2rss.xlab.app/feed/16a4ec12a83a52e1f6e941bce030a4d64ee26c47.xml" />
       <outline text="猫涅的秘密结社" title="猫涅的秘密结社" type="rss" xmlUrl="https://www.maonie.top/atom.xml" htmlUrl="http://www.maonie.top/" />
       <outline text="猿客随笔" title="猿客随笔" type="rss" xmlUrl="https://monkeyke.com/index.xml" htmlUrl="https://monkeyke.com/" />
       <outline text="王圆圆 - ICONPIK" title="王圆圆 - ICONPIK" type="rss" xmlUrl="https://www.iconpik.com/rss/" htmlUrl="https://www.iconpik.com/" />
@@ -359,10 +368,13 @@
       <outline text="繁星点点" title="繁星点点" type="rss" xmlUrl="https://blog.52013120.xyz/rss.xml" htmlUrl="https://blog.52013120.xyz" />
       <outline text="维基萌" title="维基萌" type="rss" xmlUrl="https://www.wikimoe.com/rss.php" htmlUrl="https://www.wikimoe.com" />
       <outline text="罗磊的独立博客" title="罗磊的独立博客" type="rss" xmlUrl="http://luolei.org/feed/" htmlUrl="https://luolei.org" />
+      <outline text="美团技术团队" title="美团技术团队" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/eb4d04149424a874693a51c6fdda0dba8673f5e4.xml" htmlUrl="https://wechat2rss.xlab.app/feed/eb4d04149424a874693a51c6fdda0dba8673f5e4.xml" />
       <outline text="翔宇工作流" title="翔宇工作流" type="rss" xmlUrl="https://xiangyugongzuoliu.com/latest/rss/" htmlUrl="https://xiangyugongzuoliu.com/" />
       <outline text="老范讲故事｜AI、大模型与商业世界的故事" title="老范讲故事｜AI、大模型与商业世界的故事" type="rss" xmlUrl="http://lukefan.com/?feed=rss2" htmlUrl="https://lukefan.com" />
       <outline text="肘子的 Swift 记事本 ｜ Fatbobman's Blog" title="肘子的 Swift 记事本 ｜ Fatbobman's Blog" type="rss" xmlUrl="https://fatbobman.com/zh/rss.xml" htmlUrl="https://fatbobman.com/" />
       <outline text="胡涂说" title="胡涂说" type="rss" xmlUrl="https://hutusi.com/feed.xml" htmlUrl="https://hutusi.com" />
+      <outline text="腾讯技术工程" title="腾讯技术工程" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/9685937b45fe9c7a526dbc32e4f24ba879a65b9a.xml" htmlUrl="https://wechat2rss.xlab.app/feed/9685937b45fe9c7a526dbc32e4f24ba879a65b9a.xml" />
+      <outline text="腾讯玄武实验室" title="腾讯玄武实验室" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml" htmlUrl="https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml" />
       <outline text="草梅友仁的博客" title="草梅友仁的博客" type="rss" xmlUrl="https://blog.cmyr.ltd/atom.xml" htmlUrl="https://blog.cmyr.ltd/atom.xml" />
       <outline text="莫尔索随笔" title="莫尔索随笔" type="rss" xmlUrl="https://liduos.com/atom.xml" htmlUrl="https://liduos.com/atom.xml" />
       <outline text="蒙需" title="蒙需" type="rss" xmlUrl="https://jiangcl.com/feed" htmlUrl="https://jiangcl.com" />
@@ -370,7 +382,9 @@
       <outline text="蚊子的前端博客" title="蚊子的前端博客" type="rss" xmlUrl="https://www.xiabingbao.com/atom.xml" htmlUrl="https://www.xiabingbao.com" />
       <outline text="謝懿Shine" title="謝懿Shine" type="rss" xmlUrl="https://xieyi.org/rss.xml" htmlUrl="https://www.futseyi.com/" />
       <outline text="豌豆花下猫" title="豌豆花下猫" type="rss" xmlUrl="https://pythoncat.top/rss.xml" htmlUrl="https://pythoncat.top/" />
+      <outline text="路由器评测" title="路由器评测" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/2fa034e4b97f23d870d5b8e749e805d508761a41.xml" htmlUrl="https://wechat2rss.xlab.app/feed/2fa034e4b97f23d870d5b8e749e805d508761a41.xml" />
       <outline text="轶哥博客" title="轶哥博客" type="rss" xmlUrl="https://www.wyr.me/rss.xml" htmlUrl="https://www.wyr.me" />
+      <outline text="辉哥奇谭" title="辉哥奇谭" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/1b01bd297483509251779f1a02bb90223786a923.xml" htmlUrl="https://wechat2rss.xlab.app/feed/1b01bd297483509251779f1a02bb90223786a923.xml" />
       <outline text="运维咖啡吧" title="运维咖啡吧" type="rss" xmlUrl="https://blog.ops-coffee.cn/feed.xml" htmlUrl="https://blog.ops-coffee.com/atom.xml" />
       <outline text="运维开发绿皮书" title="运维开发绿皮书" type="rss" xmlUrl="https://www.geekery.cn/rss.xml" htmlUrl="https://www.geekery.cn/" />
       <outline text="远飞闲记" title="远飞闲记" type="rss" xmlUrl="https://leonhe.cn/index.xml" htmlUrl="https://heyuanfei.com/" />
@@ -380,6 +394,8 @@
       <outline text="阁子" title="阁子" type="rss" xmlUrl="https://dfine.tech/atom.xml" htmlUrl="https://dfine.tech/atom.xml" />
       <outline text="阿尔的代码屋 | 全栈技术笔记" title="阿尔的代码屋 | 全栈技术笔记" type="rss" xmlUrl="https://blog.algieba12.cn/atom.xml" htmlUrl="https://blog.algieba12.cn/" />
       <outline text="阿掖山·博客" title="阿掖山·博客" type="rss" xmlUrl="https://blog.mountaye.com/feed.xml" htmlUrl="https://blog.mountaye.com" />
+      <outline text="阿里云开发者" title="阿里云开发者" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/c74ed6db00cfbf16f2a048a165b4453f982681f0.xml" htmlUrl="https://wechat2rss.xlab.app/feed/c74ed6db00cfbf16f2a048a165b4453f982681f0.xml" />
+      <outline text="集智俱乐部" title="集智俱乐部" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/8540570d27c0bfe0a219173cf1ace83ae79445cb.xml" htmlUrl="https://wechat2rss.xlab.app/feed/8540570d27c0bfe0a219173cf1ace83ae79445cb.xml" />
       <outline text="雪猫社" title="雪猫社" type="rss" xmlUrl="https://www.yukicat.net/feed/" htmlUrl="https://www.yukicat.net" />
       <outline text="雪的数字花园 ❄️" title="雪的数字花园 ❄️" type="rss" xmlUrl="https://blog.rnm.gv.uy/atom.xml" htmlUrl="https://blog.rnm.gv.uy/" />
       <outline text="青石坞" title="青石坞" type="rss" xmlUrl="https://www.qs5.org/feed/" htmlUrl="https://www.qs5.org/" />
@@ -452,6 +468,7 @@
       <outline text="jax" title="jax" type="rss" xmlUrl="https://cdjax.com/?feed=rss2" htmlUrl="https://cdjax.com" />
       <outline text="Velas电波站" title="Velas电波站" type="rss" xmlUrl="https://www.velasx.com/feed" htmlUrl="https://www.velasx.com/" />
       <outline text="拾月的博客" title="拾月的博客" type="rss" xmlUrl="https://www.skyue.com/feed/" htmlUrl="https://www.skyue.com/" />
+      <outline text="阿里云设计中心" title="阿里云设计中心" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/31e04606d37f684059e23a8fd3e05f1db0186495.xml" htmlUrl="https://wechat2rss.xlab.app/feed/31e04606d37f684059e23a8fd3e05f1db0186495.xml" />
     </outline>
     <outline text="Business &amp; Startups" title="Business &amp; Startups">
       <outline text="Macin" title="Macin" type="rss" xmlUrl="https://www.macin.org/atom.xml" htmlUrl="https://macin.org/atom.xml" />
@@ -536,7 +553,9 @@
       <outline text="ShineKid" title="ShineKid" type="rss" xmlUrl="https://shinekid.com/feed/" htmlUrl="https://shinekid.com" />
       <outline text="Tripper Press - Take Photo, Think Seriously." title="Tripper Press - Take Photo, Think Seriously." type="rss" xmlUrl="https://tripper.press/atom.xml" htmlUrl="https://tripper.press" />
       <outline text="东评西就" title="东评西就" type="rss" xmlUrl="https://dongjunke.cn/atom.xml" htmlUrl="https://dongjunke.cn/" />
+      <outline text="先生制造" title="先生制造" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/313326d41db4f54b1cc09e7c986a5ac4e5f88ca0.xml" htmlUrl="https://wechat2rss.xlab.app/feed/313326d41db4f54b1cc09e7c986a5ac4e5f88ca0.xml" />
       <outline text="叉息的空中咖啡馆" title="叉息的空中咖啡馆" type="rss" xmlUrl="https://www.xchere.xyz/atom.xml" htmlUrl="https://www.xchere.xyz/atom.xml" />
+      <outline text="浅黑科技" title="浅黑科技" type="rss" xmlUrl="https://wechat2rss.xlab.app/feed/6111a6d5ecf28cfdd4fc9b664244c05ddacef15c.xml" htmlUrl="https://wechat2rss.xlab.app/feed/6111a6d5ecf28cfdd4fc9b664244c05ddacef15c.xml" />
       <outline text="赫赫文王" title="赫赫文王" type="rss" xmlUrl="https://kqh.me/index.xml" htmlUrl="https://kqh.me/" />
       <outline text="静风说" title="静风说" type="rss" xmlUrl="http://www.jfsay.com/feed" htmlUrl="https://www.jfsay.com" />
     </outline>

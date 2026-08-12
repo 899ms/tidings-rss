@@ -81,6 +81,30 @@ class RepositoryTests(unittest.TestCase):
             found_urls = set(re.findall(r"\[RSS\]\((https?://[^)]+)\)", appendix))
             self.assertEqual(found_urls, expected_urls)
 
+    def test_wechat_and_company_technology_bundles_are_curated(self):
+        catalog = json.loads((ROOT / "data/feeds.json").read_text(encoding="utf-8"))
+        wechat = [feed for feed in catalog["feeds"] if "wechat" in feed["packs"]]
+        company = [feed for feed in catalog["feeds"] if "company-tech" in feed["packs"]]
+        self.assertGreaterEqual(len(wechat), 20)
+        self.assertGreaterEqual(len(company), 30)
+        self.assertTrue(all(feed["language"] == "zh" and "wechat2rss" in feed["sources"] for feed in wechat))
+        keys = [(feed["organization"].casefold(), feed["company_direction"].casefold()) for feed in company]
+        self.assertEqual(len(keys), len(set(keys)))
+        grouped = {key: feed for key, feed in zip(keys, company)}
+        for key, feed in grouped.items():
+            if "wechat2rss" not in feed["feed_url"]:
+                continue
+            self.assertFalse(any(
+                other is not feed and (other.get("organization", "").casefold(), other.get("company_direction", "").casefold()) == key
+                for other in catalog["feeds"]
+            ))
+
+        report = json.loads((ROOT / "reports/wechat-curation.json").read_text(encoding="utf-8"))
+        selected_urls = {item["feed_url"] for item in report["decisions"] if item["selected"]}
+        self.assertEqual(selected_urls, {feed["feed_url"] for feed in wechat})
+        self.assertTrue(all(len(item["probe_rounds"]) == 2 for item in report["decisions"] if item["selected"]))
+        self.assertTrue(all(all(result["ok"] for result in item["probe_rounds"]) for item in report["decisions"] if item["selected"]))
+
     def test_historical_real_import_report_is_internally_consistent(self):
         report = json.loads((ROOT / "reports/import-verification.json").read_text(encoding="utf-8"))
         imports = {item["file"]: item for item in report["imports"]}

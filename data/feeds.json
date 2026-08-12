@@ -3,10 +3,10 @@
   "generated_at": "2026-08-12",
   "validation": {
     "engine": "Tidings parseFeedUrl",
-    "criteria": "Chinese independent blogs passed three parser rounds, had at least two dated posts and updated within 180 days; retained catalog feeds passed two current parser rounds.",
-    "candidate_count": 2215,
-    "parser_passed": 680,
-    "retained_count": 680
+    "criteria": "Chinese independent blogs passed three parser rounds, had at least two dated posts and updated within 180 days; retained catalog feeds passed two current parser rounds. WeChat additions passed two two-second time-to-first-byte probes, Tidings parsing, and a 180-day freshness check.",
+    "candidate_count": 2256,
+    "parser_passed": 699,
+    "retained_count": 699
   },
   "feeds": [
     {
@@ -82,6 +82,7 @@
       "packs": [
         "ai",
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -90,7 +91,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-06T16:00:00Z",
-      "description": "Artificial Intelligence 订阅源"
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "Anthropic",
+      "company_direction": "AI"
     },
     {
       "id": "740de9a19f7a",
@@ -103,6 +106,7 @@
       "packs": [
         "ai",
         "all",
+        "company-tech",
         "engineering",
         "research"
       ],
@@ -112,7 +116,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-07T00:00:00Z",
-      "description": "Artificial Intelligence 订阅源"
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "Apple",
+      "company_direction": "AI"
     },
     {
       "id": "0427c229245f",
@@ -125,6 +131,7 @@
       "packs": [
         "ai",
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -133,7 +140,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-11T21:38:06Z",
-      "description": "Artificial Intelligence 订阅源"
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "Amazon Web Services",
+      "company_direction": "AI"
     },
     {
       "id": "4317c649bc1b",
@@ -231,18 +240,24 @@
       "site_url": "https://wechat2rss.bestblogs.dev/feed/1709da4f538d4ce4fb6d7a8ba1a5a1c297919601.xml",
       "category": "Artificial Intelligence",
       "kind": "article",
-      "language": "en",
+      "language": "zh",
       "packs": [
         "ai",
         "all",
-        "engineering"
+        "chinese",
+        "company-tech",
+        "engineering",
+        "wechat"
       ],
       "sources": [
-        "bestblogs"
+        "bestblogs",
+        "wechat2rss"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-06-25T13:35:00Z",
-      "description": "Artificial Intelligence 订阅源"
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "DeepSeek",
+      "company_direction": "AI"
     },
     {
       "id": "5f3203610818",
@@ -255,6 +270,7 @@
       "packs": [
         "ai",
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -264,7 +280,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-06T15:06:15Z",
-      "description": "Artificial Intelligence 订阅源"
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "Google",
+      "company_direction": "AI"
     },
     {
       "id": "8d9447bd3f4e",
@@ -317,6 +335,7 @@
       "packs": [
         "ai",
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -326,7 +345,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-11T13:37:10Z",
-      "description": "Artificial Intelligence 订阅源"
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "Hugging Face",
+      "company_direction": "AI"
     },
     {
       "id": "5135495edde6",
@@ -381,6 +402,7 @@
       "packs": [
         "ai",
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -389,7 +411,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-11T10:00:00Z",
-      "description": "Artificial Intelligence 订阅源"
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "OpenAI",
+      "company_direction": "AI"
     },
     {
       "id": "3152020fc75d",
@@ -605,6 +629,7 @@
       "packs": [
         "ai",
         "all",
+        "company-tech",
         "engineering",
         "research"
       ],
@@ -614,7 +639,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-11T17:04:00Z",
-      "description": "Artificial Intelligence 订阅源"
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "Google",
+      "company_direction": "研究"
     },
     {
       "id": "b4647fa8818e",
@@ -636,6 +663,50 @@
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-11T16:00:00Z",
       "description": "Artificial Intelligence 订阅源"
+    },
+    {
+      "id": "105a86cf0537",
+      "title": "我爱计算机视觉",
+      "feed_url": "https://wechat2rss.xlab.app/feed/b81ffcfff1107b5265cd7e39de610dc7ca72caf4.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/b81ffcfff1107b5265cd7e39de610dc7ca72caf4.xml",
+      "description": "公众号，主要关注计算机视觉研究与应用。",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "wechat",
+        "engineering",
+        "ai"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T14:53:00.000Z"
+    },
+    {
+      "id": "66242ceed483",
+      "title": "新智元",
+      "feed_url": "https://wechat2rss.xlab.app/feed/ede30346413ea70dbef5d485ea5cbb95cca446e7.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/ede30346413ea70dbef5d485ea5cbb95cca446e7.xml",
+      "description": "公众号，主要关注人工智能产业与研究。",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "wechat",
+        "engineering",
+        "ai"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T04:26:00.000Z"
     },
     {
       "id": "590f6db1e612",
@@ -670,14 +741,19 @@
         "ai",
         "all",
         "chinese",
-        "engineering"
+        "company-tech",
+        "engineering",
+        "wechat"
       ],
       "sources": [
-        "bestblogs"
+        "bestblogs",
+        "wechat2rss"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-07-28T08:17:00Z",
-      "description": "Artificial Intelligence 订阅源"
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "月之暗面",
+      "company_direction": "AI"
     },
     {
       "id": "e42dc409e5e1",
@@ -691,11 +767,13 @@
         "ai",
         "all",
         "chinese",
-        "engineering"
+        "engineering",
+        "wechat"
       ],
       "sources": [
         "bestblogs",
-        "tidings-ai-radar"
+        "tidings-ai-radar",
+        "wechat2rss"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T04:14:00Z",
@@ -713,10 +791,12 @@
         "ai",
         "all",
         "chinese",
-        "engineering"
+        "engineering",
+        "wechat"
       ],
       "sources": [
-        "bestblogs"
+        "bestblogs",
+        "wechat2rss"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T04:05:00Z",
@@ -734,14 +814,19 @@
         "ai",
         "all",
         "chinese",
-        "engineering"
+        "company-tech",
+        "engineering",
+        "wechat"
       ],
       "sources": [
-        "bestblogs"
+        "bestblogs",
+        "wechat2rss"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-04T08:12:00Z",
-      "description": "Artificial Intelligence 订阅源"
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "腾讯",
+      "company_direction": "AI"
     },
     {
       "id": "52ffc392c397",
@@ -755,15 +840,20 @@
         "ai",
         "all",
         "chinese",
+        "company-tech",
         "engineering",
-        "research"
+        "research",
+        "wechat"
       ],
       "sources": [
-        "bestblogs"
+        "bestblogs",
+        "wechat2rss"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-07-20T08:54:00Z",
-      "description": "Artificial Intelligence 订阅源"
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "阿里巴巴",
+      "company_direction": "AI"
     },
     {
       "id": "8cb0c38845e1",
@@ -799,14 +889,340 @@
         "ai",
         "all",
         "chinese",
-        "engineering"
+        "company-tech",
+        "engineering",
+        "wechat"
       ],
       "sources": [
-        "bestblogs"
+        "bestblogs",
+        "wechat2rss"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-07-19T11:28:00Z",
-      "description": "Artificial Intelligence 订阅源"
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "阶跃星辰",
+      "company_direction": "AI"
+    },
+    {
+      "id": "aa9242079a1c",
+      "title": "Macin",
+      "feed_url": "https://www.macin.org/atom.xml",
+      "site_url": "https://macin.org/atom.xml",
+      "description": "主要写分享、投资、学习、Crypto。",
+      "category": "Business & Startups",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T21:36:45Z"
+    },
+    {
+      "id": "0b2560ae2333",
+      "title": "扯氮集",
+      "feed_url": "http://weiwuhui.com/feed",
+      "site_url": "http://weiwuhui.com",
+      "description": "主要写创业、人生。",
+      "category": "Business & Startups",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T01:17:00Z"
+    },
+    {
+      "id": "fa0254532581",
+      "title": "知足常乐-水星投资理财的基本意念",
+      "feed_url": "http://mercurychong.blogspot.com/feeds/posts/default",
+      "site_url": "http://mercurychong.blogspot.com/",
+      "description": "主要写投资。",
+      "category": "Business & Startups",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-02T04:08:45.017000Z"
+    },
+    {
+      "id": "a0e80a34ecb2",
+      "title": "虹线",
+      "feed_url": "https://1q43.blog/feed",
+      "site_url": "https://1q43.blog",
+      "description": "主要写商业、社科、科技、生活。",
+      "category": "Business & Startups",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T03:14:02Z"
+    },
+    {
+      "id": "0917d7312645",
+      "title": "雷蒙三十｜幫助忙碌現代人的聰明工作、好好生活的生產力指南",
+      "feed_url": "https://raymondhouch.com/feed",
+      "site_url": "https://raymondhouch.com",
+      "description": "主要写创业、数码、数字游民、生产力工具。",
+      "category": "Business & Startups",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T03:00:36Z"
+    },
+    {
+      "id": "a682cc3fccdc",
+      "title": "V2EX",
+      "feed_url": "https://v2ex.com/index.xml",
+      "site_url": "https://www.v2ex.com/",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "chinese",
+        "news"
+      ],
+      "sources": [
+        "manual",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:20:51Z",
+      "description": "Communities 订阅源"
+    },
+    {
+      "id": "1aef9a60319a",
+      "title": "KAIX.IN",
+      "feed_url": "https://kaix.in/feed/",
+      "site_url": "https://kaix.in/",
+      "description": "主要写读书、咖啡、随笔。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T07:31:24Z"
+    },
+    {
+      "id": "e503883fe8ec",
+      "title": "Maohang Gao's Blog",
+      "feed_url": "https://kangaroogao.com/atom.xml",
+      "site_url": "http://kangaroogao.com/atom.xml",
+      "description": "主要写游记、读书笔记、随笔。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T13:16:51.425000Z"
+    },
+    {
+      "id": "abd0647e9664",
+      "title": "ShineKid",
+      "feed_url": "https://shinekid.com/feed/",
+      "site_url": "https://shinekid.com",
+      "description": "主要写生活、影视、文学。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-04T14:38:54Z"
+    },
+    {
+      "id": "1e3c4c3ec52c",
+      "title": "Tripper Press - Take Photo, Think Seriously.",
+      "feed_url": "https://tripper.press/atom.xml",
+      "site_url": "https://tripper.press",
+      "description": "主要写摄影、文化产业、新媒体。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-07T10:00:00Z"
+    },
+    {
+      "id": "1227e5dcf432",
+      "title": "东评西就",
+      "feed_url": "https://dongjunke.cn/atom.xml",
+      "site_url": "https://dongjunke.cn/",
+      "description": "主要写社交媒体、科技互联网、思考、读书。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T15:10:40Z"
+    },
+    {
+      "id": "b6fe1df4e14f",
+      "title": "先生制造",
+      "feed_url": "https://wechat2rss.xlab.app/feed/313326d41db4f54b1cc09e7c986a5ac4e5f88ca0.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/313326d41db4f54b1cc09e7c986a5ac4e5f88ca0.xml",
+      "description": "公众号，主要关注人物与社会记录。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T02:47:00.000Z"
+    },
+    {
+      "id": "2681d5fc2524",
+      "title": "叉息的空中咖啡馆",
+      "feed_url": "https://www.xchere.xyz/atom.xml",
+      "site_url": "https://www.xchere.xyz/atom.xml",
+      "description": "主要写生活、随笔、记录、读书笔记。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-10T04:56:48Z"
+    },
+    {
+      "id": "19db8b075531",
+      "title": "浅黑科技",
+      "feed_url": "https://wechat2rss.xlab.app/feed/6111a6d5ecf28cfdd4fc9b664244c05ddacef15c.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/6111a6d5ecf28cfdd4fc9b664244c05ddacef15c.xml",
+      "description": "公众号，主要关注科技人物与产业故事。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-01T02:04:00.000Z"
+    },
+    {
+      "id": "5f3b7bca48a6",
+      "title": "赫赫文王",
+      "feed_url": "https://kqh.me/index.xml",
+      "site_url": "https://kqh.me/",
+      "description": "主要写历史、人文、艺术、日常。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-30T00:00:00Z"
+    },
+    {
+      "id": "9f60092f8ce1",
+      "title": "静风说",
+      "feed_url": "http://www.jfsay.com/feed",
+      "site_url": "https://www.jfsay.com",
+      "description": "主要写生活、读书、电影、旅游。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-02T05:22:26Z"
     },
     {
       "id": "294c7554936a",
@@ -1210,6 +1626,7 @@
       "language": "en",
       "packs": [
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -1218,7 +1635,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-11T21:17:02Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Amazon Web Services",
+      "company_direction": "架构"
     },
     {
       "id": "017a74fc55c6",
@@ -1230,6 +1649,7 @@
       "language": "en",
       "packs": [
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -1237,7 +1657,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-10T15:45:03Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Amazon Web Services",
+      "company_direction": "云计算"
     },
     {
       "id": "0475590c8cfa",
@@ -1333,6 +1755,7 @@
       "language": "en",
       "packs": [
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -1340,7 +1763,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-07-22T00:00:01Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Canva",
+      "company_direction": "工程"
     },
     {
       "id": "82c4bcb6bba0",
@@ -1548,6 +1973,27 @@
       "latest_item_at": "2026-07-29T00:00:00Z"
     },
     {
+      "id": "6b09528e17f0",
+      "title": "dbaplus社群",
+      "feed_url": "https://wechat2rss.xlab.app/feed/3b9cc8887fccb80d3f083cd6eb8c344628d101b6.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/3b9cc8887fccb80d3f083cd6eb8c344628d101b6.xml",
+      "description": "公众号，主要关注数据库与企业级技术。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "wechat",
+        "engineering"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T23:15:00.000Z"
+    },
+    {
       "id": "64864672e2d8",
       "title": "ddadaal.me",
       "feed_url": "https://ddadaal.me/rss.xml",
@@ -1745,6 +2191,7 @@
       "language": "en",
       "packs": [
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -1755,7 +2202,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-05T19:20:20Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Meta",
+      "company_direction": "工程"
     },
     {
       "id": "067e20fcc07e",
@@ -1767,6 +2216,7 @@
       "language": "en",
       "packs": [
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -1775,7 +2225,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-07-14T16:10:08Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Slack",
+      "company_direction": "工程"
     },
     {
       "id": "84f96dc9a65e",
@@ -1827,6 +2279,7 @@
       "language": "en",
       "packs": [
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -1834,7 +2287,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-07-31T17:30:55Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Etsy",
+      "company_direction": "工程"
     },
     {
       "id": "c181c4246a5c",
@@ -2905,6 +3360,7 @@
       "language": "en",
       "packs": [
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -2913,7 +3369,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-06T15:00:00Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Microsoft",
+      "company_direction": "云计算"
     },
     {
       "id": "0fbf017b28e1",
@@ -3072,6 +3530,7 @@
       "language": "en",
       "packs": [
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -3080,7 +3539,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-07T16:01:02Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Netflix",
+      "company_direction": "工程"
     },
     {
       "id": "36adb1834075",
@@ -3584,14 +4045,19 @@
       "packs": [
         "all",
         "chinese",
-        "engineering"
+        "company-tech",
+        "engineering",
+        "wechat"
       ],
       "sources": [
-        "bestblogs"
+        "bestblogs",
+        "wechat2rss"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-07-20T08:39:00Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Engineering & Technology 订阅源",
+      "organization": "去哪儿",
+      "company_direction": "工程"
     },
     {
       "id": "4479341ac2c6",
@@ -4195,6 +4661,7 @@
       "language": "en",
       "packs": [
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -4202,7 +4669,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-07-27T20:34:28Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Spotify",
+      "company_direction": "工程"
     },
     {
       "id": "23cf26da029d",
@@ -4296,6 +4765,7 @@
       "language": "en",
       "packs": [
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -4303,7 +4773,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-11T00:00:00Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Stripe",
+      "company_direction": "工程"
     },
     {
       "id": "cee70eb6a2da",
@@ -4520,6 +4992,7 @@
       "language": "en",
       "packs": [
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -4527,7 +5000,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-07-28T17:01:03Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Airbnb",
+      "company_direction": "工程"
     },
     {
       "id": "a551b4960a45",
@@ -4558,6 +5033,7 @@
       "language": "en",
       "packs": [
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -4567,7 +5043,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-11T13:00:00Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Cloudflare",
+      "company_direction": "工程"
     },
     {
       "id": "f73fd9169bbe",
@@ -4579,6 +5057,7 @@
       "language": "en",
       "packs": [
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -4589,7 +5068,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-11T18:38:17Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Engineering & Technology 订阅源",
+      "organization": "GitHub",
+      "company_direction": "工程"
     },
     {
       "id": "5c6fc04391e7",
@@ -4620,6 +5101,7 @@
       "language": "en",
       "packs": [
         "all",
+        "company-tech",
         "engineering"
       ],
       "sources": [
@@ -4629,7 +5111,9 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T07:58:30Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Engineering & Technology 订阅源",
+      "organization": "JetBrains",
+      "company_direction": "开发工具"
     },
     {
       "id": "d2812aa87e2a",
@@ -4864,14 +5348,19 @@
       "packs": [
         "all",
         "chinese",
-        "engineering"
+        "company-tech",
+        "engineering",
+        "wechat"
       ],
       "sources": [
-        "bestblogs"
+        "bestblogs",
+        "wechat2rss"
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-05T12:00:00Z",
-      "description": "Engineering & Technology 订阅源"
+      "description": "Engineering & Technology 订阅源",
+      "organization": "vivo",
+      "company_direction": "工程"
     },
     {
       "id": "65e7baa54356",
@@ -5801,6 +6290,30 @@
       "latest_item_at": "2026-08-06T03:28:00Z"
     },
     {
+      "id": "e3c985a5627d",
+      "title": "哔哩哔哩技术",
+      "feed_url": "https://wechat2rss.xlab.app/feed/434235d4815fdb8447ff3127fc053ceb8b3aada6.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/434235d4815fdb8447ff3127fc053ceb8b3aada6.xml",
+      "description": "公众号，主要关注音视频、基础架构与工程实践。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "company-tech",
+        "engineering",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-04T08:40:00.000Z",
+      "organization": "哔哩哔哩",
+      "company_direction": "工程"
+    },
+    {
       "id": "20f51c01876e",
       "title": "唐巧的博客",
       "feed_url": "https://blog.devtang.com/atom.xml",
@@ -6032,6 +6545,30 @@
       "latest_item_at": "2026-08-06T17:09:00Z"
     },
     {
+      "id": "984e62ff0cb2",
+      "title": "字节跳动技术团队",
+      "feed_url": "https://wechat2rss.xlab.app/feed/4025ea55575daf8bfd8227e68b28d9638b073267.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/4025ea55575daf8bfd8227e68b28d9638b073267.xml",
+      "description": "公众号，主要关注基础架构与工程实践。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "company-tech",
+        "engineering",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T10:00:00.000Z",
+      "organization": "字节跳动",
+      "company_direction": "工程"
+    },
+    {
       "id": "097105c72702",
       "title": "寒夜雨",
       "feed_url": "https://www.coderlock.site/index.php/feed/",
@@ -6052,6 +6589,27 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-07T12:28:00Z"
+    },
+    {
+      "id": "57b9fd8cf809",
+      "title": "小众软件",
+      "feed_url": "https://wechat2rss.xlab.app/feed/3261d5a75cfef238650a2cabd4bbf99669c2f334.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/3261d5a75cfef238650a2cabd4bbf99669c2f334.xml",
+      "description": "公众号，主要关注软件与效率工具。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "wechat",
+        "engineering"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T09:57:00.000Z"
     },
     {
       "id": "45002d82ae97",
@@ -6094,6 +6652,27 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-05-20T01:16:40Z"
+    },
+    {
+      "id": "df208945777c",
+      "title": "差评",
+      "feed_url": "https://wechat2rss.xlab.app/feed/8d839de8dd3290a1f1be7a94423cccb30c1b087d.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/8d839de8dd3290a1f1be7a94423cccb30c1b087d.xml",
+      "description": "公众号，主要关注消费科技与互联网观察。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "wechat",
+        "engineering"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T16:00:00.000Z"
     },
     {
       "id": "7dca85d46404",
@@ -6157,6 +6736,30 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-06T12:24:54Z"
+    },
+    {
+      "id": "5529ea6ae445",
+      "title": "得物技术",
+      "feed_url": "https://wechat2rss.xlab.app/feed/f3a42bd249ec6e8834ae761d8d0f85a949950944.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/f3a42bd249ec6e8834ae761d8d0f85a949950944.xml",
+      "description": "公众号，主要关注业务系统与工程实践。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "company-tech",
+        "engineering",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T10:30:00.000Z",
+      "organization": "得物",
+      "company_direction": "工程"
     },
     {
       "id": "3a50c127a492",
@@ -6812,6 +7415,30 @@
       "latest_item_at": "2026-07-11T12:39:00Z"
     },
     {
+      "id": "44c06062d10b",
+      "title": "爱奇艺技术产品团队",
+      "feed_url": "https://wechat2rss.xlab.app/feed/16a4ec12a83a52e1f6e941bce030a4d64ee26c47.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/16a4ec12a83a52e1f6e941bce030a4d64ee26c47.xml",
+      "description": "公众号，主要关注音视频与工程实践。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "company-tech",
+        "engineering",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T04:00:00.000Z",
+      "organization": "爱奇艺",
+      "company_direction": "工程"
+    },
+    {
       "id": "975b7b131234",
       "title": "猫涅的秘密结社",
       "feed_url": "https://www.maonie.top/atom.xml",
@@ -7234,6 +7861,30 @@
       "latest_item_at": "2026-03-10T00:00:00Z"
     },
     {
+      "id": "cc06f043dd4b",
+      "title": "美团技术团队",
+      "feed_url": "https://wechat2rss.xlab.app/feed/eb4d04149424a874693a51c6fdda0dba8673f5e4.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/eb4d04149424a874693a51c6fdda0dba8673f5e4.xml",
+      "description": "公众号，主要关注后端、算法与工程实践。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "company-tech",
+        "engineering",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T02:24:00.000Z",
+      "organization": "美团",
+      "company_direction": "工程"
+    },
+    {
       "id": "50adf0a2ef3a",
       "title": "翔宇工作流",
       "feed_url": "https://xiangyugongzuoliu.com/latest/rss/",
@@ -7317,6 +7968,54 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-08T00:00:00Z"
+    },
+    {
+      "id": "0909e6fd7e8e",
+      "title": "腾讯技术工程",
+      "feed_url": "https://wechat2rss.xlab.app/feed/9685937b45fe9c7a526dbc32e4f24ba879a65b9a.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/9685937b45fe9c7a526dbc32e4f24ba879a65b9a.xml",
+      "description": "公众号，主要关注工程实践。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "company-tech",
+        "engineering",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T10:24:00.000Z",
+      "organization": "腾讯",
+      "company_direction": "工程"
+    },
+    {
+      "id": "595a8395ef92",
+      "title": "腾讯玄武实验室",
+      "feed_url": "https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml",
+      "description": "公众号，主要关注安全研究。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "company-tech",
+        "engineering",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-27T09:33:00.000Z",
+      "organization": "腾讯",
+      "company_direction": "安全"
     },
     {
       "id": "18e9ca61a007",
@@ -7467,6 +8166,27 @@
       "latest_item_at": "2026-08-08T00:00:00Z"
     },
     {
+      "id": "59ca7b88a197",
+      "title": "路由器评测",
+      "feed_url": "https://wechat2rss.xlab.app/feed/2fa034e4b97f23d870d5b8e749e805d508761a41.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/2fa034e4b97f23d870d5b8e749e805d508761a41.xml",
+      "description": "公众号，主要关注网络设备与家庭网络。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "wechat",
+        "engineering"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T15:54:00.000Z"
+    },
+    {
       "id": "bfec11696518",
       "title": "轶哥博客",
       "feed_url": "https://www.wyr.me/rss.xml",
@@ -7486,6 +8206,27 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-07T07:15:01Z"
+    },
+    {
+      "id": "5fe2f39f60df",
+      "title": "辉哥奇谭",
+      "feed_url": "https://wechat2rss.xlab.app/feed/1b01bd297483509251779f1a02bb90223786a923.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/1b01bd297483509251779f1a02bb90223786a923.xml",
+      "description": "公众号，主要关注科技、商业与个人思考。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "wechat",
+        "engineering"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T15:07:00.000Z"
     },
     {
       "id": "fa90e95e2850",
@@ -7678,6 +8419,51 @@
       "latest_item_at": "2026-07-15T00:00:00Z"
     },
     {
+      "id": "6e76f940a5bb",
+      "title": "阿里云开发者",
+      "feed_url": "https://wechat2rss.xlab.app/feed/c74ed6db00cfbf16f2a048a165b4453f982681f0.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/c74ed6db00cfbf16f2a048a165b4453f982681f0.xml",
+      "description": "公众号，主要关注云计算与开发实践。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "company-tech",
+        "engineering",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T05:12:00.000Z",
+      "organization": "阿里巴巴",
+      "company_direction": "云计算"
+    },
+    {
+      "id": "aafbb66f21ee",
+      "title": "集智俱乐部",
+      "feed_url": "https://wechat2rss.xlab.app/feed/8540570d27c0bfe0a219173cf1ace83ae79445cb.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/8540570d27c0bfe0a219173cf1ace83ae79445cb.xml",
+      "description": "公众号，主要关注复杂科学与交叉研究。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "wechat",
+        "engineering"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T06:30:00.000Z"
+    },
+    {
       "id": "6670aa0a33b3",
       "title": "雪猫社",
       "feed_url": "https://www.yukicat.net/feed/",
@@ -7865,372 +8651,6 @@
       ],
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-07-06T00:00:00Z"
-    },
-    {
-      "id": "b7b2cec82d5e",
-      "title": "AAAS: Science: Table of Contents",
-      "feed_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
-      "site_url": "https://www.science.org/loi/science?af=R",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "manual"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-06T07:00:00Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "e19ec4477c91",
-      "title": "All Top News -- ScienceDaily",
-      "feed_url": "https://www.sciencedaily.com/rss/top/science.xml",
-      "site_url": "https://www.sciencedaily.com/news/top/",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "manual"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-10T12:27:30Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "d42b29d19244",
-      "title": "Amazon Science",
-      "feed_url": "https://www.amazon.science/index.rss",
-      "site_url": "https://www.amazon.science/",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "manual"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-11T16:22:19Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "a6d026e59175",
-      "title": "BBC News — Science",
-      "feed_url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
-      "site_url": "https://www.bbc.co.uk/news/science_and_environment",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-12T11:17:53Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "eda13bcfa201",
-      "title": "eLife: latest articles",
-      "feed_url": "https://elifesciences.org/rss/recent.xml",
-      "site_url": "https://elifesciences.org",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "manual"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-12T00:00:00Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "81f4798a0631",
-      "title": "FlowingData",
-      "feed_url": "https://flowingdata.com/feed",
-      "site_url": "https://flowingdata.com",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-12T10:50:30Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "7cba684b2f9c",
-      "title": "Latest Science News -- ScienceDaily",
-      "feed_url": "https://www.sciencedaily.com/rss/all.xml",
-      "site_url": "https://www.sciencedaily.com/news/",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-10T14:50:43Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "e3069eef100a",
-      "title": "NASA",
-      "feed_url": "https://www.nasa.gov/news-release/feed/",
-      "site_url": "https://www.nasa.gov",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "awesome-rss-feeds",
-        "manual"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-12T04:01:00Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "d592eddffea9",
-      "title": "Nature",
-      "feed_url": "https://www.nature.com/nature.rss",
-      "site_url": "http://feeds.nature.com/nature/rss/current",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "awesome-rss-feeds",
-        "awesome-rsshub-routes",
-        "manual"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-12T00:00:00Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "db9681969d50",
-      "title": "NYT > Science",
-      "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
-      "site_url": "https://www.nytimes.com/section/science",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-12T10:37:06Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "49e9cfe3fcd4",
-      "title": "Phys.org - latest science and technology news stories",
-      "feed_url": "https://phys.org/rss-feed/",
-      "site_url": "https://phys.org/",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-12T11:30:01Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "9723d5e70499",
-      "title": "PLOS One",
-      "feed_url": "https://journals.plos.org/plosone/feed/atom",
-      "site_url": "https://journals.plos.org/plosone/",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "manual"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-11T14:00:00Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "4382d5e8491c",
-      "title": "Quanta Magazine",
-      "feed_url": "https://www.quantamagazine.org/feed/",
-      "site_url": "https://www.quantamagazine.org",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "manual"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-10T14:56:34Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "cda71b1181b1",
-      "title": "Science Latest",
-      "feed_url": "https://www.wired.com/feed/category/science/latest/rss",
-      "site_url": "https://www.wired.com",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-12T10:00:00Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "06802e3881d6",
-      "title": "Scientific American Content: Global",
-      "feed_url": "http://rss.sciam.com/ScientificAmerican-Global",
-      "site_url": "https://www.scientificamerican.com",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-12T10:00:00Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "0ebaae9e8dd1",
-      "title": "Space | The Guardian",
-      "feed_url": "https://www.theguardian.com/science/space/rss",
-      "site_url": "https://www.theguardian.com/science/space",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-12T04:00:18Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "406fc6a48471",
-      "title": "Space – latest in science and technology | New Scientist",
-      "feed_url": "https://www.newscientist.com/subject/space/feed/",
-      "site_url": "https://www.newscientist.com/subject/space/",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "en",
-      "packs": [
-        "all",
-        "research"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-12T10:38:34Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "e64bd31a2472",
-      "title": "腾讯研究院",
-      "feed_url": "https://wechat2rss.bestblogs.dev/feed/6152301e0978bffb0a8284cab339262b9764dcfb.xml",
-      "site_url": "https://wechat2rss.bestblogs.dev/feed/6152301e0978bffb0a8284cab339262b9764dcfb.xml",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "research"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-12T09:00:00Z",
-      "description": "Research & Science 订阅源"
-    },
-    {
-      "id": "a1142ae83749",
-      "title": "阿里研究院",
-      "feed_url": "https://wechat2rss.bestblogs.dev/feed/e2f1190c120f7f3d74b630bfcfe9e58296bd535c.xml",
-      "site_url": "https://wechat2rss.bestblogs.dev/feed/e2f1190c120f7f3d74b630bfcfe9e58296bd535c.xml",
-      "category": "Research & Science",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "research"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-11T01:37:00Z",
-      "description": "Research & Science 订阅源"
     },
     {
       "id": "597b3e93ce00",
@@ -8907,186 +9327,6 @@
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T10:56:58Z",
       "description": "News 订阅源"
-    },
-    {
-      "id": "a5f966b7addc",
-      "title": "61’s life",
-      "feed_url": "https://61.life/feed.xml",
-      "site_url": "https://61.life/",
-      "description": "主要写创业、管理、产品。",
-      "category": "Product & Design",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "blogs",
-        "chinese"
-      ],
-      "sources": [
-        "chinese-independent-blogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-07T07:45:28Z"
-    },
-    {
-      "id": "6a3c69e32240",
-      "title": "jax",
-      "feed_url": "https://cdjax.com/?feed=rss2",
-      "site_url": "https://cdjax.com",
-      "description": "主要写产品、数码、随笔。",
-      "category": "Product & Design",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "blogs",
-        "chinese"
-      ],
-      "sources": [
-        "chinese-independent-blogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-06-13T16:07:29Z"
-    },
-    {
-      "id": "15d9c5005b94",
-      "title": "Velas电波站",
-      "feed_url": "https://www.velasx.com/feed",
-      "site_url": "https://www.velasx.com/",
-      "description": "主要写动画、游戏、小说、设计。",
-      "category": "Product & Design",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "blogs",
-        "chinese"
-      ],
-      "sources": [
-        "chinese-independent-blogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-06-16T11:00:04.667000Z"
-    },
-    {
-      "id": "67c0f7aede55",
-      "title": "拾月的博客",
-      "feed_url": "https://www.skyue.com/feed/",
-      "site_url": "https://www.skyue.com/",
-      "description": "主要写生活、股票投资、产品经理、软件数码。",
-      "category": "Product & Design",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "blogs",
-        "chinese"
-      ],
-      "sources": [
-        "chinese-independent-blogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-09T07:53:00Z"
-    },
-    {
-      "id": "aa9242079a1c",
-      "title": "Macin",
-      "feed_url": "https://www.macin.org/atom.xml",
-      "site_url": "https://macin.org/atom.xml",
-      "description": "主要写分享、投资、学习、Crypto。",
-      "category": "Business & Startups",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "blogs",
-        "chinese"
-      ],
-      "sources": [
-        "chinese-independent-blogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-11T21:36:45Z"
-    },
-    {
-      "id": "0b2560ae2333",
-      "title": "扯氮集",
-      "feed_url": "http://weiwuhui.com/feed",
-      "site_url": "http://weiwuhui.com",
-      "description": "主要写创业、人生。",
-      "category": "Business & Startups",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "blogs",
-        "chinese"
-      ],
-      "sources": [
-        "chinese-independent-blogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-07T01:17:00Z"
-    },
-    {
-      "id": "fa0254532581",
-      "title": "知足常乐-水星投资理财的基本意念",
-      "feed_url": "http://mercurychong.blogspot.com/feeds/posts/default",
-      "site_url": "http://mercurychong.blogspot.com/",
-      "description": "主要写投资。",
-      "category": "Business & Startups",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "blogs",
-        "chinese"
-      ],
-      "sources": [
-        "chinese-independent-blogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-02T04:08:45.017000Z"
-    },
-    {
-      "id": "a0e80a34ecb2",
-      "title": "虹线",
-      "feed_url": "https://1q43.blog/feed",
-      "site_url": "https://1q43.blog",
-      "description": "主要写商业、社科、科技、生活。",
-      "category": "Business & Startups",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "blogs",
-        "chinese"
-      ],
-      "sources": [
-        "chinese-independent-blogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-06T03:14:02Z"
-    },
-    {
-      "id": "0917d7312645",
-      "title": "雷蒙三十｜幫助忙碌現代人的聰明工作、好好生活的生產力指南",
-      "feed_url": "https://raymondhouch.com/feed",
-      "site_url": "https://raymondhouch.com",
-      "description": "主要写创业、数码、数字游民、生产力工具。",
-      "category": "Business & Startups",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "blogs",
-        "chinese"
-      ],
-      "sources": [
-        "chinese-independent-blogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-08T03:00:36Z"
     },
     {
       "id": "8493b3831272",
@@ -10390,185 +10630,1964 @@
       "latest_item_at": "2026-07-22T14:36:47Z"
     },
     {
-      "id": "a682cc3fccdc",
-      "title": "V2EX",
-      "feed_url": "https://v2ex.com/index.xml",
-      "site_url": "https://www.v2ex.com/",
-      "category": "Communities",
+      "id": "f857ff91c544",
+      "title": "30 for 30 Podcasts",
+      "feed_url": "https://feeds.megaphone.fm/ESP5765452710",
+      "site_url": "http://espnradio.espn.com/espnradio/index",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T09:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "e7e1a05943d1",
+      "title": "42章经 — Podcast",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/648b0b641c48983391a63f98",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/648b0b641c48983391a63f98",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T13:30:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "ec6edabf20d0",
+      "title": "AI炼金术 — Podcast",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63e9ef4de99bdef7d39944c8",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/63e9ef4de99bdef7d39944c8",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T14:09:44Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "6135fb2e1845",
+      "title": "Darknet Diaries",
+      "feed_url": "https://feeds.megaphone.fm/darknetdiaries",
+      "site_url": "https://darknetdiaries.com/",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T07:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "fc5915542a0c",
+      "title": "Discovery",
+      "feed_url": "https://podcasts.files.bbci.co.uk/p002w557.rss",
+      "site_url": "http://www.bbc.co.uk/programmes/p002w557",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T19:55:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "2b4f3abcd9ad",
+      "title": "Fragmented - AI Developer Podcast",
+      "feed_url": "https://feeds.simplecast.com/LpAGSLnY",
+      "site_url": "https://fragmentedpodcast.com/",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-04-14T00:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "ef138d3439d8",
+      "title": "Gastropod",
+      "feed_url": "https://www.omnycontent.com/d/playlist/aaea4e69-af51-495e-afc9-a9760146922b/2a195077-f014-41d2-8313-ab190186b4c2/277bcd5c-0a05-4c14-8ba6-ab190186b4d5/podcast.rss",
+      "site_url": "https://gastropod.com/",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-04T16:43:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "6f527d03bfb3",
+      "title": "Hacking Humans",
+      "feed_url": "https://feeds.megaphone.fm/hacking-humans",
+      "site_url": "https://thecyberwire.com/podcasts/hacking-humans",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T07:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "f5a82056f7b9",
+      "title": "Hanselminutes with Scott Hanselman",
+      "feed_url": "https://feeds.simplecast.com/gvtxUiIf",
+      "site_url": "https://www.hanselminutes.com",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-30T00:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "d2bb973ad31c",
+      "title": "Invest Like the Best with Patrick O'Shaughnessy",
+      "feed_url": "https://investlikethebest.libsyn.com/rss",
+      "site_url": "https://colossus.com/",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T08:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "aa11d011cb1c",
+      "title": "Invisibilia",
+      "feed_url": "https://feeds.npr.org/510307/podcast.xml",
+      "site_url": "https://www.npr.org/podcasts/510307/invisibilia",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-18T12:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "ef15faeacb5c",
+      "title": "Planet Money",
+      "feed_url": "https://feeds.npr.org/510289/podcast.xml",
+      "site_url": "https://www.npr.org/podcasts/510289/planet-money",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T07:30:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "72e5396efadb",
+      "title": "Reply All",
+      "feed_url": "https://feeds.megaphone.fm/replyall",
+      "site_url": "http://gimletmedia.com/shows/reply-all",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-03-30T07:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "6c85f477a9eb",
+      "title": "The Cynical Developer",
+      "feed_url": "https://cynicaldeveloper.com/feed/podcast",
+      "site_url": "https://cynical.dev/",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T06:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "95462127500a",
+      "title": "The Startup Junkies Podcast",
+      "feed_url": "https://startupjunkie.libsyn.com/rss",
+      "site_url": "https://www.startupjunkie.org/podcast",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T14:25:37Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "a4dca2fccb18",
+      "title": "The Vergecast",
+      "feed_url": "https://feeds.megaphone.fm/vergecast",
+      "site_url": "https://www.theverge.com/the-vergecast",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T19:29:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "76b68ac91016",
+      "title": "Throughline",
+      "feed_url": "https://feeds.npr.org/510333/podcast.xml",
+      "site_url": "https://www.npr.org/podcasts/510333/throughline",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T07:05:01Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "d85bdacd03f2",
+      "title": "TIANYU2FM — 对谈未知领域",
+      "feed_url": "https://rsshub.xiaowuaiblog.com/xiaoyuzhou/podcast/5f22729f9504bbdb77253e46",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5f22729f9504bbdb77253e46",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-03T23:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "2d9449a736be",
+      "title": "What's Next｜科技早知道",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e74b52c418a84a046ecaceb",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e74b52c418a84a046ecaceb",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T12:45:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "673865e73a50",
+      "title": "一席",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e285326418a84a04627343f",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e285326418a84a04627343f",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T23:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "42995d2a9233",
+      "title": "三五环",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280fab418a84a0461faa3c",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e280fab418a84a0461faa3c",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-04T12:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "6e730a0238c7",
+      "title": "不合时宜",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280fb8418a84a0461fd076",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e280fb8418a84a0461fd076",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-24T04:05:10Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "0f04c540a288",
+      "title": "东亚观察局",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e9a4e25418a84a046bc6156",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e9a4e25418a84a046bc6156",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T09:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "b2d2b0150497",
+      "title": "东腔西调",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5f72b66083c34e85dd14fde9",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5f72b66083c34e85dd14fde9",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T10:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "1b47b8934698",
+      "title": "乱翻书",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61358d971c5d56efe5bcb5d2",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/61358d971c5d56efe5bcb5d2",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-01T07:44:43Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "33bd7846430b",
+      "title": "人民公园说AI",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65257ff6e8ce9deaf70a65e9",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/65257ff6e8ce9deaf70a65e9",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T23:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "da13e11c6dde",
+      "title": "保持偏见",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/663e3c95af1e22bb157dcee3",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/663e3c95af1e22bb157dcee3",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T17:42:30Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "eaaf5d6053e6",
+      "title": "信号与噪声",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6819d5a7e37664602a344e0e",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6819d5a7e37664602a344e0e",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-25T16:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "133121ac3096",
+      "title": "凹凸电波",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2839ca418a84a0462431b7",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e2839ca418a84a0462431b7",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T11:49:28Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "69a70e07c0a2",
+      "title": "十字路口Crossing — Podcast",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/60502e253c92d4f62c2a9577",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/60502e253c92d4f62c2a9577",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T16:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "7be868369e90",
+      "title": "半拿铁 | 商业沉浮录",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62382c1103bea1ebfffa1c00",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/62382c1103bea1ebfffa1c00",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T12:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "1570eea6f8cc",
+      "title": "卫诗婕｜漫谈Light the Star",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6627fda4b56459544087d86a",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6627fda4b56459544087d86a",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-04T02:14:25Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "8f14de9eb77f",
+      "title": "商业就是这样",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6022a180ef5fdaddc30bb101",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6022a180ef5fdaddc30bb101",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T23:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "e64f25f8e581",
+      "title": "声东击西",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2831ed418a84a046231c00",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e2831ed418a84a046231c00",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T11:30:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "62052271b5a4",
+      "title": "声动早咖啡",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/60de7c003dd577b40d5a40f3",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/60de7c003dd577b40d5a40f3",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T23:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "88b0870c77f8",
+      "title": "天真不天真",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65cef9e3cace72dff8d98de3",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/65cef9e3cace72dff8d98de3",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-27T00:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "70162b2940bc",
+      "title": "屠龙之术",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6507bc165c88d2412626b401",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6507bc165c88d2412626b401",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T15:25:36Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "b8cfe6d5ed5d",
+      "title": "岩中花述",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/625635587bfca4e73e990703",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/625635587bfca4e73e990703",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T00:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "41c2a512f1ae",
+      "title": "开始连接 LinkStart",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63ff0da51b1faf8a0b70b337",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/63ff0da51b1faf8a0b70b337",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T02:52:07Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "1d464fd537dc",
+      "title": "张小珺Jùn｜商业访谈录",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/626b46ea9cbbf0451cf5a962",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/626b46ea9cbbf0451cf5a962",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-30T23:30:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "da680d76f982",
+      "title": "忽左忽右",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4ee557418a84a0466737b7",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e4ee557418a84a0466737b7",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T08:47:08Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "6159dc5091d8",
+      "title": "慢速生长",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/668d00c38fcadceb90158ac1",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/668d00c38fcadceb90158ac1",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T16:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "fa9bd3bb1c06",
+      "title": "捕蛇者说",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2864f7418a84a04628f2da",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e2864f7418a84a04628f2da",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-15T21:43:19Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "9130f5722d7e",
+      "title": "搞钱女孩",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63d945ece725b5378a158d29",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/63d945ece725b5378a158d29",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T23:30:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "a585c233e1e4",
+      "title": "文化有限",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4515bd418a84a046e2b11a",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e4515bd418a84a046e2b11a",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T23:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "18192fd3a746",
+      "title": "晚点聊 LateTalk",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61933ace1b4320461e91fd55",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/61933ace1b4320461e91fd55",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T00:30:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "1565b6716495",
+      "title": "李诞",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65bb55f6513a776b57dedb32",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/65bb55f6513a776b57dedb32",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-16T16:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "4e0b7d056777",
+      "title": "枫言枫语 — Podcast",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2864f5418a84a04628e249",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e2864f5418a84a04628e249",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-03T00:57:05Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "41e6053c5aaa",
+      "title": "此话当真",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/646f194853a5e5ea1408d97c",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/646f194853a5e5ea1408d97c",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-01T16:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "0616fa331dda",
+      "title": "游荡集",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6163ca67c8c1d14e83366b31",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6163ca67c8c1d14e83366b31",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T00:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "1a8ec1c7089b",
+      "title": "牛油果烤面包",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e7c8b2b418a84a046e3ecbc",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e7c8b2b418a84a046e3ecbc",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-22T06:58:54Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "febf5ef6448c",
+      "title": "独树不成林",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/64acd33c7a3d479103fbd32d",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/64acd33c7a3d479103fbd32d",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T07:46:56Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "d8948ecbfb58",
+      "title": "疯投圈",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280faf418a84a0461fbd39",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fbd39",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T10:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "506f0d5c059c",
+      "title": "皮蛋漫游记",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6281264ad22bcf3950c80b56",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6281264ad22bcf3950c80b56",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T03:26:10Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "731b839efa83",
+      "title": "看理想圆桌",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4ff4c7418a84a046977618",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e4ff4c7418a84a046977618",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T13:29:14Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "7de6bbaee53e",
+      "title": "知行小酒馆",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6013f9f58e2f7ee375cf4216",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6013f9f58e2f7ee375cf4216",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T12:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "a8eef59d4dd4",
+      "title": "硅谷101 — Podcast",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e5c52c9418a84a04625e6cc",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e5c52c9418a84a04625e6cc",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T01:45:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "83376319f07f",
+      "title": "硬地骇客",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/640ee2438be5d40013fe4a87",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/640ee2438be5d40013fe4a87",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-02T19:39:44Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "f6dac64cd994",
+      "title": "科技乱炖",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4243cd418a84a0469573fb",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e4243cd418a84a0469573fb",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-03T15:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "8df7a7a40fc1",
+      "title": "第一财经",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/64c75555e8176c3ff81de98c",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/64c75555e8176c3ff81de98c",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T23:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "4fa59a6b4f69",
+      "title": "纵横四海",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62694abdb221dd5908417d1e",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/62694abdb221dd5908417d1e",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-25T16:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "3ec8bce36180",
+      "title": "罗永浩的十字路口",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/68981df29e7bcd326eb91d88",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/68981df29e7bcd326eb91d88",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T05:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "a5dffa6f7bfd",
+      "title": "肥话连篇",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61d50d72ee197a3aac3dac42",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/61d50d72ee197a3aac3dac42",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T23:30:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "386cc8d3d875",
+      "title": "自习室 STUDY ROOM",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65a5fb7540d4ef949c0140ac",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/65a5fb7540d4ef949c0140ac",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-04T13:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "90e975d57548",
+      "title": "自我进化论",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e5de5cb418a84a0467beb90",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e5de5cb418a84a0467beb90",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-12T12:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "37d32b1d4548",
+      "title": "蒋方舟·一寸",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/67c7eeb07ac3e30992e75a2f",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/67c7eeb07ac3e30992e75a2f",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-25T14:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "2f80921fbea9",
+      "title": "诗梳风",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/696496f4db4738160d5fabde",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/696496f4db4738160d5fabde",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T01:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "5b85ff6cd361",
+      "title": "谭立人",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65a2d0f07242f9fc1c1df60a",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/65a2d0f07242f9fc1c1df60a",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T16:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "3e982a0f523e",
+      "title": "起朱楼宴宾客",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61dd99a47b29652ff572257b",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/61dd99a47b29652ff572257b",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-04T11:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "821e3646013d",
+      "title": "跨国串门儿计划",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/670f3da40d2f24f28978736f",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/670f3da40d2f24f28978736f",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T01:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "97f17d9fd7fb",
+      "title": "随机波动StochasticVolatility",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e7cc741418a84a046b0c2bd",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e7cc741418a84a046b0c2bd",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T04:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "8dc375c07c6e",
+      "title": "面基",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6388760f22567e8ea6ad070f",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6388760f22567e8ea6ad070f",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T09:39:31Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "017911da842f",
+      "title": "高能量",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62c6ae08c4eaa82b112b9c84",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/62c6ae08c4eaa82b112b9c84",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T01:41:24Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "a5f966b7addc",
+      "title": "61’s life",
+      "feed_url": "https://61.life/feed.xml",
+      "site_url": "https://61.life/",
+      "description": "主要写创业、管理、产品。",
+      "category": "Product & Design",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T07:45:28Z"
+    },
+    {
+      "id": "6a3c69e32240",
+      "title": "jax",
+      "feed_url": "https://cdjax.com/?feed=rss2",
+      "site_url": "https://cdjax.com",
+      "description": "主要写产品、数码、随笔。",
+      "category": "Product & Design",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-13T16:07:29Z"
+    },
+    {
+      "id": "15d9c5005b94",
+      "title": "Velas电波站",
+      "feed_url": "https://www.velasx.com/feed",
+      "site_url": "https://www.velasx.com/",
+      "description": "主要写动画、游戏、小说、设计。",
+      "category": "Product & Design",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-16T11:00:04.667000Z"
+    },
+    {
+      "id": "67c0f7aede55",
+      "title": "拾月的博客",
+      "feed_url": "https://www.skyue.com/feed/",
+      "site_url": "https://www.skyue.com/",
+      "description": "主要写生活、股票投资、产品经理、软件数码。",
+      "category": "Product & Design",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T07:53:00Z"
+    },
+    {
+      "id": "6bfa519bb108",
+      "title": "阿里云设计中心",
+      "feed_url": "https://wechat2rss.xlab.app/feed/31e04606d37f684059e23a8fd3e05f1db0186495.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/31e04606d37f684059e23a8fd3e05f1db0186495.xml",
+      "description": "公众号，主要关注产品设计与用户体验。",
+      "category": "Product & Design",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "company-tech",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-03T10:41:00.000Z",
+      "organization": "阿里巴巴",
+      "company_direction": "设计"
+    },
+    {
+      "id": "b7b2cec82d5e",
+      "title": "AAAS: Science: Table of Contents",
+      "feed_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+      "site_url": "https://www.science.org/loi/science?af=R",
+      "category": "Research & Science",
       "kind": "article",
       "language": "en",
       "packs": [
         "all",
+        "research"
+      ],
+      "sources": [
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T07:00:00Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "e19ec4477c91",
+      "title": "All Top News -- ScienceDaily",
+      "feed_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "site_url": "https://www.sciencedaily.com/news/top/",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T12:27:30Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "d42b29d19244",
+      "title": "Amazon Science",
+      "feed_url": "https://www.amazon.science/index.rss",
+      "site_url": "https://www.amazon.science/",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "company-tech",
+        "research"
+      ],
+      "sources": [
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T16:22:19Z",
+      "description": "Research & Science 订阅源",
+      "organization": "Amazon",
+      "company_direction": "研究"
+    },
+    {
+      "id": "a6d026e59175",
+      "title": "BBC News — Science",
+      "feed_url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+      "site_url": "https://www.bbc.co.uk/news/science_and_environment",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:17:53Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "eda13bcfa201",
+      "title": "eLife: latest articles",
+      "feed_url": "https://elifesciences.org/rss/recent.xml",
+      "site_url": "https://elifesciences.org",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T00:00:00Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "81f4798a0631",
+      "title": "FlowingData",
+      "feed_url": "https://flowingdata.com/feed",
+      "site_url": "https://flowingdata.com",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T10:50:30Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "7cba684b2f9c",
+      "title": "Latest Science News -- ScienceDaily",
+      "feed_url": "https://www.sciencedaily.com/rss/all.xml",
+      "site_url": "https://www.sciencedaily.com/news/",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T14:50:43Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "e3069eef100a",
+      "title": "NASA",
+      "feed_url": "https://www.nasa.gov/news-release/feed/",
+      "site_url": "https://www.nasa.gov",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T04:01:00Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "d592eddffea9",
+      "title": "Nature",
+      "feed_url": "https://www.nature.com/nature.rss",
+      "site_url": "http://feeds.nature.com/nature/rss/current",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "awesome-rsshub-routes",
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T00:00:00Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "db9681969d50",
+      "title": "NYT > Science",
+      "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
+      "site_url": "https://www.nytimes.com/section/science",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T10:37:06Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "49e9cfe3fcd4",
+      "title": "Phys.org - latest science and technology news stories",
+      "feed_url": "https://phys.org/rss-feed/",
+      "site_url": "https://phys.org/",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:30:01Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "9723d5e70499",
+      "title": "PLOS One",
+      "feed_url": "https://journals.plos.org/plosone/feed/atom",
+      "site_url": "https://journals.plos.org/plosone/",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T14:00:00Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "4382d5e8491c",
+      "title": "Quanta Magazine",
+      "feed_url": "https://www.quantamagazine.org/feed/",
+      "site_url": "https://www.quantamagazine.org",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T14:56:34Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "cda71b1181b1",
+      "title": "Science Latest",
+      "feed_url": "https://www.wired.com/feed/category/science/latest/rss",
+      "site_url": "https://www.wired.com",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T10:00:00Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "06802e3881d6",
+      "title": "Scientific American Content: Global",
+      "feed_url": "http://rss.sciam.com/ScientificAmerican-Global",
+      "site_url": "https://www.scientificamerican.com",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T10:00:00Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "0ebaae9e8dd1",
+      "title": "Space | The Guardian",
+      "feed_url": "https://www.theguardian.com/science/space/rss",
+      "site_url": "https://www.theguardian.com/science/space",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T04:00:18Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "406fc6a48471",
+      "title": "Space – latest in science and technology | New Scientist",
+      "feed_url": "https://www.newscientist.com/subject/space/feed/",
+      "site_url": "https://www.newscientist.com/subject/space/",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T10:38:34Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "e64bd31a2472",
+      "title": "腾讯研究院",
+      "feed_url": "https://wechat2rss.bestblogs.dev/feed/6152301e0978bffb0a8284cab339262b9764dcfb.xml",
+      "site_url": "https://wechat2rss.bestblogs.dev/feed/6152301e0978bffb0a8284cab339262b9764dcfb.xml",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
         "chinese",
-        "news"
+        "company-tech",
+        "research",
+        "wechat"
       ],
       "sources": [
-        "manual",
-        "tidings-ai-radar"
+        "bestblogs",
+        "wechat2rss"
       ],
       "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-12T11:20:51Z",
-      "description": "Communities 订阅源"
+      "latest_item_at": "2026-08-12T09:00:00Z",
+      "description": "Research & Science 订阅源",
+      "organization": "腾讯",
+      "company_direction": "研究"
     },
     {
-      "id": "1aef9a60319a",
-      "title": "KAIX.IN",
-      "feed_url": "https://kaix.in/feed/",
-      "site_url": "https://kaix.in/",
-      "description": "主要写读书、咖啡、随笔。",
-      "category": "Culture & Ideas",
+      "id": "a1142ae83749",
+      "title": "阿里研究院",
+      "feed_url": "https://wechat2rss.bestblogs.dev/feed/e2f1190c120f7f3d74b630bfcfe9e58296bd535c.xml",
+      "site_url": "https://wechat2rss.bestblogs.dev/feed/e2f1190c120f7f3d74b630bfcfe9e58296bd535c.xml",
+      "category": "Research & Science",
       "kind": "article",
       "language": "zh",
       "packs": [
         "all",
-        "blogs",
-        "chinese"
+        "chinese",
+        "company-tech",
+        "research",
+        "wechat"
       ],
       "sources": [
-        "chinese-independent-blogs"
+        "bestblogs",
+        "wechat2rss"
       ],
       "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-10T07:31:24Z"
-    },
-    {
-      "id": "e503883fe8ec",
-      "title": "Maohang Gao's Blog",
-      "feed_url": "https://kangaroogao.com/atom.xml",
-      "site_url": "http://kangaroogao.com/atom.xml",
-      "description": "主要写游记、读书笔记、随笔。",
-      "category": "Culture & Ideas",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "blogs",
-        "chinese"
-      ],
-      "sources": [
-        "chinese-independent-blogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-05T13:16:51.425000Z"
-    },
-    {
-      "id": "abd0647e9664",
-      "title": "ShineKid",
-      "feed_url": "https://shinekid.com/feed/",
-      "site_url": "https://shinekid.com",
-      "description": "主要写生活、影视、文学。",
-      "category": "Culture & Ideas",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "blogs",
-        "chinese"
-      ],
-      "sources": [
-        "chinese-independent-blogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-06-04T14:38:54Z"
-    },
-    {
-      "id": "1e3c4c3ec52c",
-      "title": "Tripper Press - Take Photo, Think Seriously.",
-      "feed_url": "https://tripper.press/atom.xml",
-      "site_url": "https://tripper.press",
-      "description": "主要写摄影、文化产业、新媒体。",
-      "category": "Culture & Ideas",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "blogs",
-        "chinese"
-      ],
-      "sources": [
-        "chinese-independent-blogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-07-07T10:00:00Z"
-    },
-    {
-      "id": "1227e5dcf432",
-      "title": "东评西就",
-      "feed_url": "https://dongjunke.cn/atom.xml",
-      "site_url": "https://dongjunke.cn/",
-      "description": "主要写社交媒体、科技互联网、思考、读书。",
-      "category": "Culture & Ideas",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "blogs",
-        "chinese"
-      ],
-      "sources": [
-        "chinese-independent-blogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-06T15:10:40Z"
-    },
-    {
-      "id": "2681d5fc2524",
-      "title": "叉息的空中咖啡馆",
-      "feed_url": "https://www.xchere.xyz/atom.xml",
-      "site_url": "https://www.xchere.xyz/atom.xml",
-      "description": "主要写生活、随笔、记录、读书笔记。",
-      "category": "Culture & Ideas",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "blogs",
-        "chinese"
-      ],
-      "sources": [
-        "chinese-independent-blogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-06-10T04:56:48Z"
-    },
-    {
-      "id": "5f3b7bca48a6",
-      "title": "赫赫文王",
-      "feed_url": "https://kqh.me/index.xml",
-      "site_url": "https://kqh.me/",
-      "description": "主要写历史、人文、艺术、日常。",
-      "category": "Culture & Ideas",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "blogs",
-        "chinese"
-      ],
-      "sources": [
-        "chinese-independent-blogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-06-30T00:00:00Z"
-    },
-    {
-      "id": "9f60092f8ce1",
-      "title": "静风说",
-      "feed_url": "http://www.jfsay.com/feed",
-      "site_url": "https://www.jfsay.com",
-      "description": "主要写生活、读书、电影、旅游。",
-      "category": "Culture & Ideas",
-      "kind": "article",
-      "language": "zh",
-      "packs": [
-        "all",
-        "blogs",
-        "chinese"
-      ],
-      "sources": [
-        "chinese-independent-blogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-02T05:22:26Z"
+      "latest_item_at": "2026-08-11T01:37:00Z",
+      "description": "Research & Science 订阅源",
+      "organization": "阿里巴巴",
+      "company_direction": "研究"
     },
     {
       "id": "1d276ab834d0",
@@ -12369,1484 +14388,6 @@
       "validated_at": "2026-08-12",
       "latest_item_at": "2026-08-12T09:35:25Z",
       "description": "视频频道"
-    },
-    {
-      "id": "f857ff91c544",
-      "title": "30 for 30 Podcasts",
-      "feed_url": "https://feeds.megaphone.fm/ESP5765452710",
-      "site_url": "http://espnradio.espn.com/espnradio/index",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "en",
-      "packs": [
-        "all",
-        "podcasts"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-11T09:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "e7e1a05943d1",
-      "title": "42章经 — Podcast",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/648b0b641c48983391a63f98",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/648b0b641c48983391a63f98",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-08T13:30:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "ec6edabf20d0",
-      "title": "AI炼金术 — Podcast",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63e9ef4de99bdef7d39944c8",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/63e9ef4de99bdef7d39944c8",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "ai",
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-06T14:09:44Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "6135fb2e1845",
-      "title": "Darknet Diaries",
-      "feed_url": "https://feeds.megaphone.fm/darknetdiaries",
-      "site_url": "https://darknetdiaries.com/",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "en",
-      "packs": [
-        "all",
-        "podcasts"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-06T07:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "fc5915542a0c",
-      "title": "Discovery",
-      "feed_url": "https://podcasts.files.bbci.co.uk/p002w557.rss",
-      "site_url": "http://www.bbc.co.uk/programmes/p002w557",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "en",
-      "packs": [
-        "all",
-        "podcasts"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-10T19:55:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "2b4f3abcd9ad",
-      "title": "Fragmented - AI Developer Podcast",
-      "feed_url": "https://feeds.simplecast.com/LpAGSLnY",
-      "site_url": "https://fragmentedpodcast.com/",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "en",
-      "packs": [
-        "ai",
-        "all",
-        "podcasts"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-04-14T00:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "ef138d3439d8",
-      "title": "Gastropod",
-      "feed_url": "https://www.omnycontent.com/d/playlist/aaea4e69-af51-495e-afc9-a9760146922b/2a195077-f014-41d2-8313-ab190186b4c2/277bcd5c-0a05-4c14-8ba6-ab190186b4d5/podcast.rss",
-      "site_url": "https://gastropod.com/",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "en",
-      "packs": [
-        "all",
-        "podcasts"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-04T16:43:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "6f527d03bfb3",
-      "title": "Hacking Humans",
-      "feed_url": "https://feeds.megaphone.fm/hacking-humans",
-      "site_url": "https://thecyberwire.com/podcasts/hacking-humans",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "en",
-      "packs": [
-        "all",
-        "podcasts"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-11T07:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "f5a82056f7b9",
-      "title": "Hanselminutes with Scott Hanselman",
-      "feed_url": "https://feeds.simplecast.com/gvtxUiIf",
-      "site_url": "https://www.hanselminutes.com",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "en",
-      "packs": [
-        "all",
-        "podcasts"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-07-30T00:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "d2bb973ad31c",
-      "title": "Invest Like the Best with Patrick O'Shaughnessy",
-      "feed_url": "https://investlikethebest.libsyn.com/rss",
-      "site_url": "https://colossus.com/",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "en",
-      "packs": [
-        "all",
-        "podcasts"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-11T08:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "aa11d011cb1c",
-      "title": "Invisibilia",
-      "feed_url": "https://feeds.npr.org/510307/podcast.xml",
-      "site_url": "https://www.npr.org/podcasts/510307/invisibilia",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "en",
-      "packs": [
-        "all",
-        "podcasts"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-07-18T12:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "ef15faeacb5c",
-      "title": "Planet Money",
-      "feed_url": "https://feeds.npr.org/510289/podcast.xml",
-      "site_url": "https://www.npr.org/podcasts/510289/planet-money",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "en",
-      "packs": [
-        "all",
-        "podcasts"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-12T07:30:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "72e5396efadb",
-      "title": "Reply All",
-      "feed_url": "https://feeds.megaphone.fm/replyall",
-      "site_url": "http://gimletmedia.com/shows/reply-all",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "en",
-      "packs": [
-        "all",
-        "podcasts"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-03-30T07:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "6c85f477a9eb",
-      "title": "The Cynical Developer",
-      "feed_url": "https://cynicaldeveloper.com/feed/podcast",
-      "site_url": "https://cynical.dev/",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "en",
-      "packs": [
-        "all",
-        "podcasts"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-10T06:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "95462127500a",
-      "title": "The Startup Junkies Podcast",
-      "feed_url": "https://startupjunkie.libsyn.com/rss",
-      "site_url": "https://www.startupjunkie.org/podcast",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "en",
-      "packs": [
-        "all",
-        "podcasts"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-11T14:25:37Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "a4dca2fccb18",
-      "title": "The Vergecast",
-      "feed_url": "https://feeds.megaphone.fm/vergecast",
-      "site_url": "https://www.theverge.com/the-vergecast",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "en",
-      "packs": [
-        "all",
-        "podcasts"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-11T19:29:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "76b68ac91016",
-      "title": "Throughline",
-      "feed_url": "https://feeds.npr.org/510333/podcast.xml",
-      "site_url": "https://www.npr.org/podcasts/510333/throughline",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "en",
-      "packs": [
-        "all",
-        "podcasts"
-      ],
-      "sources": [
-        "awesome-rss-feeds"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-06T07:05:01Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "d85bdacd03f2",
-      "title": "TIANYU2FM — 对谈未知领域",
-      "feed_url": "https://rsshub.xiaowuaiblog.com/xiaoyuzhou/podcast/5f22729f9504bbdb77253e46",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5f22729f9504bbdb77253e46",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-03T23:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "2d9449a736be",
-      "title": "What's Next｜科技早知道",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e74b52c418a84a046ecaceb",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e74b52c418a84a046ecaceb",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-06T12:45:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "673865e73a50",
-      "title": "一席",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e285326418a84a04627343f",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e285326418a84a04627343f",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-05T23:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "42995d2a9233",
-      "title": "三五环",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280fab418a84a0461faa3c",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e280fab418a84a0461faa3c",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-04T12:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "6e730a0238c7",
-      "title": "不合时宜",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280fb8418a84a0461fd076",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e280fb8418a84a0461fd076",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-07-24T04:05:10Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "0f04c540a288",
-      "title": "东亚观察局",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e9a4e25418a84a046bc6156",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e9a4e25418a84a046bc6156",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-07T09:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "b2d2b0150497",
-      "title": "东腔西调",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5f72b66083c34e85dd14fde9",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5f72b66083c34e85dd14fde9",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-10T10:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "1b47b8934698",
-      "title": "乱翻书",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61358d971c5d56efe5bcb5d2",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/61358d971c5d56efe5bcb5d2",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-01T07:44:43Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "33bd7846430b",
-      "title": "人民公园说AI",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65257ff6e8ce9deaf70a65e9",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/65257ff6e8ce9deaf70a65e9",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "ai",
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-06T23:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "da13e11c6dde",
-      "title": "保持偏见",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/663e3c95af1e22bb157dcee3",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/663e3c95af1e22bb157dcee3",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-05T17:42:30Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "eaaf5d6053e6",
-      "title": "信号与噪声",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6819d5a7e37664602a344e0e",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6819d5a7e37664602a344e0e",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "ai",
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-06-25T16:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "133121ac3096",
-      "title": "凹凸电波",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2839ca418a84a0462431b7",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e2839ca418a84a0462431b7",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-10T11:49:28Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "69a70e07c0a2",
-      "title": "十字路口Crossing — Podcast",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/60502e253c92d4f62c2a9577",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/60502e253c92d4f62c2a9577",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "ai",
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-09T16:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "7be868369e90",
-      "title": "半拿铁 | 商业沉浮录",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62382c1103bea1ebfffa1c00",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/62382c1103bea1ebfffa1c00",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-05T12:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "1570eea6f8cc",
-      "title": "卫诗婕｜漫谈Light the Star",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6627fda4b56459544087d86a",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6627fda4b56459544087d86a",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-04T02:14:25Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "8f14de9eb77f",
-      "title": "商业就是这样",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6022a180ef5fdaddc30bb101",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6022a180ef5fdaddc30bb101",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-09T23:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "e64f25f8e581",
-      "title": "声东击西",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2831ed418a84a046231c00",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e2831ed418a84a046231c00",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-06T11:30:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "62052271b5a4",
-      "title": "声动早咖啡",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/60de7c003dd577b40d5a40f3",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/60de7c003dd577b40d5a40f3",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-10T23:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "88b0870c77f8",
-      "title": "天真不天真",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65cef9e3cace72dff8d98de3",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/65cef9e3cace72dff8d98de3",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-07-27T00:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "70162b2940bc",
-      "title": "屠龙之术",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6507bc165c88d2412626b401",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6507bc165c88d2412626b401",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-09T15:25:36Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "b8cfe6d5ed5d",
-      "title": "岩中花述",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/625635587bfca4e73e990703",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/625635587bfca4e73e990703",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-05T00:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "41c2a512f1ae",
-      "title": "开始连接 LinkStart",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63ff0da51b1faf8a0b70b337",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/63ff0da51b1faf8a0b70b337",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-05T02:52:07Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "1d464fd537dc",
-      "title": "张小珺Jùn｜商业访谈录",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/626b46ea9cbbf0451cf5a962",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/626b46ea9cbbf0451cf5a962",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-07-30T23:30:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "da680d76f982",
-      "title": "忽左忽右",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4ee557418a84a0466737b7",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e4ee557418a84a0466737b7",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-07T08:47:08Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "6159dc5091d8",
-      "title": "慢速生长",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/668d00c38fcadceb90158ac1",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/668d00c38fcadceb90158ac1",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-05T16:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "fa9bd3bb1c06",
-      "title": "捕蛇者说",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2864f7418a84a04628f2da",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e2864f7418a84a04628f2da",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-06-15T21:43:19Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "9130f5722d7e",
-      "title": "搞钱女孩",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63d945ece725b5378a158d29",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/63d945ece725b5378a158d29",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-05T23:30:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "a585c233e1e4",
-      "title": "文化有限",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4515bd418a84a046e2b11a",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e4515bd418a84a046e2b11a",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-10T23:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "18192fd3a746",
-      "title": "晚点聊 LateTalk",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61933ace1b4320461e91fd55",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/61933ace1b4320461e91fd55",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-07T00:30:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "1565b6716495",
-      "title": "李诞",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65bb55f6513a776b57dedb32",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/65bb55f6513a776b57dedb32",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-06-16T16:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "4e0b7d056777",
-      "title": "枫言枫语 — Podcast",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e2864f5418a84a04628e249",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e2864f5418a84a04628e249",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-07-03T00:57:05Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "41e6053c5aaa",
-      "title": "此话当真",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/646f194853a5e5ea1408d97c",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/646f194853a5e5ea1408d97c",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-07-01T16:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "0616fa331dda",
-      "title": "游荡集",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6163ca67c8c1d14e83366b31",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6163ca67c8c1d14e83366b31",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-07T00:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "1a8ec1c7089b",
-      "title": "牛油果烤面包",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e7c8b2b418a84a046e3ecbc",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e7c8b2b418a84a046e3ecbc",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-07-22T06:58:54Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "febf5ef6448c",
-      "title": "独树不成林",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/64acd33c7a3d479103fbd32d",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/64acd33c7a3d479103fbd32d",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-10T07:46:56Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "d8948ecbfb58",
-      "title": "疯投圈",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e280faf418a84a0461fbd39",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fbd39",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-09T10:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "506f0d5c059c",
-      "title": "皮蛋漫游记",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6281264ad22bcf3950c80b56",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6281264ad22bcf3950c80b56",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-09T03:26:10Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "731b839efa83",
-      "title": "看理想圆桌",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4ff4c7418a84a046977618",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e4ff4c7418a84a046977618",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-06T13:29:14Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "7de6bbaee53e",
-      "title": "知行小酒馆",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6013f9f58e2f7ee375cf4216",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6013f9f58e2f7ee375cf4216",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-07T12:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "a8eef59d4dd4",
-      "title": "硅谷101 — Podcast",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e5c52c9418a84a04625e6cc",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e5c52c9418a84a04625e6cc",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-11T01:45:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "83376319f07f",
-      "title": "硬地骇客",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/640ee2438be5d40013fe4a87",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/640ee2438be5d40013fe4a87",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-02T19:39:44Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "f6dac64cd994",
-      "title": "科技乱炖",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4243cd418a84a0469573fb",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e4243cd418a84a0469573fb",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-03T15:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "8df7a7a40fc1",
-      "title": "第一财经",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/64c75555e8176c3ff81de98c",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/64c75555e8176c3ff81de98c",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-10T23:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "4fa59a6b4f69",
-      "title": "纵横四海",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62694abdb221dd5908417d1e",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/62694abdb221dd5908417d1e",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-07-25T16:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "3ec8bce36180",
-      "title": "罗永浩的十字路口",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/68981df29e7bcd326eb91d88",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/68981df29e7bcd326eb91d88",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-06T05:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "a5dffa6f7bfd",
-      "title": "肥话连篇",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61d50d72ee197a3aac3dac42",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/61d50d72ee197a3aac3dac42",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-09T23:30:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "386cc8d3d875",
-      "title": "自习室 STUDY ROOM",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65a5fb7540d4ef949c0140ac",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/65a5fb7540d4ef949c0140ac",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-04T13:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "90e975d57548",
-      "title": "自我进化论",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e5de5cb418a84a0467beb90",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e5de5cb418a84a0467beb90",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-06-12T12:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "37d32b1d4548",
-      "title": "蒋方舟·一寸",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/67c7eeb07ac3e30992e75a2f",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/67c7eeb07ac3e30992e75a2f",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-06-25T14:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "2f80921fbea9",
-      "title": "诗梳风",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/696496f4db4738160d5fabde",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/696496f4db4738160d5fabde",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-06T01:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "5b85ff6cd361",
-      "title": "谭立人",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65a2d0f07242f9fc1c1df60a",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/65a2d0f07242f9fc1c1df60a",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-08T16:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "3e982a0f523e",
-      "title": "起朱楼宴宾客",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61dd99a47b29652ff572257b",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/61dd99a47b29652ff572257b",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-04T11:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "821e3646013d",
-      "title": "跨国串门儿计划",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/670f3da40d2f24f28978736f",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/670f3da40d2f24f28978736f",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "ai",
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs",
-        "tidings-ai-radar"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-11T01:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "97f17d9fd7fb",
-      "title": "随机波动StochasticVolatility",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e7cc741418a84a046b0c2bd",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e7cc741418a84a046b0c2bd",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-07T04:00:00Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "8dc375c07c6e",
-      "title": "面基",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6388760f22567e8ea6ad070f",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6388760f22567e8ea6ad070f",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-10T09:39:31Z",
-      "description": "播客节目"
-    },
-    {
-      "id": "017911da842f",
-      "title": "高能量",
-      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62c6ae08c4eaa82b112b9c84",
-      "site_url": "https://www.xiaoyuzhoufm.com/podcast/62c6ae08c4eaa82b112b9c84",
-      "category": "Podcasts",
-      "kind": "podcast",
-      "language": "zh",
-      "packs": [
-        "all",
-        "chinese",
-        "podcasts"
-      ],
-      "sources": [
-        "bestblogs"
-      ],
-      "validated_at": "2026-08-12",
-      "latest_item_at": "2026-08-07T01:41:24Z",
-      "description": "播客节目"
     }
   ]
 }
