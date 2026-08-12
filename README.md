@@ -47,21 +47,30 @@ Feeds move and disappear, so the directory is checked regularly. If a source is 
 
 **Website: [tidings.info](https://tidings.info/)**
 
-Any compatible reader can import these files. Tidings is the recommended reader for this project: it preserves the OPML groups and keeps RSS, Atom, JSON Feed, video subscriptions, and supported community threads in one library.
+Any compatible reader can import these files. Tidings is the recommended reader for importing the complete directory: it preserves the OPML groups and keeps RSS, Atom, JSON Feed, video subscriptions, and supported community threads in one library.
 
 [![RSS bundles imported into Tidings](https://cdn.jsdelivr.net/gh/fuxiaoai/tidings-rss@v1.1.0/assets/tidings-import-news-research.png)](assets/tidings-import-news-research.png)
 
-Tidings also includes AI Radar, article Q&A, bilingual reading, and video feeds. See the [website](https://tidings.info/) for current features and pricing.
+### AI from the unread list into every article
 
-## Reference projects
+Tidings is an AI-native RSS reader. When unread articles pile up, AI Radar groups related stories, surfaces the important developments, and keeps links back to the original sources. Open a long article for a quick AI summary, then ask follow-up questions about any detail without leaving the article.
 
-- [chinese-independent-blogs](https://github.com/timqian/chinese-independent-blogs)
-- [Wechat2RSS](https://wechat2rss.xlab.app/list/all)
-- [RSSHub](https://github.com/DIYgod/RSSHub)
-- [awesome-rss-feeds](https://github.com/plenaryapp/awesome-rss-feeds)
-- [awesome-rsshub-routes](https://github.com/JackyST0/awesome-rsshub-routes)
+For foreign-language reading, AI generates translations paragraph by paragraph and places them alongside the source text.
 
-This project publishes public feed endpoints and original catalog metadata, not article copies. See [SOURCES.md](SOURCES.md) and [NOTICE.md](NOTICE.md) for provenance and rights.
+After reading, activated Pro users can export unlimited Markdown or write directly to Obsidian, with the option to include the AI summary; PDF export remains free.
+
+AI features use an independent AI provider selected by the user, which may require its own account, API key, or separate payment. The Tidings Pro license unlocks the software features; it does not include model usage. See the [website](https://tidings.info/) for current features and licensing.
+
+| AI article summary | Ask the current article |
+| :---: | :---: |
+| [![Tidings AI article summary](https://tidings.info/assets/screenshots/ai-summary-en.webp)](https://tidings.info/assets/screenshots/ai-summary-en.webp) | [![Tidings article Q&A](https://tidings.info/assets/screenshots/ask-article-en.webp)](https://tidings.info/assets/screenshots/ask-article-en.webp) |
+| Get the main points first, then decide where to read closely. | Ask follow-up questions using the current article as context. |
+| **Daily AI Radar** | **AI-powered translation** |
+| [![Tidings Daily AI Radar](https://tidings.info/assets/screenshots/ai-radar-en.webp)](https://tidings.info/assets/screenshots/ai-radar-en.webp) | [![Tidings AI-powered translation](https://tidings.info/assets/screenshots/bilingual-en.webp)](https://tidings.info/assets/screenshots/bilingual-en.webp) |
+| Group daily unread articles, surface important developments, and return to the cited source. | Read AI-generated translations paragraph by paragraph beside the source text. |
+| **Video subscriptions** | **Community threads** |
+| [![Tidings video subscriptions](https://tidings.info/assets/screenshots/videos-feed-en.webp)](https://tidings.info/assets/screenshots/videos-feed-en.webp) | [![Tidings community threads](https://tidings.info/assets/screenshots/forum-en.webp)](https://tidings.info/assets/screenshots/forum-en.webp) |
+| Browse video subscriptions in their own view. | Read structured discussions from supported sites. |
 
 The complete directory follows, with source names, descriptions, categories, and bundle membership.
 
@@ -858,3 +867,13 @@ All 699 feeds in the complete collection are listed below with their primary cat
 </details>
 
 <!-- SOURCE_APPENDIX_END -->
+
+## Reference projects
+
+This project publishes public feed endpoints and original catalog metadata, not article copies. See [SOURCES.md](SOURCES.md) and [NOTICE.md](NOTICE.md) for provenance and rights.
+
+- [chinese-independent-blogs](https://github.com/timqian/chinese-independent-blogs)
+- [Wechat2RSS](https://wechat2rss.xlab.app/list/all)
+- [RSSHub](https://github.com/DIYgod/RSSHub)
+- [awesome-rss-feeds](https://github.com/plenaryapp/awesome-rss-feeds)
+- [awesome-rsshub-routes](https://github.com/JackyST0/awesome-rsshub-routes)

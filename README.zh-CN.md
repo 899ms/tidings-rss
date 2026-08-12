@@ -53,29 +53,30 @@ RSS 地址可能随时迁移或失效，所以目录会持续复查。发现漏�
 
 **官网：[tidings.info](https://tidings.info/)**
 
-这些 OPML 可以导入任何兼容阅读器。Tidings 是本项目的推荐阅读器：它会保留合集中的分类，也能把 RSS、Atom、JSON Feed、视频订阅和社区内容放在同一个资料库中管理。
+这些 OPML 可以导入任何兼容阅读器。如果准备直接导入整套目录，推荐使用 Tidings：它会保留合集中的分类，RSS、Atom、JSON Feed、视频订阅和社区内容也能放在同一个资料库里阅读。
 
 [![在 Tidings 中导入 RSS 合集](https://cdn.jsdelivr.net/gh/fuxiaoai/tidings-rss@v1.1.0/assets/tidings-import-news-research.png)](assets/tidings-import-news-research.png)
 
-除了分类、搜索和 OPML 导入导出，Tidings 还提供 AI Radar、文章问答、双语阅读和视频订阅。功能与价格以[官网](https://tidings.info/)当前说明为准。
+### AI 从未读列表一直跟到文章里
 
-| AI Radar | 双语阅读 |
+Tidings 是一款 AI 原生 RSS 阅读器。面对每天积下来的未读文章，AI Radar 会先聚类主题、筛出重点，并为每条结论保留原文入口。打开一篇长文，可以先看 AI 摘要；碰到没讲透的细节，直接围绕当前文章继续追问。
+
+外文内容由 AI 逐段生成译文，原文和译文交错显示，阅读时不用在原文、翻译工具和阅读器之间来回切换。
+
+读完之后，内容也不必留在应用里。激活 Pro 后可以无限量导出 Markdown，或直接写入 Obsidian，并可选择把 AI 总结一并写入；PDF 导出永久免费。
+
+AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、API Key 或单独付费。Tidings Pro 只解锁软件功能，不包含模型用量。功能与授权范围以[官网](https://tidings.info/)当前页面为准。
+
+| AI 文章总结 | 针对文章追问 |
 | :---: | :---: |
-| [![Tidings AI Radar](https://tidings.info/assets/screenshots/ai-radar-zh.webp)](https://tidings.info/assets/screenshots/ai-radar-zh.webp) | [![Tidings 双语阅读](https://tidings.info/assets/screenshots/bilingual-zh.webp)](https://tidings.info/assets/screenshots/bilingual-zh.webp) |
-| 从未读文章中找出相关进展，并保留原文入口。 | 原文和译文放在同一篇文章里。 |
+| [![Tidings AI 文章总结](https://tidings.info/assets/screenshots/ai-summary-zh.webp)](https://tidings.info/assets/screenshots/ai-summary-zh.webp) | [![Tidings 针对文章追问](https://tidings.info/assets/screenshots/ask-article-zh.webp)](https://tidings.info/assets/screenshots/ask-article-zh.webp) |
+| 先用几句话抓住长文重点，再决定从哪里细读。 | 基于当前文章继续提问，把没看懂的细节问清楚。 |
+| **每日 AI Radar** | **AI 智能翻译** |
+| [![Tidings 每日 AI Radar](https://tidings.info/assets/screenshots/ai-radar-zh.webp)](https://tidings.info/assets/screenshots/ai-radar-zh.webp) | [![Tidings AI 智能翻译](https://tidings.info/assets/screenshots/bilingual-zh.webp)](https://tidings.info/assets/screenshots/bilingual-zh.webp) |
+| 从每日未读中聚类相关内容、筛出重要进展，并保留原文入口。 | AI 逐段生成译文，原文和译文放在同一篇文章里。 |
 | **视频订阅** | **社区回帖** |
 | [![Tidings 视频订阅](https://tidings.info/assets/screenshots/videos-feed-zh.webp)](https://tidings.info/assets/screenshots/videos-feed-zh.webp) | [![Tidings 社区回帖](https://tidings.info/assets/screenshots/forum-zh.webp)](https://tidings.info/assets/screenshots/forum-zh.webp) |
 | 单独浏览视频订阅。 | 阅读支持站点的结构化讨论。 |
-
-## 参考项目
-
-- [中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)：发现仍在写作的中文博客。
-- [Wechat2RSS](https://wechat2rss.xlab.app/list/all)：提供微信公众号 RSS 服务与公开列表。
-- [RSSHub](https://github.com/DIYgod/RSSHub)：为大量没有原生 RSS 的网站生成订阅源。
-- [awesome-rss-feeds](https://github.com/plenaryapp/awesome-rss-feeds)：按主题整理的公开 RSS 目录。
-- [awesome-rsshub-routes](https://github.com/JackyST0/awesome-rsshub-routes)：RSSHub 路由与实例参考。
-
-项目只整理公开 Feed 地址和目录元数据，不转载文章正文。来源与权利边界见 [SOURCES.md](SOURCES.md) 和 [NOTICE.md](NOTICE.md)。
 
 完整清单列在下面，可以按名称、介绍、主分类或所属合集查找。
 
@@ -872,3 +873,13 @@ RSS 地址可能随时迁移或失效，所以目录会持续复查。发现漏�
 </details>
 
 <!-- SOURCE_APPENDIX_END -->
+
+## 参考项目
+
+项目只整理公开 Feed 地址和目录元数据，不转载文章正文。来源与权利边界见 [SOURCES.md](SOURCES.md) 和 [NOTICE.md](NOTICE.md)。
+
+- [中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)：发现仍在写作的中文博客。
+- [Wechat2RSS](https://wechat2rss.xlab.app/list/all)：提供微信公众号 RSS 服务与公开列表。
+- [RSSHub](https://github.com/DIYgod/RSSHub)：为没有原生 RSS 的网站生成订阅源。
+- [awesome-rss-feeds](https://github.com/plenaryapp/awesome-rss-feeds)：按主题整理的公开 RSS 目录。
+- [awesome-rsshub-routes](https://github.com/JackyST0/awesome-rsshub-routes)：RSSHub 路由与实例参考。
