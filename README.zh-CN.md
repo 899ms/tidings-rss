@@ -9,6 +9,7 @@
     <a href="RSS-GUIDE.zh-CN.md">RSS 使用指南</a> ·
     <a href="#全量源清单">查看完整清单</a> ·
     <a href="CONTRIBUTING.zh-CN.md">推荐新源</a> ·
+    <a href="#加入微信群">加入微信群</a> ·
     <a href="https://tidings.info/">获取 Tidings</a>
   </p>
   <p>
@@ -61,6 +62,8 @@ RSS 地址可能随时迁移或失效，所以目录会持续复查。发现漏�
 
 **官网：[tidings.info](https://tidings.info/)**
 
+Tidings 目前提供 macOS 版，支持 macOS 12 及以上。
+
 这些 OPML 可以导入任何兼容阅读器。如果准备直接导入整套目录，推荐使用 Tidings：它会保留合集中的分类，RSS、Atom、JSON Feed、视频订阅和社区内容也能放在同一个资料库里阅读。
 
 [![在 Tidings 中导入 RSS 合集](https://cdn.jsdelivr.net/gh/fuxiaoai/tidings-rss@v1.1.0/assets/tidings-import-news-research.png)](assets/tidings-import-news-research.png)
@@ -85,6 +88,14 @@ AI 能力由你选择的独立 Provider 提供，可能需要自己的账号、A
 | **视频订阅** | **社区回帖** |
 | [![Tidings 视频订阅](https://tidings.info/assets/screenshots/videos-feed-zh.webp)](https://tidings.info/assets/screenshots/videos-feed-zh.webp) | [![Tidings 社区回帖](https://tidings.info/assets/screenshots/forum-zh.webp)](https://tidings.info/assets/screenshots/forum-zh.webp) |
 | 单独浏览视频订阅。 | 阅读支持站点的结构化讨论。 |
+
+### 加入微信群
+
+使用 Tidings 时遇到问题，或者对产品有建议，可以扫码加入「拂晓 APP 用户群」，直接在群里反馈。二维码有效期至 2026 年 8 月 20 日，过期后会更新。
+
+<p align="center">
+  <a href="assets/tidings/wechat-user-group.png"><img src="assets/tidings/wechat-user-group.png" width="420" alt="拂晓 APP 用户微信群二维码"></a>
+</p>
 
 完整清单列在下面，可以按名称、介绍、主分类或所属合集查找。
 

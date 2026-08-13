@@ -3,7 +3,7 @@
   <h1>Tidings RSS</h1>
   <p><strong>High-quality feeds, organized into OPML bundles you can import directly.</strong></p>
   <p>Start with the Top 200, then use topic bundles or the 718-source directory when you want more. Top 200 last checked: 2026-08-13.</p>
-  <p><a href="README.zh-CN.md">简体中文</a> · <a href="#downloads">Download OPML</a> · <a href="RSS-GUIDE.md">RSS guide</a> · <a href="#complete-source-directory">Browse every source</a> · <a href="CONTRIBUTING.md">Suggest a feed</a> · <a href="https://tidings.info/">Get Tidings</a></p>
+  <p><a href="README.zh-CN.md">简体中文</a> · <a href="#downloads">Download OPML</a> · <a href="RSS-GUIDE.md">RSS guide</a> · <a href="#complete-source-directory">Browse every source</a> · <a href="CONTRIBUTING.md">Suggest a feed</a> · <a href="#wechat-user-group">WeChat group</a> · <a href="https://tidings.info/">Get Tidings</a></p>
   <p>
     <a href="https://github.com/fuxiaoai/tidings-rss/actions/workflows/validate.yml"><img alt="Catalog validation" src="https://github.com/fuxiaoai/tidings-rss/actions/workflows/validate.yml/badge.svg"></a>
     <a href="https://github.com/fuxiaoai/tidings-rss/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/fuxiaoai/tidings-rss?style=flat-square"></a>
@@ -54,6 +54,8 @@ Feeds move and disappear, so the directory is checked regularly. If a source is 
 
 **Website: [tidings.info](https://tidings.info/)**
 
+Tidings is currently available for macOS 12 and later.
+
 Any compatible reader can import these files. Tidings is the recommended reader for importing the complete directory: it preserves the OPML groups and keeps RSS, Atom, JSON Feed, video subscriptions, and supported community threads in one library.
 
 [![RSS bundles imported into Tidings](https://cdn.jsdelivr.net/gh/fuxiaoai/tidings-rss@v1.1.0/assets/tidings-import-news-research.png)](assets/tidings-import-news-research.png)
@@ -78,6 +80,14 @@ AI features use an independent AI provider selected by the user, which may requi
 | **Video subscriptions** | **Community threads** |
 | [![Tidings video subscriptions](https://tidings.info/assets/screenshots/videos-feed-en.webp)](https://tidings.info/assets/screenshots/videos-feed-en.webp) | [![Tidings community threads](https://tidings.info/assets/screenshots/forum-en.webp)](https://tidings.info/assets/screenshots/forum-en.webp) |
 | Browse video subscriptions in their own view. | Read structured discussions from supported sites. |
+
+### WeChat user group
+
+If you run into a problem with Tidings or have a product suggestion, scan the code to join the 拂晓 APP user group and post it there. This QR code is valid through August 20, 2026 and will be replaced after it expires.
+
+<p align="center">
+  <a href="assets/tidings/wechat-user-group.png"><img src="assets/tidings/wechat-user-group.png" width="420" alt="WeChat QR code for the 拂晓 APP user group"></a>
+</p>
 
 The complete directory follows, with source names, descriptions, categories, and bundle membership.
 
