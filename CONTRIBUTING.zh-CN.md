@@ -24,6 +24,23 @@
 
 微信公众号需要能快速响应、提供近期文章并通过 Tidings 解析。大厂技术号请注明机构和技术方向；同一机构、同一方向只保留一个源，有官方独立网站 RSS 时优先提交官网源。
 
+精选 200 是全集中的严格子集，由 `tools/select_top200.py` 生成。它必须覆盖全部主分类，默认对同一发布者去重；每个入选源还要连续通过三轮 Tidings 解析，三轮都能读到文章和真实发布日期。
+
+复现当前精选包：
+
+```bash
+python tools/select_top200.py --date 2026-08-13 \
+  --candidate-snapshot reports/top200-candidates.json \
+  --output reports/top200-curation.json \
+  --validation reports/top200-validation-round-1.json \
+  --validation reports/top200-validation-round-2.json \
+  --validation reports/top200-validation-round-3.json \
+  --video-validation reports/top200-video-validation-round-1.json \
+  --video-validation reports/top200-video-validation-round-2.json \
+  --video-validation reports/top200-video-validation-round-3.json \
+  --apply
+```
+
 ## 更新生成文件
 
 只需要 Python 3.10 或更高版本，无需安装第三方依赖：

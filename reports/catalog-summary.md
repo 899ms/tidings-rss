@@ -1,11 +1,12 @@
 # Catalog summary
 
-Generated and validated on **2026-08-12** with **Tidings parseFeedUrl**.
+Generated and validated on **2026-08-13** with **Tidings parseFeedUrl**.
 
 ## Bundles
 
 | Bundle | Feeds |
 | --- | ---: |
+| `tidings-top200.opml` | 200 |
 | `tidings-all.opml` | 718 |
 | `tidings-blogs.opml` | 349 |
 | `tidings-communities.opml` | 14 |

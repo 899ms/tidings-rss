@@ -1,10 +1,11 @@
 {
-  "validated_at": "2026-08-12",
+  "validated_at": "2026-08-13",
   "engine": "Tidings parseFeedUrl",
   "published": 718,
   "limits": {
     "complete_collection_maximum": 720,
-    "chinese_independent_blogs_maximum": 400
+    "chinese_independent_blogs_maximum": 400,
+    "top200_exact": 200
   },
   "chinese_blog_review": {
     "upstream_rss_candidates": 1331,
@@ -75,8 +76,21 @@
     "research": 27,
     "security": 8,
     "tech-media": 10,
+    "top200": 200,
     "videos": 93,
     "wechat": 30,
     "weeklies": 9
+  },
+  "top200_review": {
+    "catalog_candidates": 718,
+    "expanded_validation_candidates": 307,
+    "required_tidings_parser_rounds": 3,
+    "published": 200,
+    "covered_categories": 14,
+    "current_node_direct_probe": true,
+    "mainland_direct_observed": "unverified",
+    "selected_chinese": 122,
+    "selected_first_party_or_direct_endpoints": 180,
+    "selection_evidence": "reports/top200-curation.json"
   }
 }

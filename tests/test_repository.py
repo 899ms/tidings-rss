@@ -4,7 +4,7 @@ import json
 import unittest
 from pathlib import Path
 
-from scripts.catalog import CATEGORY_EMOJI, PACKS
+from scripts.catalog import CATEGORIES, CATEGORY_EMOJI, PACKS, TOP200_FEEDS
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -67,7 +67,7 @@ class RepositoryTests(unittest.TestCase):
             found = {
                 filename: int(count)
                 for count, filename in re.findall(
-                    r"\|\s*`(\d+)`\s*\|[^\n]*releases/latest/download/(tidings-[a-z-]+\.opml)",
+                    r"\|\s*`(\d+)`\s*\|[^\n]*releases/latest/download/(tidings-[a-z0-9-]+\.opml)",
                     text,
                 )
             }
@@ -100,6 +100,79 @@ class RepositoryTests(unittest.TestCase):
             opml = (ROOT / "opml" / PACKS[pack][0]).read_text(encoding="utf-8")
             label = html.escape(f"{CATEGORY_EMOJI[category]} {category}", quote=True)
             self.assertIn(f'text="{label}"', opml)
+
+    def test_top200_is_balanced_and_repeatedly_validated(self):
+        catalog = json.loads((ROOT / "data/feeds.json").read_text(encoding="utf-8"))
+        selected = [feed for feed in catalog["feeds"] if "top200" in feed["packs"]]
+        report = json.loads((ROOT / "reports/top200-curation.json").read_text(encoding="utf-8"))
+        decisions = [item for item in report["decisions"] if item["selected"]]
+        self.assertEqual(len(selected), TOP200_FEEDS)
+        self.assertEqual({feed["category"] for feed in selected}, set(CATEGORIES))
+        self.assertEqual({feed["feed_url"] for feed in selected}, {item["feed_url"] for item in decisions})
+        self.assertEqual(report["selected_count"], TOP200_FEEDS)
+        self.assertEqual(report["validation"]["status"], "passed")
+        summary = json.loads((ROOT / "reports/validation-summary.json").read_text(encoding="utf-8"))["top200_review"]
+        self.assertEqual(summary["published"], TOP200_FEEDS)
+        self.assertEqual(summary["selected_chinese"], sum(feed["language"] == "zh" for feed in selected))
+        self.assertEqual(
+            summary["selected_first_party_or_direct_endpoints"],
+            sum(item["selection_evidence"]["first_party_or_direct_endpoint"] for item in decisions),
+        )
+        self.assertEqual(report["reproduction"]["candidate_snapshot"], "reports/top200-candidates.json")
+        candidates = json.loads((ROOT / report["reproduction"]["candidate_snapshot"]).read_text(encoding="utf-8"))
+        self.assertEqual(candidates["candidate_count"], len(candidates["candidates"]))
+        self.assertEqual(candidates["candidate_count"], 307)
+        self.assertEqual(len(report["validation"]["round_reports"]), 3)
+        self.assertEqual(len(report["validation"]["video_round_reports"]), 3)
+        self.assertTrue(all(len(item["parser_rounds"]) == 3 for item in decisions))
+        self.assertTrue(all(all(round_["ok"] for round_ in item["parser_rounds"]) for item in decisions))
+        self.assertTrue(all(all(round_["item_count"] > 0 for round_ in item["parser_rounds"]) for item in decisions))
+        self.assertTrue(all(all(round_["latest_item_at"] for round_ in item["parser_rounds"]) for item in decisions))
+        self.assertTrue(all(item["selection_evidence"]["note"] for item in decisions))
+
+        raw_payloads = [
+            json.loads((ROOT / path).read_text(encoding="utf-8"))
+            for path in report["validation"]["round_reports"]
+        ]
+        raw_video_payloads = [
+            json.loads((ROOT / path).read_text(encoding="utf-8"))
+            for path in report["validation"]["video_round_reports"]
+        ]
+        raw_rounds = [{item["feed_url"]: item for item in payload["results"]} for payload in raw_payloads]
+        raw_video_rounds = [{item["feed_url"]: item for item in payload["results"]} for payload in raw_video_payloads]
+        candidate_urls = [item["feed_url"] for item in candidates["candidates"]]
+        self.assertEqual(len(candidate_urls), len(set(candidate_urls)))
+        for payload, raw in zip(raw_payloads, raw_rounds):
+            self.assertEqual(payload["candidate_count"], len(payload["results"]))
+            self.assertEqual(len(raw), len(payload["results"]))
+            self.assertEqual(set(raw), set(candidate_urls))
+        for payload, raw in zip(raw_video_payloads, raw_video_rounds):
+            self.assertEqual(payload["candidate_count"], len(payload["results"]))
+            self.assertEqual(len(raw), len(payload["results"]))
+        self.assertTrue({item["feed_url"] for item in decisions}.issubset(set(candidate_urls)))
+        for item in decisions:
+            source_rounds = raw_video_rounds if item["category"] == "Videos" else raw_rounds
+            expected = [
+                {
+                    "ok": raw[item["feed_url"]]["ok"],
+                    "item_count": raw[item["feed_url"]]["item_count"],
+                    "latest_item_at": raw[item["feed_url"]]["latest_item_at"],
+                    "duration_ms": raw[item["feed_url"]]["duration_ms"],
+                }
+                for raw in source_rounds
+            ]
+            self.assertEqual(item["parser_rounds"], expected)
+
+        selected_titles = {feed["title"] for feed in selected}
+        self.assertNotIn("机器之心SOTA模型", selected_titles)
+        self.assertNotIn("HackerNews每日摘要 on SuperTechFans", selected_titles)
+        evidence_publishers = [item["selection_evidence"]["publisher"] for item in decisions]
+        publisher_counts = {publisher: evidence_publishers.count(publisher) for publisher in set(evidence_publishers)}
+        for publisher, count in publisher_counts.items():
+            limit = 2 if publisher in {
+                "bbc", "google", "mit", "new york times", "theguardian.com", "阿里巴巴", "腾讯"
+            } else 1
+            self.assertLessEqual(count, limit, publisher)
 
     def test_current_theme_curation_report_matches_catalog(self):
         catalog = json.loads((ROOT / "data/feeds.json").read_text(encoding="utf-8"))

@@ -1,0 +1,6681 @@
+{
+  "generated_at": "2026-08-13",
+  "profile": "top200-production-v1",
+  "origin": "exact URL set submitted to the three committed Tidings parser rounds",
+  "candidate_count": 307,
+  "candidate_count_by_category": {
+    "Artificial Intelligence": 28,
+    "Engineering & Technology": 112,
+    "Security": 8,
+    "Technology Media": 10,
+    "Tech Newsletters & Weeklies": 9,
+    "Research & Science": 18,
+    "News": 16,
+    "Product & Design": 5,
+    "Business & Startups": 5,
+    "Personal Blogs": 37,
+    "Communities": 13,
+    "Culture & Ideas": 10,
+    "Videos": 20,
+    "Podcasts": 16
+  },
+  "candidates": [
+    {
+      "id": "3733c65b9abe",
+      "title": "Simon Willison's Weblog",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "site_url": "http://simonwillison.net/",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T23:48:35Z",
+      "description": "Artificial Intelligence 订阅源"
+    },
+    {
+      "id": "61d3148bc057",
+      "title": "Hugging Face - Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml",
+      "site_url": "https://huggingface.co/blog",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "company-tech",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T13:37:10Z",
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "Hugging Face",
+      "company_direction": "AI"
+    },
+    {
+      "id": "5f3203610818",
+      "title": "Google DeepMind News",
+      "feed_url": "https://deepmind.com/blog/feed/basic/",
+      "site_url": "https://deepmind.google/blog/",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "company-tech",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T15:06:15Z",
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "Google",
+      "company_direction": "AI"
+    },
+    {
+      "id": "8cb0c38845e1",
+      "title": "量子位",
+      "feed_url": "https://www.qbitai.com/feed",
+      "site_url": "https://www.qbitai.com",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T07:31:19Z",
+      "description": "Artificial Intelligence 订阅源"
+    },
+    {
+      "id": "0427c229245f",
+      "title": "Artificial Intelligence",
+      "feed_url": "https://aws.amazon.com/blogs/amazon-ai/feed/",
+      "site_url": "https://aws.amazon.com/blogs/machine-learning/",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "company-tech",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T21:38:06Z",
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "Amazon Web Services",
+      "company_direction": "AI"
+    },
+    {
+      "id": "740de9a19f7a",
+      "title": "Apple Machine Learning Research",
+      "feed_url": "https://machinelearning.apple.com/rss.xml",
+      "site_url": "https://machinelearning.apple.com",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "company-tech",
+        "engineering",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "manual",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T00:00:00Z",
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "Apple",
+      "company_direction": "AI"
+    },
+    {
+      "id": "904f056d0b57",
+      "title": "The latest research from Google",
+      "feed_url": "https://research.google/blog/rss/",
+      "site_url": "https://research.google/blog/",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "company-tech",
+        "engineering",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T17:04:00Z",
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "Google",
+      "company_direction": "研究"
+    },
+    {
+      "id": "bea4293d5edd",
+      "title": "OpenAI News",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "site_url": "https://openai.com/news",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "company-tech",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T10:00:00Z",
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "OpenAI",
+      "company_direction": "AI"
+    },
+    {
+      "id": "9539d7d50e44",
+      "title": "MIT News - Artificial intelligence",
+      "feed_url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "site_url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "engineering",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T19:25:00Z",
+      "description": "Artificial Intelligence 订阅源"
+    },
+    {
+      "id": "e42dc409e5e1",
+      "title": "机器之心",
+      "feed_url": "https://wechat2rss.bestblogs.dev/feed/8d97af31b0de9e48da74558af128a4673d78c9a3.xml",
+      "site_url": "https://wechat2rss.bestblogs.dev/feed/8d97af31b0de9e48da74558af128a4673d78c9a3.xml",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "engineering",
+        "top200",
+        "wechat"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar",
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T04:14:00Z",
+      "description": "Artificial Intelligence 订阅源"
+    },
+    {
+      "id": "058b057eaf13",
+      "title": "Anthropic News",
+      "feed_url": "https://rsshub.bestblogs.dev/anthropic/news",
+      "site_url": "https://www.anthropic.com/news",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "company-tech",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T16:00:00Z",
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "Anthropic",
+      "company_direction": "AI"
+    },
+    {
+      "id": "59828b60c06c",
+      "title": "AI 开发者日报",
+      "feed_url": "https://ainews.liduos.com/rss.xml",
+      "site_url": "https://ainews.liduos.com",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T08:03:31Z",
+      "description": "Artificial Intelligence 订阅源"
+    },
+    {
+      "id": "0556400e581e",
+      "title": "cs.CL updates on arXiv.org",
+      "feed_url": "https://export.arxiv.org/rss/cs.CL",
+      "site_url": "http://rss.arxiv.org/rss/cs.CL",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "engineering",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T04:00:00Z",
+      "description": "Artificial Intelligence 订阅源"
+    },
+    {
+      "id": "f16b7d8a335b",
+      "title": "cs.CV updates on arXiv.org",
+      "feed_url": "https://export.arxiv.org/rss/cs.CV",
+      "site_url": "http://rss.arxiv.org/rss/cs.CV",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "engineering",
+        "research"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T04:00:00Z",
+      "description": "Artificial Intelligence 订阅源"
+    },
+    {
+      "id": "6828bdd04b0a",
+      "title": "cs.LG updates on arXiv.org",
+      "feed_url": "https://export.arxiv.org/rss/cs.LG",
+      "site_url": "http://rss.arxiv.org/rss/cs.LG",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "engineering",
+        "research"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T04:00:00Z",
+      "description": "Artificial Intelligence 订阅源"
+    },
+    {
+      "id": "4317c649bc1b",
+      "title": "cs.AI updates on arXiv.org",
+      "feed_url": "https://rss.arxiv.org/rss/cs.AI",
+      "site_url": "http://rss.arxiv.org/rss/cs.AI",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "engineering",
+        "research"
+      ],
+      "sources": [
+        "awesome-rsshub-routes"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T04:00:00Z",
+      "description": "Artificial Intelligence 订阅源"
+    },
+    {
+      "id": "04a252572c9d",
+      "title": "AI",
+      "feed_url": "https://blog.google/technology/ai/rss/",
+      "site_url": "https://blog.google/innovation-and-ai/technology/ai/",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "engineering"
+      ],
+      "sources": [
+        "awesome-rsshub-routes"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T17:00:00Z",
+      "description": "Artificial Intelligence 订阅源"
+    },
+    {
+      "id": "66242ceed483",
+      "title": "新智元",
+      "feed_url": "https://wechat2rss.xlab.app/feed/ede30346413ea70dbef5d485ea5cbb95cca446e7.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/ede30346413ea70dbef5d485ea5cbb95cca446e7.xml",
+      "description": "公众号，主要关注人工智能产业与研究。",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "engineering",
+        "top200",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T04:26:00.000Z"
+    },
+    {
+      "id": "105a86cf0537",
+      "title": "我爱计算机视觉",
+      "feed_url": "https://wechat2rss.xlab.app/feed/b81ffcfff1107b5265cd7e39de610dc7ca72caf4.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/b81ffcfff1107b5265cd7e39de610dc7ca72caf4.xml",
+      "description": "公众号，主要关注计算机视觉研究与应用。",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "engineering",
+        "top200",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T14:53:00.000Z"
+    },
+    {
+      "id": "004ab6a979ab",
+      "title": "腾讯混元",
+      "feed_url": "https://wechat2rss.bestblogs.dev/feed/306ce19a1ca590c9c2df781789e828d1acfa1356.xml",
+      "site_url": "https://wechat2rss.bestblogs.dev/feed/306ce19a1ca590c9c2df781789e828d1acfa1356.xml",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "company-tech",
+        "engineering",
+        "top200",
+        "wechat"
+      ],
+      "sources": [
+        "bestblogs",
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-04T08:12:00Z",
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "腾讯",
+      "company_direction": "AI"
+    },
+    {
+      "id": "52ffc392c397",
+      "title": "通义实验室",
+      "feed_url": "https://wechat2rss.bestblogs.dev/feed/4ebee6222ae08705b8aabc9116f0defbcb6b17c6.xml",
+      "site_url": "https://wechat2rss.bestblogs.dev/feed/4ebee6222ae08705b8aabc9116f0defbcb6b17c6.xml",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "company-tech",
+        "engineering",
+        "research",
+        "top200",
+        "wechat"
+      ],
+      "sources": [
+        "bestblogs",
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-20T08:54:00Z",
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "阿里巴巴",
+      "company_direction": "AI"
+    },
+    {
+      "id": "2b5acb5e7f46",
+      "title": "机器之心SOTA模型",
+      "feed_url": "https://wechat2rss.bestblogs.dev/feed/2f520471856d56c7b3a95cd09eb777149b32828a.xml",
+      "site_url": "https://wechat2rss.bestblogs.dev/feed/2f520471856d56c7b3a95cd09eb777149b32828a.xml",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "engineering",
+        "wechat"
+      ],
+      "sources": [
+        "bestblogs",
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T04:05:00Z",
+      "description": "Artificial Intelligence 订阅源"
+    },
+    {
+      "id": "7f1a4371ec72",
+      "title": "AI Musings by Mu",
+      "feed_url": "https://kelvinmu.substack.com/feed",
+      "site_url": "https://kelvinmu.substack.com",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "engineering"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-09T19:01:28Z",
+      "description": "Artificial Intelligence 订阅源"
+    },
+    {
+      "id": "b4647fa8818e",
+      "title": "大模型智能",
+      "feed_url": "https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml",
+      "site_url": "https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T16:00:00Z",
+      "description": "Artificial Intelligence 订阅源"
+    },
+    {
+      "id": "590f6db1e612",
+      "title": "智谱",
+      "feed_url": "https://wechat2rss.bestblogs.dev/feed/433d2134dca54d80804daf32e8be546155be3300.xml",
+      "site_url": "https://wechat2rss.bestblogs.dev/feed/433d2134dca54d80804daf32e8be546155be3300.xml",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T05:52:00Z",
+      "description": "Artificial Intelligence 订阅源"
+    },
+    {
+      "id": "787427d3a63f",
+      "title": "月之暗面 Kimi",
+      "feed_url": "https://wechat2rss.bestblogs.dev/feed/c5c43d4bc17bae656763859ed0903bb6314ec6fe.xml",
+      "site_url": "https://wechat2rss.bestblogs.dev/feed/c5c43d4bc17bae656763859ed0903bb6314ec6fe.xml",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "company-tech",
+        "engineering",
+        "wechat"
+      ],
+      "sources": [
+        "bestblogs",
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-28T08:17:00Z",
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "月之暗面",
+      "company_direction": "AI"
+    },
+    {
+      "id": "b951a095192c",
+      "title": "阶跃StepFun",
+      "feed_url": "https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml",
+      "site_url": "https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "company-tech",
+        "engineering",
+        "wechat"
+      ],
+      "sources": [
+        "bestblogs",
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-19T11:28:00Z",
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "阶跃星辰",
+      "company_direction": "AI"
+    },
+    {
+      "id": "e5fe6cb1c5f3",
+      "title": "DeepSeek",
+      "feed_url": "https://wechat2rss.bestblogs.dev/feed/1709da4f538d4ce4fb6d7a8ba1a5a1c297919601.xml",
+      "site_url": "https://wechat2rss.bestblogs.dev/feed/1709da4f538d4ce4fb6d7a8ba1a5a1c297919601.xml",
+      "category": "Artificial Intelligence",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "chinese",
+        "company-tech",
+        "engineering",
+        "top200",
+        "wechat"
+      ],
+      "sources": [
+        "bestblogs",
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-25T13:35:00Z",
+      "description": "Artificial Intelligence 订阅源",
+      "organization": "DeepSeek",
+      "company_direction": "AI"
+    },
+    {
+      "id": "4069237d4cae",
+      "title": "阁子",
+      "feed_url": "https://dfine.tech/atom.xml",
+      "site_url": "https://dfine.tech/atom.xml",
+      "description": "主要写编程、算法、生活。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T07:20:00Z"
+    },
+    {
+      "id": "20f51c01876e",
+      "title": "唐巧的博客",
+      "feed_url": "https://blog.devtang.com/atom.xml",
+      "site_url": "https://blog.devtang.com/atom.xml",
+      "description": "主要写编程、创业、iOS。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T08:24:00Z"
+    },
+    {
+      "id": "08e654894f6a",
+      "title": "王福强的个人博客：一个架构士的思考与沉淀",
+      "feed_url": "https://afoo.me/feeds.xml",
+      "site_url": "http://afoo.me",
+      "description": "主要写架构、创业、思考。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T16:00:00Z"
+    },
+    {
+      "id": "f8a34d77ee62",
+      "title": "张鑫旭-鑫空间-鑫生活",
+      "feed_url": "http://www.zhangxinxu.com/wordpress/?feed=rss2",
+      "site_url": "https://www.zhangxinxu.com/wordpress",
+      "description": "主要写编程、前端。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T12:24:54Z"
+    },
+    {
+      "id": "ed85ad123a96",
+      "title": "The JetBrains Blog",
+      "feed_url": "https://blog.jetbrains.com/feed/",
+      "site_url": "https://blog.jetbrains.com",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "company-tech",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T07:58:30Z",
+      "description": "Engineering & Technology 订阅源",
+      "organization": "JetBrains",
+      "company_direction": "开发工具"
+    },
+    {
+      "id": "fc6274f58371",
+      "title": "Vercel News",
+      "feed_url": "https://vercel.com/atom",
+      "site_url": "https://vercel.com/atom",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T22:00:00Z",
+      "description": "Engineering & Technology 订阅源"
+    },
+    {
+      "id": "f73fd9169bbe",
+      "title": "The GitHub Blog",
+      "feed_url": "https://github.blog/feed/",
+      "site_url": "https://github.blog/",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "company-tech",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "awesome-rsshub-routes",
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T18:38:17Z",
+      "description": "Engineering & Technology 订阅源",
+      "organization": "GitHub",
+      "company_direction": "工程"
+    },
+    {
+      "id": "2f3b69ac7003",
+      "title": "The Cloudflare Blog",
+      "feed_url": "https://blog.cloudflare.com/rss",
+      "site_url": "https://blog.cloudflare.com/",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "company-tech",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T13:00:00Z",
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Cloudflare",
+      "company_direction": "工程"
+    },
+    {
+      "id": "fd8649157d54",
+      "title": "Martin Fowler",
+      "feed_url": "https://martinfowler.com/feed.atom",
+      "site_url": "https://martinfowler.com/feed.atom",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T11:39:00Z",
+      "description": "Engineering & Technology 订阅源"
+    },
+    {
+      "id": "08a9b297e285",
+      "title": "Articles on Smashing Magazine — For Web Designers And Developers",
+      "feed_url": "https://rss1.smashingmagazine.com/feed/",
+      "site_url": "https://www.smashingmagazine.com/",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "awesome-rsshub-routes",
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T10:00:00Z",
+      "description": "Engineering & Technology 订阅源"
+    },
+    {
+      "id": "23cf26da029d",
+      "title": "Stack Overflow Blog",
+      "feed_url": "https://blog.stackoverflow.com/feed/",
+      "site_url": "https://stackoverflow.blog/",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T07:40:00Z",
+      "description": "Engineering & Technology 订阅源"
+    },
+    {
+      "id": "7f1c72c187c2",
+      "title": "Databricks",
+      "feed_url": "https://www.databricks.com/feed",
+      "site_url": "https://www.databricks.com",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T13:00:00Z",
+      "description": "Engineering & Technology 订阅源"
+    },
+    {
+      "id": "4d484f701d5b",
+      "title": "AWS Architecture Blog",
+      "feed_url": "https://www.awsarchitectureblog.com/atom.xml",
+      "site_url": "https://aws.amazon.com/blogs/architecture/",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "company-tech",
+        "engineering"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T21:17:02Z",
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Amazon Web Services",
+      "company_direction": "架构"
+    },
+    {
+      "id": "0f6644427c29",
+      "title": "freeCodeCamp Programming Tutorials: Python, JavaScript, Git & More",
+      "feed_url": "https://www.freecodecamp.org/news/rss/",
+      "site_url": "https://www.freecodecamp.org/news/",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T16:47:38Z",
+      "description": "Engineering & Technology 订阅源"
+    },
+    {
+      "id": "cde22301ccca",
+      "title": "Netflix TechBlog - Medium",
+      "feed_url": "https://netflixtechblog.com/feed",
+      "site_url": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "company-tech",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T16:01:02Z",
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Netflix",
+      "company_direction": "工程"
+    },
+    {
+      "id": "f939d23b59d4",
+      "title": "鸟窝",
+      "feed_url": "https://colobu.com/atom.xml",
+      "site_url": "https://colobu.com/",
+      "description": "主要写编程。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-04T08:08:14Z"
+    },
+    {
+      "id": "bc4d10019cb4",
+      "title": "Engineering at Meta",
+      "feed_url": "https://engineering.fb.com/feed/",
+      "site_url": "https://engineering.fb.com/",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "company-tech",
+        "engineering"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "awesome-rsshub-routes",
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T19:20:20Z",
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Meta",
+      "company_direction": "工程"
+    },
+    {
+      "id": "81c31b07e539",
+      "title": "Node.js Blog",
+      "feed_url": "https://nodejs.org/en/feed/blog.xml",
+      "site_url": "https://nodejs.org/en",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T16:25:55Z",
+      "description": "Engineering & Technology 订阅源"
+    },
+    {
+      "id": "f4efd4ff9ff0",
+      "title": "Python Insider",
+      "feed_url": "https://blog.python.org/feeds/posts/default",
+      "site_url": "https://blog.python.org/",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T00:00:00Z",
+      "description": "Engineering & Technology 订阅源"
+    },
+    {
+      "id": "9e793ab07bcc",
+      "title": "Rust Blog",
+      "feed_url": "https://blog.rust-lang.org/feed.xml",
+      "site_url": "https://blog.rust-lang.org/",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-04T00:00:00Z",
+      "description": "Engineering & Technology 订阅源"
+    },
+    {
+      "id": "0350e654b916",
+      "title": "豌豆花下猫",
+      "feed_url": "https://pythoncat.top/rss.xml",
+      "site_url": "https://pythoncat.top/",
+      "description": "主要写编程、Python、翻译、随笔。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T00:00:00Z"
+    },
+    {
+      "id": "7db2176bcabd",
+      "title": "后端技术杂谈",
+      "feed_url": "https://rowkey.cn/atom.xml",
+      "site_url": "https://www.rowkey.cn/atom.xml",
+      "description": "主要写编程。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T03:28:00Z"
+    },
+    {
+      "id": "ef67414821f9",
+      "title": "Blog | Phodal - A Growth Engineer",
+      "feed_url": "https://www.phodal.com/blog/feeds/rss/",
+      "site_url": "http://www.phodal.com/blog/",
+      "description": "主要写编程。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T06:10:00Z"
+    },
+    {
+      "id": "1aa1837ca33d",
+      "title": "Android Performance",
+      "feed_url": "https://www.androidperformance.com/atom.xml",
+      "site_url": "https://androidperformance.com/atom.xml",
+      "description": "主要写编程、Android、分享。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-16T16:00:00Z"
+    },
+    {
+      "id": "f1cf2d964c5a",
+      "title": "Cloud Blog",
+      "feed_url": "https://cloudblog.withgoogle.com/rss/",
+      "site_url": "https://cloud.google.com/blog/",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T16:00:00Z",
+      "description": "Engineering & Technology 订阅源"
+    },
+    {
+      "id": "03e7a97b758d",
+      "title": "Microsoft Azure Blog",
+      "feed_url": "https://azure.microsoft.com/en-us/blog/feed/",
+      "site_url": "https://azure.microsoft.com/en-us/blog/",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "company-tech",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T15:00:00Z",
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Microsoft",
+      "company_direction": "云计算"
+    },
+    {
+      "id": "de59e16afb98",
+      "title": "Elastic Blog - Elasticsearch, Kibana, and ELK Stack",
+      "feed_url": "https://www.elastic.co/blog/feed",
+      "site_url": "https://www.elastic.co",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T00:00:00Z",
+      "description": "Engineering & Technology 订阅源"
+    },
+    {
+      "id": "f6786af95075",
+      "title": "卡瓦邦噶！",
+      "feed_url": "https://www.kawabangga.com/feed",
+      "site_url": "https://www.kawabangga.com",
+      "description": "主要写编程、随笔、技术。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-11T03:13:58Z"
+    },
+    {
+      "id": "2c765211cad1",
+      "title": "The New Stack",
+      "feed_url": "https://thenewstack.io/feed/",
+      "site_url": "https://thenewstack.io/",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T21:46:49Z",
+      "description": "Engineering & Technology 订阅源"
+    },
+    {
+      "id": "9843080d5e0c",
+      "title": "Tw93 Blog",
+      "feed_url": "https://tw93.fun/feed.xml",
+      "site_url": "https://tw93.fun",
+      "description": "主要写开源、前端、分享、MacOS。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-07T00:00:00Z"
+    },
+    {
+      "id": "57d6ecebab1b",
+      "title": "pseudoyu",
+      "feed_url": "https://www.pseudoyu.com/zh/index.xml",
+      "site_url": "https://www.pseudoyu.com/",
+      "description": "主要写区块链、编程、工具、随笔。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-06T15:59:59Z"
+    },
+    {
+      "id": "f201da3c5c0d",
+      "title": "Weishu's Notes",
+      "feed_url": "https://weishu.me/atom.xml",
+      "site_url": "https://weishu.me/",
+      "description": "主要写编程。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-15T03:27:15Z"
+    },
+    {
+      "id": "08565a3afc93",
+      "title": "OneV's Den",
+      "feed_url": "https://onevcat.com/feed.xml",
+      "site_url": "https://onevcat.com",
+      "description": "主要写编程、iOS。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-06T11:18:00Z"
+    },
+    {
+      "id": "234f2256d215",
+      "title": "MacTalk-池建强的 Blog",
+      "feed_url": "http://macshuo.com/?feed=rss2",
+      "site_url": "https://macshuo.com",
+      "description": "主要写编程、iOS。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-15T05:20:53Z"
+    },
+    {
+      "id": "5bc1245f5db1",
+      "title": "laike9m's blog",
+      "feed_url": "https://laike9m.com/blog/rss/",
+      "site_url": "https://laike9m.com/blog/rss",
+      "description": "主要写Python、生活、编程。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-02T06:50:18Z"
+    },
+    {
+      "id": "067e20fcc07e",
+      "title": "Engineering at Slack",
+      "feed_url": "https://slack.engineering/feed/",
+      "site_url": "https://slack.engineering",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "company-tech",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-14T16:10:08Z",
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Slack",
+      "company_direction": "工程"
+    },
+    {
+      "id": "9b5313d2dcee",
+      "title": "Stripe Blog",
+      "feed_url": "https://stripe.com/blog/feed.rss",
+      "site_url": "https://stripe.com/blog",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "company-tech",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T00:00:00Z",
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Stripe",
+      "company_direction": "工程"
+    },
+    {
+      "id": "017a74fc55c6",
+      "title": "AWS News Blog",
+      "feed_url": "https://aws.amazon.com/blogs/aws/feed/",
+      "site_url": "https://aws.amazon.com/blogs/aws/",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "company-tech",
+        "engineering"
+      ],
+      "sources": [
+        "awesome-rsshub-routes"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T15:45:03Z",
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Amazon Web Services",
+      "company_direction": "云计算"
+    },
+    {
+      "id": "36a4f9f1baf5",
+      "title": "Supabase Blog",
+      "feed_url": "https://supabase.com/rss.xml",
+      "site_url": "https://supabase.com",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T07:00:00Z",
+      "description": "Engineering & Technology 订阅源"
+    },
+    {
+      "id": "56273ddd55d9",
+      "title": "Canva - Engineering Blog",
+      "feed_url": "https://www.canva.dev/blog/engineering/feed.xml",
+      "site_url": "https://www.canva.dev/blog/engineering/",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "company-tech",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-22T00:00:01Z",
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Canva",
+      "company_direction": "工程"
+    },
+    {
+      "id": "e82a41a7aa1a",
+      "title": "Etsy Engineering | Code as Craft",
+      "feed_url": "https://codeascraft.com/feed/atom/",
+      "site_url": "http://www.etsy.com/codeascraft/rss",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "company-tech",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-31T17:30:55Z",
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Etsy",
+      "company_direction": "工程"
+    },
+    {
+      "id": "ea74ff2aa560",
+      "title": "The Airbnb Tech Blog - Medium",
+      "feed_url": "https://medium.com/feed/airbnb-engineering",
+      "site_url": "https://medium.com/airbnb-engineering?source=rss----53c7c27702d5---4",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "company-tech",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-28T17:01:03Z",
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Airbnb",
+      "company_direction": "工程"
+    },
+    {
+      "id": "62cae6688f4a",
+      "title": "Spotify Engineering",
+      "feed_url": "https://engineering.atspotify.com/feed/",
+      "site_url": "https://engineering.atspotify.com/",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "company-tech",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-27T20:34:28Z",
+      "description": "Engineering & Technology 订阅源",
+      "organization": "Spotify",
+      "company_direction": "工程"
+    },
+    {
+      "id": "f75293e15e78",
+      "title": "Yiran's Blog",
+      "feed_url": "https://zdyxry.github.io/atom.xml",
+      "site_url": "https://zdyxry.github.io/",
+      "description": "主要写编程、Linux。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "id": "fbe59874d5dc",
+      "title": "Eric's Blog",
+      "feed_url": "https://wsdjeg.net/feed.xml",
+      "site_url": "https://wsdjeg.net/",
+      "description": "主要写编程、生活、笔记。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T00:00:00Z"
+    },
+    {
+      "id": "3a50c127a492",
+      "title": "愆伏",
+      "feed_url": "https://www.tortorse.com/atom.xml",
+      "site_url": "https://www.tortorse.com/atom.xml",
+      "description": "主要写产品、前端、设计、杂谈。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T13:10:35Z"
+    },
+    {
+      "id": "49c5eb3d1105",
+      "title": "黑羽的个人博客",
+      "feed_url": "https://blog.thetbw.xyz/atom.xml",
+      "site_url": "https://blog.thetbw.xyz",
+      "description": "主要写编程、随笔、生活。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T05:20:59Z"
+    },
+    {
+      "id": "a0c278c682b5",
+      "title": "icodex | 前端技术博客 | 专注 React、TypeScript、AI 与性能优化 Blog",
+      "feed_url": "https://icodex.me/atom.xml",
+      "site_url": "https://icodex.me/",
+      "description": "主要写编程、前端、互联网、技术。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "id": "085b9cb4c585",
+      "title": "如有乐享",
+      "feed_url": "https://51.ruyo.net/feed",
+      "site_url": "https://51.ruyo.net",
+      "description": "主要写技术、分享。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T05:04:48Z"
+    },
+    {
+      "id": "6fa988573041",
+      "title": "smallyu的博客",
+      "feed_url": "https://smallyu.net/atom.xml",
+      "site_url": "https://smallyu.net/atom.xml",
+      "description": "主要写技术、生活、区块链。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T15:14:31Z"
+    },
+    {
+      "id": "348d8d1a0797",
+      "title": "胡涂说",
+      "feed_url": "https://hutusi.com/feed.xml",
+      "site_url": "https://hutusi.com",
+      "description": "主要写编程、随笔、生活。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T00:00:00Z"
+    },
+    {
+      "id": "8b7fd1f10c61",
+      "title": "x7aNote",
+      "feed_url": "https://xeonzilla.top/index.xml",
+      "site_url": "https://xeonzilla.top/",
+      "description": "主要写二次元、技术、随笔。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T16:00:00Z"
+    },
+    {
+      "id": "81ef81d50cde",
+      "title": "Taxodium",
+      "feed_url": "https://taxodium.ink/rss.xml",
+      "site_url": "https://taxodium.ink/",
+      "description": "主要写编程、随笔。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T19:00:00Z"
+    },
+    {
+      "id": "8732cb4df569",
+      "title": "映屿",
+      "feed_url": "https://www.glowisle.me/atom.xml",
+      "site_url": "https://blog.verdant.ee/",
+      "description": "主要写技术、随笔、思考、阅读。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T00:00:00Z"
+    },
+    {
+      "id": "409cae711780",
+      "title": "王圆圆 - ICONPIK",
+      "feed_url": "https://www.iconpik.com/rss/",
+      "site_url": "https://www.iconpik.com/",
+      "description": "主要写AI、编程、随笔。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T03:26:22Z"
+    },
+    {
+      "id": "097105c72702",
+      "title": "寒夜雨",
+      "feed_url": "https://www.coderlock.site/index.php/feed/",
+      "site_url": "https://www.coderlock.site/",
+      "description": "主要写编程、生活、AI、随想。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T12:28:00Z"
+    },
+    {
+      "id": "9b534cde8a12",
+      "title": "Amiya的书桌",
+      "feed_url": "https://blog.sayori.org/rss.xml",
+      "site_url": "https://blog.sayori.org/",
+      "description": "主要写日记、资源、技术。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "id": "8b0f51923e33",
+      "title": "夜法之书",
+      "feed_url": "https://blog.17lai.site/atom.xml",
+      "site_url": "https://blog.17lai.site",
+      "description": "主要写技术、开源、hexo、成长。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T02:00:00Z"
+    },
+    {
+      "id": "019bb7ff8ec1",
+      "title": "Abyss的小屋",
+      "feed_url": "https://www.rsnocsi.cn/feed",
+      "site_url": "https://www.rsnocsi.cn/",
+      "description": "主要写AI、技术、生活、随笔。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T11:27:45Z"
+    },
+    {
+      "id": "0fd4a048717c",
+      "title": "粥里有勺糖",
+      "feed_url": "https://sugarat.top/feed.rss",
+      "site_url": "https://sugarat.top",
+      "description": "主要写编程、大前端、开源、生活。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T02:26:33Z"
+    },
+    {
+      "id": "a0dfc9ed6c80",
+      "title": "虹墨空间站",
+      "feed_url": "https://www.imaegoo.com/atom.xml",
+      "site_url": "https://www.imaegoo.com/",
+      "description": "主要写编程、前端、Serverless。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T02:30:00Z"
+    },
+    {
+      "id": "811e0860766f",
+      "title": "农码生涯，无酒无花 – The coding life, no wine, no shine.",
+      "feed_url": "https://nicrosoft.net/blog/feed/",
+      "site_url": "https://nicrosoft.net/blog",
+      "description": "主要写编程、生活。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T08:14:08Z"
+    },
+    {
+      "id": "4d8b78f41ff9",
+      "title": "RYANUO",
+      "feed_url": "https://ryanuo.cc/sitemap.xml",
+      "site_url": "https://ryanuo.cc",
+      "description": "主要写编程、嵌入式、前端、AI。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T07:13:03Z"
+    },
+    {
+      "id": "080b5ee8aade",
+      "title": "土木坛子",
+      "feed_url": "https://tumutanzi.com/feed",
+      "site_url": "https://tumutanzi.com",
+      "description": "主要写科研学习、社会人文、信息技术、国外见闻。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T16:00:10Z"
+    },
+    {
+      "id": "052ad0f2be10",
+      "title": "rxliuli blog",
+      "feed_url": "https://blog.rxliuli.com/atom.xml",
+      "site_url": "https://blog.rxliuli.com/atom.xml",
+      "description": "主要写前端、编程、随笔。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T03:43:37.559000Z"
+    },
+    {
+      "id": "3eea2067429b",
+      "title": "obaby 𝐢‍𝐧⃝ void",
+      "feed_url": "https://h4ck.org.cn/feed/",
+      "site_url": "https://zhongxiaojie.cn/",
+      "description": "主要写生活、编程、硬件、人工智能。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T02:27:39Z"
+    },
+    {
+      "id": "cbc5b3532874",
+      "title": "Tianhe Gao",
+      "feed_url": "https://tianheg.co/index.xml",
+      "site_url": "https://tianheg.co/",
+      "description": "主要写生活、技术。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T16:00:00Z"
+    },
+    {
+      "id": "0475590c8cfa",
+      "title": "Bboysoul's Blog",
+      "feed_url": "https://www.bboy.app/atom.xml",
+      "site_url": "https://www.bboy.app/",
+      "description": "主要写k8s 运维。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T11:26:00Z"
+    },
+    {
+      "id": "8ebdf736afcb",
+      "title": "喵喵小站・博客志",
+      "feed_url": "https://www.mmbkz.cn/feed",
+      "site_url": "https://www.mmbkz.cn/",
+      "description": "主要写生活、日常、编程、笔记。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T09:46:49Z"
+    },
+    {
+      "id": "b9f54fbb4daf",
+      "title": "sjdhome",
+      "feed_url": "https://sjdhome.com/blog/atom.xml",
+      "site_url": "https://sjdhome.com/",
+      "description": "主要写编程、生活、学习。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T13:01:01Z"
+    },
+    {
+      "id": "1d4c33d20f25",
+      "title": "Seven's blog",
+      "feed_url": "https://blog.diqigan.cn/atom.xml",
+      "site_url": "https://blog.diqigan.cn/",
+      "description": "主要写编程、随笔、Geek、Java。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T06:16:25Z"
+    },
+    {
+      "id": "4d26f30438e4",
+      "title": "张洪Heo",
+      "feed_url": "https://blog.zhheo.com/rss.xml",
+      "site_url": "https://blog.zhheo.com/",
+      "description": "主要写设计、编程、生活、产品。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T02:31:44Z"
+    },
+    {
+      "id": "07ad3fae67cb",
+      "title": "LiesAuer's Blog",
+      "feed_url": "https://www.liesauer.net/blog/feed/",
+      "site_url": "https://www.liesauer.net/blog/",
+      "description": "主要写编程。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T06:21:00Z"
+    },
+    {
+      "id": "a9be18f3d9eb",
+      "title": "千里之豪的格物垛",
+      "feed_url": "https://blog.gadore.top/feed.xml",
+      "site_url": "https://blog.gadore.top",
+      "description": "主要写技术、生活、图片。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T13:00:00Z"
+    },
+    {
+      "id": "0179f784ef7c",
+      "title": "Nicksxs's Blog",
+      "feed_url": "https://nicksxs.me/atom.xml",
+      "site_url": "https://nicksxs.me/atom.xml",
+      "description": "主要写编程、后端、Java、PHP。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T13:23:24Z"
+    },
+    {
+      "id": "f865f992f82c",
+      "title": "Usubeni Fantasy",
+      "feed_url": "https://ssshooter.com/rss.xml",
+      "site_url": "https://ssshooter.com/",
+      "description": "主要写前端、随想、游戏、摄影。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T12:56:03Z"
+    },
+    {
+      "id": "6b7bf8819d5b",
+      "title": "维基萌",
+      "feed_url": "https://www.wikimoe.com/rss.php",
+      "site_url": "https://www.wikimoe.com",
+      "description": "主要写动画、漫画、游戏、日常。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T05:47:32Z"
+    },
+    {
+      "id": "f758f20d9efa",
+      "title": "皓子的小站",
+      "feed_url": "https://howiehz.top/rss.xml",
+      "site_url": "https://howiehz.top",
+      "description": "主要写技术、编程、开源、前端。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T16:05:00Z"
+    },
+    {
+      "id": "a9b59439bcb7",
+      "title": "二丫讲梵",
+      "feed_url": "https://wiki.eryajf.net/rss.xml",
+      "site_url": "https://wiki.eryajf.net",
+      "description": "主要写运维、思索、编程。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T22:27:18Z"
+    },
+    {
+      "id": "b6ba0e2deee2",
+      "title": "东东's Blog",
+      "feed_url": "https://blog.yasking.org/atom.xml",
+      "site_url": "https://blog.yasking.org/",
+      "description": "主要写编程、技术、笔记。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T03:36:00Z"
+    },
+    {
+      "id": "53b582927a7f",
+      "title": "串串狗小刊 ⭐️",
+      "feed_url": "https://www.ccgxk.com/rss.php",
+      "site_url": "https://www.ccgxk.com/",
+      "description": "主要写生活、编程、科技、记录。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T17:09:21Z"
+    },
+    {
+      "id": "297214c4189e",
+      "title": "码录集",
+      "feed_url": "https://www.coderlog.net/rss.xml",
+      "site_url": "https://www.coderlog.net",
+      "description": "主要写编程、AI、C#、.NET。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T06:36:51Z"
+    },
+    {
+      "id": "ab1795dbc1cf",
+      "title": "非学·派'",
+      "feed_url": "https://fxpai.com/feed",
+      "site_url": "https://fxpai.com",
+      "description": "主要写摄影、技术、随笔。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T13:41:37Z"
+    },
+    {
+      "id": "694625d3aa68",
+      "title": "首页 on black8",
+      "feed_url": "https://unixetc.com/index.xml",
+      "site_url": "https://0x8.net/",
+      "description": "主要写编程、技术、linux、生活。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T01:38:44Z"
+    },
+    {
+      "id": "fa90e95e2850",
+      "title": "运维咖啡吧",
+      "feed_url": "https://blog.ops-coffee.cn/feed.xml",
+      "site_url": "https://blog.ops-coffee.com/atom.xml",
+      "description": "主要写devops、运维、自动化开发、技术。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T12:39:58Z"
+    },
+    {
+      "id": "c1dd866e6e61",
+      "title": "浅时光博客",
+      "feed_url": "https://www.dqzboy.com/feed",
+      "site_url": "https://www.dqzboy.com",
+      "description": "主要写编程、技术分享、学习笔记。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T06:30:03Z"
+    },
+    {
+      "id": "605cfed1cc1c",
+      "title": "莫尔索随笔",
+      "feed_url": "https://liduos.com/atom.xml",
+      "site_url": "https://liduos.com/atom.xml",
+      "description": "主要写Python、SDN、读书笔记、LLM应用开发。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T08:00:00Z"
+    },
+    {
+      "id": "76354eeeea30",
+      "title": "冰冻大西瓜",
+      "feed_url": "https://bddxg.top/feed.rss",
+      "site_url": "https://bddxg.top/",
+      "description": "主要写前端、编程、生活、AI。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T06:49:12Z"
+    },
+    {
+      "id": "f19790cbc41b",
+      "title": "肘子的 Swift 记事本 ｜ Fatbobman's Blog",
+      "feed_url": "https://fatbobman.com/zh/rss.xml",
+      "site_url": "https://fatbobman.com/",
+      "description": "主要写编程、Swift、SwiftUI。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T14:00:00Z"
+    },
+    {
+      "id": "4fcbfc839579",
+      "title": "Kerry的学习笔记",
+      "feed_url": "https://kerrynotes.com/feed/",
+      "site_url": "https://kerrynotes.com",
+      "description": "主要写软件、技术、分享。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T17:44:24Z"
+    },
+    {
+      "id": "a03af3c82baf",
+      "title": "Sehnsucht",
+      "feed_url": "https://blog.sehnsucht.top/rss.xml",
+      "site_url": "https://blog.sehnsucht.top/",
+      "description": "主要写技术、生活、随笔、读书。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "id": "d54a4309c6c1",
+      "title": "distjr_的博客",
+      "feed_url": "https://blog.distjr.top/atom.xml",
+      "site_url": "https://blog.distjr.top/atom.xml",
+      "description": "主要写技术、随笔、音乐、二次元。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T14:30:00Z"
+    },
+    {
+      "id": "fc047f873cc7",
+      "title": "姓王者的博客",
+      "feed_url": "https://xingwangzhe.fun/rss.xml",
+      "site_url": "https://xingwangzhe.fun/",
+      "description": "主要写编程，随笔，大学，生活，开源。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T17:09:00Z"
+    },
+    {
+      "id": "ad3b783c297f",
+      "title": "敖苛记",
+      "feed_url": "https://blog.kayro.cn/atom.xml",
+      "site_url": "https://blog.kayro.cn/",
+      "description": "主要写生活、技术、编程、开源。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T14:56:55Z"
+    },
+    {
+      "id": "7ab8f6321b99",
+      "title": "GISerlab · 地理空间",
+      "feed_url": "https://blog.giserlab.cn/feed.xml",
+      "site_url": "https://blog.giserlab.cn",
+      "description": "主要写GIS、技术、地信、地图。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T01:03:55Z"
+    },
+    {
+      "id": "59c588d68d7b",
+      "title": "UWillno's Blog",
+      "feed_url": "https://uwillno.com/rss.xml",
+      "site_url": "https://uwillno.com",
+      "description": "主要写Qt、WASM、技术、记录。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T13:31:44Z"
+    },
+    {
+      "id": "8542a477ec4b",
+      "title": "枫林灯语",
+      "feed_url": "https://blog.mfwt.top/index.php/feed/",
+      "site_url": "https://blog.mfwt.top/",
+      "description": "主要写编程、生活、技术、无线电。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T15:54:47Z"
+    },
+    {
+      "id": "234887a2897b",
+      "title": "初然忆",
+      "feed_url": "https://www.imcry.vip/index.xml",
+      "site_url": "https://www.imcry.vip/",
+      "description": "主要写编程、生活、记录。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T03:00:56Z"
+    },
+    {
+      "id": "7a1796c45455",
+      "title": "Haku",
+      "feed_url": "https://re.karlbaey.top/rss.xml",
+      "site_url": "https://re.karlbaey.top/",
+      "description": "主要写技术、生活、编程、文学。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T17:15:17Z"
+    },
+    {
+      "id": "218f8d6dbaea",
+      "title": "Arthur's Review",
+      "feed_url": "https://blog.leesaitool.com/feed.xml",
+      "site_url": "https://blog.leesaitool.com/",
+      "description": "主要写AI、社会、哲学、随笔。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T20:28:47Z"
+    },
+    {
+      "id": "6a29cc4a415e",
+      "title": "LiuShen's Blog - 清羽飞扬",
+      "feed_url": "https://blog.liushen.fun/atom.xml",
+      "site_url": "https://blog.liushen.fun/",
+      "description": "主要写技术、生活、随笔、记录。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T17:12:00Z"
+    },
+    {
+      "id": "e7f1ccdd329f",
+      "title": "S T C H E N G",
+      "feed_url": "https://cheng.st/atom.xml",
+      "site_url": "https://cheng.st/atom.xml",
+      "description": "主要写随笔、旅行、摄影、运动。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T00:00:00Z"
+    },
+    {
+      "id": "bfec11696518",
+      "title": "轶哥博客",
+      "feed_url": "https://www.wyr.me/rss.xml",
+      "site_url": "https://www.wyr.me",
+      "description": "主要写编程、全栈、随笔。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T07:15:01Z"
+    },
+    {
+      "id": "ed41ce13f183",
+      "title": "Data4Fun",
+      "feed_url": "https://data4fun.cc/index.xml",
+      "site_url": "https://data4fun.cc/",
+      "description": "主要写个人随笔、大数据、AI。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T06:57:11Z"
+    },
+    {
+      "id": "82634375c085",
+      "title": "任霏的个人博客网站",
+      "feed_url": "https://blog.renfei.net/rss.xml",
+      "site_url": "https://blog.renfei.net",
+      "description": "主要写编程、Java、经验。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T03:27:12Z"
+    },
+    {
+      "id": "c627326d7ffb",
+      "title": "流动",
+      "feed_url": "https://liudon.com/index.xml",
+      "site_url": "https://liudon.com/",
+      "description": "主要写技术、生活。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T03:09:27Z"
+    },
+    {
+      "id": "fe3062af8502",
+      "title": "老范讲故事｜AI、大模型与商业世界的故事",
+      "feed_url": "http://lukefan.com/?feed=rss2",
+      "site_url": "https://lukefan.com",
+      "description": "主要写编程。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T00:30:00Z"
+    },
+    {
+      "id": "4dbc5f607ba6",
+      "title": "Fengc's Blog",
+      "feed_url": "https://rssweball.top/feed/afaf2a3c-e11a-4783-a358-9e2d20d76a69.xml",
+      "site_url": "https://fengcblog.880200.xyz",
+      "description": "主要写摄影习作、摄影闲扯、相关测试、AI视频。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "ai",
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T17:28:33Z"
+    },
+    {
+      "id": "683d422bac01",
+      "title": "OneCoder",
+      "feed_url": "https://www.coderli.com/feed.xml",
+      "site_url": "https://www.coderli.com/",
+      "description": "主要写编程、教程、技术、随笔。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T00:00:00Z"
+    },
+    {
+      "id": "60284b6a3710",
+      "title": "蒙需",
+      "feed_url": "https://jiangcl.com/feed",
+      "site_url": "https://jiangcl.com",
+      "description": "主要写法律、生活、编程、工程。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T04:50:25Z"
+    },
+    {
+      "id": "0a801ad00670",
+      "title": "Longlong's Blog",
+      "feed_url": "https://blog.xlonglong.cn/feed/",
+      "site_url": "https://blog.xlonglong.cn",
+      "description": "主要写生活日常、随笔、学习笔记、炼丹。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T14:12:16Z"
+    },
+    {
+      "id": "1be0d0eebcfe",
+      "title": "QingCCL",
+      "feed_url": "https://qingccl.github.io/rss.xml",
+      "site_url": "https://qingccl.com/",
+      "description": "主要写文学、读书、随笔、技术。",
+      "category": "Engineering & Technology",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "id": "375ba5267f5b",
+      "title": "FreeBuf 网络安全行业门户",
+      "feed_url": "https://www.freebuf.com/feed",
+      "site_url": "https://www.freebuf.com/",
+      "description": "中文网络安全媒体，覆盖攻防研究、漏洞分析与安全产业动态。",
+      "description_en": "Chinese cybersecurity coverage spanning security research, vulnerability analysis, and the industry.",
+      "category": "Security",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "engineering",
+        "news",
+        "security",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T13:21:55.000Z"
+    },
+    {
+      "id": "1eeec65f20fa",
+      "title": "Schneier on Security",
+      "feed_url": "https://www.schneier.com/blog/index.rdf",
+      "site_url": "https://www.schneier.com/",
+      "category": "Security",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "news",
+        "security",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "awesome-rsshub-routes"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T09:56:37Z",
+      "description": "Bruce Schneier 对安全工程、隐私和公共政策的长期观察。",
+      "description_en": "Bruce Schneier on security engineering, privacy, and public policy."
+    },
+    {
+      "id": "9f2d692b80a4",
+      "title": "Krebs on Security",
+      "feed_url": "https://krebsonsecurity.com/feed/",
+      "site_url": "https://krebsonsecurity.com",
+      "category": "Security",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "news",
+        "security",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "awesome-rsshub-routes"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T21:28:35Z",
+      "description": "独立安全记者 Brian Krebs 对网络犯罪、数据泄露与数字欺诈的调查。",
+      "description_en": "Brian Krebs reports on cybercrime, data breaches, and digital fraud."
+    },
+    {
+      "id": "e8b4a99d4203",
+      "title": "CISA",
+      "feed_url": "https://www.cisa.gov/news.xml",
+      "site_url": "https://www.cisa.gov/news-events",
+      "description": "美国网络安全和基础设施安全局发布的安全通告、漏洞与防护建议。",
+      "description_en": "Cybersecurity advisories, vulnerabilities, and defensive guidance from CISA.",
+      "category": "Security",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "news",
+        "security",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T12:00:00.000Z"
+    },
+    {
+      "id": "595a8395ef92",
+      "title": "腾讯玄武实验室",
+      "feed_url": "https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/923c0e2f33b6d39c8a826a90f185725f0edb10e8.xml",
+      "description": "腾讯玄武实验室发布的漏洞研究、攻防技术与安全实践。",
+      "category": "Security",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "company-tech",
+        "engineering",
+        "security",
+        "top200",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-27T09:33:00.000Z",
+      "organization": "腾讯",
+      "company_direction": "安全",
+      "description_en": "Vulnerability research, offensive and defensive techniques, and security practice from Tencent Xuanwu Lab."
+    },
+    {
+      "id": "e639493f716a",
+      "title": "ZDNET Security",
+      "feed_url": "https://www.zdnet.com/topic/security/rss.xml",
+      "site_url": "https://www.zdnet.com/",
+      "category": "Security",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "news",
+        "security",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:32:00Z",
+      "description": "企业安全、漏洞、威胁情报与安全产品动态。",
+      "description_en": "Enterprise security, vulnerabilities, threat intelligence, and security products."
+    },
+    {
+      "id": "cfc4f5388458",
+      "title": "Security Affairs",
+      "feed_url": "https://securityaffairs.co/wordpress/feed",
+      "site_url": "https://securityaffairs.com/",
+      "category": "Security",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "news",
+        "security",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T08:27:13Z",
+      "description": "全球网络攻击、恶意软件、漏洞与安全事件报道。",
+      "description_en": "Global coverage of cyberattacks, malware, vulnerabilities, and security incidents."
+    },
+    {
+      "id": "aad4fb70421a",
+      "title": "安全客",
+      "feed_url": "https://api.anquanke.com/data/v1/rss",
+      "site_url": "https://www.anquanke.com",
+      "category": "Security",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "engineering",
+        "news",
+        "security",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T05:04:35Z",
+      "description": "中文漏洞分析、攻防研究与网络安全行业动态。",
+      "description_en": "Chinese vulnerability analysis, security research, and industry coverage."
+    },
+    {
+      "id": "732d85a9faec",
+      "title": "IT之家",
+      "feed_url": "https://www.ithome.com/rss/",
+      "site_url": "https://www.ithome.com/",
+      "category": "Technology Media",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "news",
+        "tech-media",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:41:03Z",
+      "description": "中文科技新闻，覆盖硬件、软件、移动设备与互联网公司。",
+      "description_en": "Chinese technology news covering hardware, software, mobile devices, and internet companies."
+    },
+    {
+      "id": "7c18f6f34132",
+      "title": "TechCrunch",
+      "feed_url": "https://techcrunch.com/feed/",
+      "site_url": "https://techcrunch.com/",
+      "category": "Technology Media",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "news",
+        "tech-media",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:00:00Z",
+      "description": "创业公司、风险投资、互联网产品与科技行业动态。",
+      "description_en": "Startups, venture capital, internet products, and the technology industry."
+    },
+    {
+      "id": "63e96afb5f7a",
+      "title": "爱范儿",
+      "feed_url": "https://www.ifanr.com/feed",
+      "site_url": "https://www.ifanr.com?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "category": "Technology Media",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "news",
+        "tech-media",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T10:43:54Z",
+      "description": "中文消费科技、智能设备与产品趋势报道。",
+      "description_en": "Chinese coverage of consumer technology, smart devices, and product trends."
+    },
+    {
+      "id": "2ccba97d94b1",
+      "title": "Engadget",
+      "feed_url": "https://www.engadget.com/rss.xml",
+      "site_url": "https://www.engadget.com/",
+      "category": "Technology Media",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "news",
+        "tech-media",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T10:00:00Z",
+      "description": "消费电子、软件服务与科技产品评测。",
+      "description_en": "Consumer electronics, software services, and technology product reviews."
+    },
+    {
+      "id": "127ccd1f6fe9",
+      "title": "少数派",
+      "feed_url": "https://sspai.com/feed",
+      "site_url": "https://sspai.com",
+      "category": "Technology Media",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "news",
+        "tech-media",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T09:30:00Z",
+      "description": "数字工具、效率方法、软件体验与个人工作流。",
+      "description_en": "Digital tools, productivity methods, software experiences, and personal workflows."
+    },
+    {
+      "id": "abb25a1c4ec6",
+      "title": "MIT Technology Review",
+      "feed_url": "https://www.technologyreview.com/feed/",
+      "site_url": "https://www.technologyreview.com/",
+      "description": "人工智能、计算、气候与生物技术的深度报道。",
+      "description_en": "In-depth reporting on AI, computing, climate, and biotechnology.",
+      "category": "Technology Media",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "news",
+        "tech-media",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T12:10:00.000Z"
+    },
+    {
+      "id": "8c3d9d5d77bb",
+      "title": "The Verge — News",
+      "feed_url": "https://www.theverge.com/rss/index.xml",
+      "site_url": "https://www.theverge.com",
+      "category": "Technology Media",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "news",
+        "tech-media",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "awesome-rsshub-routes"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T00:39:26Z",
+      "description": "消费科技、互联网平台、科学与数字文化报道。",
+      "description_en": "Consumer technology, internet platforms, science, and digital culture."
+    },
+    {
+      "id": "7170fc473d11",
+      "title": "Ars Technica",
+      "feed_url": "https://feeds.arstechnica.com/arstechnica/index",
+      "site_url": "https://arstechnica.com",
+      "category": "Technology Media",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "news",
+        "tech-media",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "awesome-rsshub-routes"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T00:08:40Z",
+      "description": "面向技术读者的科技媒体，长期报道软件、硬件、科学与互联网政策。",
+      "description_en": "Technology reporting on software, hardware, science, and internet policy."
+    },
+    {
+      "id": "c01c14fc345f",
+      "title": "WIRED",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "site_url": "https://www.wired.com",
+      "category": "Technology Media",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "news",
+        "tech-media",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:32:00Z",
+      "description": "科技、科学、商业与数字社会的深度报道。",
+      "description_en": "In-depth reporting on technology, science, business, and digital society."
+    },
+    {
+      "id": "597b3e93ce00",
+      "title": "36氪",
+      "feed_url": "https://www.36kr.com/feed",
+      "site_url": "http://36kr.com",
+      "category": "Technology Media",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "news",
+        "tech-media",
+        "top200"
+      ],
+      "sources": [
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:39:46Z",
+      "description": "中文商业与科技媒体，关注创业公司、互联网产品和产业变化。",
+      "description_en": "Chinese business and technology coverage focused on startups, internet products, and industry shifts."
+    },
+    {
+      "id": "836ccfdca641",
+      "title": "阮一峰的网络日志",
+      "feed_url": "https://www.ruanyifeng.com/blog/atom.xml",
+      "site_url": "https://www.ruanyifeng.com/blog/",
+      "description": "阮一峰的技术文章与科技爱好者周刊，覆盖开发工具、互联网与开源项目。",
+      "description_en": "Ruan Yifeng’s technical writing and weekly selection of developer tools, internet topics, and open-source projects.",
+      "category": "Tech Newsletters & Weeklies",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "engineering",
+        "top200",
+        "weeklies"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12",
+        "editor-reviewed-chinese-blog"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T00:08:27.000Z"
+    },
+    {
+      "id": "cc3c4c9556ef",
+      "title": "JavaScript Weekly",
+      "feed_url": "https://javascriptweekly.com/rss/",
+      "site_url": "https://javascriptweekly.com/",
+      "description": "JavaScript 新闻、文章、工具与项目周刊。",
+      "description_en": "A weekly selection of JavaScript news, articles, tools, and projects.",
+      "category": "Tech Newsletters & Weeklies",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "top200",
+        "weeklies"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "5135495edde6",
+      "title": "Last Week in AI",
+      "feed_url": "https://lastweekin.ai/feed",
+      "site_url": "https://lastweekin.ai",
+      "category": "Tech Newsletters & Weeklies",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "engineering",
+        "top200",
+        "weeklies"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-03T10:04:18Z",
+      "description": "每周梳理人工智能研究、产品与政策动态。",
+      "description_en": "A weekly digest of AI research, products, and policy."
+    },
+    {
+      "id": "f00aa83911d1",
+      "title": "Golang Weekly",
+      "feed_url": "https://golangweekly.com/rss/",
+      "site_url": "https://golangweekly.com/",
+      "category": "Tech Newsletters & Weeklies",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "news",
+        "top200",
+        "weeklies"
+      ],
+      "sources": [
+        "awesome-rsshub-routes"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T00:00:00Z",
+      "description": "Go 语言文章、工具、项目与社区动态周刊。",
+      "description_en": "A weekly selection of Go articles, tools, projects, and community news."
+    },
+    {
+      "id": "6440dc025421",
+      "title": "This Week in Rust",
+      "feed_url": "https://this-week-in-rust.org/atom.xml",
+      "site_url": "https://this-week-in-rust.org/",
+      "description": "Rust 项目、文章、版本与社区动态周刊。",
+      "description_en": "A weekly digest of Rust projects, articles, releases, and community updates.",
+      "category": "Tech Newsletters & Weeklies",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "top200",
+        "weeklies"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T04:00:00.000Z"
+    },
+    {
+      "id": "2c43593d3120",
+      "title": "The Batch",
+      "feed_url": "https://rsshub.bestblogs.dev/deeplearning/the-batch",
+      "site_url": "https://www.deeplearning.ai/the-batch/",
+      "category": "Tech Newsletters & Weeklies",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "engineering",
+        "top200",
+        "weeklies"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-24T14:00:37Z",
+      "description": "DeepLearning.AI 的人工智能新闻与研究周报。",
+      "description_en": "DeepLearning.AI’s weekly digest of AI news and research."
+    },
+    {
+      "id": "e2807e581c5e",
+      "title": "AIGC Weekly",
+      "feed_url": "https://quaily.com/op7418/feed/atom",
+      "site_url": "https://quaily.com/op7418/feed/atom",
+      "category": "Tech Newsletters & Weeklies",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "news",
+        "top200",
+        "weeklies"
+      ],
+      "sources": [
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T16:28:07Z",
+      "description": "中文生成式 AI 产品、工具与行业观察周刊。",
+      "description_en": "A Chinese weekly on generative-AI products, tools, and industry developments."
+    },
+    {
+      "id": "82608c2e2344",
+      "title": "潮流周刊",
+      "feed_url": "https://weekly.tw93.fun/rss.xml",
+      "site_url": "https://weekly.tw93.fun/",
+      "category": "Tech Newsletters & Weeklies",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "engineering",
+        "news",
+        "top200",
+        "weeklies"
+      ],
+      "sources": [
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T00:00:00Z",
+      "description": "记录技术见闻、开源项目、产品与生活灵感的中文周刊。",
+      "description_en": "A Chinese weekly of technology notes, open-source projects, products, and life."
+    },
+    {
+      "id": "beb773c89bea",
+      "title": "大橘和朋友们的周刊",
+      "feed_url": "https://rrorangeandfriends.de/feed.xml",
+      "site_url": "https://rrorangeandfriends.de",
+      "category": "Tech Newsletters & Weeklies",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "engineering",
+        "news",
+        "weeklies"
+      ],
+      "sources": [
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-12T00:00:00Z",
+      "description": "由独立作者整理的技术、产品与生活阅读清单。",
+      "description_en": "An independent weekly selection of technology, products, and thoughtful reading."
+    },
+    {
+      "id": "d592eddffea9",
+      "title": "Nature",
+      "feed_url": "https://www.nature.com/nature.rss",
+      "site_url": "http://feeds.nature.com/nature/rss/current",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "awesome-rsshub-routes",
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T00:00:00Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "e3069eef100a",
+      "title": "NASA",
+      "feed_url": "https://www.nasa.gov/news-release/feed/",
+      "site_url": "https://www.nasa.gov",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T04:01:00Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "a6d026e59175",
+      "title": "BBC News — Science",
+      "feed_url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+      "site_url": "https://www.bbc.co.uk/news/science_and_environment",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:17:53Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "eda13bcfa201",
+      "title": "eLife: latest articles",
+      "feed_url": "https://elifesciences.org/rss/recent.xml",
+      "site_url": "https://elifesciences.org",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T00:00:00Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "d42b29d19244",
+      "title": "Amazon Science",
+      "feed_url": "https://www.amazon.science/index.rss",
+      "site_url": "https://www.amazon.science/",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "company-tech",
+        "research"
+      ],
+      "sources": [
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T16:22:19Z",
+      "description": "Research & Science 订阅源",
+      "organization": "Amazon",
+      "company_direction": "研究"
+    },
+    {
+      "id": "9723d5e70499",
+      "title": "PLOS One",
+      "feed_url": "https://journals.plos.org/plosone/feed/atom",
+      "site_url": "https://journals.plos.org/plosone/",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T14:00:00Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "4382d5e8491c",
+      "title": "Quanta Magazine",
+      "feed_url": "https://www.quantamagazine.org/feed/",
+      "site_url": "https://www.quantamagazine.org",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T14:56:34Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "b7b2cec82d5e",
+      "title": "AAAS: Science: Table of Contents",
+      "feed_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+      "site_url": "https://www.science.org/loi/science?af=R",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T07:00:00Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "06802e3881d6",
+      "title": "Scientific American Content: Global",
+      "feed_url": "http://rss.sciam.com/ScientificAmerican-Global",
+      "site_url": "https://www.scientificamerican.com",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T10:00:00Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "49e9cfe3fcd4",
+      "title": "Phys.org - latest science and technology news stories",
+      "feed_url": "https://phys.org/rss-feed/",
+      "site_url": "https://phys.org/",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:30:01Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "81f4798a0631",
+      "title": "FlowingData",
+      "feed_url": "https://flowingdata.com/feed",
+      "site_url": "https://flowingdata.com",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T10:50:30Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "cda71b1181b1",
+      "title": "Science Latest",
+      "feed_url": "https://www.wired.com/feed/category/science/latest/rss",
+      "site_url": "https://www.wired.com",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T10:00:00Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "0ebaae9e8dd1",
+      "title": "Space | The Guardian",
+      "feed_url": "https://www.theguardian.com/science/space/rss",
+      "site_url": "https://www.theguardian.com/science/space",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T04:00:18Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "e64bd31a2472",
+      "title": "腾讯研究院",
+      "feed_url": "https://wechat2rss.bestblogs.dev/feed/6152301e0978bffb0a8284cab339262b9764dcfb.xml",
+      "site_url": "https://wechat2rss.bestblogs.dev/feed/6152301e0978bffb0a8284cab339262b9764dcfb.xml",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "company-tech",
+        "research",
+        "wechat"
+      ],
+      "sources": [
+        "bestblogs",
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T09:00:00Z",
+      "description": "Research & Science 订阅源",
+      "organization": "腾讯",
+      "company_direction": "研究"
+    },
+    {
+      "id": "406fc6a48471",
+      "title": "Space – latest in science and technology | New Scientist",
+      "feed_url": "https://www.newscientist.com/subject/space/feed/",
+      "site_url": "https://www.newscientist.com/subject/space/",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T10:38:34Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "db9681969d50",
+      "title": "NYT > Science",
+      "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
+      "site_url": "https://www.nytimes.com/section/science",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T10:37:06Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "7cba684b2f9c",
+      "title": "Latest Science News -- ScienceDaily",
+      "feed_url": "https://www.sciencedaily.com/rss/all.xml",
+      "site_url": "https://www.sciencedaily.com/news/",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T14:50:43Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "e19ec4477c91",
+      "title": "All Top News -- ScienceDaily",
+      "feed_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "site_url": "https://www.sciencedaily.com/news/top/",
+      "category": "Research & Science",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "research"
+      ],
+      "sources": [
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T12:27:30Z",
+      "description": "Research & Science 订阅源"
+    },
+    {
+      "id": "cf502ba146e7",
+      "title": "奇客Solidot–传递最新科技情报",
+      "feed_url": "https://www.solidot.org/index.rss",
+      "site_url": "https://www.solidot.org",
+      "category": "News",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "news",
+        "top200"
+      ],
+      "sources": [
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T10:00:41Z",
+      "description": "News 订阅源"
+    },
+    {
+      "id": "1796df62c4a2",
+      "title": "BBC News — News",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "site_url": "https://www.bbc.co.uk/news/world",
+      "category": "News",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "news",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:32:17Z",
+      "description": "News 订阅源"
+    },
+    {
+      "id": "d64709a605cb",
+      "title": "World news | The Guardian",
+      "feed_url": "https://www.theguardian.com/world/rss",
+      "site_url": "https://www.theguardian.com/world",
+      "category": "News",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "news"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:00:27Z",
+      "description": "News 订阅源"
+    },
+    {
+      "id": "9857cc183f75",
+      "title": "NYT > Technology",
+      "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+      "site_url": "https://www.nytimes.com/section/technology",
+      "category": "News",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "news"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T00:46:43Z",
+      "description": "News 订阅源"
+    },
+    {
+      "id": "7be307059415",
+      "title": "NPR Topics: World",
+      "feed_url": "https://feeds.npr.org/1004/rss.xml",
+      "site_url": "https://www.npr.org/templates/story/story.php?storyId=1004",
+      "category": "News",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "news",
+        "top200"
+      ],
+      "sources": [
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:25:11Z",
+      "description": "News 订阅源"
+    },
+    {
+      "id": "fa080031bb9f",
+      "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "site_url": "https://www.aljazeera.com",
+      "category": "News",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "news",
+        "top200"
+      ],
+      "sources": [
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:11:26Z",
+      "description": "News 订阅源"
+    },
+    {
+      "id": "806a2b78701e",
+      "title": "ProPublica",
+      "feed_url": "https://www.propublica.org/feeds/propublica/main",
+      "site_url": "https://www.propublica.org/",
+      "category": "News",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "news",
+        "top200"
+      ],
+      "sources": [
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T10:00:00Z",
+      "description": "News 订阅源"
+    },
+    {
+      "id": "e25274cd5ceb",
+      "title": "InfoQ — News",
+      "feed_url": "https://feed.infoq.com/",
+      "site_url": "https://www.infoq.com",
+      "category": "News",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "news",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:00:00Z",
+      "description": "News 订阅源"
+    },
+    {
+      "id": "ecb39e77c08e",
+      "title": "HackerNews每日摘要 on SuperTechFans",
+      "feed_url": "https://www.supertechfans.com/cn/index.xml",
+      "site_url": "https://supertechfans.com/cn/",
+      "category": "News",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "news"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T00:41:45Z",
+      "description": "News 订阅源"
+    },
+    {
+      "id": "0e4f8d8cfeaa",
+      "title": "虎嗅",
+      "feed_url": "https://rss.huxiu.com/",
+      "site_url": "https://www.huxiu.com",
+      "category": "News",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "news",
+        "top200"
+      ],
+      "sources": [
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:34:38Z",
+      "description": "News 订阅源"
+    },
+    {
+      "id": "985007f876b2",
+      "title": "钛媒体：引领未来商业与生活新知",
+      "feed_url": "https://www.tmtpost.com/feed",
+      "site_url": "http://www.tmtpost.com",
+      "category": "News",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "news",
+        "top200"
+      ],
+      "sources": [
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T10:56:58Z",
+      "description": "News 订阅源"
+    },
+    {
+      "id": "f420170e7172",
+      "title": "News from Google",
+      "feed_url": "https://blog.google/rss",
+      "site_url": "https://blog.google/",
+      "category": "News",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "engineering",
+        "news"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T17:00:00Z",
+      "description": "News 订阅源"
+    },
+    {
+      "id": "8eb6cd5274fb",
+      "title": "Cointelegraph.com News",
+      "feed_url": "https://cointelegraph.com/rss/tag/blockchain",
+      "site_url": "https://cointelegraph.com",
+      "category": "News",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "news",
+        "top200"
+      ],
+      "sources": [
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T06:02:52Z",
+      "description": "News 订阅源"
+    },
+    {
+      "id": "48b5a6554799",
+      "title": "蓝点网",
+      "feed_url": "https://www.landiannews.com/feed",
+      "site_url": "https://www.landian.news",
+      "category": "News",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "news",
+        "top200"
+      ],
+      "sources": [
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T05:28:35Z",
+      "description": "News 订阅源"
+    },
+    {
+      "id": "4a90f525746d",
+      "title": "站长之家",
+      "feed_url": "https://app.chinaz.com/?app=rss",
+      "site_url": "http://www.chinaz.com",
+      "category": "News",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "news",
+        "top200"
+      ],
+      "sources": [
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T08:40:04Z",
+      "description": "News 订阅源"
+    },
+    {
+      "id": "78f77fae2e1f",
+      "title": "NYT > World News",
+      "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "site_url": "https://www.nytimes.com/section/world",
+      "category": "News",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "news"
+      ],
+      "sources": [
+        "awesome-rss-feeds",
+        "manual"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:36:58Z",
+      "description": "News 订阅源"
+    },
+    {
+      "id": "67c0f7aede55",
+      "title": "拾月的博客",
+      "feed_url": "https://www.skyue.com/feed/",
+      "site_url": "https://www.skyue.com/",
+      "description": "主要写生活、股票投资、产品经理、软件数码。",
+      "category": "Product & Design",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T07:53:00Z"
+    },
+    {
+      "id": "a5f966b7addc",
+      "title": "61’s life",
+      "feed_url": "https://61.life/feed.xml",
+      "site_url": "https://61.life/",
+      "description": "主要写创业、管理、产品。",
+      "category": "Product & Design",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T07:45:28Z"
+    },
+    {
+      "id": "6bfa519bb108",
+      "title": "阿里云设计中心",
+      "feed_url": "https://wechat2rss.xlab.app/feed/31e04606d37f684059e23a8fd3e05f1db0186495.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/31e04606d37f684059e23a8fd3e05f1db0186495.xml",
+      "description": "公众号，主要关注产品设计与用户体验。",
+      "category": "Product & Design",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "company-tech",
+        "top200",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-03T10:41:00.000Z",
+      "organization": "阿里巴巴",
+      "company_direction": "设计"
+    },
+    {
+      "id": "15d9c5005b94",
+      "title": "Velas电波站",
+      "feed_url": "https://www.velasx.com/feed",
+      "site_url": "https://www.velasx.com/",
+      "description": "主要写动画、游戏、小说、设计。",
+      "category": "Product & Design",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-16T11:00:04.667000Z"
+    },
+    {
+      "id": "6a3c69e32240",
+      "title": "jax",
+      "feed_url": "https://cdjax.com/?feed=rss2",
+      "site_url": "https://cdjax.com",
+      "description": "主要写产品、数码、随笔。",
+      "category": "Product & Design",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-13T16:07:29Z"
+    },
+    {
+      "id": "0b2560ae2333",
+      "title": "扯氮集",
+      "feed_url": "http://weiwuhui.com/feed",
+      "site_url": "http://weiwuhui.com",
+      "description": "主要写创业、人生。",
+      "category": "Business & Startups",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T01:17:00Z"
+    },
+    {
+      "id": "fa0254532581",
+      "title": "知足常乐-水星投资理财的基本意念",
+      "feed_url": "http://mercurychong.blogspot.com/feeds/posts/default",
+      "site_url": "http://mercurychong.blogspot.com/",
+      "description": "主要写投资。",
+      "category": "Business & Startups",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-02T04:08:45.017000Z"
+    },
+    {
+      "id": "0917d7312645",
+      "title": "雷蒙三十｜幫助忙碌現代人的聰明工作、好好生活的生產力指南",
+      "feed_url": "https://raymondhouch.com/feed",
+      "site_url": "https://raymondhouch.com",
+      "description": "主要写创业、数码、数字游民、生产力工具。",
+      "category": "Business & Startups",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T03:00:36Z"
+    },
+    {
+      "id": "a0e80a34ecb2",
+      "title": "虹线",
+      "feed_url": "https://1q43.blog/feed",
+      "site_url": "https://1q43.blog",
+      "description": "主要写商业、社科、科技、生活。",
+      "category": "Business & Startups",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T03:14:02Z"
+    },
+    {
+      "id": "aa9242079a1c",
+      "title": "Macin",
+      "feed_url": "https://www.macin.org/atom.xml",
+      "site_url": "https://macin.org/atom.xml",
+      "description": "主要写分享、投资、学习、Crypto。",
+      "category": "Business & Startups",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T21:36:45Z"
+    },
+    {
+      "id": "82931f2d5f50",
+      "title": "JustZht's EchoChamber",
+      "feed_url": "https://www.justzht.com/rss/",
+      "site_url": "https://www.justzht.com/",
+      "description": "主要写随笔。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T07:56:41Z"
+    },
+    {
+      "id": "7249e376df69",
+      "title": "Shuibaco • 水八口",
+      "feed_url": "https://shuiba.co/feed",
+      "site_url": "http://shuiba.co/",
+      "description": "主要写日常、旅途、思考。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T08:03:00Z"
+    },
+    {
+      "id": "e8c249e5e6a6",
+      "title": "SEISAMUSE",
+      "feed_url": "https://www.seis-jun.xyz/atom.xml",
+      "site_url": "https://www.seis-jun.xyz/atom.xml",
+      "description": "主要写科研、学习、生活。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T01:47:38Z"
+    },
+    {
+      "id": "5800f1743b48",
+      "title": "Another Dayu",
+      "feed_url": "https://anotherdayu.com/feed/",
+      "site_url": "https://anotherdayu.com/",
+      "description": "主要写日常、流行病与卫生统计、科技、数码。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-15T08:48:00Z"
+    },
+    {
+      "id": "211ed4466033",
+      "title": "一派胡言 · Blog",
+      "feed_url": "https://yipai.me/feed",
+      "site_url": "https://yipai.me/blog",
+      "description": "主要写胡一派、随笔、不折腾。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T19:13:47Z"
+    },
+    {
+      "id": "12a12ebde871",
+      "title": "不吐不快",
+      "feed_url": "https://mianao.info/atom.xml",
+      "site_url": "https://mianao.info/atom.xml",
+      "description": "主要写生活、硬件、教程、DIY。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-01T03:10:00Z"
+    },
+    {
+      "id": "5d4c544332d5",
+      "title": "如鱼饮水",
+      "feed_url": "https://wangjiezhe.com/atom.xml",
+      "site_url": "https://wangjiezhe.com/atom.xml",
+      "description": "主要写数学、随笔。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-21T23:45:02Z"
+    },
+    {
+      "id": "666a62db15f7",
+      "title": "印记",
+      "feed_url": "https://yinji.org/feed",
+      "site_url": "https://yinji.org/",
+      "description": "主要写生活、随笔。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-04T00:00:00Z"
+    },
+    {
+      "id": "929d825dc346",
+      "title": "涵哲子居",
+      "feed_url": "https://iluc.cn/rss.xml",
+      "site_url": "https://iluc.cn/",
+      "description": "主要写日常、随笔、乱七八糟。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T00:00:00Z"
+    },
+    {
+      "id": "7662101feaad",
+      "title": "闲人LIFE",
+      "feed_url": "https://www.xianrenlife.com/feeds/posts/default",
+      "site_url": "https://www.xianrenlife.com/",
+      "description": "主要写随笔、小说、书评。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T10:50:22.662000Z"
+    },
+    {
+      "id": "e174af50c2c6",
+      "title": "資工小廢物 - JN",
+      "feed_url": "https://blog.giveanornot.com/index.xml",
+      "site_url": "https://blog.giveanornot.com/",
+      "description": "主要写來自台灣、生活反思、社群媒體負面影響、開源軟體。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T08:34:05Z"
+    },
+    {
+      "id": "16edf0976ca5",
+      "title": "梅之夏",
+      "feed_url": "https://blog.mcenahle.page/feed.xml",
+      "site_url": "https://blog.mcenahle.page/",
+      "description": "主要写随笔、记录、成长、学习。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T06:08:38Z"
+    },
+    {
+      "id": "a8f24a5ffe96",
+      "title": "happy xiao",
+      "feed_url": "https://happyxiao.com/feed",
+      "site_url": "https://happyxiao.com",
+      "description": "主要写个人成长。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T07:09:06Z"
+    },
+    {
+      "id": "36951c45b2b9",
+      "title": "卢昌海个人主页",
+      "feed_url": "https://www.changhai.org/feed.xml",
+      "site_url": "http://www.changhai.org",
+      "description": "主要写物理、科普。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T11:22:00Z"
+    },
+    {
+      "id": "b124bd1f6c61",
+      "title": "Jake blog",
+      "feed_url": "https://jaketao.com/feed/",
+      "site_url": "https://jaketao.com",
+      "description": "主要写硅谷科技、主机游戏、留学旅居、跨境电商。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T18:23:22Z"
+    },
+    {
+      "id": "8216516218f6",
+      "title": "Fei's Tours & Tales",
+      "feed_url": "https://www.feifun.cn/feed.xml",
+      "site_url": "https://www.feifun.cn/feed.xml",
+      "description": "主要写旅行、复古计算设备、随笔。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T15:23:23.944000Z"
+    },
+    {
+      "id": "16ca6917947c",
+      "title": "Dort 的博客",
+      "feed_url": "https://blog.dort.me/rss.xml",
+      "site_url": "https://blog.dort.me/",
+      "description": "主要写随笔、生活、记录。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T00:00:00Z"
+    },
+    {
+      "id": "a86f1598cc36",
+      "title": "WSH",
+      "feed_url": "https://www.wsh233.cn/feed.xml",
+      "site_url": "https://www.wsh233.cn",
+      "description": "主要写生活、随笔、GISer、地信。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T09:13:29Z"
+    },
+    {
+      "id": "8493b3831272",
+      "title": "ABB00717",
+      "feed_url": "https://blog.abb00717.com/index.xml",
+      "site_url": "https://blog.abb00717.com",
+      "description": "主要写資訊安全、程式設計、技術、寫作。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T13:12:00Z"
+    },
+    {
+      "id": "dc53cf887984",
+      "title": "四喜丸子",
+      "feed_url": "https://fourhappylions.com/index.xml",
+      "site_url": "https://fourhappylions.com/",
+      "description": "主要写养娃、家庭、海外生活。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-09T00:00:00Z"
+    },
+    {
+      "id": "3876bed2fd6e",
+      "title": "祝融说。",
+      "feed_url": "https://zhurongshuo.com/index.xml",
+      "site_url": "https://zhurongshuo.com/",
+      "description": "主要写法不净空，觉无性也。。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-08T15:28:34Z"
+    },
+    {
+      "id": "2418d477ad0c",
+      "title": "Jame",
+      "feed_url": "https://jame.work/feed.xml",
+      "site_url": "https://jame.work/",
+      "description": "主要写随笔。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T00:00:00Z"
+    },
+    {
+      "id": "64d842116489",
+      "title": "廊桥遗梦",
+      "feed_url": "https://blog.moran.im/rss.xml",
+      "site_url": "https://blog.moran.im/",
+      "description": "主要写随笔、生活、教程。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T07:51:00Z"
+    },
+    {
+      "id": "d3b880117311",
+      "title": "局域自由博客",
+      "feed_url": "https://localfreedom.pages.dev/index.xml",
+      "site_url": "https://localfreedom.pages.dev/",
+      "description": "主要写软件、隐私、笔记、本地化。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-01T08:06:03Z"
+    },
+    {
+      "id": "74ad07d48cd5",
+      "title": "by Upsangel",
+      "feed_url": "https://upsangel.com/feed/",
+      "site_url": "https://upsangel.com/",
+      "description": "主要写网路硬件、NAS、单板电脑、记录。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-18T09:04:14Z"
+    },
+    {
+      "id": "b62257ce3c26",
+      "title": "M-x Chris-An-Emacser",
+      "feed_url": "https://chriszheng.science/atom.xml",
+      "site_url": "https://chriszheng.science/",
+      "description": "主要写随笔、Emacs。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-01T16:00:00Z"
+    },
+    {
+      "id": "c40d22e319d8",
+      "title": "懋和道人",
+      "feed_url": "https://blog.dao.js.cn/atom.xml",
+      "site_url": "https://blog.dao.js.cn",
+      "description": "主要写李至臣、李懋和、南通道士、风水。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-26T06:36:00Z"
+    },
+    {
+      "id": "dbfc443a6ee2",
+      "title": "Markon Review",
+      "feed_url": "https://markonreview.com/rss/",
+      "site_url": "https://markonreview.com/",
+      "description": "主要写游戏及产业评论。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-31T14:45:58Z"
+    },
+    {
+      "id": "898c34801f42",
+      "title": "SuperGrey 的筆記本",
+      "feed_url": "https://supergrey.bearblog.dev/rss/",
+      "site_url": "https://blog.supergrey.uk",
+      "description": "主要写阅读随笔、动漫影评。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-31T15:59:00Z"
+    },
+    {
+      "id": "eeff60deaeec",
+      "title": "LoRexxar's Blog | 信息技术分享",
+      "feed_url": "https://lorexxar.cn/atom.xml",
+      "site_url": "https://lorexxar.cn/atom.xml",
+      "description": "主要写安全。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-24T07:49:46Z"
+    },
+    {
+      "id": "2a8d561592de",
+      "title": "Dejavu's Blog",
+      "feed_url": "https://blog.dejavu.moe/index.xml",
+      "site_url": "https://blog.dejavu.moe/",
+      "description": "主要写折腾、学习、生活、日志。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-04T12:10:00Z"
+    },
+    {
+      "id": "ad4ce1c29983",
+      "title": "柴郡猫",
+      "feed_url": "https://www.cheshirex.com/feed",
+      "site_url": "https://www.cheshirex.com",
+      "description": "主要写生活、分享、记录。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-17T06:24:34Z"
+    },
+    {
+      "id": "f5e261a05ccd",
+      "title": "叶寻的博客",
+      "feed_url": "https://cyrusyip.org/zh-cn/index.xml",
+      "site_url": "https://cyrusyip.org/zh-cn/",
+      "description": "主要写生活、学习。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-20T16:00:00Z"
+    },
+    {
+      "id": "64765a8186b7",
+      "title": "jz's ramblings",
+      "feed_url": "https://ramble.imzh.me/index.xml",
+      "site_url": "https://ramble.imzh.me/",
+      "description": "主要写随笔。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-02T06:22:31Z"
+    },
+    {
+      "id": "f286dcf80b10",
+      "title": "双绞麻痹",
+      "feed_url": "https://numb.tech/atom.xml",
+      "site_url": "https://numb.tech/atom.xml",
+      "description": "主要写随笔。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-16T09:42:44.364000Z"
+    },
+    {
+      "id": "6b7650c8b0a6",
+      "title": "Cosmos的博客",
+      "feed_url": "https://cosmo-polite.com/feed/",
+      "site_url": "https://cosmo-polite.com",
+      "description": "主要写北美生活、思维碎片。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-02T02:05:46Z"
+    },
+    {
+      "id": "10bc93a2647c",
+      "title": "Conge",
+      "feed_url": "https://conge.github.io/feed.xml",
+      "site_url": "https://conge.livingwithfcs.org/",
+      "description": "主要写生活、跑步、阅读。",
+      "category": "Personal Blogs",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-21T10:50:20Z"
+    },
+    {
+      "id": "7198d80d0366",
+      "title": "Hacker News",
+      "feed_url": "https://news.ycombinator.com/rss",
+      "site_url": "https://news.ycombinator.com/",
+      "description": "Hacker News 首页的热门技术、创业与产品讨论。",
+      "description_en": "Popular technology, startup, and product discussions from the Hacker News front page.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "communities",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T14:43:39.000Z"
+    },
+    {
+      "id": "f46e074ae550",
+      "title": "Lobsters",
+      "feed_url": "https://lobste.rs/rss",
+      "site_url": "https://lobste.rs/",
+      "description": "由社区筛选的软件、编程与计算机科学讨论。",
+      "description_en": "Community-curated discussions about software, programming, and computer science.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "communities",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "community-expansion-2026-08-12",
+        "publisher-owned-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T13:39:39Z"
+    },
+    {
+      "id": "5f79be67c1ef",
+      "title": "V2EX · 技术",
+      "feed_url": "https://www.v2ex.com/feed/tab/tech.xml",
+      "site_url": "https://www.v2ex.com/?tab=tech",
+      "description": "V2EX 技术板块的新主题，适合只订阅编程、架构与开发工具讨论。",
+      "description_en": "New topics from V2EX’s technology section, focused on programming, architecture, and developer tools.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "communities",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T13:24:03.000Z"
+    },
+    {
+      "id": "8e573581522f",
+      "title": "LINUX DO · 文档共建",
+      "feed_url": "https://linuxdorss.longpink.com/wiki.xml",
+      "site_url": "https://linux.do/c/wiki/42",
+      "description": "LINUX DO 社区的教程、学习笔记与共建文档。",
+      "description_en": "Tutorials, study notes, and community-maintained documents from LINUX DO.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "communities",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "community-expansion-2026-08-12",
+        "linux-do-community-mirror"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:25:27Z"
+    },
+    {
+      "id": "dcdfba89c4b7",
+      "title": "OpenAI Developer Community · API",
+      "feed_url": "https://community.openai.com/c/api/7.rss?order=created",
+      "site_url": "https://community.openai.com/c/api/7",
+      "description": "OpenAI API 使用、调试与集成讨论。",
+      "description_en": "Discussions about using, debugging, and integrating the OpenAI API.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "communities",
+        "engineering"
+      ],
+      "sources": [
+        "community-expansion-2026-08-12",
+        "publisher-owned-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T07:24:33Z"
+    },
+    {
+      "id": "c159c188b2ec",
+      "title": "Python Core Development",
+      "feed_url": "https://discuss.python.org/c/core-dev/23.rss?order=created",
+      "site_url": "https://discuss.python.org/c/core-dev/23",
+      "description": "Python 核心开发与解释器设计讨论。",
+      "description_en": "Discussions about Python core development and interpreter design.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "communities",
+        "engineering"
+      ],
+      "sources": [
+        "community-expansion-2026-08-12",
+        "publisher-owned-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T06:20:26Z"
+    },
+    {
+      "id": "38bdaea4431d",
+      "title": "Rust Internals · Language Design",
+      "feed_url": "https://internals.rust-lang.org/c/language-design/21.rss?order=created",
+      "site_url": "https://internals.rust-lang.org/c/language-design/21",
+      "description": "Rust 语言设计与编译器内部讨论。",
+      "description_en": "Discussions about Rust language design and compiler internals.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "communities",
+        "engineering"
+      ],
+      "sources": [
+        "community-expansion-2026-08-12",
+        "publisher-owned-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T05:54:12Z"
+    },
+    {
+      "id": "a8f1f01b14a8",
+      "title": "Ask HN",
+      "feed_url": "https://hnrss.org/ask",
+      "site_url": "https://news.ycombinator.com/ask",
+      "description": "Hacker News 的问答主题，聚焦技术选择、职业经验与行业讨论。",
+      "description_en": "Hacker News questions on technical choices, career experience, and the industry.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "communities",
+        "engineering"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T13:58:40.000Z"
+    },
+    {
+      "id": "132a8fdfa839",
+      "title": "Show HN",
+      "feed_url": "https://hnrss.org/show",
+      "site_url": "https://news.ycombinator.com/shownew",
+      "description": "Hacker News 上的新产品、开源项目与个人作品展示。",
+      "description_en": "New products, open-source projects, and personal work shared on Hacker News.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "communities",
+        "engineering"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T13:46:48.000Z"
+    },
+    {
+      "id": "ecf671f148a8",
+      "title": "NixOS Development",
+      "feed_url": "https://discourse.nixos.org/c/dev/14.rss?order=created",
+      "site_url": "https://discourse.nixos.org/c/dev/14",
+      "description": "NixOS 开发、打包与基础设施讨论。",
+      "description_en": "Discussions about NixOS development, packaging, and infrastructure.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "communities",
+        "engineering",
+        "top200"
+      ],
+      "sources": [
+        "community-expansion-2026-08-12",
+        "publisher-owned-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T13:16:06Z"
+    },
+    {
+      "id": "cccf9b3636a1",
+      "title": "Kubernetes · General Discussions",
+      "feed_url": "https://discuss.kubernetes.io/c/general-discussions/6.rss?order=created",
+      "site_url": "https://discuss.kubernetes.io/c/general-discussions/6",
+      "description": "Kubernetes 配置、集群运维与故障排查讨论。",
+      "description_en": "Discussions about Kubernetes configuration, cluster operations, and troubleshooting.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "en",
+      "packs": [
+        "all",
+        "communities",
+        "engineering"
+      ],
+      "sources": [
+        "community-expansion-2026-08-12",
+        "publisher-owned-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T06:44:33Z"
+    },
+    {
+      "id": "a682cc3fccdc",
+      "title": "V2EX",
+      "feed_url": "https://v2ex.com/index.xml",
+      "site_url": "https://www.v2ex.com/",
+      "description": "中文技术社区的新主题。",
+      "category": "Communities",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "communities",
+        "news"
+      ],
+      "sources": [
+        "manual",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T11:20:51Z",
+      "description_en": "New discussions from the Chinese technology community."
+    },
+    {
+      "id": "ff5396e7d1f6",
+      "title": "V2EX · 创意",
+      "feed_url": "https://www.v2ex.com/feed/tab/creative.xml",
+      "site_url": "https://www.v2ex.com/?tab=creative",
+      "description": "V2EX 创意板块的新主题，集中在独立产品、设计与作品发布。",
+      "description_en": "New topics from V2EX’s creative section, centered on indie products, design, and launches.",
+      "category": "Communities",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "communities",
+        "engineering"
+      ],
+      "sources": [
+        "awesome-rsshub-routes",
+        "awesome-rsshub-routes-review-2026-08-12"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T14:14:20.000Z"
+    },
+    {
+      "id": "1aef9a60319a",
+      "title": "KAIX.IN",
+      "feed_url": "https://kaix.in/feed/",
+      "site_url": "https://kaix.in/",
+      "description": "主要写读书、咖啡、随笔。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T07:31:24Z"
+    },
+    {
+      "id": "1227e5dcf432",
+      "title": "东评西就",
+      "feed_url": "https://dongjunke.cn/atom.xml",
+      "site_url": "https://dongjunke.cn/",
+      "description": "主要写社交媒体、科技互联网、思考、读书。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T15:10:40Z"
+    },
+    {
+      "id": "b6fe1df4e14f",
+      "title": "先生制造",
+      "feed_url": "https://wechat2rss.xlab.app/feed/313326d41db4f54b1cc09e7c986a5ac4e5f88ca0.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/313326d41db4f54b1cc09e7c986a5ac4e5f88ca0.xml",
+      "description": "公众号，主要关注人物与社会记录。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "top200",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T02:47:00.000Z"
+    },
+    {
+      "id": "e503883fe8ec",
+      "title": "Maohang Gao's Blog",
+      "feed_url": "https://kangaroogao.com/atom.xml",
+      "site_url": "http://kangaroogao.com/atom.xml",
+      "description": "主要写游记、读书笔记、随笔。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T13:16:51.425000Z"
+    },
+    {
+      "id": "9f60092f8ce1",
+      "title": "静风说",
+      "feed_url": "http://www.jfsay.com/feed",
+      "site_url": "https://www.jfsay.com",
+      "description": "主要写生活、读书、电影、旅游。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-02T05:22:26Z"
+    },
+    {
+      "id": "abd0647e9664",
+      "title": "ShineKid",
+      "feed_url": "https://shinekid.com/feed/",
+      "site_url": "https://shinekid.com",
+      "description": "主要写生活、影视、文学。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-04T14:38:54Z"
+    },
+    {
+      "id": "5f3b7bca48a6",
+      "title": "赫赫文王",
+      "feed_url": "https://kqh.me/index.xml",
+      "site_url": "https://kqh.me/",
+      "description": "主要写历史、人文、艺术、日常。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-30T00:00:00Z"
+    },
+    {
+      "id": "1e3c4c3ec52c",
+      "title": "Tripper Press - Take Photo, Think Seriously.",
+      "feed_url": "https://tripper.press/atom.xml",
+      "site_url": "https://tripper.press",
+      "description": "主要写摄影、文化产业、新媒体。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese",
+        "top200"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-07T10:00:00Z"
+    },
+    {
+      "id": "2681d5fc2524",
+      "title": "叉息的空中咖啡馆",
+      "feed_url": "https://www.xchere.xyz/atom.xml",
+      "site_url": "https://www.xchere.xyz/atom.xml",
+      "description": "主要写生活、随笔、记录、读书笔记。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "blogs",
+        "chinese"
+      ],
+      "sources": [
+        "chinese-independent-blogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-10T04:56:48Z"
+    },
+    {
+      "id": "19db8b075531",
+      "title": "浅黑科技",
+      "feed_url": "https://wechat2rss.xlab.app/feed/6111a6d5ecf28cfdd4fc9b664244c05ddacef15c.xml",
+      "site_url": "https://wechat2rss.xlab.app/feed/6111a6d5ecf28cfdd4fc9b664244c05ddacef15c.xml",
+      "description": "公众号，主要关注科技人物与产业故事。",
+      "category": "Culture & Ideas",
+      "kind": "article",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "wechat"
+      ],
+      "sources": [
+        "wechat2rss"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-06-01T02:04:00.000Z"
+    },
+    {
+      "id": "34b290e65454",
+      "title": "李永乐老师",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvNxfitQbWkmLuCd44UfrYQ",
+      "site_url": "https://www.youtube.com/channel/UCvNxfitQbWkmLuCd44UfrYQ",
+      "category": "Videos",
+      "kind": "video",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T09:35:25Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "c64f1fbf1177",
+      "title": "TED",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCAuUUnT6oDeKwE6v1NGQxug",
+      "site_url": "https://www.youtube.com/channel/UCAuUUnT6oDeKwE6v1NGQxug",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T19:00:00Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "517020e9d055",
+      "title": "Fireship",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+      "site_url": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T16:10:08Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "9ea22cbbab95",
+      "title": "BBC Earth",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCwmZiChSryoWQCZMIQezgTg",
+      "site_url": "https://www.youtube.com/channel/UCwmZiChSryoWQCZMIQezgTg",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T14:00:07Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "ffeea3263aba",
+      "title": "freeCodeCamp.org",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ",
+      "site_url": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T10:15:25Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "119fcb0aa10b",
+      "title": "OpenAI",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A",
+      "site_url": "https://www.youtube.com/channel/UCXZCJLdBC09xxGZ6gcdrc6A",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T13:33:42Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "361db262512d",
+      "title": "Google DeepMind",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A",
+      "site_url": "https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T14:47:11Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "4b8704a07fc9",
+      "title": "DeepLearningAI — Video",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcIXc5mJsHVYTZR1maL5l9w",
+      "site_url": "https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T14:41:28Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "3ff7b9d969eb",
+      "title": "Kurzgesagt – In a Nutshell",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q",
+      "site_url": "https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-04T13:59:53Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "5925d3bfcd89",
+      "title": "Computerphile",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA",
+      "site_url": "https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-31T15:00:10Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "1d276ab834d0",
+      "title": "3Blue1Brown",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw",
+      "site_url": "https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "all",
+        "top200",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-24T15:05:39Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "8a5aab81dc27",
+      "title": "StatQuest with Josh Starmer",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtYLUTtgS3k1Fg4y5tAhLbw",
+      "site_url": "https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-13T04:00:15Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "ceb9c1862fba",
+      "title": "Hung-yi Lee",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2ggjtuuWvxrHHHiaDH1dlQ",
+      "site_url": "https://www.youtube.com/channel/UC2ggjtuuWvxrHHHiaDH1dlQ",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "ai",
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-05-24T19:03:11Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "2256b5100aa2",
+      "title": "Dwarkesh Patel",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXl4i9dYBrFOabk0xGmbkRA",
+      "site_url": "https://www.youtube.com/channel/UCXl4i9dYBrFOabk0xGmbkRA",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T21:41:04Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "2fd4f6ec338f",
+      "title": "NNgroup",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2oCugzU6W8-h95W7eBTUEg",
+      "site_url": "https://www.youtube.com/channel/UC2oCugzU6W8-h95W7eBTUEg",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T17:45:22Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "55b577baf45d",
+      "title": "The Pragmatic Engineer",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCPbwhExawYrn9xxI21TFfyw",
+      "site_url": "https://www.youtube.com/channel/UCPbwhExawYrn9xxI21TFfyw",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T16:00:36Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "1ac1031efa6e",
+      "title": "Nature on PBS",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcBp_9YPyma4c3HTadmRJ3Q",
+      "site_url": "https://www.youtube.com/channel/UCcBp_9YPyma4c3HTadmRJ3Q",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T14:00:36Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "f020dd467f60",
+      "title": "Y Combinator",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcefcZRL2oaA_uBNeo5UOWg",
+      "site_url": "https://www.youtube.com/channel/UCcefcZRL2oaA_uBNeo5UOWg",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "all",
+        "top200",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T14:00:11Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "f2be2e49dca1",
+      "title": "Branch Education",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCdp4_l1vPmpN-gDbUwhaRUQ",
+      "site_url": "https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T01:35:39Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "7684996380db",
+      "title": "Real Engineering",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCR1IuLEqb6UEA_zQ81kwXfg",
+      "site_url": "https://www.youtube.com/channel/UCR1IuLEqb6UEA_zQ81kwXfg",
+      "category": "Videos",
+      "kind": "video",
+      "language": "en",
+      "packs": [
+        "all",
+        "videos"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-02T15:00:16Z",
+      "description": "视频频道"
+    },
+    {
+      "id": "ef15faeacb5c",
+      "title": "Planet Money",
+      "feed_url": "https://feeds.npr.org/510289/podcast.xml",
+      "site_url": "https://www.npr.org/podcasts/510289/planet-money",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-12T07:30:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "a4dca2fccb18",
+      "title": "The Vergecast",
+      "feed_url": "https://feeds.megaphone.fm/vergecast",
+      "site_url": "https://www.theverge.com/the-vergecast",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T19:29:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "fc5915542a0c",
+      "title": "Discovery",
+      "feed_url": "https://podcasts.files.bbci.co.uk/p002w557.rss",
+      "site_url": "http://www.bbc.co.uk/programmes/p002w557",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T19:55:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "6135fb2e1845",
+      "title": "Darknet Diaries",
+      "feed_url": "https://feeds.megaphone.fm/darknetdiaries",
+      "site_url": "https://darknetdiaries.com/",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T07:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "a8eef59d4dd4",
+      "title": "硅谷101 — Podcast",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e5c52c9418a84a04625e6cc",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e5c52c9418a84a04625e6cc",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T01:45:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "62052271b5a4",
+      "title": "声动早咖啡",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/60de7c003dd577b40d5a40f3",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/60de7c003dd577b40d5a40f3",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T23:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "7de6bbaee53e",
+      "title": "知行小酒馆",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/6013f9f58e2f7ee375cf4216",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/6013f9f58e2f7ee375cf4216",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T12:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "f5a82056f7b9",
+      "title": "Hanselminutes with Scott Hanselman",
+      "feed_url": "https://feeds.simplecast.com/gvtxUiIf",
+      "site_url": "https://www.hanselminutes.com",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-07-30T00:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "a585c233e1e4",
+      "title": "文化有限",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4515bd418a84a046e2b11a",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e4515bd418a84a046e2b11a",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-10T23:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "da680d76f982",
+      "title": "忽左忽右",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e4ee557418a84a0466737b7",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e4ee557418a84a0466737b7",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T08:47:08Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "d2bb973ad31c",
+      "title": "Invest Like the Best with Patrick O'Shaughnessy",
+      "feed_url": "https://investlikethebest.libsyn.com/rss",
+      "site_url": "https://colossus.com/",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts",
+        "top200"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-11T08:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "76b68ac91016",
+      "title": "Throughline",
+      "feed_url": "https://feeds.npr.org/510333/podcast.xml",
+      "site_url": "https://www.npr.org/podcasts/510333/throughline",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "en",
+      "packs": [
+        "all",
+        "podcasts"
+      ],
+      "sources": [
+        "awesome-rss-feeds"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T07:05:01Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "18192fd3a746",
+      "title": "晚点聊 LateTalk",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/61933ace1b4320461e91fd55",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/61933ace1b4320461e91fd55",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-07T00:30:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "2d9449a736be",
+      "title": "What's Next｜科技早知道",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/5e74b52c418a84a046ecaceb",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/5e74b52c418a84a046ecaceb",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-06T12:45:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "7be868369e90",
+      "title": "半拿铁 | 商业沉浮录",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/62382c1103bea1ebfffa1c00",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/62382c1103bea1ebfffa1c00",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts",
+        "top200"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-05T12:00:00Z",
+      "description": "播客节目"
+    },
+    {
+      "id": "83376319f07f",
+      "title": "硬地骇客",
+      "feed_url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/640ee2438be5d40013fe4a87",
+      "site_url": "https://www.xiaoyuzhoufm.com/podcast/640ee2438be5d40013fe4a87",
+      "category": "Podcasts",
+      "kind": "podcast",
+      "language": "zh",
+      "packs": [
+        "all",
+        "chinese",
+        "podcasts"
+      ],
+      "sources": [
+        "bestblogs",
+        "tidings-ai-radar"
+      ],
+      "validated_at": "2026-08-12",
+      "latest_item_at": "2026-08-02T19:39:44Z",
+      "description": "播客节目"
+    }
+  ]
+}

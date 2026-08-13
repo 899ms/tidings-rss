@@ -24,6 +24,23 @@ Security, technology-media, and technical-newsletter feeds must also pass three 
 
 WeChat feeds must respond quickly, expose recent articles, and parse through Tidings. For company technology feeds, include the organization and technical direction. Only one feed is kept for each organization/direction pair, and an official website RSS feed takes priority over a matching WeChat bridge.
 
+The Top 200 is a strict subset of the complete catalog. Selection is reproducible through `tools/select_top200.py`: all primary categories must remain represented, publishers are deduplicated by default, and every selected feed must pass three current Tidings parser rounds with articles and real publication dates.
+
+Reproduce the current selection:
+
+```bash
+python tools/select_top200.py --date 2026-08-13 \
+  --candidate-snapshot reports/top200-candidates.json \
+  --output reports/top200-curation.json \
+  --validation reports/top200-validation-round-1.json \
+  --validation reports/top200-validation-round-2.json \
+  --validation reports/top200-validation-round-3.json \
+  --video-validation reports/top200-video-validation-round-1.json \
+  --video-validation reports/top200-video-validation-round-2.json \
+  --video-validation reports/top200-video-validation-round-3.json \
+  --apply
+```
+
 ## Update the generated files
 
 Python 3.10 or newer is sufficient; the project has no runtime dependencies.

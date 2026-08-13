@@ -15,6 +15,7 @@ from xml.etree import ElementTree as ET
 
 
 PACKS = {
+    "top200": ("tidings-top200.opml", "Tidings Curated RSS — Top 200"),
     "all": ("tidings-all.opml", "Tidings Curated RSS — Complete Collection"),
     "blogs": ("tidings-blogs.opml", "Tidings Curated RSS — Chinese Independent Blogs"),
     "communities": ("tidings-communities.opml", "Tidings Curated RSS — Technical Communities"),
@@ -67,6 +68,7 @@ KINDS = {"article", "video", "podcast"}
 LANGUAGES = {"en", "zh"}
 MAX_ALL_FEEDS = 720
 MAX_BLOG_FEEDS = 400
+TOP200_FEEDS = 200
 
 
 def normalize_url(value: str) -> str:
@@ -97,6 +99,12 @@ def validate_catalog(catalog):
     blog_count = sum("blogs" in feed.get("packs", []) for feed in feeds)
     if blog_count > MAX_BLOG_FEEDS:
         errors.append(f"blog collection exceeds {MAX_BLOG_FEEDS} feeds")
+    top_feeds = [feed for feed in feeds if "top200" in feed.get("packs", [])]
+    if len(top_feeds) != TOP200_FEEDS:
+        errors.append(f"top200 collection must contain exactly {TOP200_FEEDS} feeds")
+    missing_top_categories = set(CATEGORIES) - {feed.get("category") for feed in top_feeds}
+    if missing_top_categories:
+        errors.append(f"top200 collection missing categories {sorted(missing_top_categories)}")
     seen_ids = set()
     seen_urls = set()
     required = {"id", "title", "feed_url", "site_url", "description", "category", "kind", "language", "packs", "sources", "validated_at"}

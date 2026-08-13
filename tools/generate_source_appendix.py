@@ -16,6 +16,7 @@ from scripts.catalog import CATEGORIES, CATEGORY_EMOJI
 START = "<!-- SOURCE_APPENDIX_START -->"
 END = "<!-- SOURCE_APPENDIX_END -->"
 PACK_ZH = {
+    "top200": "精选 200",
     "all": "全集",
     "blogs": "中文独立博客",
     "ai": "AI",

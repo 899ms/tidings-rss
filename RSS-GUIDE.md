@@ -6,7 +6,7 @@ RSS brings updates from different websites into one reader, in chronological ord
 
 ## Start in three steps
 
-1. **Choose a bundle.** Start with Chinese independent blogs, technical communities, or another focused topic. Use the complete collection when you want the entire directory.
+1. **Choose a bundle.** Use the Top 200 for a first import: every primary category is represented without requiring you to prune hundreds of feeds. Pick a topic bundle when you already know your focus, or the complete collection when you want an archive to organize yourself.
 2. **Download the OPML file.** Click a file in the [download table](README.md#downloads). The downloaded file should end in `.opml`. If the browser displays XML text, save the page as a file instead of subscribing to the page URL.
 3. **Import it into your reader.** If you do not have one yet, choose from the [readers and tutorials](#readers-and-official-tutorials) below. Otherwise, look for “Import OPML,” select the downloaded file, and wait for the first refresh. The OPML groups become folders in readers that preserve them.
 
@@ -14,12 +14,13 @@ RSS brings updates from different websites into one reader, in chronological ord
 
 Open Tidings and choose **Import OPML** from Add Subscription or Feed Management. Tidings preserves the bundle groups, skips duplicate feed URLs, and reports how many subscriptions were added, skipped, or failed.
 
-The complete collection contains 718 feeds and can produce a large unread queue. A focused bundle is usually the better first import.
+The Top 200 is the default everyday bundle. The 718-feed complete collection creates a larger unread queue and many more network requests, so it is better suited to readers who plan to curate it themselves.
 
 ## Which bundle should I choose?
 
 | You want to read | Recommended bundle |
 | --- | --- |
+| A balanced first library across every category | ⭐ Top 200 |
 | Chinese personal writing | ✍️ Chinese independent blogs |
 | V2EX, LINUX DO, Reddit, Hacker News, and other discussions | 👥 Technical communities |
 | Vulnerabilities, security research, and advisories | 🔐 Security |

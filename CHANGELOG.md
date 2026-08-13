@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.4.0 — 2026-08-13
+
+- Added `tidings-top200.opml` as the recommended first import, with all 14 primary categories represented.
+- Selected established publishers, long-running independent writers, first-party sources, and authors with strong community recognition while limiting duplicate publishers, generated searches, release logs, and platform-heavy categories.
+- Committed the reproducible 307-feed candidate snapshot; every published Top 200 feed passed three Tidings production-parser rounds with articles and real publication dates.
+- Added canonical publisher deduplication and explicit parent/child exclusions so cross-domain sections and derivative digests cannot occupy duplicate slots.
+- Rechecked video feeds separately at single concurrency to avoid confusing platform throttling with feed health; only two video channels passed all three rounds on the current network.
+- Updated both READMEs and RSS guides to recommend the Top 200 before the complete collection, with explicit network-scope limits.
+
 ## v1.3.0 — 2026-08-12
 
 - Added focused OPML bundles for technical communities, security, technology media, and technical newsletters.

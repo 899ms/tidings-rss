@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-12",
+  "generated_at": "2026-08-13",
   "validation": {
     "engine": "Tidings parseFeedUrl",
-    "criteria": "Chinese independent blogs passed three parser rounds, had at least two dated posts and updated within 180 days; retained catalog feeds passed two current parser rounds. WeChat additions passed two two-second time-to-first-byte probes, Tidings parsing, and a 180-day freshness check. Community additions passed three current Tidings parser rounds and exposed recently dated discussions. Security, technology-media, and weekly additions passed three current Tidings parser rounds and an editorial relevance review.",
+    "criteria": "Chinese independent blogs passed three parser rounds, had at least two dated posts and updated within 180 days; retained catalog feeds passed two current parser rounds. WeChat additions passed two two-second time-to-first-byte probes, Tidings parsing, and a 180-day freshness check. Community additions passed three current Tidings parser rounds and exposed recently dated discussions. Security, technology-media, and weekly additions passed three current Tidings parser rounds and an editorial relevance review. The Top 200 is a balanced subset whose 307-candidate pool was checked three times; every published feed returned articles and real publication dates in all three Tidings parser rounds.",
     "candidate_count": 2279,
     "parser_passed": 718,
     "retained_count": 718
@@ -62,7 +62,8 @@
         "ai",
         "all",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "tidings-ai-radar"
@@ -83,7 +84,8 @@
         "ai",
         "all",
         "company-tech",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "bestblogs",
@@ -108,7 +110,8 @@
         "all",
         "company-tech",
         "engineering",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "manual",
@@ -132,7 +135,8 @@
         "ai",
         "all",
         "company-tech",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "bestblogs",
@@ -177,7 +181,8 @@
         "ai",
         "all",
         "engineering",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -247,6 +252,7 @@
         "chinese",
         "company-tech",
         "engineering",
+        "top200",
         "wechat"
       ],
       "sources": [
@@ -271,7 +277,8 @@
         "ai",
         "all",
         "company-tech",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -336,7 +343,8 @@
         "ai",
         "all",
         "company-tech",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -361,6 +369,7 @@
         "ai",
         "all",
         "engineering",
+        "top200",
         "weeklies"
       ],
       "sources": [
@@ -384,7 +393,8 @@
         "ai",
         "all",
         "engineering",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "manual"
@@ -405,7 +415,8 @@
         "ai",
         "all",
         "company-tech",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -588,7 +599,8 @@
       "packs": [
         "ai",
         "all",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -611,6 +623,7 @@
         "ai",
         "all",
         "engineering",
+        "top200",
         "weeklies"
       ],
       "sources": [
@@ -635,7 +648,8 @@
         "all",
         "company-tech",
         "engineering",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -678,11 +692,12 @@
       "kind": "article",
       "language": "zh",
       "packs": [
+        "ai",
         "all",
         "chinese",
-        "wechat",
         "engineering",
-        "ai"
+        "top200",
+        "wechat"
       ],
       "sources": [
         "wechat2rss"
@@ -700,11 +715,12 @@
       "kind": "article",
       "language": "zh",
       "packs": [
+        "ai",
         "all",
         "chinese",
-        "wechat",
         "engineering",
-        "ai"
+        "top200",
+        "wechat"
       ],
       "sources": [
         "wechat2rss"
@@ -724,7 +740,8 @@
         "ai",
         "all",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "bestblogs"
@@ -772,6 +789,7 @@
         "all",
         "chinese",
         "engineering",
+        "top200",
         "wechat"
       ],
       "sources": [
@@ -820,6 +838,7 @@
         "chinese",
         "company-tech",
         "engineering",
+        "top200",
         "wechat"
       ],
       "sources": [
@@ -847,6 +866,7 @@
         "company-tech",
         "engineering",
         "research",
+        "top200",
         "wechat"
       ],
       "sources": [
@@ -871,7 +891,8 @@
         "ai",
         "all",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "bestblogs",
@@ -919,7 +940,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -959,7 +981,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -979,7 +1002,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -999,7 +1023,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -1019,8 +1044,8 @@
       "packs": [
         "all",
         "chinese",
-        "news",
-        "communities"
+        "communities",
+        "news"
       ],
       "sources": [
         "manual",
@@ -1043,8 +1068,9 @@
       "packs": [
         "all",
         "chinese",
+        "communities",
         "engineering",
-        "communities"
+        "top200"
       ],
       "sources": [
         "community-expansion-2026-08-12",
@@ -1066,8 +1092,8 @@
       "packs": [
         "ai",
         "all",
-        "engineering",
-        "communities"
+        "communities",
+        "engineering"
       ],
       "sources": [
         "community-expansion-2026-08-12",
@@ -1088,8 +1114,9 @@
       "language": "en",
       "packs": [
         "all",
+        "communities",
         "engineering",
-        "communities"
+        "top200"
       ],
       "sources": [
         "community-expansion-2026-08-12",
@@ -1110,8 +1137,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering",
-        "communities"
+        "communities",
+        "engineering"
       ],
       "sources": [
         "community-expansion-2026-08-12",
@@ -1132,8 +1159,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering",
-        "communities"
+        "communities",
+        "engineering"
       ],
       "sources": [
         "community-expansion-2026-08-12",
@@ -1154,8 +1181,9 @@
       "language": "en",
       "packs": [
         "all",
+        "communities",
         "engineering",
-        "communities"
+        "top200"
       ],
       "sources": [
         "community-expansion-2026-08-12",
@@ -1177,8 +1205,8 @@
       "packs": [
         "ai",
         "all",
-        "engineering",
-        "communities"
+        "communities",
+        "engineering"
       ],
       "sources": [
         "community-expansion-2026-08-12",
@@ -1199,8 +1227,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering",
-        "communities"
+        "communities",
+        "engineering"
       ],
       "sources": [
         "community-expansion-2026-08-12",
@@ -1221,7 +1249,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -1241,7 +1270,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -1261,7 +1291,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -1281,7 +1312,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -1301,7 +1333,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -1321,6 +1354,7 @@
       "packs": [
         "all",
         "chinese",
+        "top200",
         "wechat"
       ],
       "sources": [
@@ -1381,7 +1415,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -1401,7 +1436,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -1546,7 +1582,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -1650,7 +1687,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -1671,7 +1709,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -1748,7 +1787,8 @@
         "all",
         "engineering",
         "news",
-        "tech-media"
+        "tech-media",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -1861,7 +1901,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -1943,7 +1984,8 @@
       "packs": [
         "all",
         "company-tech",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "tidings-ai-radar"
@@ -2128,7 +2170,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "bestblogs",
@@ -2171,8 +2214,8 @@
       "packs": [
         "all",
         "chinese",
-        "wechat",
-        "engineering"
+        "engineering",
+        "wechat"
       ],
       "sources": [
         "wechat2rss"
@@ -2358,7 +2401,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "bestblogs",
@@ -2404,7 +2448,8 @@
       "packs": [
         "all",
         "company-tech",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -2448,7 +2493,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -2467,7 +2513,8 @@
       "packs": [
         "all",
         "company-tech",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds"
@@ -2572,7 +2619,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "bestblogs",
@@ -2803,7 +2851,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -3154,7 +3203,8 @@
         "all",
         "engineering",
         "news",
-        "security"
+        "security",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -3178,7 +3228,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -3198,7 +3249,8 @@
         "all",
         "engineering",
         "news",
-        "security"
+        "security",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds"
@@ -3284,7 +3336,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -3471,7 +3524,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -3489,7 +3543,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -3553,7 +3608,8 @@
       "packs": [
         "all",
         "company-tech",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "bestblogs",
@@ -3723,7 +3779,8 @@
       "packs": [
         "all",
         "company-tech",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -3767,7 +3824,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -3806,7 +3864,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -3869,7 +3928,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -3932,7 +3992,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -4117,7 +4178,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -4154,7 +4216,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes"
@@ -4521,7 +4584,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes"
@@ -4543,7 +4607,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -4565,7 +4630,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -4627,7 +4693,8 @@
         "all",
         "engineering",
         "news",
-        "security"
+        "security",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -4650,7 +4717,8 @@
         "all",
         "engineering",
         "news",
-        "security"
+        "security",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds"
@@ -4716,7 +4784,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -4758,7 +4827,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -4840,7 +4910,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -4859,7 +4930,8 @@
       "packs": [
         "all",
         "company-tech",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes"
@@ -4880,7 +4952,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -4963,7 +5036,8 @@
       "packs": [
         "all",
         "company-tech",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes"
@@ -5048,7 +5122,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes"
@@ -5150,7 +5225,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -5190,7 +5266,8 @@
       "packs": [
         "all",
         "company-tech",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds"
@@ -5231,7 +5308,8 @@
       "packs": [
         "all",
         "company-tech",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -5255,7 +5333,8 @@
       "packs": [
         "all",
         "company-tech",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -5299,7 +5378,8 @@
       "packs": [
         "all",
         "company-tech",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -5341,7 +5421,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "tidings-ai-radar"
@@ -5363,7 +5444,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -5424,7 +5506,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -5464,7 +5547,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -5503,7 +5587,8 @@
       "language": "en",
       "packs": [
         "all",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -5593,7 +5678,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -5783,7 +5869,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -5888,7 +5975,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -6014,7 +6102,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -6203,7 +6292,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -6352,7 +6442,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -6436,7 +6527,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -6478,7 +6570,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -6523,7 +6616,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -6565,7 +6659,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -6670,7 +6765,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -6712,7 +6808,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -6779,7 +6876,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -6799,8 +6897,8 @@
       "packs": [
         "all",
         "chinese",
-        "wechat",
-        "engineering"
+        "engineering",
+        "wechat"
       ],
       "sources": [
         "wechat2rss"
@@ -6862,8 +6960,8 @@
       "packs": [
         "all",
         "chinese",
-        "wechat",
-        "engineering"
+        "engineering",
+        "wechat"
       ],
       "sources": [
         "wechat2rss"
@@ -6905,7 +7003,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -6926,7 +7025,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -6971,7 +7071,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -7691,7 +7792,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -7754,7 +7856,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -7838,7 +7941,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -7986,7 +8090,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -8028,7 +8133,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -8116,7 +8222,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -8158,7 +8265,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -8205,6 +8313,7 @@
         "company-tech",
         "engineering",
         "security",
+        "top200",
         "wechat"
       ],
       "sources": [
@@ -8292,7 +8401,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -8356,7 +8466,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -8376,8 +8487,8 @@
       "packs": [
         "all",
         "chinese",
-        "wechat",
-        "engineering"
+        "engineering",
+        "wechat"
       ],
       "sources": [
         "wechat2rss"
@@ -8418,8 +8529,8 @@
       "packs": [
         "all",
         "chinese",
-        "wechat",
-        "engineering"
+        "engineering",
+        "wechat"
       ],
       "sources": [
         "wechat2rss"
@@ -8566,7 +8677,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -8653,8 +8765,8 @@
       "packs": [
         "all",
         "chinese",
-        "wechat",
-        "engineering"
+        "engineering",
+        "wechat"
       ],
       "sources": [
         "wechat2rss"
@@ -8801,7 +8913,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -8822,7 +8935,8 @@
         "all",
         "blogs",
         "chinese",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -8863,7 +8977,8 @@
         "all",
         "chinese",
         "news",
-        "tech-media"
+        "tech-media",
+        "top200"
       ],
       "sources": [
         "tidings-ai-radar"
@@ -8885,6 +9000,7 @@
         "all",
         "engineering",
         "news",
+        "top200",
         "weeklies"
       ],
       "sources": [
@@ -8905,7 +9021,8 @@
       "language": "en",
       "packs": [
         "all",
-        "news"
+        "news",
+        "top200"
       ],
       "sources": [
         "manual"
@@ -8924,7 +9041,8 @@
       "language": "en",
       "packs": [
         "all",
-        "news"
+        "news",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -8944,7 +9062,8 @@
       "language": "en",
       "packs": [
         "all",
-        "news"
+        "news",
+        "top200"
       ],
       "sources": [
         "tidings-ai-radar"
@@ -8964,7 +9083,8 @@
       "packs": [
         "all",
         "news",
-        "tech-media"
+        "tech-media",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -8987,6 +9107,7 @@
         "all",
         "engineering",
         "news",
+        "top200",
         "weeklies"
       ],
       "sources": [
@@ -9028,7 +9149,8 @@
       "language": "en",
       "packs": [
         "all",
-        "news"
+        "news",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -9070,7 +9192,8 @@
         "all",
         "chinese",
         "news",
-        "tech-media"
+        "tech-media",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -9133,7 +9256,8 @@
       "language": "en",
       "packs": [
         "all",
-        "news"
+        "news",
+        "top200"
       ],
       "sources": [
         "manual"
@@ -9152,7 +9276,8 @@
       "language": "en",
       "packs": [
         "all",
-        "news"
+        "news",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -9192,7 +9317,8 @@
       "language": "en",
       "packs": [
         "all",
-        "news"
+        "news",
+        "top200"
       ],
       "sources": [
         "manual"
@@ -9212,7 +9338,8 @@
       "packs": [
         "all",
         "news",
-        "tech-media"
+        "tech-media",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -9234,7 +9361,8 @@
       "packs": [
         "all",
         "news",
-        "tech-media"
+        "tech-media",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -9275,7 +9403,8 @@
       "packs": [
         "all",
         "news",
-        "tech-media"
+        "tech-media",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes"
@@ -9314,7 +9443,8 @@
       "language": "en",
       "packs": [
         "all",
-        "news"
+        "news",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -9377,7 +9507,8 @@
       "packs": [
         "all",
         "chinese",
-        "news"
+        "news",
+        "top200"
       ],
       "sources": [
         "tidings-ai-radar"
@@ -9399,7 +9530,8 @@
         "chinese",
         "engineering",
         "news",
-        "security"
+        "security",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes"
@@ -9421,7 +9553,8 @@
         "all",
         "chinese",
         "news",
-        "tech-media"
+        "tech-media",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -9466,6 +9599,7 @@
         "chinese",
         "engineering",
         "news",
+        "top200",
         "weeklies"
       ],
       "sources": [
@@ -9527,7 +9661,8 @@
       "packs": [
         "all",
         "chinese",
-        "news"
+        "news",
+        "top200"
       ],
       "sources": [
         "tidings-ai-radar"
@@ -9547,7 +9682,8 @@
       "packs": [
         "all",
         "chinese",
-        "news"
+        "news",
+        "top200"
       ],
       "sources": [
         "tidings-ai-radar"
@@ -9568,7 +9704,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -9588,7 +9725,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -9768,7 +9906,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -9868,7 +10007,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -9908,7 +10048,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -9928,7 +10069,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -9948,7 +10090,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10028,7 +10171,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10108,7 +10252,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10128,7 +10273,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10228,7 +10374,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10268,7 +10415,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10288,7 +10436,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10348,7 +10497,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10368,7 +10518,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10468,7 +10619,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10488,7 +10640,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10528,7 +10681,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10548,7 +10702,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10668,7 +10823,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10688,7 +10844,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10708,7 +10865,8 @@
         "all",
         "chinese",
         "news",
-        "tech-media"
+        "tech-media",
+        "top200"
       ],
       "sources": [
         "bestblogs",
@@ -10751,7 +10909,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10811,7 +10970,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10831,7 +10991,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -10931,7 +11092,8 @@
       "language": "en",
       "packs": [
         "all",
-        "podcasts"
+        "podcasts",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds"
@@ -11027,7 +11189,8 @@
       "language": "en",
       "packs": [
         "all",
-        "podcasts"
+        "podcasts",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds"
@@ -11046,7 +11209,8 @@
       "language": "en",
       "packs": [
         "all",
-        "podcasts"
+        "podcasts",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds"
@@ -11219,7 +11383,8 @@
       "packs": [
         "all",
         "chinese",
-        "podcasts"
+        "podcasts",
+        "top200"
       ],
       "sources": [
         "bestblogs",
@@ -11469,7 +11634,8 @@
       "packs": [
         "all",
         "chinese",
-        "podcasts"
+        "podcasts",
+        "top200"
       ],
       "sources": [
         "bestblogs",
@@ -11551,7 +11717,8 @@
       "packs": [
         "all",
         "chinese",
-        "podcasts"
+        "podcasts",
+        "top200"
       ],
       "sources": [
         "bestblogs",
@@ -11676,7 +11843,8 @@
       "packs": [
         "all",
         "chinese",
-        "podcasts"
+        "podcasts",
+        "top200"
       ],
       "sources": [
         "bestblogs"
@@ -11756,7 +11924,8 @@
       "packs": [
         "all",
         "chinese",
-        "podcasts"
+        "podcasts",
+        "top200"
       ],
       "sources": [
         "bestblogs"
@@ -11776,7 +11945,8 @@
       "packs": [
         "all",
         "chinese",
-        "podcasts"
+        "podcasts",
+        "top200"
       ],
       "sources": [
         "bestblogs",
@@ -11981,7 +12151,8 @@
       "packs": [
         "all",
         "chinese",
-        "podcasts"
+        "podcasts",
+        "top200"
       ],
       "sources": [
         "bestblogs",
@@ -12002,7 +12173,8 @@
       "packs": [
         "all",
         "chinese",
-        "podcasts"
+        "podcasts",
+        "top200"
       ],
       "sources": [
         "bestblogs",
@@ -12349,7 +12521,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -12369,7 +12542,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -12389,7 +12563,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -12409,7 +12584,8 @@
       "packs": [
         "all",
         "blogs",
-        "chinese"
+        "chinese",
+        "top200"
       ],
       "sources": [
         "chinese-independent-blogs"
@@ -12430,6 +12606,7 @@
         "all",
         "chinese",
         "company-tech",
+        "top200",
         "wechat"
       ],
       "sources": [
@@ -12450,7 +12627,8 @@
       "language": "en",
       "packs": [
         "all",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "manual"
@@ -12510,7 +12688,8 @@
       "language": "en",
       "packs": [
         "all",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds"
@@ -12529,7 +12708,8 @@
       "language": "en",
       "packs": [
         "all",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "manual"
@@ -12548,7 +12728,8 @@
       "language": "en",
       "packs": [
         "all",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds"
@@ -12586,7 +12767,8 @@
       "language": "en",
       "packs": [
         "all",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -12606,7 +12788,8 @@
       "language": "en",
       "packs": [
         "all",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds",
@@ -12627,7 +12810,8 @@
       "language": "en",
       "packs": [
         "all",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds"
@@ -12646,7 +12830,8 @@
       "language": "en",
       "packs": [
         "all",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds"
@@ -12665,7 +12850,8 @@
       "language": "en",
       "packs": [
         "all",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "manual"
@@ -12684,7 +12870,8 @@
       "language": "en",
       "packs": [
         "all",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "manual"
@@ -12722,7 +12909,8 @@
       "language": "en",
       "packs": [
         "all",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds"
@@ -12741,7 +12929,8 @@
       "language": "en",
       "packs": [
         "all",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds"
@@ -12760,7 +12949,8 @@
       "language": "en",
       "packs": [
         "all",
-        "research"
+        "research",
+        "top200"
       ],
       "sources": [
         "awesome-rss-feeds"
@@ -12829,6 +13019,7 @@
       "language": "en",
       "packs": [
         "all",
+        "top200",
         "videos"
       ],
       "sources": [
@@ -14511,6 +14702,7 @@
       "language": "en",
       "packs": [
         "all",
+        "top200",
         "videos"
       ],
       "sources": [
@@ -14633,7 +14825,8 @@
         "all",
         "chinese",
         "communities",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -14723,7 +14916,8 @@
         "all",
         "engineering",
         "news",
-        "security"
+        "security",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -14747,7 +14941,8 @@
         "chinese",
         "engineering",
         "news",
-        "security"
+        "security",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -14769,7 +14964,8 @@
       "packs": [
         "all",
         "news",
-        "tech-media"
+        "tech-media",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
@@ -14791,6 +14987,7 @@
       "packs": [
         "all",
         "engineering",
+        "top200",
         "weeklies"
       ],
       "sources": [
@@ -14813,6 +15010,7 @@
       "packs": [
         "all",
         "engineering",
+        "top200",
         "weeklies"
       ],
       "sources": [
@@ -14837,6 +15035,7 @@
         "blogs",
         "chinese",
         "engineering",
+        "top200",
         "weeklies"
       ],
       "sources": [
@@ -14860,7 +15059,8 @@
       "packs": [
         "all",
         "communities",
-        "engineering"
+        "engineering",
+        "top200"
       ],
       "sources": [
         "awesome-rsshub-routes",
